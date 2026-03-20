@@ -1,0 +1,7 @@
+gb
+REDACTED
+
+projects/1011093757457
+
+fc
+fc-f45b5ce8e7d9415094f258f9c590d09

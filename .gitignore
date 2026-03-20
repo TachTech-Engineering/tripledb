@@ -1,0 +1,42 @@
+# Audio files — too large for git
+pipeline/data/audio/*.mp3
+pipeline/data/audio/*.info.json
+
+# Transcripts — large, reproducible from mp3s
+pipeline/data/transcripts/
+
+# Runtime logs
+pipeline/data/logs/
+
+# Model files
+*.gguf
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Secrets
+.env
+*.key
+*.pem
+*-sa.json
+*-credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Flutter build
+app/build/
+
+# Keep empty dirs
+!**/.gitkeep
