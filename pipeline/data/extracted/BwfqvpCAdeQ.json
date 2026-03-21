@@ -1,0 +1,110 @@
+{
+  "video_id": "BwfqvpCAdeQ",
+  "video_title": "Guy Fieri Tries Lao Fried Rice Ball in California \ud83c\uddf1\ud83c\udde6 | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "Crush Craft",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Lao/Vietnamese",
+      "owner_chef": "Chef",
+      "guy_intro": "We're in California, diving into a different version of fried rice, the nam kao, which is a lot crunchier and a really interesting dish.",
+      "segment_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 566.0,
+      "dishes": [
+        {
+          "dish_name": "Nam Kao (Lao Fried Rice Ball)",
+          "description": "Fried rice balls made with jasmine rice, red curry paste, sugar, onions, grated coconut, chicken base soup, salt, oyster sauce, and egg, deep-fried and then broken up to form a salad with pork skin, cured fermented pork (Lao Nam), sugar, lime juice, cilantro, peanuts, and scallions, served as a lettuce wrap with ginger and mint.",
+          "ingredients": [
+            "jasmine rice",
+            "red curry paste",
+            "cured fermented pork",
+            "pork skin",
+            "lime juice",
+            "cilantro",
+            "peanuts",
+            "lettuce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is texture city. You get the sweet, the salty, or the little spice from the chili. It's very delicious.",
+          "timestamp_start": 12.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Green Papaya Salad",
+          "description": "Shredded green papaya muddled with garlic, Thai chili, green beans, palm sugar, fish sauce, fresh lime juice, tomato, and crushed roasted peanuts.",
+          "ingredients": [
+            "green papaya",
+            "garlic",
+            "thai chili",
+            "palm sugar",
+            "fish sauce",
+            "lime juice",
+            "roasted peanuts"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "The sugar, the fish sauce, the lime juice, the Thai chili, the garlic. All muddled together with that fantastic texture of the green papaya that just soaks it up. It's like the best cold noodle salad you've ever had. This will change your life.",
+          "timestamp_start": 102.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Pork Banh Mi",
+          "description": "A seven-inch baguette hollowed out, spread with garlic mayo and house-made chicken liver pate, filled with head cheese (pig face, pork neck, ham cooked down), barbecue pork, Vietnamese bologna (jalua), pickled carrots and daikon, cucumbers, jalapenos, and cilantro.",
+          "ingredients": [
+            "baguette",
+            "chicken liver pate",
+            "head cheese",
+            "barbecue pork",
+            "pickled carrots",
+            "daikon",
+            "jalapenos",
+            "cilantro"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Great bread. I mean, there's just so many different components. The balance is great. As you chew it, you just get, oh, there it is. Oh, now I got some sour. Oh, now I got some heat. Now I got a little jalapeno. Now I got the freshness of the cucumber. It just keeps trumping itself as you enjoy it. I dig it.",
+          "timestamp_start": 174.4,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Dragon Eggs",
+          "description": "Meatballs made from trimmed pork loin, bay shrimp, and crab, seasoned with sugar, oyster sauce, Golden Mountain seasoning, garlic, pepper, and eggs, wrapped in wonton wrappers, then steamed and optionally deep-fried. Served with a sauce made from soy sauce, vinegar, Worcestershire, sugar, and chili, topped with jalapeno, cilantro, and toasted garlic.",
+          "ingredients": [
+            "pork loin",
+            "bay shrimp",
+            "crab meat",
+            "wonton wrappers",
+            "golden mountain seasoning",
+            "soy sauce",
+            "vinegar",
+            "jalapeno"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Mm. That sauce, nice vinegar balance. Wicked good. Those are killer. Dynamite. Not too spicy, not too salty. These are really good. Excites the palate. It really does.",
+          "timestamp_start": 308.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Vietnamese Crepe",
+          "description": "A crepe made from water, rice flour, turmeric, curry powder, and coconut cream, cooked on a hot pan, filled with cabbage, carrots, chicken, and white tiger shrimp. Served with a traditional sauce of sugar, water, fish sauce, vinegar, pureed garlic, and sambal, and eaten as a lettuce wrap with cilantro and mint.",
+          "ingredients": [
+            "rice flour",
+            "coconut cream",
+            "chicken",
+            "shrimp",
+            "fish sauce",
+            "sambal",
+            "lettuce",
+            "mint"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is my jam right here. It's so delicious with the crunchy vegetables, the crispiness of the crepe. The pancake is so light but crunchy. With that sauce, it's not super sweet. It's tangy, a little bit of spice to it.",
+          "timestamp_start": 460.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

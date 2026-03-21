@@ -1,0 +1,572 @@
+{
+  "video_id": "TiYNdk28WxA",
+  "video_title": "The BEST of #DDD in 2025 with Guy Fieri | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Tlaole",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Carlos Hutchison and Carla",
+      "guy_intro": "So I'm here in the Englewood neighborhood of Indianapolis, and I've got a great story for you. All right, a young chef from Mexico lived in that building right there. And she went to the Englewood Community Development Corporation and said, listen, there's an abandoned building right over there that my dad and I would love to put a little tamale shop in. They have built a following. They are doing tamales, tacos, you name it. Everybody loves it. This is Tlaole.",
+      "segment_number": 1,
+      "timestamp_start": 1.6,
+      "timestamp_end": 390.5,
+      "dishes": [
+        {
+          "dish_name": "Turkey Tamales",
+          "description": "Handmade tamales with ground and shredded turkey, turkey tamale sauce, and a unique cranberry sauce, steamed in corn husks.",
+          "ingredients": [
+            "ground turkey",
+            "shredded turkey breast",
+            "cranberry sauce",
+            "masa",
+            "corn husks",
+            "manzano pepper",
+            "habanero",
+            "cilantro"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I've never had a turkey tamale, but it's delicious. Good texture from the masarina, very rustic. You can't tell that I like the salsa, by the way. I get a little bit of spice in the cranberry. I just housed a whole tamale here, talking to you. Delicious. Like, eat the husk delicious. The masa is just phenomenal. The cranberry salsa is one of my favorite things that Carlos makes.",
+          "timestamp_start": 55.9,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Vegan Birria Tacos",
+          "description": "Birria-style tacos made with jackfruit instead of goat, served with a rich chili paste salsa, roasted plantains, mushrooms, and a flavorful consomm\u00e9 for dipping.",
+          "ingredients": [
+            "jackfruit",
+            "chili paste",
+            "roma tomatoes",
+            "ancho chilies",
+            "guajillo chilies",
+            "oyster mushrooms",
+            "vegan cheese",
+            "consomm\u00e9",
+            "tortillas"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'm speechless. That's better than 80% of the birria tacos I've had. There is so much flavor, so many great textures. The mushroom is the winner. The consomm\u00e9 dip, a 10. I don't say that very often, but that's a 10.",
+          "timestamp_start": 223.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "John's of 12th",
+      "city": "New York City",
+      "state": "New York",
+      "cuisine_type": "Italian",
+      "owner_chef": "Nikki Sidnicki and Mikey Alpert",
+      "guy_intro": "So I'm here in New York City. Love coming to this place. I mean, the old school tradition, all different kinds of food, especially some of my favorite, Italian. Now, I'm in the East Village, and I hear that there's an Italian joint that's been open for 103 years. 103 years. I got to see this. This is John's of 12.",
+      "segment_number": 2,
+      "timestamp_start": 390.5,
+      "timestamp_end": 919.6,
+      "dishes": [
+        {
+          "dish_name": "Veal Meatballs (Polpetto di Vitello)",
+          "description": "Tender veal meatballs made with Italian bread soaked in milk, Pecorino cheese, caramelized onions, and Marsala wine, baked in homemade marinara sauce.",
+          "ingredients": [
+            "veal",
+            "italian bread",
+            "milk",
+            "pecorino cheese",
+            "caramelized onions",
+            "marsala wine",
+            "marinara sauce",
+            "basil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'm going to tell you something. That is one tender meatball. Incredibly flavorful. And this Marsala, that little bit of sweetness on the outside, never have I had an all veal meatball. This is the way to do it. It's a beautiful thing.",
+          "timestamp_start": 488.1,
+          "confidence": 0.97
+        },
+        {
+          "dish_name": "Homemade Pappardelle with Tuscan Revere Meat Sauce",
+          "description": "Fresh, thick pappardelle pasta made from scratch, served with a slow-cooked Tuscan meat sauce featuring chuck and pork butt, Marsala wine, and vegetables.",
+          "ingredients": [
+            "all-purpose flour",
+            "semolina flour",
+            "eggs",
+            "chuck",
+            "pork butt",
+            "marsala wine",
+            "tomatoes",
+            "vegetable stock"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Shut the front door. That meat just melts. That pasta cooked a little bit more makes a difference. It's not mushy. And the marsala, old school. Making it happen and sticking to the basics. I'm shoveling it. The quality of the sauce, the freshness of the noodles, everything working together. There's nothing like fresh, homemade pasta, perfect.",
+          "timestamp_start": 687.7,
+          "confidence": 0.97
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Jermaine's",
+      "city": "Gainesville",
+      "state": "Florida",
+      "cuisine_type": "Chicken-centric",
+      "owner_chef": "Wydland Jermaine and Shelton Serafin",
+      "guy_intro": "So I'm here in Gainesville, Florida, about a half hour from Ocala, Florida. When I think Ocala, Florida, I think of the one and only Big Lee's Barbecue and my buddy, Rashad Jones. All right, buddy, tofu vegan ice cream sandwich joint. Wait a minute, you mean to tell me you're taking a barbecue guy to a vegan tofu ice cream sandwich joint? I had you. This place has got the bomb fried chicken sandwich, and this is Jermaine's.",
+      "segment_number": 3,
+      "timestamp_start": 919.6,
+      "timestamp_end": 1290.5,
+      "dishes": [
+        {
+          "dish_name": "Good Feather Chicken Sandwich",
+          "description": "Boneless, skinless chicken thighs brined for 24 hours, double-fried in a seasoned flour and club soda batter, served on a bun with secret sauce, garlic Parmesan sauce, arugula, tomato, and house pickles.",
+          "ingredients": [
+            "chicken thighs",
+            "house seasoning",
+            "club soda batter",
+            "secret sauce",
+            "garlic parmesan sauce",
+            "house pickles",
+            "arugula",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Chicken is tender. The batter is crunchy. The buttermilk, Parmesan, and the crazy sauce are not competing. You needed the brininess of that pickle because there are so many big flavors in there. This is outstanding.",
+          "timestamp_start": 988.7,
+          "confidence": 0.96
+        },
+        {
+          "dish_name": "Birria Egg Rolls",
+          "description": "Egg rolls filled with chicken cooked in a birria-style sauce, cabbage, carrots, green onion, cilantro, white onion, and cheese, deep-fried and served with chipotle crema and a rich consomm\u00e9 for dipping.",
+          "ingredients": [
+            "chicken thighs",
+            "birria sauce",
+            "guajillo chilies",
+            "ancho chilies",
+            "cabbage",
+            "carrots",
+            "cheese",
+            "egg roll wrappers",
+            "chipotle crema",
+            "consomm\u00e9"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "It's got great flavor. The chicken is super moist. Great spice in it. The heat just dancing around in your tongue. Typically, you wouldn't dip an egg roll into a consomme, but you really took your time and built great flavor. It's great.",
+          "timestamp_start": 1171.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Elsie's Plate and Pie",
+      "city": "Baton Rouge",
+      "state": "Louisiana",
+      "cuisine_type": "Southern Comfort Food",
+      "owner_chef": "Paul Dupre and Lindsey Dupre",
+      "guy_intro": "So Hunter and I are here in the beautiful capital of Louisiana, Baton Rouge at sun. We're not here to get Cajun food. I know that's hard to believe, but we're here to get some pie. No, Hunter, not pizza. We're here to get pie. Wait, wait, wait. Like dessert? You like dessert? No, no, no, no, not dessert pie. They make savory pies. Oh, I'm telling mom, you are coming to get dessert. No, Hunter, this is Elsie's Plate and Pie.",
+      "segment_number": 4,
+      "timestamp_start": 1290.5,
+      "timestamp_end": 1634.7,
+      "dishes": [
+        {
+          "dish_name": "Poulet Pot Pie",
+          "description": "A savory pot pie with smoked chicken, a rich filling including taso, poblanos, and jalapenos, topped with a perfect crust and baked in a cast iron skillet.",
+          "ingredients": [
+            "smoked chicken",
+            "pie dough",
+            "onion",
+            "celery",
+            "carrot",
+            "taso",
+            "poblanos",
+            "jalapenos",
+            "chicken stock",
+            "cream"
+          ],
+          "dish_category": "entree",
+          "guy_response": "If grandma rides a Harley, this is the pot pie she makes. That smoked chicken really sings through. This is pot pie in your face, dude. Yeah, it's got great spice. The crust is nuts. Awesome with the taso. Outstanding.",
+          "timestamp_start": 1351.3,
+          "confidence": 0.96
+        },
+        {
+          "dish_name": "Natchitoches Meat Pies",
+          "description": "Traditional Louisiana meat pies filled with ground beef and breakfast sausage, green onions, and peppers, wrapped in fry dough, deep-fried, and served with a creamy Bedford sauce.",
+          "ingredients": [
+            "ground beef",
+            "breakfast sausage",
+            "green onions",
+            "poblanos",
+            "jalapenos",
+            "fry dough",
+            "bedford sauce",
+            "mayo",
+            "dijon"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "First and foremost, the sauce is ridiculous. With the green onions emulsified into it. The silky, creamy onion-ing in this. That is delicious. With that very identifiable breakfast sauce, that is a really unique flavor of a filling. Wow. The dough is flaky.",
+          "timestamp_start": 1477.0,
+          "confidence": 0.96
+        },
+        {
+          "dish_name": "Eye of the Tiger Pie",
+          "description": "A dessert pie featuring a lemon icebox bottom and a vibrant blueberry whipped cream, representing LSU school colors.",
+          "ingredients": [
+            "lemon",
+            "icebox crust",
+            "blueberries",
+            "whipped cream"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "Delicious. Yeah, I love the lemon factor of it. Wait till the flavor's down. Your army gets a hold of this one. You're donezo. It's just absolutely delicious.",
+          "timestamp_start": 1607.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "High Bank Distillery",
+      "city": "Grandview",
+      "state": "Ohio",
+      "cuisine_type": "Modern American",
+      "owner_chef": "Benjamin Gregg",
+      "guy_intro": "Hunter, we're here in Grandview, Ohio, right outside of Columbus, where I was born. Well, did you know that Columbus was founded on the high bank of the Scioto River, and we have a restaurant at Scioto Downs? Well, did you know that the place I'm going to take you to makes bourbon, gin, vodka, and also has great food? And it's named after the high bank? You mentioned that, yeah. Fantastic. Well, Hunter, here we are. This is the high bank distillery.",
+      "segment_number": 5,
+      "timestamp_start": 1634.7,
+      "timestamp_end": 2005.7,
+      "dishes": [
+        {
+          "dish_name": "Barbacoa Nachos",
+          "description": "Brisket rubbed with a rich barbacoa sauce, wrapped in banana leaves, steamed and roasted, served on fried tortilla chips with pico, feta cheese, mashed avocado, sour cream, and a house cheese sauce.",
+          "ingredients": [
+            "brisket",
+            "guajillo chilies",
+            "ancho chilies",
+            "marita chilies",
+            "banana leaves",
+            "tortilla chips",
+            "pico",
+            "feta cheese",
+            "mashed avocado",
+            "house cheese sauce"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Delicious. Feta balance it out? You feta believe it. It's a tangy queso fresca. It's that same crumbly, dry cheese. That is good amount of saltiness on there. The barbacoa is spot on. It's delicious. The cheese sauce doesn't compete. And then it's not just hitting the top of the nachos. You can kind of build it how you want. Dynamite plate of nachos.",
+          "timestamp_start": 1698.3,
+          "confidence": 0.96
+        },
+        {
+          "dish_name": "Chicken and Biscuits",
+          "description": "Chicken tenders marinated in buttermilk and hot sauce, double-dredged and deep-fried, served with flaky cheddar drop biscuits, creamy sausage gravy, and a drizzle of hot honey.",
+          "ingredients": [
+            "chicken tenders",
+            "buttermilk",
+            "hot sauce",
+            "cheddar drop biscuits",
+            "sausage gravy",
+            "breakfast sausage",
+            "hot honey",
+            "wildflower honey",
+            "chives"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The drop biscuit is dynamite, really nice and flaky. The gravy, I could be entombed with that. The hot honey. The hot honey's hot. I don't know if it's the hot honey, actually, Hunter, that's as hot as the seasoning. That's a lot, bro. You get the fluffy biscuit, you get the crispy chicken. In every bite, you just soft up the gravy. And that honey on top? It just, it's amazing.",
+          "timestamp_start": 1845.1,
+          "confidence": 0.96
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Twisted Soul",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "cuisine_type": "Soul Food",
+      "owner_chef": "Deborah Van Treese",
+      "guy_intro": "So think about every time you go on vacation and you try great food. Or think if you were a flight attendant, and you flew all over the world, and you got to taste all this incredible food. Think if you took all that information and came back and opened your own restaurant. That's exactly what went down at this place. I hit up in 2018, which was just the start of more to come. And she's still crushing it with unique spins on soul food. If you're in Atlanta, Georgia, you've got to check out Twisted Soul.",
+      "segment_number": 6,
+      "timestamp_start": 2005.7,
+      "timestamp_end": 2433.2,
+      "dishes": [
+        {
+          "dish_name": "Southern Marinade Fried Chicken",
+          "description": "Chicken marinated in a southern seasoning blend, then dredged in seasoned flour and fried in a cast iron skillet for a classic, honest flavor.",
+          "ingredients": [
+            "chicken",
+            "seasoning salt",
+            "garlic powder",
+            "onion powder",
+            "black pepper",
+            "flour",
+            "house seasoning"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's just good, old-fashioned, honest fried chicken. And the famous collard green roll. I want to order 100 of these. Congratulations for wrecking collard greens for the rest of my life. Still to date, one of my favorite things I ever had on Triple D.",
+          "timestamp_start": 2081.2,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Sweet Tea Baby Back Ribs",
+          "description": "Baby back ribs brined overnight in strong sweet tea, rubbed with a sweet and spicy blend, slow-smoked with hickory, and served with a house-made BBQ sauce.",
+          "ingredients": [
+            "baby back ribs",
+            "strong brew tea",
+            "brown sugar",
+            "smoked paprika",
+            "cumin",
+            "cayenne",
+            "hickory smoke",
+            "bbq sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Great smoke on that rib. Tender, but not falling off the bone. Nice little char to it. A good rub. This is a sweet sauce that has a little bit of heat. Ribs are dynamite. Delicious.",
+          "timestamp_start": 2131.6,
+          "confidence": 0.96
+        },
+        {
+          "dish_name": "Seafood Louis",
+          "description": "A Southern-inspired salad featuring poached shrimp, lobster, and crab, served with avocado corn cakes, arugula, corn relish, and a mango vinaigrette.",
+          "ingredients": [
+            "shrimp",
+            "lobster",
+            "crab",
+            "cornmeal",
+            "avocados",
+            "red pepper",
+            "jalapenos",
+            "arugula",
+            "corn relish",
+            "mango vinaigrette"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That is delicious. There's not many salads that I would order again. I would order that every time.",
+          "timestamp_start": 2245.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Crawfish Biscuits and Gravy",
+          "description": "Flaky biscuits with scallion, goat cheese, and black pepper, smothered in a rich Creole crawfish gravy with a hint of spice.",
+          "ingredients": [
+            "biscuits",
+            "scallion",
+            "goat cheese",
+            "black pepper",
+            "crawfish gravy",
+            "crawfish",
+            "creole seasoning",
+            "cayenne",
+            "heavy cream"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is delicious. Oh, that's good. Yeah, that crawfish gravy. Creole. You know, granddaddy always said, it's got to have some spice to it.",
+          "timestamp_start": 2340.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Little Donkey",
+      "city": "Cambridge",
+      "state": "Massachusetts",
+      "cuisine_type": "Global Eclectic",
+      "owner_chef": "Ken Oringer and Darryl",
+      "guy_intro": "Ming, I got to be honest with you. Driving through Boston, it's not easy, man. Dude, that's why I said you should let me drive. Oh, there's no way Chef Ming-sized driving my Camaro. Anyhow, where are we? We're in Central Square here in Cambridge. You got MIT down the road. You got Harvard over here. I went to both. I was just on a tour, but I went there. Anyhow, where are we going? So we're going to see buddy Ken Oranger, who's amazing. I love this guy. This is Little Donkey.",
+      "segment_number": 7,
+      "timestamp_start": 2433.2,
+      "timestamp_end": 2838.7,
+      "dishes": [
+        {
+          "dish_name": "Manti (Lamb and Beef Raviolis)",
+          "description": "Istanbul street food featuring lamb and beef filling wrapped in homemade pasta dough, served with a creamy garlic yogurt and a spicy Aleppo butter sauce.",
+          "ingredients": [
+            "lamb",
+            "beef",
+            "pasta dough",
+            "garlic yogurt",
+            "aleppo pepper",
+            "clarified butter",
+            "cumin",
+            "coriander"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I love the texture of the dough. Like a real ravioli, but thicker. I like it. It's not that delicate. It's a peasant dish. I love the particulate that you get from the Aleppo in the butter. But the real kicker on this is that garlic yogurt. The creaminess and the cold to the warm and the hot. Wow, so good.",
+          "timestamp_start": 2501.6,
+          "confidence": 0.96
+        },
+        {
+          "dish_name": "Crab Mac and Cheese with Teppoki",
+          "description": "A gluten-free mac and cheese featuring Korean rice cakes (teppoki), a rich cheese fondue, lump crab meat, and topped with toasted gluten-free breadcrumbs.",
+          "ingredients": [
+            "teppoki (rice cake)",
+            "heavy cream",
+            "green chili sauce",
+            "cheddar cheese",
+            "processed cheese",
+            "parmesan",
+            "crab meat",
+            "gluten-free breadcrumbs",
+            "old bay"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's money. That is ridiculous. It's super flavorful. I like a ton of cheese. It just coats it. It's not this heavy, cloying cheese sauce. The lumpy crab in there is outstanding. The toasted breadcrumb, you need that texture. You need that little crunch inside of it. The wine in your veg stock, that adds that little bit of the acid you need to cut through the richness. It's remarkable.",
+          "timestamp_start": 2680.9,
+          "confidence": 0.96
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Senate",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "cuisine_type": "Gourmet Street Food",
+      "owner_chef": "Daniel Wright",
+      "guy_intro": "I'm here in a city in Ohio that was once called Porkopolis. That's because it was the largest pork producing city in the United States. Well, a lot has changed since the late 1800s, but people still call it Cincinnati. Now anyhow, in the area that I'm standing in on Vine Street, two years ago, wasn't doing so well. That's until a group of restaurant rebels decided to move in and open some awesome eateries, starting off with this one right here. That's Senate.",
+      "segment_number": 8,
+      "timestamp_start": 2838.7,
+      "timestamp_end": 3176.4,
+      "dishes": [
+        {
+          "dish_name": "Korean Hot Dog",
+          "description": "A hot dog on a locally made bun, topped with braised short ribs, house-made kimchi, harissa aioli, pickled cucumbers, and toasted sesame seeds.",
+          "ingredients": [
+            "hot dog",
+            "bun",
+            "boneless short ribs",
+            "sriracha glaze",
+            "napa cabbage kimchi",
+            "harissa aioli",
+            "pickled cucumbers",
+            "toasted sesame seeds"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Dude, I don't know what to tell you. That's a flavor kaleidoscope. Rich, salty, sweet tangy, good snap to the dog. The short rib by itself is just dynamite. The cabbage, and the slaw, and the pickles, all fantastic. This is outstanding.",
+          "timestamp_start": 2886.6,
+          "confidence": 0.97
+        },
+        {
+          "dish_name": "Booty and Belly Sandwich",
+          "description": "A sandwich featuring braised pork belly and pork butt, slow-cooked with Kentucky bourbon ale and Asian spices, served on a brioche bun with house-made barbecue sauce and apple celery root slaw.",
+          "ingredients": [
+            "pork belly",
+            "pork butt",
+            "kentucky bourbon ale",
+            "szechuan peppercorn",
+            "star anise",
+            "brioche bun",
+            "barbecue sauce",
+            "apple celery root slaw"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Flat out ridiculous. Nothing you do is short on flavor. The pork between the belly and the butt, fatty, tender texture. The barbecue sauce, outrageous.",
+          "timestamp_start": 3060.1,
+          "confidence": 0.97
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Pendulum",
+      "city": "Norfolk",
+      "state": "Virginia",
+      "cuisine_type": "Butcher Shop / American Sandwiches",
+      "owner_chef": "Dylan Wakefield",
+      "guy_intro": "So I'm here in Norfolk, Virginia, and check this story out. Husband and wife team buy this old house, and they convert it into a butcher shop. Well, then they turn it into a restaurant. Well, then they rent it out to another guy to do a restaurant at night. That's my kind of Triple D joint. This is Pendulum.",
+      "segment_number": 9,
+      "timestamp_start": 3176.4,
+      "timestamp_end": 3504.6,
+      "dishes": [
+        {
+          "dish_name": "Butcher's Roast Beef Sandwich",
+          "description": "Thinly sliced top round beef, roasted with garlic and red onions, served on tallow-grilled focaccia with caramelized onions, Swiss cheese, and spicy mayo.",
+          "ingredients": [
+            "top round beef",
+            "garlic",
+            "red onions",
+            "tallow",
+            "focaccia",
+            "caramelized onions",
+            "swiss cheese",
+            "spicy mayo"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'm having full flashbacks on this. The roast beef sandwich at the meat market when I was a kid, the meat was roasted there. Sliced thin. When you can really appreciate the craftsmanship, the time, the energy, the effort that were all utilized to make that sandwich, it's worth everything that you're getting. Delicious. The onions add the perfect note of tanginess.",
+          "timestamp_start": 3227.0,
+          "confidence": 0.97
+        },
+        {
+          "dish_name": "Cuban Sandwich",
+          "description": "A classic Cuban sandwich with thinly sliced, pecan-smoked pork leg, house-cured ham, Swiss cheese, spicy mustard, and pickles, pressed on flatbread.",
+          "ingredients": [
+            "pork leg",
+            "pecan smoke",
+            "house-cured ham",
+            "swiss cheese",
+            "flatbread",
+            "spicy mustard",
+            "pickles"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Very seldom are you able to get meat like that, because Captain America is butchering it down, separating the muscles on that hind quarter, and then making it available to slice thin. That's why this doesn't have any of that fat. This isn't a pulled pork. Brother, I'm glad I don't live in Norfolk. This is by far one of the best Cuban sandwiches I've had. Pork's got an amazing smoky essence to it.",
+          "timestamp_start": 3411.9,
+          "confidence": 0.97
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Cave Bistro",
+      "city": "Avalon",
+      "state": "New Jersey",
+      "cuisine_type": "Healthy American / Paleo-friendly",
+      "owner_chef": "Doug Staley and Lynn Staley",
+      "guy_intro": "So I drove the 68 Camaro in from New York City about an hour. I'm here at Avalon by the Sea, pretty close to Asbury, New Jersey, you know, Great Beach area. And did you hear something? I'm here to check out a joint where this guy started doing meal prep for buddies at the gym, and then he turned it into his own restaurant. Oh, my gosh. I can't believe I forgot him. Oh, Q, Q, I'm so sorry. Hey, man, I'm on Impractical Jokers, not Impractical Torture. I didn't know it was going to be that long of a ride. Did they tell you to hit every pothole on the way down? Listen, are you hungry? Of course I'm hungry. You're going to love this place. This is Cave Bistro.",
+      "segment_number": 10,
+      "timestamp_start": 3504.6,
+      "timestamp_end": 3941.0,
+      "dishes": [
+        {
+          "dish_name": "Octopus",
+          "description": "Tender octopus braised with acciori paste, limes, lemons, garlic, and clarified butter, then crisped in a cast iron pan, served with a vibrant chamula sauce and pickled onions and carrots.",
+          "ingredients": [
+            "octopus",
+            "acciori paste",
+            "limes",
+            "lemons",
+            "garlic",
+            "clarified butter",
+            "chamula sauce",
+            "culantro",
+            "pickled onions",
+            "pickled carrots"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, what is it? Oh! It's too good to be a joke. Get a little bit of that acid from the pickled carrot, because the octopus actually has rich and nice and buttery. Oh, yeah. The herbaceousness of the chamula, the acid, the perfectly, perfectly, perfectly cooked octopus. I mean, did I say perfectly? It is so tender and a nice little char to it. Outstanding shot.",
+          "timestamp_start": 3582.7,
+          "confidence": 0.97
+        },
+        {
+          "dish_name": "Bone Marrow Burger",
+          "description": "A grass-fed brisket and chuck blend burger, smashed and grilled, topped with roasted bone marrow, raclette cheese, and a compound butter, served on a gluten-free brioche bun with duck fat fries.",
+          "ingredients": [
+            "grass-fed brisket",
+            "chuck",
+            "bone marrow",
+            "raclette cheese",
+            "compound butter",
+            "rosemary",
+            "roasted garlic",
+            "gluten-free brioche bun",
+            "duck fat fries",
+            "truffle salt"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, man. Mm. I've never tasted anything like this. The richness of the meat inside of it. Oh, yeah. Dynamite brioche bun, by the way. It is great. That's gluten-free bun. No, it's not. It is. OK, these people are going to be billionaires. It has this very composed, elegant dish profile from the herbaceousness of the butter and the raclette cheese. Silky, creamy, a little tangy. It's beyond a burger's level. It's dynamite, man.",
+          "timestamp_start": 3752.9,
+          "confidence": 0.97
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "video_id": "8n8C91eU1Os",
+  "video_title": "Top #DDD Southern BBQ Videos with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Fox Brothers",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "cuisine_type": "BBQ",
+      "owner_chef": "Jonathan",
+      "guy_intro": null,
+      "segment_number": 1,
+      "timestamp_start": 1365.5,
+      "timestamp_end": 1549.6,
+      "dishes": [
+        {
+          "dish_name": "Boss Burger",
+          "description": "Brisket ground with chuck, seasoned, grilled, served on toasted bun with Spice Carolina sauce, cheddar cheese, rib candy, peppered bacon, pickles, tomato, onion, and pimento cheese patty.",
+          "ingredients": [
+            "brisket",
+            "chuck",
+            "rib candy",
+            "pimento cheese",
+            "spice carolina sauce",
+            "peppered bacon",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, that's a great burger. It's super tender brisket. When you chop that brisket up, you get a chance to incorporate that fat. So it makes it even a little bit more unctuous. And adding the pimento cheese and adding the veggies on top of it brings that burger element to it. That's Fox Brothers right there. Damn, man. Come on. That is just getting it done.",
+          "timestamp_start": 1480.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

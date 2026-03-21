@@ -1,0 +1,287 @@
+{
+  "video_id": "5sMtashu7IM",
+  "video_title": "#DDD Road Trip: Guy Fieri Takes the Great Lakes \ud83d\ude97 | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Sofia's",
+      "city": "Buffalo",
+      "state": "New York",
+      "cuisine_type": "Diner, Greek",
+      "owner_chef": "Sam Ananiadis",
+      "guy_intro": "A lot of times it's father to son. But every once in a while, we get one with a little twist, like a location here in Buffalo, New York, where it's mother to son, where Sofia Ananiadis has raised her son Sam in the business. Now, he's taken over, and boy, is she proud. Welcome to Sofia's.",
+      "segment_number": 1,
+      "timestamp_start": 13.0,
+      "timestamp_end": 258.5,
+      "dishes": [
+        {
+          "dish_name": "Homemade White Bread",
+          "description": "Traditional white bread, made by eyeballing ingredients, lightly kneaded, proofed, and baked until golden.",
+          "ingredients": [
+            "flour",
+            "water",
+            "salt",
+            "yeast",
+            "sugar"
+          ],
+          "dish_category": "side",
+          "guy_response": "Oh. Bread's fantastic. It's the best bread in town.",
+          "timestamp_start": 61.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Fried Bologna and Onions Sandwich",
+          "description": "A Buffalo favorite featuring fried bologna and onions, served on their signature homemade bread with mustard.",
+          "ingredients": [
+            "homemade bread",
+            "bologna",
+            "onions",
+            "mustard"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. Great. Bread's money. It's crunchy. It's like you put breading on the outside of the bread. Mmm. You're taking something simple comfort food like bologna. Fat cooks. You get some of the caramelization. The onions. Yeah. I like it, man.",
+          "timestamp_start": 181.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Mason's Creamery",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "cuisine_type": "Ramen, Ice Cream",
+      "owner_chef": "Jesse Mason and Helen Chin",
+      "guy_intro": "So I'm here in Cleveland with my good buddy, Chef Mark Murphy. Hey, Murph, if I could offer you scratch-made, handmade ice cream or scratch-made, handmade ramen, which would you prefer? ... What if I could offer you both? In the same restaurant? ... Let's call this place Mason's Creamery.",
+      "segment_number": 2,
+      "timestamp_start": 258.5,
+      "timestamp_end": 477.2,
+      "dishes": [
+        {
+          "dish_name": "Raclette Ramen",
+          "description": "Tonkatsu broth with char siu pork belly, noodles, corn, pickled daikon radish, and soy-marinated eggs, topped with melted raclette cheese. The broth is enriched with charred garlic, ginger, onions, chicken and pig's feet, and cream cheese.",
+          "ingredients": [
+            "pork belly",
+            "garlic",
+            "ginger",
+            "soy sauce",
+            "mirin",
+            "chicken feet",
+            "pig's feet",
+            "cream cheese",
+            "noodles",
+            "raclette cheese",
+            "corn",
+            "pickled daikon radish",
+            "soy-marinated eggs"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's outstanding. Not good. Not great. Outstanding. It's silky. The addition of the cream cheese. It's delicious. It's genius. And it works in tandem with the funk of the raclette. I can really taste the caramelization on the pork. It's not supposed to work. But once you have one bite of it, you're like, of course that works. It's completely crazy, but yeah, it's great.",
+          "timestamp_start": 313.1,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Northern Water Smokehouse",
+      "city": "Duluth",
+      "state": "Minnesota",
+      "cuisine_type": "Smoked Meats, Seafood",
+      "owner_chef": "Eric Gert",
+      "guy_intro": "So I'm here in Duluth, Minnesota at the DeWitt Sites Marketplace where I hear there's a dude inside that is curing it, brining it, and smoking it. My quest may be over at Northern Water Smokehouse.",
+      "segment_number": 3,
+      "timestamp_start": 477.2,
+      "timestamp_end": 626.1,
+      "dishes": [
+        {
+          "dish_name": "Smoked Whitefish",
+          "description": "Lake Superior whitefish brined in a simple mixture of salt and brown sugar, scored for penetration, rinsed, racked, and smoked for 6-7 hours.",
+          "ingredients": [
+            "Lake Superior whitefish",
+            "salt",
+            "brown sugar"
+          ],
+          "dish_category": "snack",
+          "guy_response": "Mmm. What do you think? It's rich. It's flaky. It is outstanding. Yeah, whitefish has a really clean flavor. Mmm. So balanced. It's not sweet. It's not salty. It's not over-smoked. It's just got this really nice, easy-going flavor.",
+          "timestamp_start": 536.4,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "The Lakeview",
+      "city": "Toronto",
+      "state": "Ontario",
+      "cuisine_type": "Diner, American",
+      "owner_chef": "Alex Sengupta",
+      "guy_intro": "You know, when I say old-school diner, I know you think it's gotta be in New Jersey. Well, this joint, it's 80 years old, and guess what? It's not in New Jersey. Matter of fact, it's not even in the United States. It's here in Toronto, Canada. This is the Lakeview.",
+      "segment_number": 4,
+      "timestamp_start": 626.1,
+      "timestamp_end": 812.5,
+      "dishes": [
+        {
+          "dish_name": "Apple Pie Milkshake",
+          "description": "A unique milkshake blending French vanilla ice cream, whole milk, and a piece of homemade apple pie (Granny Smith apples, butter, brown sugar, spices), topped with pie crust.",
+          "ingredients": [
+            "French vanilla ice cream",
+            "whole milk",
+            "granny smith apples",
+            "butter",
+            "brown sugar",
+            "cinnamon",
+            "nutmeg",
+            "pie crust"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "It tastes like liquid apple pie. That's awesome. I love the crust in there. Mm. That's good.",
+          "timestamp_start": 687.5,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Brett Sawyer's Diner",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "cuisine_type": "Chefed-up Diner Food, American",
+      "owner_chef": "Brett Sawyer",
+      "guy_intro": "We're in Detroit's Shoreway neighborhood of Cleveland, Ohio, about 500 feet from the lake. ... A really talented young chef here. He is killing it with like chefed-up diner food. Chefed-up diner food on Triple D? Perfect.",
+      "segment_number": 5,
+      "timestamp_start": 812.5,
+      "timestamp_end": 1002.3,
+      "dishes": [
+        {
+          "dish_name": "Surf and Turf Sandwich",
+          "description": "Shaved certified Angus beef tri-tip on a milk bun with a mushroom duxelle, red onions, tarragon chili Bearnaise sauce, and served with a rich lobster beef au jus.",
+          "ingredients": [
+            "certified Angus beef tri-tip",
+            "milk bun",
+            "mushrooms",
+            "shallots",
+            "garlic",
+            "sun-dried tomatoes",
+            "tarragon",
+            "red onions",
+            "champagne vinegar",
+            "eggs",
+            "Calabrian chilies",
+            "butter",
+            "beef bones",
+            "lobster bodies"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The sandwich is spectacular by itself. Before you dip it. Right, right, right, right. The beef flavors through the roof. That is crazy. The lobster really comes out. I cannot believe how much lobster flavor is in there. It is full on surf and turf. One of the most whacked out thing I've ever seen on Triple D.",
+          "timestamp_start": 866.4,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "name": "Taryn's Marketplace at Sarah's Table, Chester Creek Cafe",
+      "city": "Duluth",
+      "state": "Minnesota",
+      "cuisine_type": "Farm-to-table, American, Cafe",
+      "owner_chef": "Jillian Forte",
+      "guy_intro": "I'm here in Duluth, Minnesota, about nine blocks off of Lake Superior, to check out a joint that's a restaurant collaboration between, get this, a coffee shop bookstore owner from Duluth and a chef from Texas. ... So they came up with three names. This is Taryn's Marketplace at Sarah's Table, Chester Creek Cafe.",
+      "segment_number": 6,
+      "timestamp_start": 1002.3,
+      "timestamp_end": 1198.2,
+      "dishes": [
+        {
+          "dish_name": "Cranberry Wild Rice French Toast",
+          "description": "French toast made from scratch-made cranberry wild rice bread, dipped in a rich batter, grilled, and served with a unique beer syrup.",
+          "ingredients": [
+            "wild rice bread",
+            "cranberries",
+            "eggs",
+            "half and half",
+            "cinnamon",
+            "powdered sugar",
+            "vanilla",
+            "nutmeg",
+            "brown sugar",
+            "corn syrup",
+            "oatmeal beer"
+          ],
+          "dish_category": "entree",
+          "guy_response": "While this is a great sweet flavor, it tastes like a good hearty meal. Love it. The bread is out of bounds.",
+          "timestamp_start": 1059.0,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Cepino Pizzeria",
+      "city": "Detroit",
+      "state": "Michigan",
+      "cuisine_type": "Pizza, Italian-American",
+      "owner_chef": "Dave Mancini",
+      "guy_intro": "I'm here in Detroit, Michigan, right across the street from the Eastern Market to check out a pizza joint where the owner got his inspiration from a little village that his father grew up in Italy. ... This is Cepino Pizzeria.",
+      "segment_number": 7,
+      "timestamp_start": 1198.2,
+      "timestamp_end": 1461.6,
+      "dishes": [
+        {
+          "dish_name": "City Wing Thing Pizza",
+          "description": "Pizza with a 24-hour rested bread flour dough, sauce on top of cheese, smoked gouda, fresh cubed mozzarella, roasted garlic, cherry peppers, and braised smoked turkey legs.",
+          "ingredients": [
+            "bread flour dough",
+            "pizza sauce",
+            "smoked gouda",
+            "mozzarella",
+            "roasted garlic",
+            "cherry peppers",
+            "smoked turkey legs",
+            "red onions",
+            "frank's red hot sauce",
+            "sugar"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's definitely light and crispy. It's a cross between probably an American style and Neapolitan style. I give you an A in the dough, man. A nice blend between cheese and sauce, a little bit of spice from the vinegar of the sweet peppers, creaminess of the garlic, wow. It's not Thanksgiving turkey that someone carved from the table. It's smoky. It's absolutely delicious, and it pairs excellent with those peppers that are on there.",
+          "timestamp_start": 1293.5,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "DMK Burger Bar",
+      "city": "Chicago",
+      "state": "Illinois",
+      "cuisine_type": "Gourmet Burgers, American",
+      "owner_chef": "Michael Kornick",
+      "guy_intro": "At DMK Burger Bar in Chicago. Lamb burger and cheddar fry. I mean, this could be a fine dining restaurant. It's a real burger place.",
+      "segment_number": 8,
+      "timestamp_start": 1461.6,
+      "timestamp_end": 1645.0,
+      "dishes": [
+        {
+          "dish_name": "Parmesan Truffle Cream Fries",
+          "description": "Well-aged Idaho russet potatoes, cut, blanched, and finished in beef fat until golden brown, seasoned with salt, pepper, Parmesan cheese, and parsley, served with a rich truffle aioli.",
+          "ingredients": [
+            "Idaho russet potatoes",
+            "beef fat",
+            "salt",
+            "pepper",
+            "parmesan cheese",
+            "parsley",
+            "egg yolks",
+            "lemon juice",
+            "virgin olive oil",
+            "white truffle oil"
+          ],
+          "dish_category": "side",
+          "guy_response": "Crunchy. Exterior. Tender. Such a richness. More importantly to me than anything, skin on. See, I like pepper on my fries, too. The aioli, nice. It melts right into the fries. I mean, real deal, man. Real deal. If you're going to have a gourmet burger joint, you better serve up a gourmet fry. That's it, right? Excellent.",
+          "timestamp_start": 1473.6,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

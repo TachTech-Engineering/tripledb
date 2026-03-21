@@ -1,0 +1,345 @@
+{
+  "video_id": "SDxziQtijtM",
+  "video_title": "Top #DDD Videos in Minneapolis with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Buster's",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "American",
+      "owner_chef": null,
+      "guy_intro": "Smoke-jerk wings in the window. Smoked wings are so good. Oh, I come to a place like Buster's. Out to kind of sandwich I expect.",
+      "segment_number": 1,
+      "timestamp_start": 5.8,
+      "timestamp_end": 251.4,
+      "dishes": [
+        {
+          "dish_name": "Smoked Jerk Rub Wings with Blue Cheese",
+          "description": "Chicken wings brined for 24 hours in hot water, salt, brown sugar, Worcestershire, black peppercorns, and smokehouse porter beer, then smoked for 1.5 hours, fried, and tossed in a dry rub. Served with homemade blue cheese dressing.",
+          "ingredients": [
+            "chicken wings",
+            "salt",
+            "brown sugar",
+            "worcestershire",
+            "black peppercorns",
+            "smokehouse porter beer",
+            "thyme",
+            "paprika",
+            "clove",
+            "cinnamon",
+            "chili powder",
+            "allspice",
+            "garlic powder",
+            "blue cheese",
+            "buttermilk",
+            "mayonnaise",
+            "sour cream",
+            "minced onion",
+            "minced garlic",
+            "white distilled vinegar"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The rub's not super salty. You can really taste the smoke coming through. Not over-smoked. And the fry at the end puts that little crisp on the wing. And the blue cheese, by the way, real flavor in it. A little acid. Good texture. Great spice. I do get even that small amount of beer. Nicely done, Chef. Thank you. Nicely done. Smoked jerk rub wings of blue cheese. Crispy on the outside and juicy and smoky on the inside. Tastes very tender.",
+          "timestamp_start": 10.4,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Beer Braised Beef with Salt and Vinegar Chips",
+          "description": "Brisket cut into cubes, seasoned with salt, pepper, and garlic powder, topped with julienned onions and garlic cloves, braised for eight hours in a heavy stout beer. Served with homemade salt and vinegar potato chips and roasted red pepper cream cheese.",
+          "ingredients": [
+            "brisket",
+            "salt",
+            "pepper",
+            "garlic powder",
+            "onions",
+            "garlic cloves",
+            "heavy stout beer",
+            "idaho potatoes",
+            "vinegar",
+            "roasted red pepper",
+            "cream cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I make you want to sell your home and move in. Oh, yes. Bomb rock star chips. Oh, I come to a place like Buster's. Out to kind of sandwich I expect. Can't go wrong. Brother, you can't go any more right. That is fantastic. Nice job. Braised beef with salt and vinegar potato chips. It's a mouthful of deliciousness. It's just overflowing with beef. It's got a great tangy sauce. It's just yummy.",
+          "timestamp_start": 129.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "Broder's Pasta Bar",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Italian",
+      "owner_chef": null,
+      "guy_intro": "Lasagna is amazing. Lasagna Siciliana for table 10.",
+      "segment_number": 2,
+      "timestamp_start": 252.2,
+      "timestamp_end": 307.7,
+      "dishes": [
+        {
+          "dish_name": "Lasagna Siciliana",
+          "description": "Fresh pasta layered with ricotta mix (fresh ricotta, parsley, three whole eggs), sugo beti (sauce), sausage, imported Grana Padano cheese, and mozzarella. Baked in a 350-degree oven for 40 minutes, then topped with more sugo beti, Grana Padano, and fresh parsley.",
+          "ingredients": [
+            "fresh pasta",
+            "ricotta",
+            "parsley",
+            "eggs",
+            "sugo beti",
+            "sausage",
+            "grana padano cheese",
+            "mozzarella",
+            "fresh chopped parsley"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The lasagna Siciliana. It is fresh. The tomato sauce is just so tangy. It's so light. It's just delicious.",
+          "timestamp_start": 257.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Jasmine Deli",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Vietnamese",
+      "owner_chef": null,
+      "guy_intro": "The Vietnamese crepe is almost like if a crepe and a taco were combined with shrimp and pork belly. Just a lovely combination of flavors.",
+      "segment_number": 3,
+      "timestamp_start": 307.7,
+      "timestamp_end": 433.9,
+      "dishes": [
+        {
+          "dish_name": "Vietnamese Crepe",
+          "description": "Crepe batter made with water, coconut milk, rice flour, corn starch, turmeric, and salt, rested overnight. Filled with pork belly (boiled with onion, ginger, garlic, lemongrass, then fried), shrimp, onions, scallions, and bean sprouts. Served with nuoc cham sauce, spicy sambal, lettuce, basil, mint, and cilantro for lettuce wraps.",
+          "ingredients": [
+            "water",
+            "coconut milk",
+            "rice flour",
+            "corn starch",
+            "turmeric",
+            "salt",
+            "pork belly",
+            "shrimp",
+            "onions",
+            "scallions",
+            "bean sprouts",
+            "nuoc cham",
+            "sambal",
+            "lettuce",
+            "basil",
+            "mint",
+            "cilantro"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The crepe is tender. You get this little crunchy surprise inside. Little bit of the spice, nop trung in there. The herbaceous, the salty. The sweet, the heat. The interactive eating. And what I love is it's all scratch made. Oh, yeah. Short of you catching the shrimp in Lake Minnetonka. It's delicious.",
+          "timestamp_start": 320.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Nixta",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Mexican",
+      "owner_chef": null,
+      "guy_intro": "Venison sop\u00e9s. The sop\u00e9 being a cup tortilla. Holds beans with venison. It's phenomenal.",
+      "segment_number": 4,
+      "timestamp_start": 433.9,
+      "timestamp_end": 601.4,
+      "dishes": [
+        {
+          "dish_name": "Venison Sop\u00e9s",
+          "description": "Sop\u00e9s made from Bolita Azul corn, nixtamalized with calcium hydroxide, ground into masa, formed into patties, pinched, and quick-fried. Topped with refried beans, braised venison leg (seared, then braised with mirepoix, mezcal, red wine, ricado negro paste, and beef tongue stock), and finished with a salad of pickled fresnos and a tomato consomme.",
+          "ingredients": [
+            "bolita azul corn",
+            "calcium hydroxide",
+            "refried beans",
+            "venison leg",
+            "mirepoix",
+            "mezcal",
+            "red wine",
+            "ricado negro paste",
+            "beef tongue stock",
+            "pickled fresnos",
+            "tomato consomme",
+            "chile pa\u00eds",
+            "garlic",
+            "onion",
+            "peppercorns",
+            "dry oregano",
+            "cumin",
+            "coriander",
+            "chipotle adobo",
+            "vinegar",
+            "cilantro"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Whoa. That is so delicious. And that char on those chiles, the onion and the garlic, is amazing. The sope is delicious. And the consomme is the piece de resistance because it's so creamy and luscious and silky. But it's some of the best venison I've ever had. If you don't like venison, please come try this. This will convert you. Wow. Sope venison. Venison is so succulent. It's not gamey at all. So delicious. The black beans, there's just.",
+          "timestamp_start": 442.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "The Herbivorous Butcher",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Vegan",
+      "owner_chef": null,
+      "guy_intro": "Turkey to Havarti. The turkey sandwich tastes amazing.",
+      "segment_number": 5,
+      "timestamp_start": 601.4,
+      "timestamp_end": 753.1,
+      "dishes": [
+        {
+          "dish_name": "Vegan Turkey and Dill Havarti Sandwich",
+          "description": "Vegan turkey made from vital wheat gluten, nutritional yeast, onion powder, sea salt, thyme, and house-made chicken broth powder, boiled and baked. Vegan dill Havarti cheese made from coconut oil, soy milk, lemon juice, white wine vinegar, tapioca flour, kappa carrageenan, nutritional yeast, sea salt, white miso, and fresh dill. Served on a sandwich with garlic mayo, Dijon mustard, lettuce, tomatoes, and onion.",
+          "ingredients": [
+            "vital wheat gluten",
+            "nutritional yeast flakes",
+            "onion powder",
+            "sea salt",
+            "thyme",
+            "sage",
+            "turmeric",
+            "olive oil",
+            "soy sauce",
+            "coconut oil",
+            "soy milk",
+            "lemon juice",
+            "white wine vinegar",
+            "tapioca flour",
+            "kappa carrageenan",
+            "white miso",
+            "fresh dill",
+            "garlic mayo",
+            "dijon mustard",
+            "lettuce",
+            "tomatoes",
+            "onion"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Eat it all day long. Fresh veggies. A good amount of moisturizer with the vegan mayo. We're eating on a fantastic roll. You definitely get the creaminess of the cheese. You get that chew. You get that texture, that meaty texture coming through from the turkey. Fantastic.",
+          "timestamp_start": 606.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Red Wagon Pizza Company",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Pete and Buck",
+      "guy_intro": "The Red Wagon pizza is the best pizza. Peppers, the spice, the sauce, the cheese. It's just the most tasty piece of pizza I've ever encountered.",
+      "segment_number": 6,
+      "timestamp_start": 753.1,
+      "timestamp_end": 1012.9,
+      "dishes": [
+        {
+          "dish_name": "Red Wagon Pizza",
+          "description": "Pizza with a 24-hour rested dough made from heritage wheat, topped with house-made sausage (pork butt, bacon, sopressata, garlic, onion, fennel powder, salt, pepper), house-made sauce, a blend of mozzarella and provolone cheese, banana peppers, and sopressata. Finished with buzzed crushed red pepper, house-made garlic oil, and fig-infused balsamic.",
+          "ingredients": [
+            "heritage wheat flour",
+            "yeast",
+            "salt",
+            "pork butt",
+            "bacon",
+            "sopressata",
+            "garlic",
+            "onion",
+            "fennel powder",
+            "ground pepper",
+            "house-made sauce",
+            "mozzarella",
+            "provolone",
+            "banana peppers",
+            "crushed red pepper",
+            "garlic oil",
+            "fig-infused balsamic"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, dynamite. Everything you're doing in the pizza is balanced. Fresh-made sausage, you've got handmade dough, you've got homemade sauce. You got a nice little acid bite in there coming from the banana pepper. A little touch of the chili flake. It's an artisan pizza, man. Everybody at home right now is going, oh, I want a bite of that pizza, because it's a real deal. Fantastic.",
+          "timestamp_start": 762.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Bacon Onion Dip",
+          "description": "Caramelized onions (sweated with salt, brown sugar, balsamic vinegar, and water) mixed with whipped cream cheese, mayonnaise, Worcestershire sauce, salt, cayenne pepper, Coleman's dry mustard, and Parmesan cheese. Topped with cooked bacon and baked at 350 degrees for five minutes, then finished with chives.",
+          "ingredients": [
+            "onions",
+            "house oil",
+            "salt",
+            "brown sugar",
+            "balsamic vinegar",
+            "cream cheese",
+            "mayonnaise",
+            "worcestershire sauce",
+            "cayenne pepper",
+            "coleman's dry mustard",
+            "parmesan cheese",
+            "bacon",
+            "chives"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "That's ridiculous. You know what, this should be illegal. It's not just onions and bacon. There's much more depth. I think you know what really makes it? It's that mustard. Secret ingredient. A little change of that, better and good. Excellent. Nice job. Cool, thank you. Bacon onion dip. You got the creamy cheese, the crunchy bacon. You can't make it exactly like you can at George and Dre.",
+          "timestamp_start": 907.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Pizzeria Lola",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Pizza",
+      "owner_chef": null,
+      "guy_intro": "Here's your mascheroni. It's just kind of like a meat overload.",
+      "segment_number": 7,
+      "timestamp_start": 1018.1,
+      "timestamp_end": 1226.0,
+      "dishes": [
+        {
+          "dish_name": "Mascheroni Pizza",
+          "description": "Pizza with a 48-hour slow-rise dough (poolish made with water, yeast, flour, then mixed with Italian flour, more yeast, cold water, Italian sea salt). Topped with house-made fennel sausage (ground Berkshire pork, toasted fennel seed, fresh chopped garlic, chili flake, salt, pepper), house red sauce (fresh ground California tomatoes, red pear tomatoes, tomato puree, salt, dried basil, dried oregano, granulated garlic, onion powder), Wisconsin mozzarella, and natural casing pepperoni. Cooked fast in a 550-600 degree oven.",
+          "ingredients": [
+            "water",
+            "yeast",
+            "flour",
+            "italian flour",
+            "italian sea salt",
+            "berkshire pork",
+            "toasted fennel seed",
+            "fresh chopped garlic",
+            "chili flake",
+            "salt",
+            "pepper",
+            "california tomatoes",
+            "red pear tomatoes",
+            "tomato puree",
+            "dried basil",
+            "dried oregano",
+            "granulated garlic",
+            "onion powder",
+            "wisconsin mozzarella",
+            "natural casing pepperoni"
+          ],
+          "dish_category": "entree",
+          "guy_response": "We got this heirloom pork with the real fat in it and the real flavor, and the fennel is rocking this. A lot of people say, oh, sausage and pepperoni. I've had that all the time. This is way beyond your everyday pizza joint on the corner, sausage and pepperoni. You got to try this one. It's the most heightened, delicious pepperoni sausage pizza you've ever had. You're like, this is what pepperoni is supposed to taste like.",
+          "timestamp_start": 1025.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    }
+  ]
+}

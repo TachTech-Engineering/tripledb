@@ -1,0 +1,271 @@
+{
+  "video_id": "9lgi73X4oGU",
+  "video_title": "Top #DDD Videos in Buffalo, New York with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Blackthorn Restaurant and Pub",
+      "city": "Buffalo",
+      "state": "New York",
+      "cuisine_type": "Irish Pub, American",
+      "owner_chef": "Max Leatherbarrow",
+      "guy_intro": "I'm here on the south side of Buffalo, New York, in a predominantly Irish neighborhood where we've got a great story about two brothers. Kevin, or Louse as he was known, was part owner of this neighborhood pub. Unfortunately, in 2002, he passed away. Now, no one wanted to see the pub leave the family, so his brother Pat, a local fireman, along with his brother-in-law, took over. One of the things we love on Triple D is tradition. Time to check out Blackthorn Restaurant and Pub.",
+      "segment_number": 1,
+      "timestamp_start": 6.0,
+      "timestamp_end": 280.8,
+      "dishes": [
+        {
+          "dish_name": "Beef on Whack",
+          "description": "Roast beef cooked medium-rare with mirepoix, browning agent, Montreal steak seasoning, and rosemary, served on a kimmelweck roll with caraway seeds and kosher salt, dipped in au jus.",
+          "ingredients": [
+            "roast beef",
+            "kimmelweck roll",
+            "caraway seeds",
+            "kosher salt",
+            "au jus",
+            "onions",
+            "rosemary",
+            "montreal steak seasoning"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. Wow. That is so tender. Big flavor. Crazy with the salt and the caraway. That au jus is awesome too. Mmm. I could only probably eat about a thousand of those. Nice job, man. Beef on whack is so delicious. Meat's perfect. It's tender. There's no grizzle, no nothing. No schnizzle on the grizzle.",
+          "timestamp_start": 57.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Irish Beer Cheddar and Potato Soup",
+          "description": "A more than 30-year-old recipe, this soup is made with butter, Spanish onion, Irish beer, parboiled potatoes, white pepper, Montreal seasoning, seasoned salt, chicken base, shredded cheddar and Monterey Jack cheese, heavy cream, and a touch of nacho cheese sauce for color and thickening.",
+          "ingredients": [
+            "irish beer",
+            "cheddar cheese",
+            "potatoes",
+            "spanish onion",
+            "monterey jack cheese",
+            "heavy cream",
+            "chicken base",
+            "white pepper"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Wow, that's big, deep, rich flavor. Creamy. Just has like a perfume of the beer. That is the most beer I've ever seen in a beer cheddar soup. Really good. Good job, man.",
+          "timestamp_start": 185.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Sofia's",
+      "city": "Buffalo",
+      "state": "New York",
+      "cuisine_type": "Greek, American Diner",
+      "owner_chef": "Sam Ananiatis",
+      "guy_intro": "A lot of times it's father to son, but every once in a while we get one with a little twist, like a location here in Buffalo, New York, where it's mother to son, where Sofia Ananiatis has raised her son Sam in the business. Now he's taken over and boy, is she proud. Welcome to Sofia's.",
+      "segment_number": 2,
+      "timestamp_start": 280.8,
+      "timestamp_end": 608.9,
+      "dishes": [
+        {
+          "dish_name": "Homemade White Bread",
+          "description": "Traditional white bread made by eyeballing ingredients, proofed, lightly kneaded, and baked in an oiled pan.",
+          "ingredients": [
+            "flour",
+            "yeast",
+            "salt",
+            "water",
+            "oil"
+          ],
+          "dish_category": "side",
+          "guy_response": "Mm. Can you smell that? No drawn butter. We want the real thing. Mm. Look how thick the crust is. Did you understand that in bread and ease? Yeah. Oh. Bread's fantastic. It's the best bread in town, just for sure. It's the best.",
+          "timestamp_start": 332.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Fried Bologna and Onions Sandwich",
+          "description": "A Buffalo favorite featuring fried bologna and grilled onions served on homemade bread with mustard.",
+          "ingredients": [
+            "bologna",
+            "onions",
+            "homemade white bread",
+            "mustard"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm. It's great. Bread's money. It's crunchy. It's crunchy. It's crunchy. It's crunchy. It's crunchy. It's like you put breading on the outside of the bread. Mm. You're taking something simple comfort food like bologna. Fat cooks. You get some of the caramelization. The onions. Yeah. I like it, man.",
+          "timestamp_start": 455.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Chicken Souvlaki Salad",
+          "description": "Chicken marinated for at least a day in garlic, salt, basil, oregano, parsley, oil, and lemon juice, then grilled and served on a salad with iceberg lettuce, tomatoes, cucumbers, kalamata olives, feta, red onion, and a homemade dressing.",
+          "ingredients": [
+            "chicken",
+            "garlic",
+            "basil",
+            "oregano",
+            "lemon juice",
+            "feta cheese",
+            "kalamata olives",
+            "iceberg lettuce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Super tender. And you get some real nice caramelization. Okay, is this the dressing? Yeah. Just a real good shake. I make that myself, too. Mmm. Great. Look at that. It's not a bite you see every day on Triple D, right? Nice big salad shot. Really, really good, man. I'm not going to lie, but it's chicken souvlaki. I love it. I love the chicken. Extraordinary. It's really good.",
+          "timestamp_start": 508.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Mulberry Italian Ristorante",
+      "city": "Lackawanna",
+      "state": "New York",
+      "cuisine_type": "Italian",
+      "owner_chef": "Joe Yergey",
+      "guy_intro": "Let me throw some numbers at you. How about 7, 11, and 200? See, I'm in Lackawanna, New York, right by Buffalo, where this guy grew up and lived in seven different houses in this neighborhood. Now, over the course of 11 years, he made over 200 trips to New York City to sample, taste, and research the finest Italian restaurants. Now, you add up those numbers, what do you get? 218, right? No, that's not what I'm talking about. What you get is a neighborhood guy that comes back to his home turf and is serving up. Hand-made Italian food. Welcome to Mulberry Italian Ristorante.",
+      "segment_number": 3,
+      "timestamp_start": 608.9,
+      "timestamp_end": 958.5,
+      "dishes": [
+        {
+          "dish_name": "Meatballs",
+          "description": "Meatballs made with 80-20 ground beef and fresh ground pork, fresh ground breadcrumbs, Parmesan cheese, fresh basil, curly parsley, garlic, dry oregano, salt, black pepper, extra virgin olive oil, eggs, milk, and warm water, then baked.",
+          "ingredients": [
+            "ground beef",
+            "ground pork",
+            "breadcrumbs",
+            "parmesan cheese",
+            "fresh basil",
+            "garlic",
+            "eggs",
+            "milk"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's a great meatball, man. Really nice and tender. Melts in your mouth. Big flavor. Cut it with a fork. It stays together, yet when you put it in your mouth, it dissolves. Delicious.",
+          "timestamp_start": 673.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Lasagna",
+          "description": "Handmade lasagna with double zero flour pasta, layered with tomato sauce, sliced meatballs, mozzarella and Parmesan cheese, chicken, stuffed hot pepper mixture, and ricotta cheese (tossed with parsley and garlic), baked at 375 degrees.",
+          "ingredients": [
+            "double zero flour pasta",
+            "tomato sauce",
+            "meatballs",
+            "mozzarella cheese",
+            "parmesan cheese",
+            "chicken",
+            "stuffed hot pepper mixture",
+            "ricotta cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. Wow, man. Good? That's not good. That's great. It's rich. It's flavorful. Everything you want a lasagna to be. And quality. Mmm. My man. Nice job, Joe. I have to get you your tattoo. That's some gangster lasagna right there. I don't whip that out all the time. That lasagna, that deserves it. Just a lot of meat. It's nice and spicy. It's got the hot pepper.",
+          "timestamp_start": 794.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Lake Effect Diner",
+      "city": "Buffalo",
+      "state": "New York",
+      "cuisine_type": "American Diner, Smoked Meats",
+      "owner_chef": "Tucker Curtin",
+      "guy_intro": "So here I am, Buffalo, New York. About five miles northeast of Lake Erie at a joint that was once a diner and then changed into a Chinese restaurant while then transplanted from Pennsylvania and then turned back into a diner. And guess what? That's not even the amazing part. These guys are curing their own ham, they're corning their own beef, and they're smoking their own bacon. This is Lake Effect Diner.",
+      "segment_number": 4,
+      "timestamp_start": 958.5,
+      "timestamp_end": 1307.2,
+      "dishes": [
+        {
+          "dish_name": "Homemade Smoked Ham with Red-Eye Gravy",
+          "description": "Boneless pork leg cured for 12-14 days in a brine (water, dried cloves, black peppercorns, dry mustard, light brown sugar, maple syrup, sodium nitrate, kosher salt), then slow-smoked for three hours over mesquite charcoal with apple and hickory woods, finished in the oven. Served with red-eye gravy made from smoked ham bones, pan juices, mirepoix, black peppercorn, kosher salt, Frank's hot sauce, thyme, and coffee.",
+          "ingredients": [
+            "boneless pork leg",
+            "brine",
+            "maple syrup",
+            "mesquite charcoal",
+            "apple wood",
+            "hickory wood",
+            "smoked ham bones",
+            "frank's hot sauce",
+            "coffee",
+            "mirepoix"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. This is good. Very flavorful. Tender ham, for sure. Mm-hmm. I feel like I have a side of ham with some ham. Being raised eating red-eye gravy, I've seen a lot of different variations. I do think that I would like to have a cup of red-eye gravy in a chow coffee. Mmm. Awesome, bud. Nice job.",
+          "timestamp_start": 1011.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Italian Haddock with Bruschetta and Griddled Mac and Cheese",
+          "description": "Haddock seared on a flat top with garlic butter, topped with bruschetta (diced tomatoes, fresh basil, onion, chopped garlic, balsamic vinaigrette, salt, pepper) and a white wine sauce. Served with griddled mac and cheese and steamed broccoli.",
+          "ingredients": [
+            "haddock",
+            "garlic butter",
+            "tomatoes",
+            "fresh basil",
+            "balsamic vinaigrette",
+            "white wine",
+            "mac and cheese",
+            "broccoli",
+            "parmesan cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. That's got great texture. The fish is mega tender. You got the fresh tomato with the bruschetta mix. Mmm. Griddled mac and cheese. I'm a fan of the fact that you guys make everything from scratch, but you keep it simple. Way to go, Chef. All right. Fantastic. Italian fish mac and cheese. It's really juicy. And the mac and cheese. On the flat top with the crunchy crunch? Yes. Come on now. Come on now.",
+          "timestamp_start": 1158.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Grover's",
+      "city": "East Amherst",
+      "state": "New York",
+      "cuisine_type": "American, Burgers",
+      "owner_chef": "Georgina Hartman",
+      "guy_intro": "Here I am, East Amherst, New York, about 20 miles from downtown Buffalo, to visit a place that's been voted Best Burgers three years running. Now, that's enough of a reason to visit a joint, right? But get this. There's a kicker. This place was actually the old hunting lodge for Grover Cleveland. You know Grover Cleveland, the president? Isn't that cool? Here we are at Grover's.",
+      "segment_number": 5,
+      "timestamp_start": 1307.2,
+      "timestamp_end": null,
+      "dishes": [
+        {
+          "dish_name": "The Bruiser Burger",
+          "description": "A 12-ounce 80-20 certified Angus ground beef patty, seasoned with Cajun spice (cayenne, paprika, black pepper, garlic), cooked on a flat top with sauteed onions and buttered bun, topped with Roquefort crumbly blue cheese.",
+          "ingredients": [
+            "angus ground beef",
+            "roquefort blue cheese",
+            "cajun spice",
+            "onions",
+            "butter",
+            "bun",
+            "salt",
+            "pepper"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow, that's a big burger. This is the best part about this. Flat tops have a very distinct style about them, especially when you've got a good amount of fat. It creates this crunchy texture. I like Roeford cheese. I like onions. But there's no way I could eat that whole thing. The people that are this big, those are the people that can eat too. Absolutely impossible. Is that enough? I mean, you guys are from Texas. Way too much for me. But it is excellent.",
+          "timestamp_start": 1361.0,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Cheeseburger Soup",
+          "description": "A unique soup made with butter, onions, water, chicken base, half and half, flour slurry, cheese sauce, cooked burger chunks, lettuce, and tomatoes.",
+          "ingredients": [
+            "burger",
+            "cheese sauce",
+            "onions",
+            "chicken base",
+            "half and half",
+            "flour",
+            "lettuce",
+            "tomatoes"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "No way. This is no kidding liquid cheeseburger. Super flavor. I mean, it's really awesome. Not too cheesy. Right size of tomato. And you know what makes it? The lettuce. That little bit of sweetness to it. Glad you're enjoying it. This is like my 19th spoonful. That is so delicious. I love it, and it's wonderful.",
+          "timestamp_start": 1477.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

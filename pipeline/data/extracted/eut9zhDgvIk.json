@@ -1,0 +1,286 @@
+{
+  "video_id": "eut9zhDgvIk",
+  "video_title": "Guy Fieri Savors Pittsburgh Pancakes \ud83e\udd5e | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "full_episode",
+  "restaurants": [
+    {
+      "name": "DoorStop",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "cuisine_type": "Diner, American",
+      "owner_chef": "Vicki Lawhorn",
+      "guy_intro": "I'm in a part of Pittsburgh, Pennsylvania known as Dormont. It's one of those real deal neighborhoods, you know, where nothing has changed much, everybody knows each other, and a lot of people grew up here. Now, folks in the neighborhood say, when it's time for breakfast, you got to check out DoorStop.",
+      "segment_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 318.3,
+      "dishes": [
+        {
+          "dish_name": "Strawberry Hotcakes",
+          "description": "Thick pancake batter made with all-purpose flour, sugar, vanilla, eggs, milk, salt, margarine, and baking powder, cooked on a griddle, served with strawberries.",
+          "ingredients": [
+            "all-purpose flour",
+            "sugar",
+            "vanilla",
+            "eggs",
+            "milk",
+            "salt",
+            "baking powder",
+            "strawberries"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow, that is the densest pancake I've ever had. I mean, it's light, it's fluffy, but it is absolutely a hot cake. It is more like cake than it is like pancakes.",
+          "timestamp_start": 59.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Oatmeal Banana Walnut Hotcakes",
+          "description": "Pancake batter with oatmeal, banana, and walnuts, cooked on a griddle to achieve a nice crunchy outside.",
+          "ingredients": [
+            "oatmeal",
+            "banana",
+            "walnuts",
+            "flour",
+            "eggs",
+            "milk",
+            "sugar"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Nice crunchy outside. That's delicious. A huge warm cookie is what I'm eating. You know what? I couldn't have said it better myself. Big, gigantic, moist, warm cookie.",
+          "timestamp_start": 170.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Pumpkin Pancakes",
+          "description": "Pancake batter infused with pumpkin, cinnamon, sugar, and pumpkin spice, cooked on a griddle.",
+          "ingredients": [
+            "pumpkin",
+            "cinnamon",
+            "sugar",
+            "pumpkin spice",
+            "milk",
+            "flour",
+            "eggs"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It tastes just like pumpkin pie. Great flavor. Delicious. It's like pumpkin bread with a little crust on it, a little crisp. Definitely unique and very tasty.",
+          "timestamp_start": 187.6,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Raspberry French Toast",
+          "description": "Brioche bread dipped in an egg, milk, and vanilla mixture, coated in crushed cornflakes, grilled, then filled with whipped cream cheese and raspberry jelly, and drizzled with more raspberry jelly.",
+          "ingredients": [
+            "brioche bread",
+            "eggs",
+            "milk",
+            "vanilla",
+            "cream cheese",
+            "raspberry jelly",
+            "cornflakes",
+            "butter"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The crunch of the French toast is money. It's kind of like a jelly donut exploded. I mean, I'm shaking just from eating that first seven bites. It is very good. It's like dessert.",
+          "timestamp_start": 237.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "The Red Wagon",
+      "city": "Vancouver",
+      "state": "British Columbia",
+      "cuisine_type": "Diner, Elevated Diner Food",
+      "owner_chef": "Brad Miller",
+      "guy_intro": "There is no way I come back to Vancouver, BC and do not check this joint out. I mean, this is a triple D favorite. The chef is a character. The food's off the hook. You're going to love it. The Red Wagon.",
+      "segment_number": 2,
+      "timestamp_start": 318.3,
+      "timestamp_end": 679.3,
+      "dishes": [
+        {
+          "dish_name": "Pulled Pork Pancakes with Jack Syrup",
+          "description": "Pork butt rubbed, smoked with applewood, braised in beer, pulled, and mixed with barbecue sauce, served on buttermilk pancakes with maple syrup infused with a hint of 'jack'.",
+          "ingredients": [
+            "pork butt",
+            "applewood smoke",
+            "beer",
+            "maple syrup",
+            "jack",
+            "buttermilk pancake batter",
+            "barbecue sauce",
+            "rub"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. It's like a split personality breakfast. Really nice buttermilk pancake. And I mean, we're talking thick and wet. Rich. And the maple syrup with a little tinge of that jack coming through. Yeah, a little sweetness. Nice job, man.",
+          "timestamp_start": 402.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Green Onion Pancakes with Duck Confit",
+          "description": "Duck legs cured and confited in duck fat, then crisped and served on buttermilk pancakes with green onions, topped with arugula and a hoisin maple sauce.",
+          "ingredients": [
+            "duck legs",
+            "curing salt",
+            "duck fat",
+            "buttermilk pancake batter",
+            "green onions",
+            "arugula",
+            "hoisin maple sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's Peking duck with a scallion pancake, like a Chinese scallion pancake. You naturally get the sweet from the hoisin, beautifully confit. It's rendered all the way down, tender meat. Yeah, good. Delicious. I mean, delicious. I think I might like this better than the pulled pork pancake.",
+          "timestamp_start": 485.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Grilled Cheese Tomato Soup",
+          "description": "Grilled cheese sandwich made with cheddar, Swiss, and goat cheese on brioche bread, served with a smoky tomato soup, garnished with basil oil and croutons.",
+          "ingredients": [
+            "cheddar cheese",
+            "swiss cheese",
+            "goat cheese",
+            "brioche bread",
+            "butter",
+            "smoked tomatoes",
+            "garlic",
+            "cream",
+            "basil oil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, you get the goat cheese. Something as simple as a grilled cheese and tomato soup, but have it elevated in the unique ways you do things? Yeah. It's dynamite, man. This is just kissed with smoke. Yeah, we don't go too heavy. You still get the tomato. The basil oil is a nice little add. Yeah, yeah. Oh, all day long.",
+          "timestamp_start": 606.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Lake Effect Diner",
+      "city": "Buffalo",
+      "state": "New York",
+      "cuisine_type": "Diner, American",
+      "owner_chef": "Tucker Curtin",
+      "guy_intro": "So here I am. Hello, New York. At a joint that was once a diner and then changed into a Chinese restaurant, well, then transplanted from Pennsylvania and then turned back into a diner. And that's what I found them back in 2009. And today, they're still a diner, but they've gone through one more transformation, leaving dinner behind and making a meal out of breakfast and lunch only. This is Lake Effect Diner.",
+      "segment_number": 3,
+      "timestamp_start": 679.3,
+      "timestamp_end": 900.0,
+      "dishes": [
+        {
+          "dish_name": "Blueberry Pancakes",
+          "description": "Pancakes made with a special batter including flour, baking powder, yogurt, and lemon soda, cooked with blueberries, and served with house-made maple butter.",
+          "ingredients": [
+            "flour",
+            "baking powder",
+            "yogurt",
+            "eggs",
+            "blueberries",
+            "maple syrup",
+            "butter"
+          ],
+          "dish_category": "entree",
+          "guy_response": "They got a perfect finish on the outside and full of blueberries. It's the best pancake I know.",
+          "timestamp_start": 749.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Barbecue Meatloaf Bomber",
+          "description": "Meatloaf made with Angus beef, vegetables, egg yolks, ketchup, and Parmesan, glazed and cooked, then grilled with barbecue sauce and served on house-made garlic butter French bread with melted cheese.",
+          "ingredients": [
+            "angus beef",
+            "vegetables",
+            "egg yolks",
+            "ketchup glaze",
+            "barbecue sauce",
+            "french bread",
+            "garlic butter",
+            "cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'm a fan of the fact that you guys make everything from scratch. But you keep it simple. How good it was, really good.",
+          "timestamp_start": 816.1,
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Catalina's 2",
+      "city": "Columbus",
+      "state": "Ohio",
+      "cuisine_type": "Southern, American",
+      "owner_chef": "Kathleen Day",
+      "guy_intro": "So I'm here in Columbus, Ohio. I'm taking you to a place that does breakfast and lunch. And they're doing something that I used to eat in my childhood. But they're just doing it a little bit different. Oh, different great. I mean, when their motto is peace, love, and pancake balls, you know we got to check it out. This is Catalina's 2.",
+      "segment_number": 4,
+      "timestamp_start": 900.0,
+      "timestamp_end": 1151.5,
+      "dishes": [
+        {
+          "dish_name": "Dulce de Leche Pancake Balls with Sweet and Spicy Bacon",
+          "description": "Pancake batter made with unbleached flour, corn flour, milk, baking powder, and eggs, cooked in a special pan to form balls, filled with dulce de leche, and served with powdered sugar, sweet and spicy bacon, and local maple syrup.",
+          "ingredients": [
+            "unbleached flour",
+            "corn flour",
+            "eggs",
+            "clarified butter",
+            "dulce de leche",
+            "powdered sugar",
+            "sweet and spicy bacon",
+            "maple syrup"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Look at that. Mm. Yes, no. We'll be back after these commercials. Ah! It was the scream at the end. Outstanding. One, this is not an April Skeever. I told you. Pancake ball. It's kind of glazed over the top. It's a little bit of the hard texture on the top. Right. And then you dip it all the way around. Then the little dulce de leche inside of it, not too sweet. And then you dip into the maple syrup. Local. Local. Yeah. And then you refresh your palate with spicy fatty bacon. It's awesome.",
+          "timestamp_start": 980.4,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Apple Butter Pancake Ball",
+          "description": "Pancake ball filled with apple butter.",
+          "ingredients": [
+            "flour",
+            "eggs",
+            "clarified butter",
+            "apple butter"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, that's good. That is money. That is an apple pie pancake right there. That is delicious. Fantastic.",
+          "timestamp_start": 1113.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "The Crest Cafe",
+      "city": "San Diego",
+      "state": "California",
+      "cuisine_type": "Comfort Food, American",
+      "owner_chef": "Cecilia Moreno and Ruben Medina",
+      "guy_intro": "Gotta love San Diego. Look at this town. Great weather, cool people, and unique restaurants. So I'm here in the Hillcrest neighborhood to check out a joint that has healthy, hearty comfort food. This is the Crest Cafe.",
+      "segment_number": 5,
+      "timestamp_start": 1151.5,
+      "timestamp_end": 1374.0,
+      "dishes": [
+        {
+          "dish_name": "Creme Brulee French Toast",
+          "description": "Hala bread dipped in an egg, cream, cinnamon, and vanilla mixture, grilled, then topped with ricotta whipped cream, fresh strawberries, and a creme brulee sauce made from caramelized butter, brown sugar, and maple syrup.",
+          "ingredients": [
+            "heavy cream",
+            "ricotta cheese",
+            "orange zest",
+            "brown sugar",
+            "maple syrup",
+            "hala bread",
+            "eggs",
+            "strawberries"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's excellent. Right amount of French toast, right thickness of it. It's not soggy, not too sweet. The whipped cream with the ricotta in it gives it a richness. And a little bit of tang with the zest of the orange. It's great balance. Good job, buddy.",
+          "timestamp_start": 1236.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

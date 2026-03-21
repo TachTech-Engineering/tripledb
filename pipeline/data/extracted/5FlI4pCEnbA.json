@@ -1,0 +1,240 @@
+{
+  "video_id": "5FlI4pCEnbA",
+  "video_title": "Guy Tries SLAMMIN\u2019 Steak & Stew at Fred\u2019s Texas Cafe | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Fred's Texas Cafe",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "cuisine_type": "Texan",
+      "owner_chef": "Terry Chandler",
+      "guy_intro": "But on Triple D, this might be the first time we've met a cowboy chef here at Fred's Texas in Fort Worth. When this Texan chuckwagon chef took over, he kept the classics, like their burger, and added some twists of his own.",
+      "segment_number": 1,
+      "timestamp_start": 9.8,
+      "timestamp_end": 337.6,
+      "dishes": [
+        {
+          "dish_name": "New Mexico-style Green Chili and Lamb Stew",
+          "description": "Lamb stew with Hatch green chilies, rendered bacon, onions, minced garlic, ground cumin, and potatoes, cooked in a cast-iron pot.",
+          "ingredients": [
+            "lamb",
+            "hatch green chilies",
+            "bacon",
+            "onions",
+            "garlic",
+            "cumin",
+            "potatoes",
+            "water",
+            "salt",
+            "pepper"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm, I love it. Mmm, I like the flavor. It's got a nice bite to it. And the sauce doesn't mask the flavor of the lamb.",
+          "timestamp_start": 66.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Ribeye Steak with Chipotle Brown Butter",
+          "description": "16-ounce lip-on ribeye steak, trimmed, seasoned with salt, pepper, and granulated garlic, cooked on a grill with butter, onions, chipotles, and adobo sauce, then deglazed with beer.",
+          "ingredients": [
+            "ribeye steak",
+            "butter",
+            "salt",
+            "pepper",
+            "granulated garlic",
+            "onions",
+            "chipotles",
+            "adobo sauce",
+            "beer"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. Great sear on the steak. You cook that pepper down enough to where it's not just all heat. Onions are nice and sweet. That's a good piece of meat. Steak is outstanding. Southwestern spice to it.",
+          "timestamp_start": 209.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Ma Harper's Creole Kitchen",
+      "city": "San Antonio",
+      "state": "Texas",
+      "cuisine_type": "Creole",
+      "owner_chef": "Ma Harper",
+      "guy_intro": "So I'm here in San Antonio, Texas on the east side about five minutes from downtown and right on the backside of Fort Sam, Houston. If you're looking for a restaurant where the chef is living and loving and laughing and cooking and rhyming and teaching and winning all at the age of 89, then this is your place. This is Ma Harper's Creole Kitchen.",
+      "segment_number": 2,
+      "timestamp_start": 337.6,
+      "timestamp_end": 689.1,
+      "dishes": [
+        {
+          "dish_name": "Gumbo",
+          "description": "Gumbo with crabs, shrimp, onion, bell peppers, sausage, dehydrated bell pepper, dehydrated shrimp, parsley, thyme, garlic powder, spice mix, ham, black pepper, chicken broth, roux, Cajun seasoning, and gumbo fowl.",
+          "ingredients": [
+            "crabs",
+            "shrimp",
+            "onion",
+            "bell peppers",
+            "sausage",
+            "ham",
+            "chicken broth",
+            "roux",
+            "cajun seasoning",
+            "parsley",
+            "thyme",
+            "garlic powder",
+            "black pepper"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That is every bit of what you want a gumbo to taste like. All that big, rich flavor coming out of that seafood. It's silky. It's tender. I can't eat this fast enough.",
+          "timestamp_start": 413.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Ma Harper's Cornbread",
+          "description": "Cornbread made with cornmeal, flour, sugar, baking powder, salt, egg, oil, and milk, baked at 400 degrees for an hour, served with honey and butter.",
+          "ingredients": [
+            "cornmeal",
+            "flour",
+            "sugar",
+            "baking powder",
+            "salt",
+            "egg",
+            "oil",
+            "milk",
+            "honey",
+            "butter"
+          ],
+          "dish_category": "side",
+          "guy_response": "Oh, that's good. Oh, the cornbread. It has that just sweet flavor. Wonderful to crumble up in my gumbo.",
+          "timestamp_start": 472.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Fried Pork Chop with Red Beans and Rice",
+          "description": "Pork shoulder breaded in flour, black pepper, onion powder, paprika, garlic, and Creole seasoning, then fried. Served with red beans and rice.",
+          "ingredients": [
+            "pork shoulder",
+            "flour",
+            "black pepper",
+            "onion powder",
+            "paprika",
+            "garlic",
+            "creole seasoning",
+            "red beans",
+            "rice"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Good chop. There's just a lot of flavor and just a little bit of batter. All the red beans and rice are good. Oh, you do that right. That's a meal by itself. The pork chop is excellent. It's perfectly cooked. The beans are soft and smooth and creamy.",
+          "timestamp_start": 593.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Tip Top Cafe",
+      "city": "San Antonio",
+      "state": "Texas",
+      "cuisine_type": "American",
+      "owner_chef": "Linda",
+      "guy_intro": "You know, comfort food may sound simple, but there's a real art to getting it right and to keeping it that way, which is what three generations have been doing for 70 years here in San Antonio, Texas. At the Tip Top Cafe.",
+      "segment_number": 3,
+      "timestamp_start": 689.1,
+      "timestamp_end": 886.9,
+      "dishes": [
+        {
+          "dish_name": "Roast Pork with Brown Gravy",
+          "description": "Pork shoulder (Boston butt) marinated overnight in brown sugar, celery salt, mustard, garlic powder, ginger, cider vinegar, liquid smoke, Worcestershire sauce, soy sauce, and oil. Roasted for four hours at 350 degrees. Served with brown gravy made from deglazed pan drippings, thickened with roux, and mashed potatoes.",
+          "ingredients": [
+            "pork shoulder",
+            "brown sugar",
+            "celery salt",
+            "mustard",
+            "garlic powder",
+            "ginger",
+            "cider vinegar",
+            "liquid smoke",
+            "worcestershire sauce",
+            "soy sauce",
+            "oil",
+            "black pepper",
+            "rosemary",
+            "roux",
+            "mashed potatoes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That is outrageous. Super tender. That puts the shama lama in ding dong. I mean, look at it. It just falls off the bone. Awesome.",
+          "timestamp_start": 760.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Slow Boat",
+      "city": "Dallas",
+      "state": "Texas",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Jeffrey Hobbs",
+      "guy_intro": "Here in Dallas, Texas, love this city, great food. When I roll into town, I want barbecue. But I'm here about this place, where the chef is kind of putting the world of food together inside a barbecue. And shepherding it up, this is Slow Boat.",
+      "segment_number": 4,
+      "timestamp_start": 886.9,
+      "timestamp_end": 1121.7,
+      "dishes": [
+        {
+          "dish_name": "Texas Nail",
+          "description": "Brisket sandwich with smoked mushrooms, caramelized onions, beer cheese, green chili, red onion, and lime crema, served on toasted buns with Duke's mayo, and a side of jalapeno barbecue sauce.",
+          "ingredients": [
+            "brisket",
+            "smoked mushrooms",
+            "caramelized onions",
+            "beer cheese",
+            "green chili",
+            "red onion",
+            "lime crema",
+            "buns",
+            "duke's mayo",
+            "jalapeno barbecue sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is hillbilly beef wellington. You've got the crust. You have the duxelles. The brisket is so unbelievably tender. The creaminess of the cheese. It's so succulent, juicy, unctuous. It's a gourmet meal disguised as a brisket barbecue sandwich. Nailed it. It's got the sweetness, the heat to it. It's just so juicy. It kind of just melts in your mouth. Primo.",
+          "timestamp_start": 941.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "The New York Diner",
+      "city": "Wellborn",
+      "state": "Texas",
+      "cuisine_type": "Diner",
+      "owner_chef": "Rich Rizvon",
+      "guy_intro": "I'm here in well-born Texas with a squeaky windmill and a dirt parking lot. Gives me a hankering for some good old Texas grub. Hey, how about at this diner over here? It's an actual New York diner from the 1940s, shipped out and restored in the middle of Texas. This is the authentic thing. This is the real deal.",
+      "segment_number": 5,
+      "timestamp_start": 1121.7,
+      "timestamp_end": 1276.0,
+      "dishes": [
+        {
+          "dish_name": "Italian Sausage and Pepper Sandwich",
+          "description": "Italian sausage (from Chicago) with fennel and crushed red pepper, grilled with fresh bell peppers and onions, topped with smoked provolone cheese, served on rolls from New Jersey.",
+          "ingredients": [
+            "italian sausage",
+            "fennel",
+            "crushed red pepper",
+            "bell peppers",
+            "onions",
+            "smoked provolone cheese",
+            "rolls"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh my. We were begging for something like this.",
+          "timestamp_start": 1182.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

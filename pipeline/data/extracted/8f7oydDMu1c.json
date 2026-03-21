@@ -1,0 +1,201 @@
+{
+  "video_id": "8f7oydDMu1c",
+  "video_title": "Guy Devours LEGENDARY Pizza Loaf & Sausage in Portland | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Edelweiss Sausage and Delicatessen",
+      "city": "Portland",
+      "state": "Oregon",
+      "cuisine_type": "German",
+      "owner_chef": "Tom Baer",
+      "guy_intro": "In 2013, I was on the southeast side of Portland, Oregon to check out a market cranking out German sausage. This is Edelweiss Sausage and Delicatessen. Started by George Baer, who brought all his meatpacking skills from Berlin and opened this place in 82. Then he passed that knowledge on to his sons, Tom and Tony.",
+      "segment_number": 1,
+      "timestamp_start": 0.5,
+      "timestamp_end": 350.9,
+      "dishes": [
+        {
+          "dish_name": "Dry-Cured Italian Wine Salami",
+          "description": "Salami made from frozen pork fat and beef bottom rounds, seasoned with curing salt, sugar, dextrose, white pepper, ground and whole fennel, juniper berry, crushed garlic, and Italian red wine. Stuffed and cured for a couple of days.",
+          "ingredients": [
+            "pork fat",
+            "beef",
+            "curing salt",
+            "fennel",
+            "juniper berry",
+            "garlic",
+            "italian red wine"
+          ],
+          "dish_category": "snack",
+          "guy_response": "I would do damage on a deli with this.",
+          "timestamp_start": 69.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Thai Chili Pepper Jerky",
+          "description": "Cow top round sliced over a quarter inch, marinated with salt, brown sugar, black pepper, curing salt, clover honey, and a spicy Thai chili pepper seasoning blend (Thai chilies, fresh garlic, rice wine vinegar, brown sugar). Tumbled for four hours, seasoned with crushed red pepper and black pepper, then smoked at 200 degrees for two hours.",
+          "ingredients": [
+            "cow top round",
+            "thai chilies",
+            "garlic",
+            "rice wine vinegar",
+            "brown sugar",
+            "clover honey",
+            "crushed red pepper"
+          ],
+          "dish_category": "snack",
+          "guy_response": "There's a pretty good balance between the spiciness and the sweetness. And on top of that, the bite is really nice. It's so tender. If you like a kick in your beef jerky, this is definitely the jerky for you.",
+          "timestamp_start": 171.4,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Pizza Loaf",
+          "description": "An emulsion of diced back fat, ground chuck and pork shoulder, kept cold with ice. Seasoned with salt, sugar, cure, dried mustard, smoked paprika, mace, cumin, cardamom, coriander, white pepper, and garlic powder. Mixed with sun-dried tomatoes, crushed red pepper, toasted onions, fire-roasted bell peppers, Swiss cheese, cheddar, and black olives. Baked in a loaf pan at 250 degrees for two and a half hours. Sliced, grilled, chopped into sticks, and served with homemade marinara.",
+          "ingredients": [
+            "pork back fat",
+            "chuck",
+            "pork shoulder",
+            "swiss cheese",
+            "cheddar cheese",
+            "sun-dried tomatoes",
+            "black olives",
+            "marinara sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The pizza loaf is phenomenal. It's got a little crunch on the outside. It reminds me a little bit of mozzarella sticks, but meatier. It has such a nice flavor to it. It's really delicious.",
+          "timestamp_start": 263.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Intermezzo Pizzeria",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "cuisine_type": "Serbian",
+      "owner_chef": "Georgie and Bronco Avramovic and Dobrila",
+      "guy_intro": "I heard the term living the American dream while I'm here in Charlotte, North Carolina, a mile from the downtown area where a Serbian family is living the American dream. They got a funky little joint where they're serving up. Now get this, pizza and Serbian food. This is intermezzo pizzeria.",
+      "segment_number": 2,
+      "timestamp_start": 350.9,
+      "timestamp_end": 548.3,
+      "dishes": [
+        {
+          "dish_name": "Pirozka",
+          "description": "A calzone-like dish with dough filled with mozzarella cheese, ricotta, parsley, garlic, mushrooms, and ham. Baked at 505 degrees for 10 minutes. Served with sour cream, provolone cheese, and pizza sauce on top.",
+          "ingredients": [
+            "pizza dough",
+            "mozzarella cheese",
+            "ricotta cheese",
+            "mushrooms",
+            "ham",
+            "sour cream",
+            "provolone cheese",
+            "pizza sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Really? Really good. The yeast in the dough really adds a nice tang. The sour cream, without question, is fantastic. And then the mushrooms and the ham, they're dynamite. I'm actually disappointed that I haven't tried this before. Pirozka. Outstanding. It's like the flavor explosion of pizza that's inside out. One of the best things I've ever eaten.",
+          "timestamp_start": 449.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Marsigliano's Pizzeria and More",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "cuisine_type": "Italian",
+      "owner_chef": "Richie Marsigliano",
+      "guy_intro": "Hunter and I are right off the strip in Las Vegas. This is Marsigliano's Pizzeria and More. Richie Marsigliano walked away from his family's pizza business as a kid on Staten Island, only to come full circle in Vegas after a tough life lesson.",
+      "segment_number": 3,
+      "timestamp_start": 549.3,
+      "timestamp_end": 722.0,
+      "dishes": [
+        {
+          "dish_name": "Chicken Parm Stromboli",
+          "description": "Dough made with water, yeast, onion powder, sugar, and flour, proofed and rested overnight. Marinara sauce made with browned garlic, blended celery and onions, red and green bell pepper, red wine, tomatoes, parsley, granulated garlic, black pepper, oregano, onion powder, sugar, and fresh basil. Chicken breast is fileted, pounded, dredged in AP flour, egg wash, and Italian breadcrumbs, then fried. Diced chicken, mozzarella, ricotta, and marinara sauce are wrapped in pizza dough, baked at 500 degrees for about eight minutes. Dressed with garlic butter, Parmesan cheese, and parsley.",
+          "ingredients": [
+            "pizza dough",
+            "chicken breast",
+            "marinara sauce",
+            "mozzarella cheese",
+            "ricotta cheese",
+            "garlic butter",
+            "parmesan cheese",
+            "italian breadcrumbs"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Great crust. The onion, it sings all the way through. Gives you that little kick. It's very hearty. And the marinara, nice, fresh, clean. I think it's dynamite.",
+          "timestamp_start": 614.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Dolce & Clemente",
+      "city": "Robbinsville",
+      "state": "New Jersey",
+      "cuisine_type": "Italian",
+      "owner_chef": "Joe Clemente and Frank Dolce",
+      "guy_intro": "The next time you find yourself in Robbinsville, New Jersey, you got to check out Dolce & Clemente. With your Italian specialties, owner Joe Clemente has learned over a lifetime. He and Frank joined forces to open up this mother of a market deli and restaurant.",
+      "segment_number": 4,
+      "timestamp_start": 740.9,
+      "timestamp_end": 944.7,
+      "dishes": [
+        {
+          "dish_name": "Stuffed Prosciutto Bread",
+          "description": "Dough made with water, yeast, salt, sugar, oil, and high-quality flour, mixed, portioned, and rested overnight. Filled with prosciutto, ham, mortadella, super salvo, pepperoni, provolone cheese, and crushed black pepper. The dough is folded and kneaded, then baked at 350 degrees for 38 minutes. Served with olive oil, locatelli cheese, and parsley.",
+          "ingredients": [
+            "pizza dough",
+            "prosciutto",
+            "ham",
+            "mortadella",
+            "pepperoni",
+            "provolone cheese",
+            "black pepper",
+            "olive oil"
+          ],
+          "dish_category": "snack",
+          "guy_response": "That is ridiculous. But when you cook these Italian meats and you let all the fat, cook into the dough, you just get all the flavor. The depth of flavor in this is massive. The key, though, is how you cook the meat on the outside of the bread. Kisses that crunch. Out of bounds. Seriously, out of bounds.",
+          "timestamp_start": 801.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Pinky G's Pizzeria",
+      "city": "Jackson",
+      "state": "Wyoming",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Tom Fay",
+      "guy_intro": "I'm here at Jackson, Wyoming, about a half block off the town square, right in front of the Pink Garter Theater. Locals around here tell me you want some rockin' pizza, you gotta go to the joint right under the theater. This is Pinky G's Pizzeria. These pizzas are the creation of chef and owner Tom Fay, who came back home after culinary school and opened this joint in 2011.",
+      "segment_number": 5,
+      "timestamp_start": 949.7,
+      "timestamp_end": 1131.9,
+      "dishes": [
+        {
+          "dish_name": "Funky Chicken Pizza",
+          "description": "Chicken breast marinated for 24 hours with fresh chopped basil, garlic, lemon slices, and oil, then roasted at 575 degrees for 25 minutes. Hand-tossed pizza dough (cornmeal and flour) topped with fresh basil pesto, mozzarella cheese, roasted chicken, artichoke hearts, red onions, and ricotta cheese. Baked at 575 degrees for 10 minutes.",
+          "ingredients": [
+            "pizza dough",
+            "chicken breast",
+            "fresh basil pesto",
+            "mozzarella cheese",
+            "artichoke hearts",
+            "red onions",
+            "ricotta cheese",
+            "garlic"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Roasting the chicken with the garlic, outrageous. Making your own pesto over the top. Little bit of that ricotta coming in. Creaminess, saltiness.",
+          "timestamp_start": 998.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

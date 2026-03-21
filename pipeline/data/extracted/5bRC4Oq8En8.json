@@ -1,0 +1,525 @@
+{
+  "video_id": "5bRC4Oq8En8",
+  "video_title": "BINGE the Best of #DDD Season 9 with Guy Fieri \ud83d\udd25 | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "North End Cafe",
+      "city": "Manhattan Beach",
+      "state": "California",
+      "cuisine_type": "Italian",
+      "owner_chef": "John Atkinson",
+      "guy_intro": "So here we are in Southern California at one of my favorite beaches, Manhattan Beach. This place is full of character, and speaking of characters, we're at a joint where a dude bought a one-way ticket to Italy to follow his culinary passion. Then he came home and started cooking up the real-deal food here at the beach. This is North End Cafe. Because John Atkinson's been at it for more than 25 years.",
+      "segment_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 349.4,
+      "dishes": [
+        {
+          "dish_name": "Linguine Carbonara",
+          "description": "Homemade linguine pasta with seared pancetta, garlic, white wine, cream, black pepper, egg white, and pecorino Romano cheese.",
+          "ingredients": [
+            "flour",
+            "egg",
+            "pancetta",
+            "garlic",
+            "cream",
+            "pecorino romano",
+            "black pepper"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The pasta is phenomenal. Pancetta's got nice crisp to it, nice and salty. But the kicker to the whole thing, fresh cracked pepper. And then the only way to do it is with the pecorino Romano. Nice job. I love the texture of the pasta. This is a cheese explosion right here.",
+          "timestamp_start": 53.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Kahlua Pig Monte Cristo Egg Rolls",
+          "description": "Egg rolls filled with smoked Kahlua pig, Swiss cheese, black forest ham, scallions, teriyaki, and sesame seeds, deep-fried. Served with wasabi mojo and teriyaki sauce.",
+          "ingredients": [
+            "pork butt",
+            "banana leaf",
+            "smoked salt",
+            "swiss cheese",
+            "black forest ham",
+            "egg roll wrapper",
+            "wasabi",
+            "honey",
+            "ginger"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "That's like bank. Bank. I mean, there's money, and then there's bank. The sauce complements the pork. It melts in your mouth. Delicious.",
+          "timestamp_start": 217.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Poke Stop",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "cuisine_type": "Hawaiian/Asian Fusion",
+      "owner_chef": "Elmer Guzman",
+      "guy_intro": "So it's only fitting that Hawaii would have poke places, you know, kind of like the Hawaiian. The Hawaiian soul food, the fresh cubed fish mixed with the Hawaiian salt and the seaweed. So here we are at a joint where a young local chef has taken his culinary education and experience and put his own spin on a traditional Hawaiian favorite. Welcome to Poke Stop.",
+      "segment_number": 2,
+      "timestamp_start": 356.2,
+      "timestamp_end": 679.5,
+      "dishes": [
+        {
+          "dish_name": "Salmon Poke",
+          "description": "Cubed salmon mixed with sweet onions, green onions, Hawaiian salt, chili flakes, furikake (seaweed, toasted sesame seeds, dried bonito flake), sugar, and soy syrup.",
+          "ingredients": [
+            "salmon",
+            "sweet onions",
+            "green onions",
+            "hawaiian salt",
+            "chili flakes",
+            "furikake",
+            "soy syrup"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Mm, that's great. Mega gangster fresh. Sweet to salt, a little sour, a little bit of spice. Nothing is overpowering anything else. Dude. You know what the kicker is? Mm, get that little crunch of the sea salt. One of the best ways I've had salmon.",
+          "timestamp_start": 421.2,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Fried Moi (King's Fish)",
+          "description": "Moi fish, scored and seasoned with a blend of kosher salt, garlic, onion powder, black pepper, paprika, cayenne, oregano, and thyme, then coated in cornstarch and deep-fried.",
+          "ingredients": [
+            "moi fish",
+            "kosher salt",
+            "garlic",
+            "onion powder",
+            "paprika",
+            "cayenne",
+            "oregano",
+            "cornstarch"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm, this is really good. This isn't super fishy fish. No. The spice doesn't take away from the flavor of the fish. The skin has its own properties of being crunchy and a little bit salty. Killer fried fish. The moi, it's really light, really tasty. You can't get food like this on the mainland.",
+          "timestamp_start": 521.9,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "O'io (Bonefish) Poke",
+          "description": "O'io fish meat, pressed through a sieve to remove bones, mixed with Hawaiian salt, green onions, sweet onion, chili flakes, roasted and ground kukui nut, ogo seaweed, and ice water.",
+          "ingredients": [
+            "o'io fish",
+            "hawaiian salt",
+            "green onions",
+            "sweet onion",
+            "chili flakes",
+            "kukui nut",
+            "ogo seaweed",
+            "ice water"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "That's so awesome. That's got the right balance of flavor. It's not overly fishy. It's not overly salty. It's actually freaking me out. I've never seen this before. I'm completely amazed. And it's delicious.",
+          "timestamp_start": 579.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "13 Gypsies",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "cuisine_type": "Spanish/Mediterranean",
+      "owner_chef": "Howard Kirk",
+      "guy_intro": "So here we are in the Riverside area of Jacksonville, Florida, to visit a joint where the chef was born and raised in Spain. Now, since he was about 16 years old, he's been cooking in his family's Spanish-style restaurants. Until he finally opened his own. This is 13 Gypsies.",
+      "segment_number": 3,
+      "timestamp_start": 679.5,
+      "timestamp_end": 966.6,
+      "dishes": [
+        {
+          "dish_name": "Chorizo with Sauteed Pears and Tunisian Spiced Dates",
+          "description": "Homemade chorizo (ground pork with Spanish paprika, cayenne, garlic, white wine), pan-seared, served with honey-glazed sauteed pears and Tunisian dates spiced with clove, ginger, cinnamon, and cumin.",
+          "ingredients": [
+            "ground pork",
+            "spanish paprika",
+            "garlic",
+            "white wine",
+            "pears",
+            "honey",
+            "dates",
+            "cinnamon",
+            "cumin"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Mm. That is delicious. A little pork with a lot of flavor. Nice recipe. Darn, those dates are delicious. Did I just give a triple D? Being warmed up, having a little bit of a crunchy exterior, and having some spice to it, it works incredibly well. The highlight of the show definitely is that chorizo.",
+          "timestamp_start": 737.2,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Roman Gnocchi with Mushroom Sauce",
+          "description": "Gnocchi made from semolina flour, milk, egg yolk, and Parmesan, seared until crisp, then covered in a mushroom sauce with garlic, thyme, and beef stock, finished with a blend of Asiago, Provolone, Romano, and Parmesan cheeses.",
+          "ingredients": [
+            "semolina flour",
+            "milk",
+            "egg yolk",
+            "parmesan",
+            "butter",
+            "mushrooms",
+            "beef stock",
+            "asiago",
+            "romano"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm. This is mega flavor. Super creamy. Mm. But because of the way you crisp it up, it reminds me of polenta. The gravy that goes along with it is simple, yet wow, it's a lot of flavor. I don't think I've ever had anything like this. Nice job.",
+          "timestamp_start": 859.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Cabo Fish Taco",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "cuisine_type": "Mexican/Seafood",
+      "owner_chef": "Rob Crenshaw",
+      "guy_intro": "On the northern tip of Charlotte, North Carolina, is a little neighborhood known as NODA, North Davidson Art District. And this is where all the textile plants and mills have been converted into art galleries and retail shops and apartments. Now, on the corner of 35th and North Davidson is a taco shop that's become a big part of this neighborhood. This is Cabo Fish Taco.",
+      "segment_number": 4,
+      "timestamp_start": 966.6,
+      "timestamp_end": 1296.7,
+      "dishes": [
+        {
+          "dish_name": "Barbecue Mahi Fish Taco",
+          "description": "Grilled mahi-mahi with homemade mango barbecue sauce, served in flour tortillas with fresh guacamole, cheese, tomatoes, and a unique coleslaw, finished with cilantro white sauce.",
+          "ingredients": [
+            "mahi-mahi",
+            "mango",
+            "barbecue sauce",
+            "flour tortilla",
+            "guacamole",
+            "coleslaw",
+            "cilantro white sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "There's a ton of flavor. I mean, a ton of flavor. Fish is cooked really nice. The slaw by itself has a huge flavor. The white sauce, huge flavor. That mango barbecue sauce is on point. Rice is nice and firm. We go for dry bean? Yeah, dry bean. Mm. Good, brother. The whole thing is just phenomenal. Eye rolling. Good.",
+          "timestamp_start": 1029.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Honey Wasabi Tuna Burrito",
+          "description": "Seared blackening-spiced tuna wrapped in a 12-inch flour tortilla with rice, cheese, garlic, tomatoes, veggie puree, mushrooms, and a creamy honey wasabi sauce, then baked.",
+          "ingredients": [
+            "tuna",
+            "blackening spice",
+            "flour tortilla",
+            "rice",
+            "cheese",
+            "mushrooms",
+            "wasabi",
+            "honey",
+            "mayonnaise"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The fish, man, by itself is outstanding. Look at that right there. Feel nice and flaky and moist. And you get the melted cheese, the warm tortilla together with it. I'll do that all day long. The honey wasabi sauce is absolutely what ties it all together. Just enough heat, but then you get the back side of the sweet right at the same time. Good job, man.",
+          "timestamp_start": 1197.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Martin's Barbecue Joint",
+      "city": "Nolansville",
+      "state": "Tennessee",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Patrick Martin",
+      "guy_intro": "So here we are in Nolansville to check out a joint where it's all about the old school whole Hog low and slow barbecue. This is Martin's Barbecue Joint.",
+      "segment_number": 5,
+      "timestamp_start": 1317.7,
+      "timestamp_end": 1659.0,
+      "dishes": [
+        {
+          "dish_name": "Whole Hog Barbecue",
+          "description": "200+ pound hog rubbed with 'big hoss rub' (brown sugar, garlic, paprika, chili powder, cayenne, lemon pepper, onion powder, dry mustard, cinnamon, ginger, black pepper), smoked for 26 hours, and basted with a Carolina-style vinegar-based sauce. Served with various sauces including Beach Road 12, Devil's Nectar, and Sweet Dixie.",
+          "ingredients": [
+            "whole hog",
+            "brown sugar",
+            "garlic powder",
+            "paprika",
+            "chili powder",
+            "vinegar",
+            "habanero",
+            "sugar"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm, the pork is beyond juicy and moist and flavorful. Not over-smoked. Yeah. Little sweet, little spice, not too much vinegar. All the red from the chili. Got a little more sugar. Still got some of that tang. I'll take two gallons of that. Give me 14 pounds of this. It's prime time, man.",
+          "timestamp_start": 1361.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Redneck Taco",
+          "description": "Pulled pork (smoked for 20 hours with big hoss rub) served on a cornbread pancake (made with buttermilk, egg, pepper, pork cooking liquid), topped with coleslaw and Sweet Dixie sauce.",
+          "ingredients": [
+            "pulled pork",
+            "cornbread batter",
+            "buttermilk",
+            "egg",
+            "pork cooking liquid",
+            "coleslaw",
+            "sweet dixie sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. That's good. It's like breakfast pulled pork. I just got to give you the respect first, but the slaw, nice crunch, nice vinegar. The Dixie sauce, you get the sweet and the deep-rich flavor of the pork. It's got a lot of balance. This cornmeal cake, nice crust on that. Great idea. Totally ingenious.",
+          "timestamp_start": 1587.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Blue Ash Chili",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "cuisine_type": "American/Chili",
+      "owner_chef": "Nick Insko and Charlene Insko",
+      "guy_intro": "What does Cincinnati have? That's right, Cincinnati-style chili. Now, Cincinnatians go through more than 2 million pounds of chili a year, topped with over 850,000 pounds of cheese. Now, there's been a big debate. Who made it first and who makes it best? Well, everybody has their opinion, but a lot of you wrote in and sent me to a place that I'd never even heard of, Blue Ash Chili, 15 miles north of Cincinnati. And my only question now is, am I going to have it two-way, four-way, five-way, or at this joint, six-way?",
+      "segment_number": 6,
+      "timestamp_start": 1659.0,
+      "timestamp_end": 1985.2,
+      "dishes": [
+        {
+          "dish_name": "Six-Way Chili",
+          "description": "Cincinnati-style chili (ground beef, onions, tomato paste, paprika, cumin, cinnamon, cracker meal) served over spaghetti, topped with onions, kidney beans, cheese, and beer-battered jalapeno bottle caps.",
+          "ingredients": [
+            "ground beef",
+            "onions",
+            "tomato paste",
+            "cumin",
+            "cinnamon",
+            "spaghetti",
+            "kidney beans",
+            "cheese",
+            "jalapenos"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm! The chili has a unique spice to it. The onions are nice and fresh, and the pasta really works. Cooked al dente, which I think is critical, having the beans in there, there's a texture that you expect to see in chili, but the beans are a little bit more whole. Right. Then you put a ridiculous amount of cheese on it. That's a great way to do chili. Mmm! I could eat that six or seven times a week.",
+          "timestamp_start": 1734.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Chili Philly",
+          "description": "Homemade roasted top round beef, sliced thin, served on a toasted bun with sauteed green/red peppers, onions, and Jack Daniel's whiskey sauteed mushrooms, provolone cheese, then smothered with Cincinnati chili.",
+          "ingredients": [
+            "roast beef",
+            "oregano",
+            "onions",
+            "mushrooms",
+            "provolone",
+            "chili",
+            "bun",
+            "jack daniel's"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Tasty. Nice toasted bun. Fresh veggies in there. The chili. It's ridiculous. You're showing Cincinnati chili can go on just about anything.",
+          "timestamp_start": 1874.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Rainbow Drive-In",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "cuisine_type": "Hawaiian",
+      "owner_chef": "Jim Gusakuma",
+      "guy_intro": "Well, I hear if you want the bomb Hawaiian food drive-in right outside of Waikiki, this is the joint. Yeah. 48 years of serving up Hawaiian specialties like shoyu chicken and loco moco. That's why I'm waiting in line here at the Rainbow Drive-In.",
+      "segment_number": 7,
+      "timestamp_start": 1985.2,
+      "timestamp_end": 2330.7,
+      "dishes": [
+        {
+          "dish_name": "Loco Moco",
+          "description": "Two hamburger patties served over rice, topped with a rich gravy (made from chicken stock, dried shrimp, ginger, kombu, natto puree, garlic, tomato puree, Worcestershire, chili powder, and flour slurry) and a fried egg.",
+          "ingredients": [
+            "hamburger patties",
+            "rice",
+            "gravy",
+            "dried shrimp",
+            "ginger",
+            "garlic",
+            "chili powder",
+            "egg"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's great gravy. Thank you. And the patty's perfect. It's nice and tender. A little bit of onion in there. I think if people look at it and say, I've heard of loco moco. I don't know. Come try it here. That gravy will make a believer out of you. Dried shrimp. What just happened to me? The gravy is to die for.",
+          "timestamp_start": 2046.6,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Chili Dog Plate",
+          "description": "Two hot dogs served over rice and macaroni salad, topped with a hearty chili (ground beef, tomatoes, onions, kidney beans, tomato puree, salt, black pepper, cayenne, cumin, Worcestershire, garlic, chili powder, and flour slurry).",
+          "ingredients": [
+            "hot dogs",
+            "rice",
+            "macaroni salad",
+            "ground beef",
+            "kidney beans",
+            "chili powder",
+            "garlic",
+            "cayenne"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. Might have something there, buddy. So you get the cool and the creamy with the spicy and meaty. Spicy and meaty. Mmm. I'll tell you, that rice just plays in so nicely. The rice is so nice. Chili is dynamite. Mixing it with the mac salad, right on point. Mmm. Nice job.",
+          "timestamp_start": 2209.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Wallace Station",
+      "city": "Midway",
+      "state": "Kentucky",
+      "cuisine_type": "American/Deli",
+      "owner_chef": "Weta Michael and Sam Brown",
+      "guy_intro": "So here we are in the heart of Thoroughbred country, Midway, Kentucky. Not to see the Derby winners. Nope. To see what's cooking. Wallace Station. Burgers are ready to pick up. It's a little slice of heaven. They're looking good. They really went out of their way building these burgers and these sandwiches.",
+      "segment_number": 8,
+      "timestamp_start": 2344.5,
+      "timestamp_end": 2683.4,
+      "dishes": [
+        {
+          "dish_name": "Big Brown Burger",
+          "description": "Local bison burger seasoned with 'chicken salt' (kosher salt, black pepper, paprika, cayenne), grilled, topped with provolone cheese, ham, bacon, tomato, and a creamy Mornay sauce (butter, flour, milk, kosher salt, cayenne, Vermont cheddar).",
+          "ingredients": [
+            "bison burger",
+            "chicken salt",
+            "provolone cheese",
+            "ham",
+            "bacon",
+            "mornay sauce",
+            "vermont cheddar"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. Mmm. That to me rivals with the traditional aspects of the hot brown. I think I might like this better. Nice beef. Great bun. Not too much Mornay. You're not losing the other flavors. I'm not kidding you. I'm gonna take one more bite. I don't want to do this, but I'm doing this for you.",
+          "timestamp_start": 2397.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Country Ham and Pimento Cheese Sandwich",
+          "description": "Country ham, homemade pimento cheese (shredded white cheddar, cream cheese, mayonnaise, pimentos, hot sauce, Worcestershire, pureed onion), and tomato, grilled on fresh country white bread.",
+          "ingredients": [
+            "country ham",
+            "white cheddar",
+            "cream cheese",
+            "mayonnaise",
+            "pimentos",
+            "hot sauce",
+            "onion",
+            "white bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. Really good. Got really good chew. Now I'm gonna tell you something. You don't find pimento cheese if people are making themselves. That right there has all the flavors and to know that we just made the bread. Mmm. Mmm, that's good. You don't find the fresh homemade stuff very often.",
+          "timestamp_start": 2548.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "RJ's Barbecue",
+      "city": "Mission",
+      "state": "Kansas",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Bob Pomegranate",
+      "guy_intro": "So here we are. Triple D Kansas City barbecue tour in Mission, Kansas. Now check out this story. A local dude packs up, moves to New York City to get his culinary creds in a French restaurant and spend 25 years in the high end joints. Now in the meantime he's moonlighting in competition barbecue till he realizes this is what I love. It's time we check out RJ's barbecue.",
+      "segment_number": 9,
+      "timestamp_start": 2683.4,
+      "timestamp_end": 3019.6,
+      "dishes": [
+        {
+          "dish_name": "Smoked Jalapeno Sausages",
+          "description": "Ground pork butt mixed with nutmeg, garlic, salt, cayenne, black pepper, diced jalapenos, sugar, red pepper, and chicken base, then stuffed into water-soaked corn husks and smoked for 1.5-3 hours.",
+          "ingredients": [
+            "pork butt",
+            "nutmeg",
+            "garlic",
+            "cayenne pepper",
+            "jalapenos",
+            "sugar",
+            "red pepper",
+            "corn husk"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's super tender. It did get the smoke. It went long enough that the jalapenos mellowed out. I'm gonna politely tell you that I will be ripping off the corn husk sausage. Okay. Legally borrowed.",
+          "timestamp_start": 2745.4,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Lamb Ribs",
+          "description": "Denver lamb ribs generously rubbed with a complex blend including corn dextrose, salt, basil, cane sugar, chili powder, cumin, brown sugar, rosemary, black pepper, cayenne, oregano, mustard flour, paprika, ginger, coriander, thyme, and garlic, then smoked for 2.5 hours at 250 degrees.",
+          "ingredients": [
+            "lamb ribs",
+            "corn dextrose",
+            "chili powder",
+            "cumin",
+            "brown sugar",
+            "rosemary",
+            "black pepper",
+            "paprika",
+            "ginger",
+            "garlic"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, yeah. It's sweet. Oh, man. Tender. Yeah. The rub doesn't overpower it. It sits there and just kind of supports it. You still get to taste the lamb. Nice smoke ring. I think leaving that silver skin on, which I'm not a big fan of on baby backs, but on this, I really think it did lock in the moisture. Great stuff. Nice job.",
+          "timestamp_start": 2873.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Burger Me",
+      "city": "Truckee",
+      "state": "California",
+      "cuisine_type": "American",
+      "owner_chef": "Marcus T. and Tom Farina",
+      "guy_intro": "So I'm here in Truckee, California, about an hour and a half east of Sacramento. Now, check this story out. A dude that owns a couple restaurants here in town also donates a lot of his time to a hunger relief agency. So he finds this location where he can store the donated food that helps feed over 28,000 families a year. And to top it all off, well, he puts in a top-notch burger joint that is all about simple, fast, and fresh. This is Burger Me.",
+      "segment_number": 10,
+      "timestamp_start": 3019.6,
+      "timestamp_end": 3360.3,
+      "dishes": [
+        {
+          "dish_name": "Italian Stallion Burger",
+          "description": "Grilled bison burger seasoned with salt and pepper, topped with provolone cheese, fresh mortadella, general salami, lettuce, tomato, pickle, hot chopped bison peppers, and cabernet vinaigrette, served on a bun.",
+          "ingredients": [
+            "bison burger",
+            "provolone cheese",
+            "mortadella",
+            "salami",
+            "bison peppers",
+            "cabernet vinaigrette",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's delicious, man. So you get the hot of the burger, the hot chili pepper, but right in the middle, championship cold cuts. It's all the favorite things I want in a deli sandwich mixed with a burger. Thank you. Really like it.",
+          "timestamp_start": 3087.6,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Turkey Train Wreck Burger",
+          "description": "Grilled turkey burger served on a griddled bun with seasoning sauce, lettuce, tomato, pickle, topped with turkey chili (featuring peanut butter), cheddar cheese, and tempura-battered onion rings (with chili inside).",
+          "ingredients": [
+            "turkey burger",
+            "bun",
+            "turkey chili",
+            "peanut butter",
+            "cheddar cheese",
+            "onion rings",
+            "tempura batter"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. That's an all-American burger. The tomato's nice, pickle's in there, burger's cooked the right way. Don't pick up too much of the peanut butter. That would be one I would definitely order again. Mmm. Nice job.",
+          "timestamp_start": 3228.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

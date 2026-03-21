@@ -1,0 +1,277 @@
+{
+  "video_id": "3Tsj8yHFeZU",
+  "video_title": "Guy Fieri Devours Massive Corned Beef in San Francisco \ud83c\udf56| Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Tommy's Joint",
+      "city": "San Francisco",
+      "state": "California",
+      "cuisine_type": "German Hofbrau / Deli",
+      "owner_chef": "Alessio Orozco",
+      "guy_intro": "One of my favorite places to go is this, Tommy's Joint. It's been a local neighborhood favorite for over 60 years. Definitely one of mine, and you are so gonna dig this. Step up, step in, come in and win. It's a German Hofbrau and it's like eclectic. Where you can get roast beef. Turkey sandwich. Mastrami. Sliced incredibly. This is like an oasis.",
+      "segment_number": 1,
+      "timestamp_start": 0.1,
+      "timestamp_end": 356.6,
+      "dishes": [
+        {
+          "dish_name": "Corned Beef",
+          "description": "Brisket brined with juniper berry and bay leaf, cooked for three and a half hours until super tender, then sliced.",
+          "ingredients": [
+            "brisket",
+            "juniper berry",
+            "bay leaf",
+            "brine"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. Not too salty, but super tender. Just melts in your mouth. Phenomenal.",
+          "timestamp_start": 71.6,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Roast Beef",
+          "description": "Top round beef seasoned with salt and pepper, cooked, and sliced thin.",
+          "ingredients": [
+            "top round beef",
+            "salt",
+            "pepper"
+          ],
+          "dish_category": "entree",
+          "guy_response": "They got flavor. It's tender. Yes, yes. Very, very tasty. Very good. Absolutely delicious. Melts in your mouth. Perfect.",
+          "timestamp_start": 109.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Roasted Turkey",
+          "description": "28-pound turkey seasoned with salt and black pepper, roasted in the oven.",
+          "ingredients": [
+            "turkey",
+            "salt",
+            "black pepper"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's tender turkey, not dried out. I've been at fancy restaurants that don't make things nearly as good as this.",
+          "timestamp_start": 179.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Buffalo Chili",
+          "description": "Made with buffalo meat, onions, garlic, various spices, Worcestershire sauce, cherry wine, hot sauce, ketchup, and beans.",
+          "ingredients": [
+            "buffalo meat",
+            "onion",
+            "garlic",
+            "chili powder",
+            "worcestershire sauce",
+            "cherry wine",
+            "beans"
+          ],
+          "dish_category": "entree",
+          "guy_response": "So it's nice and thick. Not too spicy. Not too tomatoey. Good texture to the meat. A good joint. Got a lot of flavor. It's really, really good.",
+          "timestamp_start": 229.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Lamb Shanks",
+          "description": "Cooked with garlic, onion, white pepper, salt, wine, and water, then simmered in lamb stock until falling apart.",
+          "ingredients": [
+            "lamb shanks",
+            "garlic",
+            "onion",
+            "wine",
+            "lamb stock"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow, that's good. It's savory. It's roasted down. It falls apart. There's tons of flavor in it. This is the one to come for. Wow. That's delicious. I'm loving the lamb shank.",
+          "timestamp_start": 278.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "name": "Jersey Shore Barbecue",
+      "city": "Point Pleasant Beach",
+      "state": "New Jersey",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Doug Walsh",
+      "guy_intro": "Hunter, we're here. This is Point Pleasant Beach. No, I said we're going to a place in Point Pleasant Beach to get some barbecue. And this is it. This is Jersey Shore Barbecue.",
+      "segment_number": 2,
+      "timestamp_start": 356.6,
+      "timestamp_end": 725.2,
+      "dishes": [
+        {
+          "dish_name": "Smoked Corned Beef Texas Reuben",
+          "description": "Brisket brined for 16 days, air-dried, cooked with stout beer and pickling seasoning, then smoked for 16-18 hours. Served on Pullman rye with creamy coleslaw, spicy Russian dressing, and pepper jack cheese.",
+          "ingredients": [
+            "brisket",
+            "stout beer",
+            "pickling seasoning",
+            "rye bread",
+            "coleslaw",
+            "russian dressing",
+            "pepper jack cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "So the corned beef is not corned beef. It's cracked beef. This got moisture. That little kiss of the smoke. I love the thick bread. It saves the sandwich from getting soggy on you. That's a monster rye. I'd come by this sandwich in a heartbeat. Wow. This is the juiciest, the best I've had anywhere. The sauce on it is to die for.",
+          "timestamp_start": 427.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Smoked Pulled Chicken Rodrigo Sandwich",
+          "description": "Chicken brined overnight, seasoned, and smoked for 2-2.5 hours. Served on a butter-toasted brioche roll with pulled mayo, collard greens, and pickled onions.",
+          "ingredients": [
+            "chicken",
+            "brine",
+            "brioche roll",
+            "pulled mayo",
+            "collard greens",
+            "pickled onions"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Delicious. That chicken isn't just regular seasoned chicken. That's a two-day brine. And you get the smoke coming through it. Amazing sandwich. Then the bun's outrageous. The greens, that's the apex, baby. They're tender. Still got a good little bite to it. All that flavor is there. Well done.",
+          "timestamp_start": 612.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "name": "Joe's Meat Market",
+      "city": "South Bound Brook",
+      "state": "New Jersey",
+      "cuisine_type": "Italian Deli",
+      "owner_chef": "Giovanni LaCorte",
+      "guy_intro": "I'm here in southbound Brooke, New Jersey, which is about 45 minutes from New York City, to check out a meat market. Well, it's not just really a meat market. It's a meat market and kind of like a deli. Well, it's not just that. It's run by a family. Well, it's not just run by a family. It's headed up by a kid. And he's not really just a kid. He's 18. He's a senior in high school. Well, if you think this story is great, I hear the food's even better. This is Joe's Meat Market.",
+      "segment_number": 3,
+      "timestamp_start": 725.2,
+      "timestamp_end": 927.0,
+      "dishes": [
+        {
+          "dish_name": "Market Sloppy Joe",
+          "description": "A triple-decker sandwich featuring house-brined corned beef, house-roasted turkey, and house-roasted roast beef, layered on rye bread with coleslaw, Russian dressing, and Swiss cheese.",
+          "ingredients": [
+            "corned beef",
+            "roasted turkey",
+            "roast beef",
+            "rye bread",
+            "coleslaw",
+            "russian dressing",
+            "swiss cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I don't know what I like more about the sandwich. That you guys are roasting all these meats and brining them. Or the Russian is delicious. Slaw's got good crunch. Doesn't overpower it. Corned beef is out to lunch. Roast beef cooked perfectly. Turkey, delicious. Really good Swiss cheese, thinly sliced. When a cold sandwich can taste that good, it's because you're using quality ingredients and doing it the right way.",
+          "timestamp_start": 797.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "name": "Chaps Pit Beef",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "cuisine_type": "Pit Beef / Barbecue",
+      "owner_chef": "Bob Crager",
+      "guy_intro": "On Triple D, when we hit an historic place like Baltimore, well, we got to use the inside track of a buddy who lives here. So regardless of the weather or how busy this dude is, we're at Charm City Cakes to talk to the cake bad boy, Duff Goldman, and find out one of his favorite joints. I think probably Chaps. Chaps. Let's get some pit beef. This is the famous Chaps. This is Chaps. Look at that. You come to Baltimore, this is what you better see. If you don't, it's not pit beef. It's charcoal pit beef. You're not going to get it nowhere else.",
+      "segment_number": 4,
+      "timestamp_start": 927.0,
+      "timestamp_end": 1265.8,
+      "dishes": [
+        {
+          "dish_name": "Pit Beef Sandwich",
+          "description": "Bottom round beef grilled directly over charcoal, sliced thin, served on a roll with white onion, horseradish, salt, and pepper.",
+          "ingredients": [
+            "bottom round beef",
+            "charcoal",
+            "roll",
+            "white onion",
+            "horseradish"
+          ],
+          "dish_category": "entree",
+          "guy_response": "You know, I like the little char to it. But I got to say, the medley of the white onion, the really nice, bright horseradish, a little bit of salt and pepper, a great roll. Not too much bread. I hate when you get too much bread, and it starts to become. That's all about the meat. Wow. That was all horseradish. Whoa. There it is. My toes are tingling. I go like, wow. Welcome to Baltimore. It's spicy. It's moist. The meat is so tender. I give it way past a 10.",
+          "timestamp_start": 1035.3,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "The Bulldog Sandwich",
+          "description": "A combo sandwich featuring pit beef, sausage, and cheese on a roll.",
+          "ingredients": [
+            "pit beef",
+            "sausage",
+            "cheese",
+            "roll"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I didn't think the pit beef could get any better. That little sausage kicker.",
+          "timestamp_start": 1153.8,
+          "confidence": 0.9
+        },
+        {
+          "dish_name": "Triple Combo Sandwich",
+          "description": "A large sandwich piled high with pit beef, ham, and corned beef on a roll.",
+          "ingredients": [
+            "pit beef",
+            "ham",
+            "corned beef",
+            "roll"
+          ],
+          "dish_category": "entree",
+          "guy_response": "When the bread won't even wrap around, that is so much flavor. Sweetness of the ham, that briny, pickly spice on the corned beef. And then this. This is a nice, smoky flavor from the pit beef. The roll that can withstand the pressure. This is like sandwich engineering right here. Good mouthfeel.",
+          "timestamp_start": 1170.5,
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 1.0
+    },
+    {
+      "name": "Pendulum",
+      "city": "Norfolk",
+      "state": "Virginia",
+      "cuisine_type": "Butcher Shop / Deli",
+      "owner_chef": "Dylan Wakefield",
+      "guy_intro": "So I'm here in Norfolk, Virginia, and check this story out. Husband and wife team buy this old house, and they convert it into a butcher shop. Well, then they turn it into a restaurant. Well, then they rent it out to another guy to do a restaurant at night. That's my kind of triple D joint. This is Pendulum.",
+      "segment_number": 5,
+      "timestamp_start": 1265.8,
+      "timestamp_end": 1619.0,
+      "dishes": [
+        {
+          "dish_name": "Butcher's Roast Beef Sandwich",
+          "description": "Top round beef seasoned with salt, pepper, garlic, and red onions, tied, rubbed, and roasted. Sliced thin and served on tallow-grilled focaccia with caramelized onions, Swiss cheese, and spicy mayo.",
+          "ingredients": [
+            "top round beef",
+            "garlic",
+            "red onions",
+            "focaccia",
+            "tallow",
+            "caramelized onions",
+            "swiss cheese",
+            "spicy mayo"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'm having full flashbacks on this. The roast beef sandwich at the meat market when I was a kid, the meat was roasted there, sliced thin. When you can really appreciate the craftsmanship, the time, the energy, the effort that were all utilized to make that sandwich, it's worth everything that you're getting. It's just really juicy. It has the right amount of crisp on the top of it. The onions add the perfect note of tanginess.",
+          "timestamp_start": 1311.2,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Classic Havana Sandwich",
+          "description": "Pork leg rubbed with salt, pepper, and garlic, then smoked for four hours at a low temperature. Sliced thin and served on flatbread with spicy mustard and pickles.",
+          "ingredients": [
+            "pork leg",
+            "salt",
+            "pepper",
+            "garlic",
+            "flatbread",
+            "spicy mustard",
+            "pickles"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Good. Very seldom are you able to get meat like that, because Captain America is butchering it down, separating the muscles on that hind quarter, and then making it available to someone to slice thin. That's why this doesn't have any of that fat. This isn't a pulled pork. This is by far one of the best Cuban sandwiches I've had. Pork's got an amazing smoky essence to it.",
+          "timestamp_start": 1513.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

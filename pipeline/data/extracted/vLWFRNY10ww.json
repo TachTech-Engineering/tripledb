@@ -1,0 +1,182 @@
+{
+  "video_id": "vLWFRNY10ww",
+  "video_title": "Guy Fieri Devours Pittsburgh Pasta \ud83c\udf5d | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Nadine's",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "cuisine_type": "Italian",
+      "owner_chef": "Nadine",
+      "guy_intro": "This is like the signature item here of Nadine's.",
+      "segment_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 279.8,
+      "dishes": [
+        {
+          "dish_name": "May's Pasta",
+          "description": "Handmade pasta dish with hot sausage, salami, capicola, roasted onions, peppers, diced tomatoes, penne rigate, fusilli, Asiago cheese, and tomato sauce, baked.",
+          "ingredients": [
+            "hot sausage",
+            "salami",
+            "capicola",
+            "roasted onions",
+            "peppers",
+            "diced tomatoes",
+            "penne rigate",
+            "fusilli",
+            "asiago cheese",
+            "tomato sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Great sausage. The salami, nice and salty. The capicola gives a nice sweetness to it. Excellent. Really nice. Winner, winner, Italian dinner. This pasta is great. Pasta tastes like air. That's bananas. Bananas is good.",
+          "timestamp_start": 0.0,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Clam Chowder Gnocchi",
+          "description": "Potato gnocchi made from riced potatoes, seasoned with butter, olive oil, eggs, and chives. Served in a clam stock with little neck clams, applewood smoked bacon, shallots, garlic, cream, and finished with crispy shallots and celery leaf salad.",
+          "ingredients": [
+            "potatoes",
+            "butter",
+            "olive oil",
+            "eggs",
+            "chives",
+            "little neck clams",
+            "applewood smoked bacon",
+            "shallots",
+            "garlic",
+            "cream",
+            "celery leaf"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The gnocchi is delicate in depth and flavor. And you get a little bit of the clam and the creaminess. But it's not the creaminess in the sauce. It's the creaminess in the gnocchi itself. And then the salad on it. The salad on the top is what makes it wow. This is literally one of the best gnocchi dishes I've ever had.",
+          "timestamp_start": 76.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Pasta-bilities",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "cuisine_type": "Italian",
+      "owner_chef": "Doug",
+      "guy_intro": "I've got the wicked chicken riggies right here. It's a central New York dish, our wicked chicken riggies.",
+      "segment_number": 2,
+      "timestamp_start": 279.8,
+      "timestamp_end": 433.8,
+      "dishes": [
+        {
+          "dish_name": "Wicked Chicken Riggies",
+          "description": "Rigatoni pasta with sliced chicken breast in a spicy cream sauce made with olive oil, garlic, sweet onion, yellow, red, green peppers, jalapeno, oregano, red chili flake, cayenne, house tomato sauce, chipotle peppers, chili spice oil, cream, sugar, and Romano cheese. Garnished with Locatelli cheese and green onion.",
+          "ingredients": [
+            "rigatoni",
+            "chicken breast",
+            "olive oil",
+            "garlic",
+            "sweet onion",
+            "bell peppers",
+            "jalapeno",
+            "oregano",
+            "red chili flake",
+            "cayenne",
+            "tomato sauce",
+            "chipotle peppers",
+            "chili spice oil",
+            "cream",
+            "sugar",
+            "romano cheese",
+            "locatelli cheese",
+            "green onion"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Winner, winner, wicked chicken dinner. That's an awesome dish. Pasta's nice. Not too much sauce. Not overly spicy. A real simple dish, but quality ingredients made the right way.",
+          "timestamp_start": 279.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Fourth Generation Italian Kitchen",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "cuisine_type": "Italian",
+      "owner_chef": "Fourth Generation Chef",
+      "guy_intro": "Half ravioli, full ravioli, two meatballs. They're meatballs. And the raviolis are just to die for. Rigatoni bolognese. Authentic. The recipes came over from the old country. They were brought over by my great grandmother, Clara. My aunts made ravioli for church dinners. And it just gets passed down through the generations. And now I'm the fourth generation in America making these ravioli.",
+      "segment_number": 3,
+      "timestamp_start": 433.8,
+      "timestamp_end": 617.6,
+      "dishes": [
+        {
+          "dish_name": "Ravioli with Meat Sauce",
+          "description": "Handmade ravioli with a dough of flour and eggs. Filled with a mixture of beef, veal, pork, shallots, garlic, ricotta, mozzarella, Romano cheese, and parsley. Served with a simple marinara sauce made from olive oil, garlic, and San Marzano plum tomatoes.",
+          "ingredients": [
+            "flour",
+            "eggs",
+            "beef",
+            "veal",
+            "pork",
+            "shallot",
+            "garlic",
+            "ricotta cheese",
+            "mozzarella cheese",
+            "romano cheese",
+            "parsley",
+            "olive oil",
+            "san marzano tomatoes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm. That is all thriller, no filler. You've got to balance exact amount of creaminess. You taste the texture of the ricotta still. Then you get the texture of the meat, and the flavor's right on point with it. The marinara adds that acid, a little bit of that sting from some of that cheese right on top of it.",
+          "timestamp_start": 433.8,
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "Stogie Joe's",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "cuisine_type": "Italian",
+      "owner_chef": "Stogie Joe",
+      "guy_intro": "What do we need with crab gravy? Nobody makes the crab gravy like stogie Joe.",
+      "segment_number": 4,
+      "timestamp_start": 617.6,
+      "timestamp_end": 748.0,
+      "dishes": [
+        {
+          "dish_name": "Crab Gravy with Linguine",
+          "description": "Linguine served with a slow-cooked crab gravy made from olive oil, butter, leeks, onion, celery, bay leaf, garlic, peppercorn, oregano, crushed red pepper, parsley, thyme, raw blue crabs, Old Bay, white wine, and crushed plum tomatoes, macerated through a food mill. Finished with a dab of tomato, butter, salt, pepper, parsley, and extra virgin olive oil.",
+          "ingredients": [
+            "linguine",
+            "olive oil",
+            "butter",
+            "leeks",
+            "onion",
+            "celery",
+            "bay leaf",
+            "garlic",
+            "peppercorn",
+            "oregano",
+            "crushed red pepper",
+            "parsley",
+            "thyme",
+            "blue crabs",
+            "old bay",
+            "white wine",
+            "crushed plum tomatoes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It is crab on crab on crab. You're getting all the flavor you want, wham, right into the pasta dish. It's flavor city, really delicious. The crab gravy is really, really good. Their crab's just throughout that sauce and is unforgettable.",
+          "timestamp_start": 617.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}
