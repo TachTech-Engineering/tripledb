@@ -1,0 +1,8 @@
+Extracting BwfqvpCAdeQ (1/1)... timeout on chunk 1... retrying... failed [1200.1s]
+  Error: Ollama timed out twice
+
+--- Extraction Summary ---
+Total processed:      0
+Total restaurants:    0
+Total dishes:         0
+Validation failures:  0

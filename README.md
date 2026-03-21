@@ -4,7 +4,7 @@
 
 TripleDB processes 804 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
 
-🌐 **tripleDB.com** · 📂 **Phase 0.7** · 🔧 **Status: Setup & Scaffolding**
+🌐 **tripleDB.com** · 📂 **Phase 1.8** · 🔧 **Status: Phase 1 Discovery (Iterating to v1.9)**
 
 ---
 
@@ -27,7 +27,7 @@ YouTube Playlist (804 videos)
 MP3 Audio
     ↓ faster-whisper (CUDA)
 Timestamped Transcripts
-    ↓ Nemotron 3 Super (local, Ollama)
+    ↓ Qwen 3.5-9B (local, Ollama)
 Structured Restaurant JSON
     ↓ Qwen 3.5-9B (local, Ollama)
 Normalized + Deduplicated JSONL
@@ -47,8 +47,8 @@ All inference runs locally on an NVIDIA RTX 2080 SUPER. Zero cloud API costs for
 
 | Phase | Name | Status | Iteration |
 |------:|------|--------|-----------|
-| 0 | Setup & Scaffolding | 🔧 In Progress | v0.7 |
-| 1 | Discovery (30 videos) | ⏳ Pending | — |
+| 0 | Setup & Scaffolding | ✅ Complete | v0.7 |
+| 1 | Discovery (30 videos) | 🔧 In Progress | v1.8 |
 | 2 | Calibration (30 videos) | ⏳ Pending | — |
 | 3 | Stress Test (30 videos) | ⏳ Pending | — |
 | 4 | Validation (30 videos) | ⏳ Pending | — |
@@ -155,7 +155,7 @@ The iteration counter is global — it never resets. The full project history is
 |-----------|------|---------|
 | Audio Download | yt-dlp | YouTube → mp3 |
 | Transcription | faster-whisper (CUDA) | mp3 → timestamped JSON |
-| Extraction | Nemotron 3 Super (Ollama) | Transcript → restaurant JSON |
+| Extraction | Qwen 3.5-9B (Ollama) | Transcript → restaurant JSON |
 | Normalization | Qwen 3.5-9B (Ollama) | Dedupe, validate, schema-conform |
 | Enrichment | Firecrawl + Playwright MCP | Address, ratings, geocoords |
 | Database | Cloud Firestore | Denormalized restaurant documents |
@@ -186,6 +186,15 @@ OS:  CachyOS (Arch-based) / KDE Plasma 6.6.2 / Wayland
 | Firebase Hosting | Free tier |
 | Firecrawl MCP | API credits only |
 | **Total** | **Near-zero** |
+
+---
+
+## Changelog
+
+**v1.8 → v1.9 (Phase 1 Discovery)**
+- **Success:** Acquisition (Phase 1) and Transcription (Phase 2) are 100% stable. yt-dlp successfully bypasses JS challenges, and faster-whisper efficiently leverages the RTX 2080 Super for high-quality, timestamped segmentation.
+- **Challenge:** Extraction (Phase 3) hit a hard wall with the 120B `Nemotron 3 Super` model. The 42GB footprint spilled entirely into system RAM, causing indefinite timeout loops during context pre-filling. 
+- **Pivot for v1.9:** Swapping out Nemotron for the much faster, VRAM-friendly `qwen3.5:9b` for Extraction. Prompt engineering has been slimmed down (few-shots removed) and a transcript chunking mechanism added to `phase3_extract.py` to stay strictly within an 8k context window, keeping the entire pipeline operating smoothly on the GPU.
 
 ---
 

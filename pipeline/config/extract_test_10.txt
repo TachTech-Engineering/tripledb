@@ -1,0 +1,11 @@
+# First extraction test — 10 videos
+https://www.youtube.com/watch?v=BwfqvpCAdeQ  # Clip: Lao Rice Ball [9:27]
+https://www.youtube.com/watch?v=ILVeTE6416Q  # Clip: Hot Dogs Reseda [10:57]
+https://www.youtube.com/watch?v=CFSLE4rFbPI  # Clip: Cheeseburger NYC [12:54]
+https://www.youtube.com/watch?v=5FlI4pCEnbA  # Standard: Fred's Texas Cafe [21:17]
+https://www.youtube.com/watch?v=r8OqkxuHO5Y  # Standard: BBQ Portland [22:02]
+https://www.youtube.com/watch?v=eut9zhDgvIk  # Standard: Pittsburgh Pancakes [22:55]
+https://www.youtube.com/watch?v=2Y4A0FQVhEU  # Standard: Pizza Dallas [23:53]
+https://www.youtube.com/watch?v=fqi0tOGh7r0  # Compilation: Cleveland [26:59]
+https://www.youtube.com/watch?v=8n8C91eU1Os  # Compilation: Southern BBQ [26:06]
+https://www.youtube.com/watch?v=CgPqS91kAWo  # Marathon: Best of Season 8 [1:00:03]

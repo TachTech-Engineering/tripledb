@@ -25,7 +25,7 @@ and MCP servers.
 |-------------------|-------------------------------------|-----------------------------------|
 | Audio Download    | yt-dlp                              | YouTube → mp3                     |
 | Transcription     | faster-whisper (large-v3, CUDA)     | mp3 → timestamped JSON            |
-| Extraction LLM    | Nemotron 3 Super via Ollama         | Transcript → restaurant JSON      |
+| Extraction LLM    | Qwen 3.5-9B via Ollama              | Transcript → restaurant JSON      |
 | Normalization LLM | Qwen 3.5-9B via Ollama              | Dedupe, validate, schema-conform  |
 | Web Scraping      | Firecrawl MCP + Playwright MCP      | Restaurant enrichment             |
 | Agent Personas    | Agency Agents (.md files in agents/)| Specialized context per phase     |
@@ -55,9 +55,7 @@ and MCP servers.
 
 ## Ollama Model Rules
 
-- **Nemotron 3 Super** → extraction ONLY
-- **Qwen 3.5-9B** → normalization ONLY
-- NEVER use the wrong model for the wrong task
+- **Qwen 3.5-9B** → extraction (Phase 3) AND normalization (Phase 4)
 - NEVER call external LLM APIs — all inference is local
 
 ## Error Handling
