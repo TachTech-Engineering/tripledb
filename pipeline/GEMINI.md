@@ -1,66 +1,23 @@
-# TripleDB Pipeline — Gemini CLI Agent Instructions
+Before launching, update `pipeline/GEMINI.md` to:
 
-## Project Objective
+```markdown
+# TripleDB Pipeline — Agent Instructions
 
-You are the primary orchestrator for the TripleDB Pipeline. You process
-804 DDD YouTube videos (episodes, compilations, clips, and marathons)
-into structured restaurant data stored in Firestore.
+## Current Iteration: 3.12
 
-## Your Role
+Read these two documents in order, then execute the plan:
 
-Orchestrate Phases 1-5: Acquisition, Transcription, Extraction,
-Normalization, and Enrichment. Read agent personas from agents/,
-invoke Python scripts in scripts/, coordinate with local Ollama models
-and MCP servers.
+1. ../docs/ddd-design-v3.12.md — Architecture, methodology, locked decisions
+2. ../docs/ddd-plan-v3.12.md — Pre-flight checklist and execution steps
 
-## Architecture Documents — Read These First
+Follow the autonomy rules defined in the plan. Begin with Step 0.
 
-- ../docs/ddd-design-architecture-v6.md — Data model, agent personas, prompts
-- ../docs/ddd-project-setup-v6.md — Environment setup
-- ../docs/ddd-phase-prompts-v6.md — Execution strategy
-
-## Tech Stack
-
-| Component         | Tool                                | Purpose                           |
-|-------------------|-------------------------------------|-----------------------------------|
-| Audio Download    | yt-dlp                              | YouTube → mp3                     |
-| Transcription     | faster-whisper (large-v3, CUDA)     | mp3 → timestamped JSON            |
-| Extraction LLM    | Qwen 3.5-9B via Ollama              | Transcript → restaurant JSON      |
-| Normalization LLM | Qwen 3.5-9B via Ollama              | Dedupe, validate, schema-conform  |
-| Web Scraping      | Firecrawl MCP + Playwright MCP      | Restaurant enrichment             |
-| Agent Personas    | Agency Agents (.md files in agents/)| Specialized context per phase     |
-
-## MCP Rules
-
-- **Firecrawl:** Enrichment phase ONLY.
-- **Playwright:** Enrichment phase ONLY.
-- **Context7:** Any phase for documentation lookup.
-
-## Git Rules
-
-- NEVER run `git push`, `git commit`, or `firebase deploy`
-- Stage changes with `git add` and report what's ready to commit
-- Kyle reviews and commits manually
-
-## Data Directory Conventions
-
-| Directory           | Contents                          | Written By |
-|---------------------|-----------------------------------|------------|
-| data/audio/         | {video_id}.mp3 files              | Phase 1    |
-| data/transcripts/   | {video_id}.json                   | Phase 2    |
-| data/extracted/     | {video_id}.json                   | Phase 3    |
-| data/normalized/    | restaurants.jsonl, dishes.jsonl, visits.jsonl, videos.jsonl | Phase 4 |
-| data/enriched/      | Same 4 JSONL files with enrichment fields | Phase 5 |
-| data/logs/          | Error logs, checkpoint reports     | All phases |
-
-## Ollama Model Rules
-
-- **Qwen 3.5-9B** → extraction (Phase 3) AND normalization (Phase 4)
-- NEVER call external LLM APIs — all inference is local
-
-## Error Handling
-
-1. Log errors to data/logs/phase-N-errors.jsonl
-2. Retry up to 3 times
-3. After 3 failures, log to data/logs/phase-N-skipped.jsonl and skip
-4. Report totals: processed, succeeded, failed, skipped
+## Rules That Never Change
+- NEVER run git commit, git push, or firebase deploy
+- NEVER ask permission between steps — auto-proceed
+- Self-heal errors: diagnose → fix → re-run (max 3 attempts, then skip)
+- 3 consecutive identical errors = STOP, fix root cause, restart
+- README.md update is the FINAL step of report generation — do not skip it
+- All scripts run from this directory (pipeline/) as working directory
+- Transcription MUST be launched with: LD_LIBRARY_PATH=/usr/local/lib/ollama/cuda_v12:$LD_LIBRARY_PATH
+- Extraction uses Gemini 2.5 Flash API ($GEMINI_API_KEY), NOT local Ollama
