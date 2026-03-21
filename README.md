@@ -4,7 +4,7 @@
 
 TripleDB processes 804 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
 
-🌐 **tripleDB.com** · 📂 **Phase 1.8** · 🔧 **Status: Phase 1 Discovery (Iterating to v1.9)**
+🌐 **tripleDB.com** · 📂 **Phase 1.10** · 🔧 **Status: Phase 1 Discovery (Completed)**
 
 ---
 
@@ -27,7 +27,7 @@ YouTube Playlist (804 videos)
 MP3 Audio
     ↓ faster-whisper (CUDA)
 Timestamped Transcripts
-    ↓ Qwen 3.5-9B (local, Ollama)
+    ↓ Gemini 2.5 Flash API
 Structured Restaurant JSON
     ↓ Qwen 3.5-9B (local, Ollama)
 Normalized + Deduplicated JSONL
@@ -39,7 +39,7 @@ Cloud Firestore
 tripleDB.com
 ```
 
-All inference runs locally on an NVIDIA RTX 2080 SUPER. Zero cloud API costs for extraction. Gemini CLI orchestrates the pipeline on its free tier.
+Most inference runs locally on an NVIDIA RTX 2080 SUPER. Extraction uses the Gemini Flash API (free tier) to leverage its massive context window. Gemini CLI orchestrates the pipeline.
 
 ---
 
@@ -48,7 +48,7 @@ All inference runs locally on an NVIDIA RTX 2080 SUPER. Zero cloud API costs for
 | Phase | Name | Status | Iteration |
 |------:|------|--------|-----------|
 | 0 | Setup & Scaffolding | ✅ Complete | v0.7 |
-| 1 | Discovery (30 videos) | 🔧 In Progress | v1.8 |
+| 1 | Discovery (30 videos) | ✅ Complete | v1.10 |
 | 2 | Calibration (30 videos) | ⏳ Pending | — |
 | 3 | Stress Test (30 videos) | ⏳ Pending | — |
 | 4 | Validation (30 videos) | ⏳ Pending | — |
@@ -155,7 +155,7 @@ The iteration counter is global — it never resets. The full project history is
 |-----------|------|---------|
 | Audio Download | yt-dlp | YouTube → mp3 |
 | Transcription | faster-whisper (CUDA) | mp3 → timestamped JSON |
-| Extraction | Qwen 3.5-9B (Ollama) | Transcript → restaurant JSON |
+| Extraction | Gemini 2.5 Flash API | Transcript → restaurant JSON |
 | Normalization | Qwen 3.5-9B (Ollama) | Dedupe, validate, schema-conform |
 | Enrichment | Firecrawl + Playwright MCP | Address, ratings, geocoords |
 | Database | Cloud Firestore | Denormalized restaurant documents |
@@ -182,6 +182,7 @@ OS:  CachyOS (Arch-based) / KDE Plasma 6.6.2 / Wayland
 |-----------|------|
 | All local inference | Free |
 | Gemini CLI | Free tier |
+| Gemini Flash API | Free tier |
 | Firestore | Free tier (Spark) |
 | Firebase Hosting | Free tier |
 | Firecrawl MCP | API credits only |
@@ -190,6 +191,10 @@ OS:  CachyOS (Arch-based) / KDE Plasma 6.6.2 / Wayland
 ---
 
 ## Changelog
+
+**v1.9 → v1.10 (Phase 1 Discovery)**
+- **Challenge:** Local inference on an 8GB VRAM GPU proved insufficient for structured extraction. Even with `qwen3.5:9b`, reduced context limits, and chunked transcripts, inference took 5-10 minutes per video and consistently timed out on longer episodes.
+- **Pivot for v1.10:** Shifted the Extraction phase (Phase 3) to the **Gemini 2.5 Flash API**. With its 1M token context window, chunking was eliminated entirely. Entire transcripts are passed in a single API call, returning high-quality structured JSON in seconds. The generous free tier easily handles the entire pipeline, achieving a 93% success rate across the 30-video test batch and resolving the local hardware bottlenecks.
 
 **v1.8 → v1.9 (Phase 1 Discovery)**
 - **Success:** Acquisition (Phase 1) and Transcription (Phase 2) are 100% stable. yt-dlp successfully bypasses JS challenges, and faster-whisper efficiently leverages the RTX 2080 Super for high-quality, timestamped segmentation.
@@ -206,4 +211,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 0.7 — Setup & Scaffolding*
+*Last updated: Phase 1.10 — Extraction using Gemini Flash API*
