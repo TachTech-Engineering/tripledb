@@ -1,11 +1,9 @@
-# Audio files — too large for git
-pipeline/data/audio/*.mp3
-pipeline/data/audio/*.info.json
-
-# Transcripts — large, reproducible from mp3s
+# ── Pipeline data (all intermediate/reproducible) ──────────
+pipeline/data/audio/
 pipeline/data/transcripts/
-
-# Runtime logs
+pipeline/data/extracted/
+pipeline/data/normalized/
+pipeline/data/enriched/
 pipeline/data/logs/
 
 # Model files
