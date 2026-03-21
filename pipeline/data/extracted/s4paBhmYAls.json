@@ -1,0 +1,245 @@
+{
+  "video_id": "s4paBhmYAls",
+  "video_title": "Craziest #DDD Pulled Pork Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Chef's Touch Barbecue Rig",
+      "city": "Santa Barbara",
+      "state": "California",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Kurt Aldridge",
+      "guy_intro": "So I'm here in the Santa Barbara area, and I'm hearing about this barbecue trailer where the chef, well, he's using a stick burner, but the dude is classically trained. Well, the thing that's kind of weird is he's only open two days a week. Two days a week, and he's getting this kind of recognition? You know I got to check it out. This is the Chef's Touch Barbecue Rig. All from the back of a souped-up rig towed by real-deal chef-turned-pitmaster Kurt Aldridge.",
+      "segment_number": 1,
+      "timestamp_start": 6.0,
+      "timestamp_end": 239.4,
+      "dishes": [
+        {
+          "dish_name": "Whole Hog Sandwich",
+          "description": "A sandwich featuring pulled pork smoked with almond wood and brightened with Mojo Criollo, house-made sour sausage, and house-made bacon, served on a house-made bun with pickled vegetables and sriracha mayo.",
+          "ingredients": [
+            "pork butt",
+            "almond wood",
+            "mojo criollo",
+            "sour sausage",
+            "bacon",
+            "bun",
+            "pickled vegetables",
+            "sriracha mayo"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That gives me goosebumps. This is high-level barbecue. Pork is perfectly cooked. It's good spice, but it's not overpowering. The flavor of the smoke, that's my favorite.",
+          "timestamp_start": 55.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "SLG, St. Lawrence Gridiron",
+      "city": "Boise",
+      "state": "Idaho",
+      "cuisine_type": "American",
+      "owner_chef": null,
+      "guy_intro": "So I'm here in Boise, Idaho on Bannock and Capitol. You show me a town like this where you've got a college, you've got four seasons, and you've got a lot of people that love to eat. I'm going to show you some dynamite restaurants. This is SLG, St. Lawrence Gridiron.",
+      "segment_number": 2,
+      "timestamp_start": 239.4,
+      "timestamp_end": 385.3,
+      "dishes": [
+        {
+          "dish_name": "Pulled Pork Monte Cristo",
+          "description": "A unique Monte Cristo sandwich stuffed with salt and pepper-smoked pulled pork, bacon, Swiss and cheddar cheeses, dipped in a French toast batter with lemon and orange zest, and served with a berry coulis.",
+          "ingredients": [
+            "pulled pork",
+            "bacon",
+            "swiss cheese",
+            "cheddar cheese",
+            "french toast batter",
+            "berry coulis",
+            "bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": "One minute it's salty. Then it's chewy. Then it's sweet. Then it's crunchy. Then it's cheesy. There is a lot going on. There's a lot going on. And mine's made with grilled cheese, like pork, like French toast sandwich. So it was amazing. Yeah, the coulis, that makes it. That's coulis-o. It's thick enough it almost feels like a grit. It's absolutely perfect.",
+          "timestamp_start": 261.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Shepherd Barbecue",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Brandon and Elizabeth Shepherd",
+      "guy_intro": "I'm here to take you to the joint that is doing the bomb barbecue. People tell me this place is off the hook. Are you hungry? I'm always hungry. This is Shepherd Barbecue. It's the genius of Brandon. Which all started when Chef Brandon Shepherd was just a kid. Then after working in kitchens, he and his wife Elizabeth decided to fire things up on their own.",
+      "segment_number": 3,
+      "timestamp_start": 385.3,
+      "timestamp_end": 595.8,
+      "dishes": [
+        {
+          "dish_name": "Jalapeno Cheddar Sausage",
+          "description": "House-made sausage from brisket and pork trimmings, seasoned with spices, ground twice, mixed with mild cheddar and jalapenos, then smoked with hickory, post oak, and pecan wood.",
+          "ingredients": [
+            "brisket trimmings",
+            "pork trimmings",
+            "jalapenos",
+            "mild cheddar",
+            "smoked paprika",
+            "hickory wood",
+            "post oak wood",
+            "pecan wood"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's going to be all right. I love the grind in it. Good amount of cheese. A little bit of heat. Not too much smoke. Right? Good little snap to it. I'm obsessed with the jalapeno cheddar sausage.",
+          "timestamp_start": 435.3,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Boss Hog Sandwich",
+          "description": "A sandwich featuring pulled pork and jalapeno cheddar sausage, topped with Carolina gold mustard sauce and pickled red onions, served on a bun toasted with beef tallow and garlic, with a side of Helen's collard greens.",
+          "ingredients": [
+            "pulled pork",
+            "jalapeno cheddar sausage",
+            "carolina gold mustard sauce",
+            "pickled red onions",
+            "bun",
+            "beef tallow",
+            "collard greens"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Dynamite sandwich. The pork is tender, but doesn't have a ton of smoke. The sausage is great. Yeah, that's a great textural difference between the pulled pork and the sausage. I mean, it's nice to have that. Like Carolina gold money. We can go put that on a flip-flop. Legit. The pulled pork's got an excellent bark on it. Really good flavor. Really juicy.",
+          "timestamp_start": 540.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Born in a Bar",
+      "city": null,
+      "state": null,
+      "cuisine_type": "American",
+      "owner_chef": null,
+      "guy_intro": "I'm looking for elevated bar food at a joint that's serving up something called barn shows. This is Born in a Bar.",
+      "segment_number": 4,
+      "timestamp_start": 595.8,
+      "timestamp_end": 774.6,
+      "dishes": [
+        {
+          "dish_name": "Barn Shows (Pulled Pork Nachos)",
+          "description": "House-made crispy pub chips topped with 18-hour smoked pulled pork, house-made queso, bacon, diced red onion, jalapenos, and a spicy barbecue sauce.",
+          "ingredients": [
+            "pub chips",
+            "smoked pulled pork",
+            "queso",
+            "bacon",
+            "red onion",
+            "jalapeno",
+            "spicy barbecue sauce"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Dude, the barbecue sauce is awesome. The cheese sauce, delicious. Not too much. Good smoke on the pork. I love the big chunks of bacon. I thought that I was going to find the hole in this. I can't even make a hole in this. I've been digging into this thing for a while. Those are legit. Shut the front door, back door. Shut the barn door. The queso is delicious. And that spicy barbecue sauce adds a little bit of kick in there.",
+          "timestamp_start": 720.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Vagabond",
+      "city": "Atlantic City",
+      "state": "New Jersey",
+      "cuisine_type": "American",
+      "owner_chef": "Tom Harris",
+      "guy_intro": "So I'm here in the Chelsea Heights section of Atlantic City, right between the boardwalk and the bay. And man, was this area hit hard by Superstorm Sandy. A lot of businesses went out and never came back, except for a funky little joint like this. Welcome to Vagabond. I was a bartender here. Hurricane Sandy hit. Bang. I'm unemployed. And I've got to figure something out. So he signed up his childhood buddy, Tom Harris. Bought the joint, fixed it up, and put it back on the map in 2013.",
+      "segment_number": 5,
+      "timestamp_start": 774.6,
+      "timestamp_end": 872.9,
+      "dishes": [
+        {
+          "dish_name": "Barbecue Three-Way Sandwich",
+          "description": "A sandwich combining pulled pork, brisket, and candied bacon, topped with mango barbecue sauce and a lime slaw, served on a locally made brioche bun with house-made fries.",
+          "ingredients": [
+            "pulled pork",
+            "brisket",
+            "candied bacon",
+            "mango barbecue sauce",
+            "lime slaw",
+            "brioche bun",
+            "fries"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Smoke, nice tang, good season. Making a slaw, counterbalancing with a little acid. That's a great sandwich. That's a really great sandwich. Thank you very much. Well done. The mango barbecue sauce makes the sandwich. The maple bacon that they have in there, it kind of like takes it to another level. It's kind of ridiculous.",
+          "timestamp_start": 806.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "ZZQ",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Barbecue",
+      "owner_chef": null,
+      "guy_intro": "You see, I have a responsibility to bring you some of the best barbecue you've ever seen on Triple D. And after this spot, you'll say, I thank you. This is ZZQ.",
+      "segment_number": 6,
+      "timestamp_start": 872.9,
+      "timestamp_end": 1020.2,
+      "dishes": [
+        {
+          "dish_name": "Tres Hombres Sandwich",
+          "description": "A monster sandwich featuring pulled pork, brisket, and habanero fontina sausage, topped with a signature house thick sauce and pickled red onions.",
+          "ingredients": [
+            "pulled pork",
+            "brisket",
+            "habanero fontina sausage",
+            "house thick sauce",
+            "pickled red onions",
+            "bun",
+            "black pepper",
+            "paprika"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is a monster. Delicious brisket. Love the sausage. Pulled pork's nice and tender. It's legit. It's real deal. It's great flavor. Well done, chef. You have to really press it down to fit in your mouth. The brisket is very tender. It's really delicious.",
+          "timestamp_start": 882.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Pam's",
+      "city": "Fargo",
+      "state": "North Dakota",
+      "cuisine_type": "American",
+      "owner_chef": null,
+      "guy_intro": "So we found a place where two buddies that went to school together build a place that everybody loves to go to. This is Pam's.",
+      "segment_number": 7,
+      "timestamp_start": 1020.2,
+      "timestamp_end": 1225.0,
+      "dishes": [
+        {
+          "dish_name": "Pulled Pork Macaroni and Cheese",
+          "description": "A dish featuring grilled and braised pulled pork served over creamy macaroni and cheese, topped with house-made barbecue sauce and pickled jalapenos.",
+          "ingredients": [
+            "pork",
+            "macaroni",
+            "cheese sauce",
+            "barbecue sauce",
+            "pickled jalapenos",
+            "beer",
+            "cola",
+            "mustard"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's a dynamite dish. Everything's got to be right. You know what? You can eat one part of this not being right. You just put two sides together and call it a main dish. That's right on top of right and added some more right. The pork is delicious and not dried out. The barbecue sauce has got fantastic tang and not overly sweet. The mac sauce gives you that thin, silky, creamy texture. And the real kicker to the whole thing is the diced jalapenos, a little bit of the acidity, a little bit of the heat. Delicious dish. I mean, like, really have to take it away from me. I want to eat it all kind of day.",
+          "timestamp_start": 1046.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "video_id": "h_3259ZF-58",
+  "video_title": "Craziest #DDD Butter Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Maymo's",
+      "city": "Logan",
+      "state": "Utah",
+      "cuisine_type": "Cajun Creole",
+      "owner_chef": "Jason",
+      "guy_intro": "I'm here in Logan, Utah. I found a place that's still rockin' it. This is Maymo's.",
+      "segment_number": 1,
+      "timestamp_start": 30.4,
+      "timestamp_end": 243.9,
+      "dishes": [
+        {
+          "dish_name": "Bone Marrow Butter Burger",
+          "description": "House-made 81-19 burger patty with brisket fat, topped with smoked bone marrow butter, pepper jack cheese, horseradish sauce, lettuce, tomato, and pickle, served on a garlic butter potato bun.",
+          "ingredients": [
+            "ground beef",
+            "brisket fat",
+            "bone marrow",
+            "butter",
+            "green onions",
+            "pepper jack cheese",
+            "horseradish",
+            "potato bun",
+            "garlic"
+          ],
+          "dish_category": "entree",
+          "guy_response": "You execute in the finer parts. The bun's great. The little brush of the garlic butter's dynamite. The bone marrow butter is, of course, unctuous. You can't mistake the richness of bone marrow. If you're gonna eat a burger and you're gonna eat it at lunch and you're gonna go pass out in your car, that's the burger you want. Well done.",
+          "timestamp_start": 80.0,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Sauce Boss Southern Kitchen",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Southern",
+      "owner_chef": "Julius Thompson",
+      "guy_intro": "Chef and owner Julius Thompson had to travel a tough road before finding reward in this culinary gem. This is Sauce Boss Southern Kitchen.",
+      "segment_number": 2,
+      "timestamp_start": 243.9,
+      "timestamp_end": 357.9,
+      "dishes": [
+        {
+          "dish_name": "Shrimp and Grits",
+          "description": "Cheesy grits cooked with butter and chicken base, topped with devained peeled shrimp and bacon cooked in a blackening butter made with garlic and a blend of spices.",
+          "ingredients": [
+            "grits",
+            "butter",
+            "chicken base",
+            "cheddar cheese",
+            "shrimp",
+            "bacon",
+            "blackening spice",
+            "garlic"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Grits are cooked right. Got good tooth. You can put a lot of cheese in there, but I mean, I don't know you can really have to when it's cheese and shrimp and grits. The lardone from the bacon is the little gem of the shrimp. The shrimp's cooked perfectly, not super spicy, but a lot of big flavors that you're putting in there. Well done, Chef.",
+          "timestamp_start": 252.8,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": "Foolish Craig's",
+      "city": "Boulder",
+      "state": "Colorado",
+      "cuisine_type": "American",
+      "owner_chef": null,
+      "guy_intro": "I'm here in Boulder, Colorado, in the downtown area, about a five minute walk north of Colorado University. Now, Triple D, we've checked out joints for tortillas, pizza, pasta, chicken wings, cheese steaks, I mean, you name it. But we've not yet found a joint that's been rocking the crepe. That's until now. This is Foolish Craig's.",
+      "segment_number": 3,
+      "timestamp_start": 357.9,
+      "timestamp_end": 631.7,
+      "dishes": [
+        {
+          "dish_name": "Butter Rum Crepe Cake",
+          "description": "Layers of thin crepes made with eggs, milk, sugar, salt, butter, and flour, interleaved with a sauce of butter, brown sugar, cream, and rum, then frosted with a cream cheese, butter, vanilla, and powdered sugar frosting.",
+          "ingredients": [
+            "crepes",
+            "eggs",
+            "milk",
+            "butter",
+            "brown sugar",
+            "rum",
+            "cream cheese",
+            "vanilla"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "The texture on that is out of bounds. The sweetness is not over the top. Using the cream cheese to make the frosting helps out a lot. I've never seen this before. It's a great recipe. Hey, call the patent office right now, dude.",
+          "timestamp_start": 376.2,
+          "confidence": 0.96
+        },
+        {
+          "dish_name": "Koto Pita",
+          "description": "A Greek chicken pie with chicken breast cooked with dill, onion, garlic, carrots, and celery, mixed with parmesan, feta, bechamel sauce, and eggs, all wrapped in buttered phyllo dough and baked.",
+          "ingredients": [
+            "chicken breast",
+            "butter",
+            "dill",
+            "onion",
+            "garlic",
+            "carrots",
+            "celery",
+            "parmesan cheese",
+            "feta cheese",
+            "bechamel sauce",
+            "phyllo dough"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That thing is crunch-a-licious. Wow, that's not creamy. This is like a pasty, but done with the phyllo dough. The layers. That's crazy. It was great. That's everywhere in Greece. What? Everywhere. It's in the bakery like a donut. In the morning? Yeah. Oh, see? That's my kind of breakfast. Knocked it out with the phyllo.",
+          "timestamp_start": 501.6,
+          "confidence": 0.97
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Jimmy's Down the Street",
+      "city": null,
+      "state": null,
+      "cuisine_type": "American Comfort Food",
+      "owner_chef": "Kim Woolard",
+      "guy_intro": "They needed places that were serving good old comfort food, like this place here. Been doing business for over 50 years, and is now called Jimmy's Down the Street.",
+      "segment_number": 4,
+      "timestamp_start": 631.7,
+      "timestamp_end": 834.1,
+      "dishes": [
+        {
+          "dish_name": "Caramel Pecan Roll",
+          "description": "A gigantic yeast dough roll, spread with butter, brown sugar, and cinnamon, then baked on a bed of caramel sauce made with butter, corn syrup, and brown sugar, topped with a fistful of pecans.",
+          "ingredients": [
+            "yeast dough",
+            "milk",
+            "butter",
+            "brown sugar",
+            "cinnamon",
+            "corn syrup",
+            "pecans",
+            "eggs"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "Mm. Such great texture to the dough. The sugar and the caramel starts to almost candy up right on the outside of it. The pecans are rocking. And it's not just a little sprinkle that's a fistful of pecan. Awesome. Nice job.",
+          "timestamp_start": 654.3,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "Margie's Grill",
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "cuisine_type": "Southeast Asian Southern Barbecue",
+      "owner_chef": "Marcus Jacobs",
+      "guy_intro": "So I'm here in New Orleans on Broad Street, just a few blocks away from Canal that'll take you right down to the corner. Listen, I love coming to this city. You got great people, amazing food, all kinds of characters. You got the party. You got the history. And listen, I'm here to check out a joint that's got all that under one roof. This is Margie's Grill.",
+      "segment_number": 5,
+      "timestamp_start": 834.1,
+      "timestamp_end": 1007.5,
+      "dishes": [
+        {
+          "dish_name": "Honey Buddy Yardbird",
+          "description": "Spatchcocked chicken rubbed with a spice blend including Japanese and Vietnamese chilies, smoked over oak logs, then glazed with honey and butter, and served with a chili garlic sauce made with shallots, lime juice, fish sauce, and cane sugar.",
+          "ingredients": [
+            "chicken",
+            "salt",
+            "black pepper",
+            "paprika",
+            "japanese chili",
+            "vietnamese chilies",
+            "oak logs",
+            "honey",
+            "butter",
+            "shallots",
+            "garlic",
+            "lime juice",
+            "fish sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'll tell you what, that's good eating. I got a sweet glaze and smoke taking me into great Southern chicken. And then all of a sudden, I come into fish sauce and chilies. Yeah, and I mean, I think that it bridges the Louisiana influence and the Southeast Asian influence. I don't know how much it bridges it as much as it creates its own new superhighway. This garlic sauce should be bottled. This chicken, you get the heat, you get the sweet, you get the vinegar, you get the spice, you get the salt. You're setting people up to be disappointed next time they have to eat just regular smoked chicken. Dude, that's righteous.",
+          "timestamp_start": 881.0,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "The Toasted Coconut",
+      "city": "Houston",
+      "state": "Texas",
+      "cuisine_type": "American Southern",
+      "owner_chef": "Sarah",
+      "guy_intro": "I'm here in the Montrose area of Houston, Texas. And man, I don't know if you've been down here before, but these folks have got a bar for just about anything. You've got every occasion. You've got honky tonks, you've got sports bars, you've got karaoke bars. And I hear about this beach bar where they've got dynamite drinks and a chef-driven menu. You know I'm going to check it out. This is the toasted coconut.",
+      "segment_number": 6,
+      "timestamp_start": 1007.5,
+      "timestamp_end": 1146.5,
+      "dishes": [
+        {
+          "dish_name": "Honey Butter Chicken Biscuit",
+          "description": "Fried chicken brined in pickle brine, dredged in a seasoned flour blend with gochugaru and bullet chilies, served on house-made biscuits with American cheese and a spicy honey butter crisp made with mushroom powder, chili crisp, and pickled jalapeno liquid.",
+          "ingredients": [
+            "chicken",
+            "pickle brine",
+            "buttermilk",
+            "flour",
+            "gochugaru",
+            "bullet chilies",
+            "biscuits",
+            "butter",
+            "sour cream",
+            "honey",
+            "chili crisp",
+            "american cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Dynamite. The chicken is delicious. Great crunch. The honey butter crisp is redonk-a-donk. Love a savory biscuit. Who put that much black pepper in a biscuit? You better mean it. And you mean it. That's like an exceptional chicken and biscuit.",
+          "timestamp_start": 1034.1,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "The Crest Cafe",
+      "city": "San Diego",
+      "state": "California",
+      "cuisine_type": "American Diner",
+      "owner_chef": "Ruben",
+      "guy_intro": "Diego's Hillcrest area. So you have Grandma's seal of approval? Yes. The Down Home Diner. Serving up round-the-clock comfort. This is the Crest Cafe.",
+      "segment_number": 7,
+      "timestamp_start": 1146.5,
+      "timestamp_end": 1314.0,
+      "dishes": [
+        {
+          "dish_name": "Butter Burger",
+          "description": "A ground beef patty stuffed with a chilled herb butter (basil, parsley, tarragon, garlic, cayenne, salt, pepper), broiled, then topped with cheese and garlic mayo, served on a bun.",
+          "ingredients": [
+            "ground beef",
+            "butter",
+            "basil",
+            "parsley",
+            "tarragon",
+            "garlic",
+            "cayenne",
+            "cheese",
+            "garlic mayo",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "There's tons of flavor. That's ridiculous what you do. When it says butter burger, take the dude's word for it. Nice job. Excellent burger.",
+          "timestamp_start": 1195.8,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": "Catelli's",
+      "city": "Geyserville",
+      "state": "California",
+      "cuisine_type": "Italian",
+      "owner_chef": "Nick Catelli",
+      "guy_intro": "I'm here in a cool little town called Geyserville in the Northern California wine country. To check out a place that I kind of have some history with. I imagine a coach feels really proud when one of his players turns pro. Because that's how I feel when one of my guys that's worked with me in my restaurants ventures out to open his own place. That brings us here to Catelli's.",
+      "segment_number": 8,
+      "timestamp_start": 1314.0,
+      "timestamp_end": null,
+      "dishes": [
+        {
+          "dish_name": "Meat Ravioli with Butter Garlic Sauce",
+          "description": "Handmade ravioli filled with a mixture of roasted pork butt, beef, chicken, and house-made sausage, seasoned with chardonnay, fennel, thyme, and garlic, combined with vegetables and cheeses, then boiled and tossed in a butter garlic sauce with parsley and parmesan.",
+          "ingredients": [
+            "pork butt",
+            "beef",
+            "chicken",
+            "sausage",
+            "chardonnay",
+            "fennel seed",
+            "thyme",
+            "garlic",
+            "pecorino cheese",
+            "parmesan cheese",
+            "eggs",
+            "flour",
+            "butter",
+            "parsley"
+          ],
+          "dish_category": "entree",
+          "guy_response": "So tender, delicate, and so rich. Small, dainty, handmade perfection is what this is. This is one of the best ravioli I've ever had. We have catelli's, meat, ravioli's. Pasta is done perfect. It's wonderful.",
+          "timestamp_start": 1367.5,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "video_id": "9Fu3mZun2UM",
+  "video_title": "5 Craziest #DDD Ribs Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Millie's",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Barbecue",
+      "owner_chef": null,
+      "guy_intro": "I've had a lot of alligator tail, but nothing compares to the alligator rib here. Alligator tail is kind of like chicken, where this actually seems to be like a pork.",
+      "segment_number": 1,
+      "timestamp_start": 5.8,
+      "timestamp_end": 135.9,
+      "dishes": [
+        {
+          "dish_name": "Smoked Alligator Ribs",
+          "description": "Alligator ribs with a dry rub of brown sugar, chili, garlic powder, onion powder, cinnamon, smoked paprika, salt, and pepper, smoked for 40 minutes, then tossed in a homemade barbecue sauce and grilled for 5-10 minutes.",
+          "ingredients": [
+            "alligator ribs",
+            "brown sugar",
+            "chili powder",
+            "smoked paprika",
+            "onions",
+            "spiced rum",
+            "ketchup",
+            "molasses",
+            "apple cider vinegar"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's probably one of the best ways I've ever had gator. If not the best way. It's tender. It's meaty. It eats like a pork rib. Right. The barbecue sauce, dude. I compete in barbecue. I'm in the Barbecue Hall of Fame. The barbecue sauce is delicious.",
+          "timestamp_start": 5.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Mama's",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Austin Pfeffer",
+      "guy_intro": "All right, brother. We're into our beef ribs. Bone-in chuck ribs. Holy moly. Yeah, that's one rack.",
+      "segment_number": 2,
+      "timestamp_start": 136.0,
+      "timestamp_end": 278.3,
+      "dishes": [
+        {
+          "dish_name": "Fred Flintstone Beef Ribs",
+          "description": "Bone-in chuck ribs, trimmed of fat, seasoned with Mama's rub, and smoked for about five hours.",
+          "ingredients": [
+            "beef chuck ribs",
+            "salt",
+            "pepper",
+            "garlic powder",
+            "onion powder",
+            "smoked paprika"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's no joke. Tender, not dried out. That is a righteous rib. That's got its own voodoo going on right there. You look at the smoke ring on that beef rib, and you look at the size of it. It's just simple, straightforward good.",
+          "timestamp_start": 142.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Bread and Butter Pickles",
+          "description": "English cucumbers and sliced onions salted and iced, then brined in apple cider vinegar, sugar, mustard seed, celery seed, and turmeric.",
+          "ingredients": [
+            "english cucumbers",
+            "onions",
+            "apple cider vinegar",
+            "sugar",
+            "mustard seed",
+            "celery seed",
+            "turmeric"
+          ],
+          "dish_category": "side",
+          "guy_response": "And the bread and butter pickle, still enough body to it, still enough crunch, good amount of acid, nice little bit of sweetness to it. Like all the onion. Mm, that's a good pickle. That's a real good pickle.",
+          "timestamp_start": 160.8,
+          "confidence": 0.9
+        },
+        {
+          "dish_name": "Mama's Mustard",
+          "description": "Homemade mustard made with apple cider vinegar, egg yolk, dry mustard, sugar, and standard yellow mustard, cooked in a double boiler.",
+          "ingredients": [
+            "apple cider vinegar",
+            "egg yolk",
+            "dry mustard",
+            "sugar",
+            "yellow mustard"
+          ],
+          "dish_category": "side",
+          "guy_response": "Oh, that goes great with that rib.",
+          "timestamp_start": 195.2,
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": null,
+      "city": null,
+      "state": null,
+      "cuisine_type": "American",
+      "owner_chef": null,
+      "guy_intro": "Dr. Pepper short ribs. They melt in your mouth. They're absolutely awesome. Dr. Pepper, yeah! Let's do this.",
+      "segment_number": 3,
+      "timestamp_start": 278.4,
+      "timestamp_end": 432.5,
+      "dishes": [
+        {
+          "dish_name": "Dr. Pepper Short Ribs",
+          "description": "Boneless beef short ribs seasoned with salt and pepper, seared, then braised with mirepoix (carrot, celery, onion), fresh thyme, bay leaves, chipotle peppers in adobo sauce, homemade chicken stock, and Dr. Pepper for four hours at 350 degrees. Served with celery root puree, sauteed mustard greens, and fresh grated horseradish.",
+          "ingredients": [
+            "boneless beef short ribs",
+            "dr. pepper",
+            "carrot",
+            "celery",
+            "onion",
+            "chipotle peppers",
+            "chicken stock",
+            "celery root",
+            "mustard greens",
+            "horseradish"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The short rib is so tender that it's just falling apart. You just have to help it with the fork a little bit. The celery root puree is a great medium, the whole dish. The fresh horseradish, along with the mustard greens, adds a nice contrast to this braising liquid that's been reduced. And the Dr. Pepper, which is this nice, round flavor, and mm, every little piece you did here, killer. Awesome, thank you. I mean, really killer.",
+          "timestamp_start": 278.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "Big Lee's",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Greg",
+      "guy_intro": "Big Lee's smoked ribs and a Kathy. They're good ribs, because they have meat on them. We love the Kathy. The brisket with the mac and cheese, I mean, you create a little space of heaven.",
+      "segment_number": 4,
+      "timestamp_start": 432.6,
+      "timestamp_end": 637.5,
+      "dishes": [
+        {
+          "dish_name": "Big Lee's Smoked Spare Ribs",
+          "description": "Spare ribs trimmed and seasoned with Big Lee's house rub (salt, coarse ground black pepper, granulated onion, granulated garlic, oregano, basil, rosemary, thyme), dry-rubbed for 24-48 hours, then smoked low and slow over Central Florida oak until tender. Served with Flame Tang barbecue sauce.",
+          "ingredients": [
+            "spare ribs",
+            "salt",
+            "black pepper",
+            "granulated onion",
+            "granulated garlic",
+            "oregano",
+            "basil",
+            "rosemary",
+            "thyme",
+            "central florida oak"
+          ],
+          "dish_category": "entree",
+          "guy_response": "There's more smoke ring than there is meat. Juicy is an understatement. Dynamite bark seasoned all the way through from that dry brine. That barbecue sauce, there's definitely good heat in it, definitely good vinegar in it. Every single thing here has its own uniqueness about it. That's what takes this to the next level.",
+          "timestamp_start": 452.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "The Cathy (Brisket Stuffed Mac and Cheese)",
+          "description": "Mac and cheese made with a cheese sauce (butter, kosher salt, sugar, processed cheese, extra sharp cheddar, milk) and cooked noodles, layered with chopped sauced brisket and shredded Gouda, then topped with more sharp cheddar and smoked for 30 minutes.",
+          "ingredients": [
+            "macaroni",
+            "butter",
+            "processed cheese",
+            "extra sharp cheddar",
+            "milk",
+            "chopped brisket",
+            "gouda"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Dynamite. I mean, mac and cheese with a dollop of smoked brisket on top of it would not be the same. There's something about infusing the flavor of that brisket into the mac and cheese.",
+          "timestamp_start": 518.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": null,
+      "city": null,
+      "state": null,
+      "cuisine_type": "Soul Food",
+      "owner_chef": "Florence",
+      "guy_intro": "The fried ribs are really a unique kind of experience. It's a light breading. It's not too thick. The barbecue sauce is amazing.",
+      "segment_number": 5,
+      "timestamp_start": 637.6,
+      "timestamp_end": 780.0,
+      "dishes": [
+        {
+          "dish_name": "Fried Rib Appetizer",
+          "description": "St. Louis-style pork spare ribs soaked in lemon juice and vinegar for a day, seasoned with salt and pepper, then coated in a house seasoning (flour, salt, cornstarch, baking powder, pepper) and deep-fried for 15 minutes. Served with a homemade barbecue sauce.",
+          "ingredients": [
+            "pork spare ribs",
+            "lemon juice",
+            "vinegar",
+            "flour",
+            "cornstarch",
+            "baking powder",
+            "ketchup",
+            "sugar",
+            "cumin",
+            "mustard"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Not too much batter. Nice and juicy. I think the key was that you soaked them in the vinegar. Got a nice little flavor from that. How do you like that sauce? Oh, there's good tang in that sauce, ma'am. It's already a good rib, but when you put that batter on top of it, it just takes it over the top.",
+          "timestamp_start": 637.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    }
+  ]
+}

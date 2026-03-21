@@ -5,10 +5,8 @@ import os
 import re
 import time
 
-# Preload Ollama's CUDA libraries to fix missing libcublas.so.12
-cuda_path = '/usr/local/lib/ollama/cuda_v12'
-if os.path.exists(cuda_path):
-    os.environ['LD_LIBRARY_PATH'] = f"{cuda_path}:{os.environ.get('LD_LIBRARY_PATH', '')}"
+# NOTE: This script requires LD_LIBRARY_PATH to be set to include Ollama's CUDA libraries.
+# Launch with: LD_LIBRARY_PATH=/usr/local/lib/ollama/cuda_v12:$LD_LIBRARY_PATH python3 scripts/phase2_transcribe.py
 
 from faster_whisper import WhisperModel
 

@@ -49,7 +49,7 @@ Most inference runs locally on an NVIDIA RTX 2080 SUPER. Extraction uses the Gem
 |------:|------|--------|-----------|
 | 0 | Setup & Scaffolding | ✅ Complete | v0.7 |
 | 1 | Discovery (30 videos) | ✅ Complete | v1.10 |
-| 2 | Calibration (30 videos) | ⏳ Pending | — |
+| 2 | Calibration (30 videos) | ✅ Complete | v2.11 |
 | 3 | Stress Test (30 videos) | ⏳ Pending | — |
 | 4 | Validation (30 videos) | ⏳ Pending | — |
 | 5-7 | Production Run (~684 videos) | ⏳ Pending | — |
@@ -192,6 +192,11 @@ OS:  CachyOS (Arch-based) / KDE Plasma 6.6.2 / Wayland
 
 ## Changelog
 
+**v1.10 → v2.11 (Phase 2 Calibration)**
+- **Success:** Normalized and deduplicated the entire 60-video dataset (Phase 1 + Phase 2) via the Gemini 2.5 Flash API, proving the free tier can handle the complex grouping and merging logic with a 1M token context. 422 unique restaurants and 624 unique dishes were extracted successfully. 
+- **Challenge:** `faster-whisper` repeatedly failed due to the `libcublas.so.12` library missing at runtime, as the internal `os.environ` change occurred too late for C library loading. Additionally, extraction initially timed out on marathon videos (60-150m length).
+- **Pivot for v2.11:** Launched the transcription script with `LD_LIBRARY_PATH` set directly at the shell level. Increased the extraction timeout to 300 seconds, allowing Gemini Flash to successfully process massive transcripts (up to 200K characters) without chunking.
+
 **v1.9 → v1.10 (Phase 1 Discovery)**
 - **Challenge:** Local inference on an 8GB VRAM GPU proved insufficient for structured extraction. Even with `qwen3.5:9b`, reduced context limits, and chunked transcripts, inference took 5-10 minutes per video and consistently timed out on longer episodes.
 - **Pivot for v1.10:** Shifted the Extraction phase (Phase 3) to the **Gemini 2.5 Flash API**. With its 1M token context window, chunking was eliminated entirely. Entire transcripts are passed in a single API call, returning high-quality structured JSON in seconds. The generous free tier easily handles the entire pipeline, achieving a 93% success rate across the 30-video test batch and resolving the local hardware bottlenecks.
@@ -211,4 +216,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 1.10 — Extraction using Gemini Flash API*
+*Last updated: Phase 2.11 — Calibration using Gemini Flash API*

@@ -1,0 +1,753 @@
+{
+  "video_id": "oLPQD627Bvg",
+  "video_title": "Top 20 #DDD Videos in the Rockies with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "marathon",
+  "restaurants": [
+    {
+      "name": "Grammy's Goodies",
+      "city": "Denver",
+      "state": "Colorado",
+      "cuisine_type": "Italian",
+      "owner_chef": "Vicki and Jeff Corder",
+      "guy_intro": "This is Grammy's Goodies. Coming to this place is like going to your grandma's house. Because Grammy's is actually filled with grandma's recipes, which Vicki Corder, her husband Jeff, and their kids first started selling at festivals. And when business boomed, they expanded to a full-fledged restaurant.",
+      "segment_number": 1,
+      "timestamp_start": 11.0,
+      "timestamp_end": 335.4,
+      "dishes": [
+        {
+          "dish_name": "Gigantic Lasagna",
+          "description": "A large, cheesy lasagna with six layers, made with grandmother's sundae sauce (pork ribs, net bones, garlic, onion, parsley, crushed tomatoes, basil, tomato paste), Nana's meatballs (pork, beef, onions, bread crumbs, basil, garlic, parsley, Romano, eggs), ricotta, mozzarella, provolone, and sausage. Baked for three hours.",
+          "ingredients": [
+            "pork ribs",
+            "garlic",
+            "crushed tomatoes",
+            "meatballs",
+            "ricotta cheese",
+            "mozzarella provolone blend",
+            "sausage",
+            "pasta noodles"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Lots of ricotta. Delicious meatballs. Tender pasta. Dynamite sauce. You make this roll yourself also? Yes. Well, I'm going to tell you what. This is old school American Italian. Exactly the kind of lasagna I would expect to go and get at Grammy's house. Dynamite.",
+          "timestamp_start": 193.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Eggplant Fries",
+          "description": "Peeled eggplant dredged in flour, milk, water, and cracker meal, then deep-fried until crunchy. Served with house-made marinara sauce, grated Romano cheese, and garlic aioli.",
+          "ingredients": [
+            "eggplant",
+            "flour",
+            "milk",
+            "cracker meal",
+            "marinara sauce",
+            "romano cheese",
+            "garlic aioli"
+          ],
+          "dish_category": "side",
+          "guy_response": "I don't think I've ever had an eggplant fry. You wouldn't be able to tell me ever in a million years it's an eggplant. Got tons of crunch on the exterior of this. It's silky and smooth and like melted cheese on the inside. That's probably some of the best way I've ever had eggplant. That's really awesome. Thanks for introducing me to another fried thing that I got to have. The eggplant fries are amazing. It's a good mix of veggies and that fry taste. Sauce is delicious. It's got a nice pop to it.",
+          "timestamp_start": 306.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Aubrey Jane's Pizza Garage",
+      "city": "Boulder",
+      "state": "Colorado",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Audrey Kelly",
+      "guy_intro": "So I'm on the northern side of Boulder, Colorado to check out a pizza joint. And just like when I first pulled up to this place back in 2017, they're still rolling. And stretching out the dough, this is Aubrey Jane's Pizza Garage.",
+      "segment_number": 2,
+      "timestamp_start": 335.4,
+      "timestamp_end": 493.8,
+      "dishes": [
+        {
+          "dish_name": "Spicy Pig Pizza",
+          "description": "A pizza topped with homemade hand-pinched sausage (pork, fennel seeds, Calabrese chilies, honey), sauce, mozzarella, natural casing pepperoni, roasted jalapenos, chopped garlic, and extra virgin olive oil. Baked at 650 degrees and finished with oregano.",
+          "ingredients": [
+            "pork sausage",
+            "fennel seeds",
+            "calabrese chilies",
+            "honey",
+            "mozzarella",
+            "pepperoni",
+            "roasted jalapenos",
+            "garlic",
+            "pizza dough",
+            "oregano"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The sausage is great. The Sicilian oregano is dynamite. The right size pepperoni, the roasted jalapeno is just giving a little bit of that heat. I can't find anything I don't like.",
+          "timestamp_start": 466.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Taj Mahal",
+      "city": "Boise",
+      "state": "Idaho",
+      "cuisine_type": "Pakistani Indian",
+      "owner_chef": "Sohail and Fur Hawk",
+      "guy_intro": "Well, where am I? I'm in downtown Boise, Idaho. And I'm in a parking garage because you can't park out front because that's an area known as 8th and Main, where everybody is walking through and visiting restaurants and shops. Why am I here, you ask? Well, because I hear that there's a Pakistani Indian restaurant that is off the hook. This is Taj Mahal.",
+      "segment_number": 3,
+      "timestamp_start": 493.8,
+      "timestamp_end": 657.3,
+      "dishes": [
+        {
+          "dish_name": "Goat Karahi",
+          "description": "Tender boning goat cooked with olive oil, ginger, garlic, raw onion, salt, cayenne pepper, turmeric, cumin, and coriander for at least an hour and a half. Finished with habaneros, serrano peppers, fresh cilantro, and fresh tomatoes. Served with fresh naan.",
+          "ingredients": [
+            "goat",
+            "ginger",
+            "garlic",
+            "onion",
+            "cayenne pepper",
+            "turmeric",
+            "coriander",
+            "habaneros",
+            "serrano",
+            "cilantro",
+            "naan"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Whenever somebody tells me that they don't like goat, I tell them, I don't think you've had goat prepared the right way. When we started serving goat, people had no idea how delicious this meat is. The fresh naan, there's just no beating that.",
+          "timestamp_start": 640.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Bar Gernika",
+      "city": "Boise",
+      "state": "Idaho",
+      "cuisine_type": "Basque",
+      "owner_chef": "Jeff May",
+      "guy_intro": "Check this out. It takes me coming all the way to Boise, Idaho to find the largest Basque population in the United States. Now the Basque are an ethnic group with their own language and history, and they come from provinces spanning the border between France and Spain. Now they've got their own style and definitely their own cuisine, and that brings me here to the Basque block in this joint, Bar Guernica.",
+      "segment_number": 4,
+      "timestamp_start": 657.3,
+      "timestamp_end": 1112.4,
+      "dishes": [
+        {
+          "dish_name": "Solomo Sandwich",
+          "description": "A sandwich featuring center-cut pork loin marinated overnight in a sauce made from reconstituted churro-seto peppers, salt, and granulated garlic. The pork is sliced, pan-fried, and served on a baguette with pimentos cooked with sauteed garlic, salt, and sugar.",
+          "ingredients": [
+            "pork loin",
+            "churro-seto peppers",
+            "garlic",
+            "baguette",
+            "pimentos",
+            "olive oil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. Right on, man. You got sweetness, texture, tenderness to the meat, a nice sturdy baguette. That's great. Mmm. So lomo. So lomo. Yeah. So long, so lomo. Mmm. It's one of my favorites here. I had that a lot when I come. I always get a slo-mo. It's great.",
+          "timestamp_start": 776.4,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Lamb Grinder",
+          "description": "A lamb sandwich made with trimmed, boneless leg of lamb seasoned with salt, garlic, black pepper, and white wine, then baked. Served on a baguette with a gravy made from lamb drippings, red wine, and beef stock, along with sauteed green peppers, onions, mushrooms, sherry, and cheese.",
+          "ingredients": [
+            "leg of lamb",
+            "garlic",
+            "black pepper",
+            "white wine",
+            "red wine",
+            "beef stock",
+            "green peppers",
+            "onions",
+            "mushrooms",
+            "cheese",
+            "baguette"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's delicious. Cooked the lamb perfect. Juicy, nice texture. Oh, really tasty. Really tender. Great flavor. But the kicker here is the au jus. Man, that's nice. Nice job on that.",
+          "timestamp_start": 904.6,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Beef Tongue",
+          "description": "Marvelous beef tongue, boiled for several hours, skinned, sliced, seasoned with kosher salt and granulated garlic. Breaded in flour and egg, then pan-fried. Served in a sauce with olive oil, crushed red pepper, onion, garlic, churroseta pepper sauce, salt, paprika, and tomato sauce.",
+          "ingredients": [
+            "beef tongue",
+            "kosher salt",
+            "garlic",
+            "flour",
+            "egg",
+            "olive oil",
+            "crushed red pepper",
+            "onion",
+            "churroseta pepper sauce",
+            "paprika",
+            "tomato sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm, wow. What do you think of that? It's fantastic. Yeah? The tongue, that is tender. It's like roast beef. The paprika, tomato, garlic sauce is off the chain. Yum, yum. Down goes the tongue. Mm, really good sauce. This is the owner's mom's recipe that she used to do down here. Oh, yeah? So when people come down, they're getting it the legit way. Yeah, exactly. And it's absolutely delicious. It's a specialty. It's heaven.",
+          "timestamp_start": 1068.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Atomic Cowboy",
+      "city": "Denver",
+      "state": "Colorado",
+      "cuisine_type": "American",
+      "owner_chef": "Jonathan Larson",
+      "guy_intro": "I'm here in the Bluebird District of Denver, Colorado. Now, they call it that because right down there, that's the Bluebird Theater that opened in 1913. Anyhow, here to check out a place. Let's see, it started as a bar. Then they added in a pizza joint. Then they added in a biscuit place. So now we've got ourselves, Fat Sully's, Denver Biscuit, all under the roof of the Atomic Cowboy.",
+      "segment_number": 5,
+      "timestamp_start": 1112.4,
+      "timestamp_end": 1332.5,
+      "dishes": [
+        {
+          "dish_name": "Hot Mess (BBQ Pork Sandwich)",
+          "description": "A barbecue pork sandwich served on a large, flaky homemade biscuit. It features pulled pork (smoked for 6-8 hours), rehydrated with tomato water, house-made barbecue sauce, house-made pickles, house-made coleslaw, and crispy onions.",
+          "ingredients": [
+            "biscuits",
+            "pulled pork",
+            "barbecue sauce",
+            "pickles",
+            "coleslaw",
+            "crispy onions",
+            "tomato water"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. The biscuit is so tender and so flaky and light. Then you did a really nice job on the pork. The rub, the smoke, a little tomato water gig. Yeah. And the barbecue sauce is eccentric. Chef, well done.",
+          "timestamp_start": 1316.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "St. Lawrence Gridiron",
+      "city": "Boise",
+      "state": "Idaho",
+      "cuisine_type": "Southern American",
+      "owner_chef": "Dan Watts and Tyson Mann",
+      "guy_intro": "I'm here in Boise, Idaho on Bannock and Capitol. You show me a town like this where you got a college. You get four seasons. And you got a lot of people that love to eat. I'm going to show you some dynamite restaurants. This is SLG, St. Lawrence Gridiron.",
+      "segment_number": 6,
+      "timestamp_start": 1332.5,
+      "timestamp_end": 1507.7,
+      "dishes": [
+        {
+          "dish_name": "Pulled Pork Monte Cristo",
+          "description": "A unique Monte Cristo sandwich stuffed with pulled pork (smoked for 6-8 hours), bacon, Swiss and cheddar cheeses, all dipped in a French toast batter (milk, eggs, baking powder, flour, lemon and orange zest) and grilled. Served with a berry coulis.",
+          "ingredients": [
+            "pulled pork",
+            "bacon",
+            "swiss cheese",
+            "cheddar cheese",
+            "french toast batter",
+            "bread",
+            "blueberries",
+            "raspberries",
+            "red wine"
+          ],
+          "dish_category": "entree",
+          "guy_response": "One minute it's salty, then it's chewy, then it's sweet, then it's crunchy, then it's cheesy. There is a lot going on. There's a lot going on. And mine's made with grilled cheese, like pork, like French toast sandwich. That was amazing. Yeah, the coulis, that makes it. That's coolio.",
+          "timestamp_start": 1469.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Maria Empanada",
+      "city": "Denver",
+      "state": "Colorado",
+      "cuisine_type": "Argentinian",
+      "owner_chef": "Lorena Canarovici",
+      "guy_intro": "So I'm here on South Broadway about 10 minutes from downtown Denver, Colorado to check out a joint with a great story. Now check this out. The chef, she came from Buenos Aires, Argentina 12 years ago. Now she's got an empanada empire. This is Maria Empanada.",
+      "segment_number": 7,
+      "timestamp_start": 1507.7,
+      "timestamp_end": 1793.6,
+      "dishes": [
+        {
+          "dish_name": "Beef Empanadas",
+          "description": "Authentic Argentinian empanadas with a homemade dough (salt, baking powder, margarine, flour, eggs, water) and a filling of ground beef, onions, red peppers, salt, pepper, crushed red pepper, cumin, and Spanish paprika. Baked and served with a traditional chimichurri sauce.",
+          "ingredients": [
+            "empanada dough",
+            "ground beef",
+            "onions",
+            "red peppers",
+            "cumin",
+            "paprika",
+            "olives",
+            "chimichurri sauce"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Do you like it? A little more than like. Oh. I like it too. There's a subtlety. There's a subtle flavor. A subtle texture. Just a uniqueness. Not too spicy. You gotta have the chimichurri. It's light. Little flavor. Little crust. Simple. That's what an empanada's supposed to be. Excellent job. Thank you. Very good.",
+          "timestamp_start": 1740.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Sweet Melissa's",
+      "city": "Boulder",
+      "state": "Colorado",
+      "cuisine_type": "Vegetarian",
+      "owner_chef": "Melissa Murphy and Mark Ziers",
+      "guy_intro": "You know what people have been asking for a lot lately? Vegetarian. And if you know anything about me, about my family, about my sister Morgan, we love vegetarian food. And this is Sweet Melissa.",
+      "segment_number": 8,
+      "timestamp_start": 1793.6,
+      "timestamp_end": 2001.0,
+      "dishes": [
+        {
+          "dish_name": "Lentil Loaf",
+          "description": "A vegetarian take on meatloaf, made with olive oil, onions, potatoes, celery, carrots, garlic powder, chilies, soaked lentils, veggie stock, Tabasco, poultry seasoning, crackers, cheddar cheese, and eggs. Baked and served with creamy vegan mashed potatoes, mushroom gravy, and a tangy tomato sauce (ketchup, brown sugar, Tabasco, mustard).",
+          "ingredients": [
+            "lentils",
+            "onions",
+            "celery",
+            "carrots",
+            "potatoes",
+            "cheddar cheese",
+            "eggs",
+            "mashed potatoes",
+            "mushroom gravy",
+            "tomato sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This right here is like the most tender, moist meatloaf you could find. I mean, it's got great texture. It's got great chew. Love the little bit of crust that you put on it. The vegan mashed potatoes and this mushroom gravy. What I like is how creamy you're able to get them without the dairy. And the kicker to the whole thing is the ketchup, brown sugar, mustard, Tabasco sauce. Really delicious.",
+          "timestamp_start": 1954.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Double Dubs",
+      "city": "Laramie",
+      "state": "Wyoming",
+      "cuisine_type": "American",
+      "owner_chef": "Trent Whitesell",
+      "guy_intro": "I'm here in Laramie, Wyoming, where an ex-diving coach is going to the high deck on making dynamite wings. This is Double Dubs.",
+      "segment_number": 9,
+      "timestamp_start": 2001.0,
+      "timestamp_end": 2179.9,
+      "dishes": [
+        {
+          "dish_name": "Spicy Blue 17 Wings",
+          "description": "Crispy fried chicken wings tossed in a buffalo blue cheese sauce, Josh Allen's favorite. The sauce is made with melted butter, blue cheese crumbles, blue cheese dressing, and house hot sauce. Served with extra blue cheese crumbles.",
+          "ingredients": [
+            "chicken wings",
+            "butter",
+            "blue cheese crumbles",
+            "blue cheese dressing",
+            "hot sauce",
+            "habaneros",
+            "chili powder",
+            "cayenne pepper"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wings are nice and crispy. Juicy. Not dried out. You want to get both those flavors. You want to get the acid and that funk of blue cheese and the creaminess. But then you also want the spice and the heat of the wing sauce. You put the two of them together, makes it another level of a creamy sauce. Josh, I agree with you, man. Real deal.",
+          "timestamp_start": 2149.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Highland Tavern",
+      "city": "Denver",
+      "state": "Colorado",
+      "cuisine_type": "American",
+      "owner_chef": "Jeremy McMinn",
+      "guy_intro": "I'm here in the Highlands neighborhood about a mile from downtown Denver, Colorado. And about a mile away from Citizen Pictures, the folks that happen to produce Diners, Drivers and Dives. But don't let those details confuse you. I'm here to check out a joint that I hear has the most real deal, off the hook, outrageous bar food you could find. This is Highland Tavern.",
+      "segment_number": 10,
+      "timestamp_start": 2179.9,
+      "timestamp_end": 2684.0,
+      "dishes": [
+        {
+          "dish_name": "Pastrami Sandwich",
+          "description": "A killer sandwich featuring house-made pastrami, brined for 15 days, dry-rubbed, smoked for 4 hours, and then steamed for 3.5 hours. Served on buttered and toasted rye bread with Swiss cheese, pastrami jus, brown mustard, and an optional over-medium egg.",
+          "ingredients": [
+            "brisket",
+            "pink salt",
+            "brown sugar",
+            "pickling spice",
+            "coriander",
+            "black pepper",
+            "rye bread",
+            "swiss cheese",
+            "brown mustard",
+            "egg"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. Breathe. Mm, it smells good. I know. I've eaten at some of the greatest delis in the world, and that's about as righteous as you'll find them. Awesome. It's the right mustard. The meat's super tender. Not too much smoke. Not too much pepper coriander. Not too salty. I mean, just a package deal, man. That is an incredibly righteous pastrami sandwich.",
+          "timestamp_start": 2432.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Tavern Tots",
+          "description": "Homemade tater tots made from partially cooked and shredded potatoes, mixed with salt, granulated garlic, granulated onion, cayenne pepper, and eggs with tamari. Formed, frozen, and then deep-fried until golden brown and delicious.",
+          "ingredients": [
+            "potatoes",
+            "salt",
+            "garlic",
+            "onion",
+            "cayenne pepper",
+            "eggs",
+            "tamari"
+          ],
+          "dish_category": "side",
+          "guy_response": "Out of all the house-made tots I've had, mine included, that's the most tot-alistic. This is ridiculous. Way to hammer that out. Thanks. World Triple D. That's probably one of the best, if not the best, rendition of a homemade tot. Thanks. Nice job. Thanks. And great seasoning.",
+          "timestamp_start": 2650.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Pinky G's Pizzeria",
+      "city": "Jackson",
+      "state": "Wyoming",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Tom Fett",
+      "guy_intro": "I'm here at Jackson, Wyoming, about a half block off the town square, right in front of the Pink Garter Theater. Now, back in the day, this was the theater that you came to to catch a musical or a play. Now it's where you come to see some rockin' bands. And speaking of rockin', locals around here tell me, you want some rockin' pizza, you got to go to the joint right under the theater. This is Pinky G's Pizzeria.",
+      "segment_number": 11,
+      "timestamp_start": 2684.0,
+      "timestamp_end": 2870.7,
+      "dishes": [
+        {
+          "dish_name": "Funky Chicken Pizza",
+          "description": "A pizza featuring chicken breast marinated for 24 hours in basil, garlic, lemon, and oil, then roasted. Served on hand-tossed pizza dough with fresh basil pesto, mozzarella, roasted chicken, artichoke hearts, red onions, and ricotta cheese. Baked at 575 degrees.",
+          "ingredients": [
+            "pizza dough",
+            "chicken breast",
+            "basil",
+            "garlic",
+            "lemon",
+            "pesto",
+            "mozzarella",
+            "artichoke hearts",
+            "red onions",
+            "ricotta cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Roasting the chicken with the garlic, outrageous. Making your own pesto over the top. Little bit of that ricotta coming in. Creaminess. How did you come up with the name Funky Chicken?",
+          "timestamp_start": 2818.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Restaurant 415",
+      "city": "Fort Collins",
+      "state": "Colorado",
+      "cuisine_type": "Eclectic American",
+      "owner_chef": "Andre and Amelia Mouton, Seth Baker, Sean Olander",
+      "guy_intro": "I'm at Fort Collins, Colorado, about 60 minutes from Denver, and here at the home of Colorado State University. Now, I'm here to check out a joint that's got a lot of character. Let's see. This team of four worked together on one restaurant, and then they took off to open their own joint that they like to call your neighborhood eatery. If you're looking for a good time, this is your place. This is Restaurant 415.",
+      "segment_number": 12,
+      "timestamp_start": 2870.7,
+      "timestamp_end": 3045.8,
+      "dishes": [
+        {
+          "dish_name": "Americana del Sur Pizza",
+          "description": "A unique pizza on homemade dough, topped with olive oil, fresh garlic, thinly sliced raw tomatillos, chopped garbanzo beans, cumin seed, cheddar cheese, and fresh jalapenos. Baked and finished with fresh cilantro.",
+          "ingredients": [
+            "pizza dough",
+            "olive oil",
+            "garlic",
+            "tomatillos",
+            "garbanzo beans",
+            "cumin seed",
+            "cheddar cheese",
+            "jalapenos",
+            "cilantro"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Never in a million years would I have thought of taking a tomatillo, slicing it thin like that, and letting it cook off in eight minutes. I love the bite of the tomatillo, the acidity, the freshness, the, you know, still a little bit of crunch. Jalapeno's great. The garlic's not overwhelming. Meatiness of the garbanzo, I'm telling you, that's a spot on pizza. The Americano del Sol. Yes, sir.",
+          "timestamp_start": 3014.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "The Skirted Effort",
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "cuisine_type": "American",
+      "owner_chef": "Kevin and Suzette McGarry",
+      "guy_intro": "So I'm here in the center of it all, right downtown in Colorado Springs, Colorado, right across from Acacia Park. Now, I'm here to check out a funky, funky burger joint owned by a local family that has a name that you just won't forget. This is the Skirted Effort.",
+      "segment_number": 13,
+      "timestamp_start": 3045.8,
+      "timestamp_end": 3215.7,
+      "dishes": [
+        {
+          "dish_name": "The Hangover Burger",
+          "description": "A 1/3 pound grass-fed beef patty seasoned with focaccia salt, topped with homemade bacon, cream cheese, peach, and Bloody Mary sauce (brown sugar, kosher salt, cayenne). Served on a homemade focaccia bun.",
+          "ingredients": [
+            "beef patty",
+            "focaccia bun",
+            "bacon",
+            "cream cheese",
+            "peach",
+            "bloody mary sauce",
+            "focaccia salt"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Let me tell you something. Can I have a fry? You want to buy the burger? Break all the rules. We're doing it all here at the Skirted Out Burger. Oh my god, that is so good. Can I get you something to drink? Now I'm on your napkin. Burger's dynamite. With an attitude of keeping it local. You can eat it with a clear conscience, knowing that the cattle is well treated. Is this some of your beef? Yes. That is dynamite. Our own beef amazes me every time I eat it. But when I come here, it's like triple amazing. All those little points make this a great burger.",
+          "timestamp_start": 3165.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Jay's Prairie Rose Cafe",
+      "city": "Laramie",
+      "state": "Wyoming",
+      "cuisine_type": "American",
+      "owner_chef": "Jason and Anna Eichbusch",
+      "guy_intro": "Triple D, we've been to every state in the country. We have been to the big cities, and we've been to the small towns. And wait till you hear this story. A husband and wife team, well, actually, a husband and wife team and their kids, well, actually, it's a husband and wife team and their kids, and his parents are serving up comfort food to the good folks of Laramie, Wyoming. This is Jay's Prairie Rose Cafe.",
+      "segment_number": 14,
+      "timestamp_start": 3215.7,
+      "timestamp_end": 3421.4,
+      "dishes": [
+        {
+          "dish_name": "Jay's 7220 Burrito",
+          "description": "A large burrito named after Laramie's altitude, filled with hash browns, sauteed green peppers and onions, black beans, and cheese. It features pork (rubbed and smoked for 4.5 hours) and is wrapped in a flour tortilla, then topped with a lightly spicy green chili sauce.",
+          "ingredients": [
+            "pork",
+            "hash browns",
+            "green peppers",
+            "onions",
+            "black beans",
+            "cheese",
+            "flour tortilla",
+            "green chili sauce",
+            "jalapenos"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Pork is delicious, nice and tender and juicy. The green chili. Brother, that is comfort food 101. I mean, that is welcome to Larry and me. Have a nice day. We'll see you tomorrow morning. If you leave here hungry, it's your own fault.",
+          "timestamp_start": 3392.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Sidewinder's",
+      "city": "Jackson",
+      "state": "Wyoming",
+      "cuisine_type": "American",
+      "owner_chef": "Joe",
+      "guy_intro": "Welcome back. Having a great time hanging out at Sidewinder's in Jackson, Wyoming. This Marine right here, this aviator has got his hands full with this. With a scratch-made joint and a really cool sports bar.",
+      "segment_number": 15,
+      "timestamp_start": 3421.4,
+      "timestamp_end": 3623.9,
+      "dishes": [
+        {
+          "dish_name": "Chicken Pot Pie",
+          "description": "A real-deal chicken pot pie starting with chicken roasted with a custom rub (thyme, oregano, parsley, celery salt, mustard, cayenne, garlic). The pulled chicken and homemade stock are combined with a filling of mirepoix, white wine, mushrooms, herbs, a 'Cowboy roux', heavy cream, and potatoes. Topped with puff pastry and baked.",
+          "ingredients": [
+            "chicken",
+            "thyme",
+            "oregano",
+            "garlic",
+            "celery",
+            "carrots",
+            "mushrooms",
+            "potatoes",
+            "chicken stock",
+            "heavy cream",
+            "puff pastry"
+          ],
+          "dish_category": "entree",
+          "guy_response": "You know, there's something about chicken on the bone. To make the stock from the bone. There's such a depth. It's creamy. Love that you got the mushrooms in there. Not a ton of crust. The veggies are tender. But you get some real texture out of those carrots and the celery. Dynamite. Thanks.",
+          "timestamp_start": 3570.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Zo Mama",
+      "city": "Boulder",
+      "state": "Colorado",
+      "cuisine_type": "Taiwanese/Chinese Street Food",
+      "owner_chef": "Anna Zo",
+      "guy_intro": "So I'm right off of Pearl Street, about a block away from Pearl Street Mall. I know that sounds confusing. When you're in Boulder, Colorado, ask anybody. They'll tell you how to get here. Anyhow, you'll love this place. Tons of shops, all kinds of restaurants. Mexican, Italian, German, Nepalese, you name it. But I'm here to check out one joint in particular. It's got super yummy street food, the one and only Zo Mama.",
+      "segment_number": 16,
+      "timestamp_start": 3623.9,
+      "timestamp_end": 3821.9,
+      "dishes": [
+        {
+          "dish_name": "Steamy Buns (Pork)",
+          "description": "Homemade steamed buns with a light, fluffy dough. The filling consists of corn pork, onion, green onions, cooking wine, salt, sugar, five spice powder, ginger, sweet bean paste, and celery. Steamed for 15 minutes and served with various dipping sauces.",
+          "ingredients": [
+            "pork",
+            "steamed bun dough",
+            "onion",
+            "green onions",
+            "five spice powder",
+            "ginger",
+            "sweet bean paste",
+            "celery",
+            "chili paste",
+            "sichuan peppercorn"
+          ],
+          "dish_category": "entree",
+          "guy_response": "You OK? The bun's ridiculous. Ridiculous. This is light and fluffy and tender. Then this one is the? Chili paste. Like sambal? Yeah. Kryptonite. Right there. I am weak in its power. One more? OK, sure. Look at that. Oh, my gosh. Delicious. Well done.",
+          "timestamp_start": 3784.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Born in a Bar",
+      "city": "Laramie",
+      "state": "Wyoming",
+      "cuisine_type": "American",
+      "owner_chef": null,
+      "guy_intro": "We've got some unedited bar food at a joint that's serving up something called Barnchos. This is born in a bar.",
+      "segment_number": 17,
+      "timestamp_start": 3821.9,
+      "timestamp_end": 4181.1,
+      "dishes": [
+        {
+          "dish_name": "Barnchos",
+          "description": "Crispy homemade pub chips (brined for 24 hours) topped with shredded pork (smoked for 18 hours), bacon, hot queso (heavy cream, easy melt cheese, pepper jack, Swiss), diced red onion, jalapenos, and a spicy barbecue sauce.",
+          "ingredients": [
+            "potato chips",
+            "smoked pork",
+            "bacon",
+            "queso",
+            "red onion",
+            "jalapeno",
+            "spicy barbecue sauce"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Dude, the barbecue sauce is awesome. The cheese sauce, delicious, not too much. Good smoke on the pork. Love the big chunks of bacon. I thought that I was going to find the hole in this. I can't even make a hole in this. I've been digging into this. I've been digging for a while. Those are legit. Shut the front door, back door. Shut the barn door.",
+          "timestamp_start": 3962.6,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Chicken and Dumplings",
+          "description": "A comforting dish made with baked chicken (seasoned and braised), shredded, and added to a rich gravy. The gravy is built with margarine, celery, onion, garlic, chicken drippings, and various seasonings including poultry seasoning and sage. Homemade dumplings (all-purpose and self-rising flour, salt, lard, ice water) are cooked in the gravy.",
+          "ingredients": [
+            "chicken",
+            "celery",
+            "onion",
+            "garlic",
+            "chicken stock",
+            "lard",
+            "all-purpose flour",
+            "self-rising flour",
+            "sage",
+            "black pepper"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Creaminess, tender chunks of chicken. I almost finished the whole bowl in that time. Good stuff. Appreciate it, man.",
+          "timestamp_start": 4171.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Daeji Korean Barbecue",
+      "city": "Denver",
+      "state": "Colorado",
+      "cuisine_type": "Korean Barbecue",
+      "owner_chef": "Jo Kim",
+      "guy_intro": "I love Colorado. I mean, they got so much going on here, especially the food scene. I mean, who could forget Fat Sully's? Give me some pie. Then you got lauerkraut. Love that place. So there's no doubt that these guys got a Korean restaurant, and not just any Korean restaurant. This one's off the hook. This is Daeji Korean Barbecue.",
+      "segment_number": 18,
+      "timestamp_start": 4181.1,
+      "timestamp_end": 4471.0,
+      "dishes": [
+        {
+          "dish_name": "Beef Bulgogi",
+          "description": "Thinly sliced ribeye beef marinated for 12 hours in a sauce made with water, garlic, onions, pineapples, apples, soy sauce, sugar, black pepper, sesame oil, and soju. Cooked on a grill.",
+          "ingredients": [
+            "ribeye beef",
+            "garlic",
+            "onions",
+            "pineapples",
+            "apples",
+            "soy sauce",
+            "sugar",
+            "sesame oil",
+            "soju"
+          ],
+          "dish_category": "entree",
+          "guy_response": null,
+          "timestamp_start": 4250.7,
+          "confidence": 0.9
+        },
+        {
+          "dish_name": "Chicken Bulgogi",
+          "description": "Chicken marinated for 24 hours in a sauce containing garlic, soybean oil, sesame oil, ginger, black peppers, sugar, soy sauce, and soju. Cooked on a grill.",
+          "ingredients": [
+            "chicken",
+            "garlic",
+            "soybean oil",
+            "sesame oil",
+            "ginger",
+            "black pepper",
+            "sugar",
+            "soy sauce",
+            "soju"
+          ],
+          "dish_category": "entree",
+          "guy_response": null,
+          "timestamp_start": 4288.4,
+          "confidence": 0.9
+        },
+        {
+          "dish_name": "Kimchi Pancakes",
+          "description": "Pancakes made with kimchi (fermented for about a month), tofu, jalapenos, onions, sugar, Korean red peppers, egg, potato starch, and flour. Sauteed until golden.",
+          "ingredients": [
+            "kimchi",
+            "tofu",
+            "jalapenos",
+            "onions",
+            "sugar",
+            "korean red peppers",
+            "egg",
+            "potato starch",
+            "flour"
+          ],
+          "dish_category": "side",
+          "guy_response": null,
+          "timestamp_start": 4372.6,
+          "confidence": 0.9
+        },
+        {
+          "dish_name": "Fish Cake",
+          "description": "Fish cakes cooked in a wok with onions, green onions, carrots, jalapenos, and garlic. Seasoned with soy sauce, black peppers, sugar, corn syrup, seafood broth, crushed red peppers, Korean red peppers, and sesame oil.",
+          "ingredients": [
+            "fish cakes",
+            "onions",
+            "green onions",
+            "carrots",
+            "jalapenos",
+            "garlic",
+            "soy sauce",
+            "sugar",
+            "seafood broth",
+            "korean red peppers",
+            "sesame oil"
+          ],
+          "dish_category": "side",
+          "guy_response": null,
+          "timestamp_start": 4403.8,
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

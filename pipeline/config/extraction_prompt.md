@@ -29,7 +29,7 @@ explanation, no preamble.
       "city": "<city>",
       "state": "<full state name or abbreviation>",
       "cuisine_type": "<primary cuisine category>",
-      "owner_chef": "<primary person Guy interacts with in the kitchen>",
+      "owner_chef": "<name of the primary person Guy interacts with>",
       "guy_intro": "<Guy's introduction when arriving at the restaurant>",
       "segment_number": 1,
       "timestamp_start": 0.0,
@@ -52,16 +52,16 @@ explanation, no preamble.
 
 ## Extraction Rules
 
-1. Extract EVERY restaurant Guy physically visits. Do NOT extract restaurants merely mentioned.
+1. Extract EVERY restaurant Guy physically visits. Do NOT extract restaurants merely mentioned. Most DDD segments feature 2-4 dishes per restaurant. If you only find 1 dish, re-scan the transcript — the chef almost always demonstrates at least 2 items.
 2. Every restaurant MUST have: name, city, state, at least one dish.
-3. For guy_intro: capture what Guy says when he first approaches the restaurant.
-4. For owner_chef: the primary person Guy interacts with in the kitchen. For pairs: "Mike and Lisa Rodriguez".
-5. For ingredients: extract 3-8 KEY ingredients per dish. Focus on what makes it distinctive. Lowercase.
+3. For guy_intro: capture what Guy says when he first approaches or introduces the restaurant. This is usually the opening lines of each segment.
+4. For owner_chef: extract the FULL NAME of the primary person Guy interacts with in the kitchen. Look for how Guy addresses them or how they introduce themselves. For pairs: "Mike and Lisa Rodriguez". NEVER return just "Chef" or "Owner" — always include at least a first name. If the name is truly never spoken, use null rather than a generic title.
+5. For ingredients: extract 3-8 KEY ingredients per dish. Focus on what makes it distinctive. All lowercase. Do not list every single ingredient — focus on the signature components.
 6. For dish_category: appetizer, entree, dessert, side, drink, or snack.
-7. For guy_response: capture Guy's reaction AFTER tasting each dish — verbatim from transcript. Include catchphrases and genuine reactions. Set null only if Guy doesn't taste on camera.
-8. For video_type: full_episode (~22 min, 2-3 restaurants), compilation ("Best of" themed), clip (<15 min, 1 restaurant), marathon (1+ hr, many restaurants).
+7. For guy_response: capture Guy's FULL reaction AFTER tasting each dish — verbatim from the transcript. Include his complete statement, not just the first sentence. Include catchphrases ("That's money!", "Winner winner chicken dinner!", "Out of bounds!", "Dynamite!") and genuine detailed reactions. Set null ONLY if Guy clearly doesn't taste the dish on camera.
+8. For video_type: full_episode (~22 min, 2-3 restaurants), compilation ("Best of" themed, 3-8), clip (<15 min, 1 restaurant), marathon (1+ hr, many restaurants).
 9. Confidence: 0.9-1.0 = clearly stated. 0.7-0.89 = reasonably clear. 0.5-0.69 = inferred. <0.5 = best guess.
-10. Segment timestamps: look for transitions ("Next up...", "Our next stop...").
+10. Segment timestamps: look for transitions ("Next up...", "Our next stop...", "Rolling out to...").
 
 ## Example 1: Standard Episode Segment
 
@@ -71,7 +71,7 @@ Transcript excerpt:
 [120.3s] This is their famous crab ravioli with a brown butter sage sauce.
 [145.8s] Oh my God, that is DYNAMITE!
 
-Expected output for this segment:
+Expected output:
 {
   "name": "Johnny's Italian Kitchen",
   "city": "Baltimore",
@@ -96,7 +96,7 @@ Expected output for this segment:
   "confidence": 0.97
 }
 
-## Example 2: Multiple Dishes Per Restaurant
+## Example 2: Multiple Dishes
 
 {
   "name": "Mama's Soul Food",

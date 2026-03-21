@@ -1,0 +1,189 @@
+{
+  "video_id": "qbJwpZoDA1k",
+  "video_title": "TOP 5 Pizzas in #DDD Video History with Guy Fieri | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Pizzeria Lola",
+      "city": null,
+      "state": "Minnesota",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Ann Kim",
+      "guy_intro": "They have one of the only copper-covered, wood-fired French pizza ovens, a Le Pagnole, at this place, where they're doing off-the-hook pizza. This is Pizzeria Lola. Sliced and served up by owner Ann Kim, who grew up learning to cook from her Korean grandma before discovering another passion a little later in life. Now she's back home in Minnesota, topping artisan crust with savory ingredients.",
+      "segment_number": 1,
+      "timestamp_start": 5.1,
+      "timestamp_end": 243.7,
+      "dishes": [
+        {
+          "dish_name": "Mascheroni Pizza",
+          "description": "A pizza with 48-hour fermented dough, topped with house red sauce, Wisconsin mozzarella, house-made fennel sausage, and natural casing pepperoni, cooked in a wood-fired French pizza oven.",
+          "ingredients": [
+            "poolish dough",
+            "house red sauce",
+            "mozzarella",
+            "fennel sausage",
+            "pepperoni",
+            "berkshire pork",
+            "fennel seed",
+            "garlic",
+            "chili flakes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, look how thin that is. We've got this heirloom pork with the real fat in it and the real flavor. And the fennel's rocking this. And a lot of people say, oh, sausage and pepperoni. I've had that all the time. This is way beyond your everyday pizza joint on the corner, sausage and pepperoni. You gotta try this one. It's the most heightened, delicious pepperoni sausage pizza you've ever had. You're like, this is what pepperoni is supposed to taste like.",
+          "timestamp_start": 182.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Dirty Water Dough Company",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "cuisine_type": "Pizza",
+      "owner_chef": null,
+      "guy_intro": "We're going to check out a funky joint that is using beer to make their pizza dough. And I hear it's the real deal. This is Dirty Water Dough Company.",
+      "segment_number": 2,
+      "timestamp_start": 243.7,
+      "timestamp_end": 437.5,
+      "dishes": [
+        {
+          "dish_name": "Dirty Taco Pizza",
+          "description": "Pizza dough made with Dirty Water IPA, topped with red sauce, taco meat, mozzarella, cheddar, then finished with fresh lettuce, diced tomato, nacho cheese chips, and a sour cream swirl.",
+          "ingredients": [
+            "beer dough",
+            "special flour",
+            "red sauce",
+            "taco meat",
+            "mozzarella",
+            "cheddar",
+            "lettuce",
+            "nacho cheese chips",
+            "sour cream",
+            "ground beef",
+            "enchilada sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The crust is dynamite. It's toothsome. Got good pull. I get the yeastiness out of it. It's delicious. I mean, I can tell. I didn't like it at all. My son Ryder, he's going to lose his mind on this one. Bro, you smashed it. Well done. I love tacos. And having all the components on a pizza, it's just amazing.",
+          "timestamp_start": 302.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Shorty's Pizza and Smoked Meats",
+      "city": "Superior",
+      "state": "Wisconsin",
+      "cuisine_type": "American",
+      "owner_chef": "David Ander",
+      "guy_intro": "So it's July here in beautiful Superior, Wisconsin, right over the bridge from Duluth, Minnesota. You know, with the weather the way it is around here, I'm told spend as much time indoors as you can. So I'm here to check out a joint everybody loves. This is Shorty's Pizza and Smoked Meats.",
+      "segment_number": 3,
+      "timestamp_start": 437.5,
+      "timestamp_end": 611.8,
+      "dishes": [
+        {
+          "dish_name": "Meat Lover's Pizza",
+          "description": "A pizza loaded with various smoked meats, bacon, and sausage, with a crispy and chewy crust.",
+          "ingredients": [
+            "pizza dough",
+            "cheese",
+            "smoked meat",
+            "bacon",
+            "sausage",
+            "herbs"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's crispy, it's chewy. Sausage adds tons of flavor. You get the herbs from the smoked meat. Great job, Chef. The smoked meat with the bacon and the sausage, it is just to die for.",
+          "timestamp_start": 493.7,
+          "confidence": 0.9
+        },
+        {
+          "dish_name": "Hunter's Chicken Sandwich",
+          "description": "A moist and crispy chicken sandwich, elevated with Hunter sauce, cheese, and mushrooms, served on a delicate bias-cut bread.",
+          "ingredients": [
+            "chicken",
+            "hunter sauce",
+            "cheese",
+            "mushrooms",
+            "bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Really, really moist chicken. It's worth every bite. If any one component of this sandwich wasn't there, this would be a pretty basic sandwich. Yet you took it to a variety of different levels, one with the Hunter sauce. Putting the crisp on the chicken, that's a necessity. Cut it on the bias, and you make it very delicate. It's great flavor. I was cruising down Boring Avenue, hooked right onto Delicious Boulevard. You navigated this into a really dynamite sandwich.",
+          "timestamp_start": 554.9,
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Junkyard Extreme Burger and Brats",
+      "city": "Lancaster",
+      "state": "Oregon",
+      "cuisine_type": "American",
+      "owner_chef": "Craig Zumwalt",
+      "guy_intro": "So I'm here on the 99E Highway, about 17 miles from Eugene, Oregon. 97 miles from Portland in this little farming community. Now, this is an unincorporated town called Lancaster, and the lady that owns the town, well, her son happens to own the only restaurant in town. Now, you think that's interesting? Wait till you see the menu. This is Junkyard Extreme Burger and Brats.",
+      "segment_number": 4,
+      "timestamp_start": 611.8,
+      "timestamp_end": 780.5,
+      "dishes": [
+        {
+          "dish_name": "Fried Cheese Pizza",
+          "description": "A crustless pizza made by frying a base of parmesan, cheddar, gorgonzola, and mozzarella cheese, then topped with onions, pepperoni, homemade pizza sauce, olives, grilled pineapple, in-house pesto, and fresh sliced tomatoes.",
+          "ingredients": [
+            "parmesan",
+            "cheddar",
+            "gorgonzola",
+            "mozzarella",
+            "onions",
+            "pepperoni",
+            "pizza sauce",
+            "olives",
+            "grilled pineapple",
+            "pesto",
+            "sliced tomatoes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This right here is just a gigantic thing of that crunchy fried cheese that you love on the outside of a quesadilla. The fact that you put toppings on it, it's crazy. Fried cheese? Can't beat it. I'm telling you, dude. We've seen some crazy stuff on Triple D. Yeah. This is up there. Crazy Craig in the car carrier. Loving it. Very nice, brother.",
+          "timestamp_start": 682.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Sal's Gilbert Pizza",
+      "city": "Gilbert",
+      "state": "Arizona",
+      "cuisine_type": "Italian",
+      "owner_chef": "Sal Cuffaro",
+      "guy_intro": "So I'm here in Gilbert, Arizona, about 30 miles from Phoenix, and I love coming down here. I get to rip around in the desert in my Razor. There's great food. Really cool people. I like the story of this place. The dude is from Sicily, Italy. He moved to New York, meets his wife, has a family, and then they all move here to Gilbert to open a pizza joint. That's right. This is Sal's Gilbert Pizza.",
+      "segment_number": 5,
+      "timestamp_start": 780.5,
+      "timestamp_end": 1003.0,
+      "dishes": [
+        {
+          "dish_name": "Paganziti Pizza",
+          "description": "A pizza topped with al dente ziti pasta mixed in a creamy marinara sauce, then covered with whole milk mozzarella and parmesan cheese, baked until crispy.",
+          "ingredients": [
+            "pizza dough",
+            "ziti pasta",
+            "marinara sauce",
+            "cream",
+            "butter",
+            "parmesan cheese",
+            "parsley",
+            "mozzarella",
+            "salt",
+            "pepper"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I love pasta. I love pizza. But the key is pasta's got to be al dente. Yes. And the dough has to be crispy. That right there, that's the optimum bite. If I could come in and get this, I'd be here two or three times a week. The sauce itself on the pizza is delicious. It's perfect. I can't decide what I want, pizza, pasta, or both.",
+          "timestamp_start": 837.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "video_id": "Afbfs6YltzU",
+  "video_title": "Flavortown Tour of Virginia: Top #DDD Videos with Guy Fieri | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Gilda's Italian Restaurant",
+      "city": "Virginia Beach",
+      "state": "Virginia",
+      "cuisine_type": "Italian",
+      "owner_chef": "Gilda and Jessie",
+      "guy_intro": "In Virginia Beach, Virginia, Mother Gilda and daughter Jessie are the bosses, the cooks, and definitely the heart of this place, making it feel like an Italian home.",
+      "segment_number": 1,
+      "timestamp_start": 10.0,
+      "timestamp_end": 224.4,
+      "dishes": [
+        {
+          "dish_name": "Stuffed Meatballs with Spaghetti",
+          "description": "Handmade meatballs stuffed with a mix of general salami, spicy capicola, black horse ham, provolone, and mozzarella, combined with lean and fatty meats, eggs, breadcrumbs, parsley, pecorino romano, parmigiano-reggiano, garlic powder, salt, and pepper. Baked at 320 degrees, served with al dente spaghetti and a sweet, luscious crushed tomato sauce with fresh basil.",
+          "ingredients": [
+            "mozzarella",
+            "provolone",
+            "salami",
+            "capicola",
+            "ham",
+            "ground meat",
+            "eggs",
+            "breadcrumbs",
+            "crushed tomatoes",
+            "fresh basil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Look at that. Look at all that creaminess from the provolone and the matz. Because the inside is so creamy, you do need that hard exterior of that almost to keep it locked in. Yeah. Not overly flavored. You know, I was wondering with all those cold cuts in there, if there was going to be too much salt. A really nice balance. A little sweetness coming out of that ham, a little out of the matz. Yeah. A little salt from the provolone. Pasta is al dente. The sauce is sweet and just luscious and great tomato flavor. The fresh basil really sings out. It is dynamite.",
+          "timestamp_start": 191.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Karina's Jamaican Grill",
+      "city": "Chesterfield",
+      "state": "Virginia",
+      "cuisine_type": "Jamaican",
+      "owner_chef": "Karina",
+      "guy_intro": "So I'm outside of Richmond, Virginia in Chesterfield to check out a joint everybody's talking about. And they're serving up my favorites. This is Karina's Jamaican Grill.",
+      "segment_number": 2,
+      "timestamp_start": 224.4,
+      "timestamp_end": 403.5,
+      "dishes": [
+        {
+          "dish_name": "Oxtail with Rice and Peas",
+          "description": "Oxtail marinated for 24 hours in scotch bonnet peppers, onions, adobo, thyme, garlic, and Worcestershire, seared, then braised in water for two hours. Finished with more onions, peppers, scallions, scotch bonnet, stewed tomatoes, thyme, and adobo, thickened with a flour and water slurry. Served with rice and peas made with small red beans, bay leaf, onion, spices, thyme, garlic, coconut milk, and scallions.",
+          "ingredients": [
+            "oxtail",
+            "scotch bonnet peppers",
+            "onions",
+            "thyme",
+            "garlic",
+            "stewed tomatoes",
+            "small red beans",
+            "coconut milk"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is the dish right now that should be torturing you. It is so delicious. You get the tenderness, but the chew of the oxtail. It's luscious. It's tangy. It's meaty. Just soaking up all that gravy, all that sauce. ... That oxtail with rice and peas. The flavor and the tenderness, right on the money. That's up the meat off the bone. Is that good? Fantastic. I can't give it a better word. The killer is the rice and peas on there. I want more of that all day. Tremendous.",
+          "timestamp_start": 348.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Pendulum",
+      "city": "Norfolk",
+      "state": "Virginia",
+      "cuisine_type": "American",
+      "owner_chef": "Dylan Wakefield",
+      "guy_intro": "So I'm here in Norfolk, Virginia. And check this story out. A husband and wife team buy this old house. And they convert it into a butcher shop. Well, then they turn it into a restaurant. Well, then they rent it out to another guy to do a restaurant at night. That's my kind of Triple D joint. This is Pendulum.",
+      "segment_number": 3,
+      "timestamp_start": 403.5,
+      "timestamp_end": 602.5,
+      "dishes": [
+        {
+          "dish_name": "Butcher's Roast Beef Sandwich",
+          "description": "Top round roast beef seasoned with salt, pepper, garlic, and red onions, tied, roasted at 350 degrees, rested, and thinly sliced. Served on grilled focaccia bread (made daily with rosemary and garlic) with caramelized onions, Swiss cheese, and spicy mayo.",
+          "ingredients": [
+            "top round beef",
+            "salt",
+            "pepper",
+            "garlic",
+            "red onions",
+            "caramelized onions",
+            "swiss cheese",
+            "spicy mayo"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'm having full flashbacks on this. The roast beef sandwich at the meat market when I was a kid, the meat was roasted there, sliced thin. ... When you can really appreciate the craftsmanship, the time, the energy, the effort that were all utilized to make that sandwich. It's worth everything that you're getting.",
+          "timestamp_start": 584.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "The Village Cafe",
+      "city": "Richmond",
+      "state": "Virginia",
+      "cuisine_type": "American",
+      "owner_chef": "Mike Gray",
+      "guy_intro": "The Village Cafe, part dive, part bar, but all neighborhood joint. They've been serving up good eats to this town for more than half a century.",
+      "segment_number": 4,
+      "timestamp_start": 602.5,
+      "timestamp_end": 752.3,
+      "dishes": [
+        {
+          "dish_name": "Onion Rings",
+          "description": "Onions cut daily, dipped in a batter made with Golden Gryphon Ale beer, margarine, canola oil, malt vinegar, eggs, flour, salt, baking powder, cornstarch, black pepper, and cayenne pepper, then deep-fried until crunchy.",
+          "ingredients": [
+            "onions",
+            "beer",
+            "margarine",
+            "canola oil",
+            "malt vinegar",
+            "eggs",
+            "flour",
+            "cornstarch"
+          ],
+          "dish_category": "side",
+          "guy_response": "I get the beer right in the nose. You can taste the onion, but it's cooked all the way. Oh, that's tasty, man. I'm going to tell you, they're crunchy, crunchy.",
+          "timestamp_start": 715.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Pearlie's Restaurant and Delicatessen",
+      "city": "Richmond",
+      "state": "Virginia",
+      "cuisine_type": "Jewish Deli",
+      "owner_chef": "Rochelle and Kevin Roberts",
+      "guy_intro": "I'm here in Richmond, Virginia, where this couple has resurrected an institution. They brought it back using their own little funky style. This is Pearlie's Restaurant and Delicatessen.",
+      "segment_number": 5,
+      "timestamp_start": 752.3,
+      "timestamp_end": 989.0,
+      "dishes": [
+        {
+          "dish_name": "Potato and Duck Pierogies",
+          "description": "Pierogi dough made with eggs, sour cream, water, salt, and AP flour. Duck legs cured overnight with white sugar, brown sugar, sumac, and kosher salt, then cooked in schmaltz with juniper berry, raw garlic, and fresh thyme. Filling made from boiled potatoes, green onions, duck leg confit, peppercorn blend, kosher salt, and reserved duck fat. Served with a roasted tomato sauce (aroma tomatoes, garlic, oregano, basil, salt, pepper, tomato paste) and topped with chive sour cream.",
+          "ingredients": [
+            "eggs",
+            "sour cream",
+            "ap flour",
+            "duck legs",
+            "potatoes",
+            "green onions",
+            "schmaltz",
+            "aroma tomatoes",
+            "chive sour cream"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I don't know that the word pierogi describes this. It's like calling my command. Romero Carr. That's a vintage hot rod in here. Great duck. The duck jus reduction with the pierogi soaks up. The vegetables, the mushrooms, a little kiss to that roasted tomato sauce. This is like I've been going to all the movies in black and white, and then today I went to IMAX. A dynamite.",
+          "timestamp_start": 960.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "ZZQ",
+      "city": "Richmond",
+      "state": "Virginia",
+      "cuisine_type": "BBQ",
+      "owner_chef": null,
+      "guy_intro": "You see, I have a responsibility to bring you some of the best barbecue you've ever seen on Triple D. And after this spot, you'll say, I thank you. This is ZZQ.",
+      "segment_number": 6,
+      "timestamp_start": 989.0,
+      "timestamp_end": 1151.0,
+      "dishes": [
+        {
+          "dish_name": "Tres Hombres Sandwich",
+          "description": "A monster sandwich featuring pulled pork (Boston butt with yellow mustard and pickle brine slather, dry rub of black pepper, kosher salt, paprika, chili powder, brown sugar, granulated garlic, onion, smoked for 12 hours), beef brisket (with mustard and pickle brine slather, dry rub of black pepper, kosher salt, paprika, cayenne, granulated garlic, onion, cumin, Mexican oregano, smoked for 16-18 hours), and habanero fontina sausage. Served with a house thick sauce (toasted chilies, caramelized onions, molasses, ketchup, apple cider vinegar, ground sugar, cumin, chili flake, whole grain mustard, pickling brine, soy, lemon juice, cayenne, salt) and pickled red onions.",
+          "ingredients": [
+            "pulled pork",
+            "beef brisket",
+            "habanero fontina sausage",
+            "dry rub",
+            "mustard",
+            "pickle brine",
+            "chilies",
+            "caramelized onions",
+            "pickled red onions"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Delicious brisket. Love the sausage. Pulled pork's nice and tender. It's legit. It's real deal. It's great flavor. Well done. Well done, chef. Thank you. Tres hombres. You have to really press down to fit in your mouth. The brisket is very tender. It's really delicious.",
+          "timestamp_start": 1116.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

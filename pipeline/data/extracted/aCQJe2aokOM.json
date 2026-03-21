@@ -1,0 +1,75 @@
+{
+  "video_id": "aCQJe2aokOM",
+  "video_title": "Guy Fieri Eats *LEGIT* Thai Green Curry in Dallas | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "Crush Craft",
+      "city": "Dallas",
+      "state": "Texas",
+      "cuisine_type": "Thai",
+      "owner_chef": "Jack Nikasem",
+      "guy_intro": "So I'm here in the uptown neighborhood of Dallas, Texas, where an immigrant from Thailand is living the American dream and crushing it in so many ways. Welcome to Crush Craft. This is the real deal. Because owner Jack Nikasem's menu is full of the flavors he loved growing up near Bangkok. So he opened up this place built on classic Thai dishes inspired by his mom's cooking.",
+      "segment_number": 1,
+      "timestamp_start": 11.0,
+      "timestamp_end": 401.9,
+      "dishes": [
+        {
+          "dish_name": "Green Curry",
+          "description": "Curry paste made from galangal, lemongrass, garlic, shallots, shrimp paste, lime zest, cilantro stem, Thai chili pepper, coriander, lime leaves, Thai basil salt, and vegetable oil. Cooked with coconut milk, chicken breast, water, sugar, shrimp paste, green beans, bamboo shoot, lime leaves, eggplant, and Thai basil.",
+          "ingredients": [
+            "galangal",
+            "lemongrass",
+            "shrimp paste",
+            "thai chili pepper",
+            "coconut milk",
+            "chicken breast",
+            "green beans",
+            "thai basil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The depth of that curry, there's just enough heat that it starts getting a bit, but then it mellows out. I get a little bit of that shrimp paste. I get a little bit of the Thai chili. Right. You get ginger. You get garlic. That's one of the best curries I've ever had. Thank you. We call that in Dallas, impressive. Yeah, we kind of call that around the rest of the country, too. Green curry, table number three. The chicken is moist and tender. I absolutely love it. Completes me.",
+          "timestamp_start": 67.0,
+          "confidence": 0.98
+        },
+        {
+          "dish_name": "Green Papaya Salad",
+          "description": "Green papaya is peeled and thinly sliced. Garlic, Thai chili, green beans, fresh papaya, palm sugar, fish sauce, fresh lime juice, tomato, and crushed roasted peanuts are muddled together.",
+          "ingredients": [
+            "green papaya",
+            "garlic",
+            "thai chili",
+            "green beans",
+            "palm sugar",
+            "fish sauce",
+            "lime juice",
+            "roasted peanuts"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "I eat this by a truckload. The sugar, the fish sauce, the lime juice, the Thai chili, the garlic, all muddled together with that fantastic texture of the green papaya that just soaks it up. It's like the best cold noodle salad you've ever had. This will change your life.",
+          "timestamp_start": 213.1,
+          "confidence": 0.98
+        },
+        {
+          "dish_name": "Drunken Noodle",
+          "description": "Marinated chicken (oil, chicken base, sugar, oyster sauce, evaporated milk) stir-fried with oil, Thai chilies, garlic, onion, bell pepper, tomatoes, basil, and a sauce (vinegar, sugar, sweet soy sauce, seasoning soy sauce, oyster sauce), served with big fat noodles.",
+          "ingredients": [
+            "chicken",
+            "fat noodles",
+            "thai chilies",
+            "garlic",
+            "basil",
+            "oyster sauce",
+            "sweet soy sauce",
+            "evaporated milk"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Everything that you put in here, Jack. Yeah, the flavors still elude me. The chicken is really nice and tender. The veggies are crisp. Everything is just done right. It's the balance. I'm so glad I don't live by you, because this would be a place I would be at at least five times a day. My favorite part about the drunken noodles is the fact that it is a little spicy. Fresh wok seared taste.",
+          "timestamp_start": 288.1,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

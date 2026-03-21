@@ -1,0 +1,1428 @@
+{
+  "video_id": "XgCrXozba1c",
+  "video_title": "Top Melts, Paninis and Hot Sandwich Videos on #DDD | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "marathon",
+  "restaurants": [
+    {
+      "name": "The Kitchen Denver",
+      "city": "Denver",
+      "state": "Colorado",
+      "cuisine_type": "American Deli",
+      "owner_chef": "Jeremy McMinn",
+      "guy_intro": "Just what owners Bryant Sommatito and Andy Stutz had in mind when they bought this old joint. The building we're in is an old Coors Brewing building. So they kept the suds flowing and hired fine dining chef Jeremy McMinn to build up the menu.",
+      "segment_number": 1,
+      "timestamp_start": 8.6,
+      "timestamp_end": 271.9,
+      "dishes": [
+        {
+          "dish_name": "Bombshell Pastrami Sandwich",
+          "description": "Brisket brined for 15 days with kosher salt, brown sugar, white sugar, pink salt, honey, pickling spice, and garlic. Rinsed, dry-rubbed with granulated garlic, ground coriander, and black pepper. Smoked for 4 hours, then steamed for 3-3.5 hours. Cooled overnight. Served on buttered, toasted rye bread with Swiss cheese, pastrami jus, brown mustard, and optionally an over-medium egg and slaw.",
+          "ingredients": [
+            "brisket",
+            "kosher salt",
+            "brown sugar",
+            "pink salt",
+            "pickling spice",
+            "coriander",
+            "black pepper",
+            "swiss cheese",
+            "rye bread",
+            "brown mustard"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I know. I've eaten at some of the greatest delis in the world, and that's about as righteous as you'll find them. Awesome. It's the right mustard. The meat's super tender. Not too much smoke. Not too much pepper. Coriander. Not too salty. I mean, just a package deal, man. That is an incredibly righteous pastrami sandwich.",
+          "timestamp_start": 58.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Kurt's BBQ",
+      "city": "Austin",
+      "state": "Texas",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Kurt Aldridge",
+      "guy_intro": "All from the back of a souped up rig towed by real deal chef turned pit master, Kurt Aldridge. You're bringing in old school low and slow barbecue.",
+      "segment_number": 2,
+      "timestamp_start": 285.6,
+      "timestamp_end": 491.2,
+      "dishes": [
+        {
+          "dish_name": "Whole Hog Sandwich",
+          "description": "Pulled pork (dry-rubbed with brown sugar, kosher salt, Vietnamese pepper, garlic powder, smoked with almond wood for 12+6 hours, then mixed with Mojo Criollo), house-made sausage (pork, spices, smoked), house-made bacon (dry-brined, smoked), house-made BBQ sauce, pickled veggies, sriracha mayo, served on a house-made bun.",
+          "ingredients": [
+            "pork shoulder",
+            "brown sugar",
+            "vietnamese pepper",
+            "almond wood",
+            "mojo criollo",
+            "house-made sausage",
+            "house-made bacon",
+            "house-made bbq sauce",
+            "pickled vegetables",
+            "sriracha mayo",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That gives me goosebumps. Bacon's delicious. Rendered enough. When you're working with such few ingredients and such simple equipment, your discipline and your expertise have to be spot on, which they are. This is high-level barbecue.",
+          "timestamp_start": 310.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Sola Avenue",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Global Street Food",
+      "owner_chef": null,
+      "guy_intro": "Sola Avenue is global street food with a Midwest interpretation. What they brought to the community is not your standard run-of-the-mill stuff.",
+      "segment_number": 3,
+      "timestamp_start": 493.4,
+      "timestamp_end": 596.4,
+      "dishes": [
+        {
+          "dish_name": "Chicken Fried Sandwich",
+          "description": "Boneless chicken thighs marinated overnight in egg, buttermilk, flour, pepper, salt, hot sauce. Double-dredged in seasoned flour (salt, black pepper, white pepper, cayenne, smoked paprika, onion powder, garlic powder, baking powder). Double-fried. Served on a toasted bun with lime aioli, kimchi, ssamjang, house pickles.",
+          "ingredients": [
+            "boneless chicken thighs",
+            "buttermilk",
+            "seasoned flour",
+            "lime aioli",
+            "kimchi",
+            "ssamjang",
+            "house pickles",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "My friend, that is an excellent fried chicken. Excellent fried chicken. That is super crunchy-tacious. I have a chicken joint called Chicken Guy, and I say that sauce is the boss. When I watch you put on all that ssamjang, I'm like, just call it the ssamjang sandwich. But it's this balance that goes on between the fat of that lime aioli with the acid of the pickle. It's like clashing right there in the middle of the chicken sandwich. Ba-boom.",
+          "timestamp_start": 500.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Bud's Louisiana Cafe",
+      "city": "San Diego",
+      "state": "California",
+      "cuisine_type": "Cajun/Creole",
+      "owner_chef": "Andrew Boyer",
+      "guy_intro": "Feels like New Orleans came to San Diego. Which actually happened by way of Andrew Boyer, a cook from the Big Easy who came here 27 years ago to help a friend open some breweries.",
+      "segment_number": 4,
+      "timestamp_start": 598.4,
+      "timestamp_end": 772.0,
+      "dishes": [
+        {
+          "dish_name": "Black and Gold Po'Boy",
+          "description": "Combination of fried shrimp and roast beef. Roast beef is top round, boiled with kosher salt, black pepper, whole peppercorns, garlic. Demi-glace made from roasted veal bones, tomato paste, rosemary, thyme, red wine, bay leaf, reduced for 4 hours. Remoulade sauce (mayo, creole mustard, garlic puree, cajun seasoning, hot sauce, lemon juice, olive oil). Shrimp dredged in buttermilk and flour, fried. Served on Leidenheimer bread with remoulade, lettuce, tomatoes, house pickles, garlic aioli, and beef gravy.",
+          "ingredients": [
+            "top round beef",
+            "veal bones",
+            "shrimp",
+            "leidenheimer bread",
+            "remoulade sauce",
+            "beef gravy",
+            "house pickles",
+            "garlic aioli"
+          ],
+          "dish_category": "entree",
+          "guy_response": "One minute you're getting crunchy shrimp and remoulade. And then you transition right into this delicious warm shredded beef with the gravy. Rich in flavor. Leidenheimer makes all the difference in the world. Pickled veg is a must. A little unconventional. This is your house. Like my good buddy Steve Hutchinson said, I learned some stuff I knew and I learned some stuff I didn't knew. Delicious, man. Not a thing I would change.",
+          "timestamp_start": 625.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Rene's Taco Truck",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Rene Valenzuela",
+      "guy_intro": "That's one of the biggest taco trucks I've ever seen. But when Rene Valenzuela opened this joint in 91... And since 99, Rene's using it to crank out the classics he grew up cooking in Mexico.",
+      "segment_number": 5,
+      "timestamp_start": 776.0,
+      "timestamp_end": 962.4,
+      "dishes": [
+        {
+          "dish_name": "Chilorio Torta",
+          "description": "Carnitas (Boston butt, fat removed, cut small, fried in pork lard with Mexican bellies, allspice, orange, simmered for a couple hours, then shredded). Chilorio sauce (ancho and pasilla peppers toasted, steeped in hot water, deseeded, blended with Mexican oregano, comino, vinegar, garlic cloves, salt, strained, fried in pork lard). Carnitas cooked in sauce. Served on homemade bread with refried beans, queso, jalapenos, tomatoes, white onions, marinated onions, cabbage, cilantro.",
+          "ingredients": [
+            "boston butt pork",
+            "ancho peppers",
+            "pasilla peppers",
+            "mexican oregano",
+            "refried beans",
+            "queso",
+            "jalapenos",
+            "homemade bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's out of bounds, dude. The freshness of the bread right off the bat. Then you get this hot, little bit spicy, the meat. Then you get the crunch of the onion. A little snap from the jalapeno. This has got to be one of the best tortas I've ever had. All right. I mean, one of the best, dude.",
+          "timestamp_start": 828.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Sunday Cafe",
+      "city": "Tybee Island",
+      "state": "Georgia",
+      "cuisine_type": "Low-Country Cuisine",
+      "owner_chef": "A.J. Baker",
+      "guy_intro": "And it's cooked up by a Tybee native, A.J. Baker, who couldn't leave well enough alone with just an ice cream shop, so he flexed his culinary muscle. Because everybody knew us as Sunday Cafe.",
+      "segment_number": 6,
+      "timestamp_start": 963.4,
+      "timestamp_end": 1157.7,
+      "dishes": [
+        {
+          "dish_name": "Down South Grilled Cheese",
+          "description": "Pork belly (brined in cold water, apple juice, apple cider vinegar, brown sugar, pickling spice, dill, crushed red pepper, hot sauce, salt, garlic for 2 days, then smoked). Collard greens (oil, diced onion, pork belly, apple cider vinegar, water, black pepper, brown sugar, kosher salt, granulated garlic, hot sauce, sweet chili sauce, greens, simmered 2 hours). Alabama white sauce (mayo, apple cider vinegar, grain mustard, brown sugar, horseradish, Worcestershire, hot sauce, granulated onion, garlic, cajun seasoning, black pepper, lime juice). Chicken breast (double-lobed, buttermilk-dredged in seasoned flour). Served on toasted bread with American cheese, pork belly, fried chicken, collard greens, Alabama white sauce.",
+          "ingredients": [
+            "pork belly",
+            "collard greens",
+            "chicken breast",
+            "alabama white sauce",
+            "american cheese",
+            "toasted bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I know I'm going to end up wearing some of this sandwich. The fried chicken is spot on. The pork belly is so tender and delicious. The collard greens are money. The Tybee white sauce is delicious. Acid and fat, that little bit of that horseradish coming through, outstanding. I mean, like, really a great sandwich.",
+          "timestamp_start": 1009.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Louie's Restaurant & Drive-In",
+      "city": "Boise",
+      "state": "Idaho",
+      "cuisine_type": "American Diner",
+      "owner_chef": "Lou Aaron",
+      "guy_intro": "How could it not be with Chef Lou Aaron behind the line? He brought his decades of culinary experience to the drive-in when he nabbed this blast from the past in 1994.",
+      "segment_number": 7,
+      "timestamp_start": 1164.7,
+      "timestamp_end": 1347.1,
+      "dishes": [
+        {
+          "dish_name": "Monte Cristo",
+          "description": "Triple-decker sandwich with Texas toast. Chicken (rubbed with salt, granulated garlic, sugar, white pepper, black pepper, whole thyme, onion powder, dill weed, paprika, chili powder, cumin, celery salt, poultry seasoning, cornstarch, water, cooked in oven). Swiss cheese, cheddar cheese, ham. Dipped in egg, breaded with panko breadcrumbs, deep-fried. Served with raspberry coulis (raspberry preserves, cranberry juice).",
+          "ingredients": [
+            "texas toast",
+            "chicken",
+            "swiss cheese",
+            "cheddar cheese",
+            "ham",
+            "panko breadcrumbs",
+            "egg",
+            "raspberry coulis"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Money up. The crispiness comes out in the way that they batter it. When you bite into it, it just explodes in your mouth. It's really juicy. And that flavor comes through. Then you dip it in some jam. It's incredible.",
+          "timestamp_start": 1240.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Tony Rubato's Italian Kitchen",
+      "city": "Long Island",
+      "state": "New York",
+      "cuisine_type": "Italian",
+      "owner_chef": "Tony Rubato",
+      "guy_intro": "All from high-end Italian chef Tony Rubato. Before bringing his own scratch-made menu to Long Island.",
+      "segment_number": 8,
+      "timestamp_start": 1347.1,
+      "timestamp_end": 1521.1,
+      "dishes": [
+        {
+          "dish_name": "Hot Cuban Sandwich",
+          "description": "Pork shoulder (seared, then cooked in stock pot with oil, chopped onions, celery, carrots, chicken stock, crushed tomatoes for 1 hour, then oven for 6-7 hours, then shredded). Served on panini bread with homemade honey mustard, fire-roasted peppers, pickles, turkey, Virginia ham, Swiss cheese, pressed in a panini press.",
+          "ingredients": [
+            "pork shoulder",
+            "panini bread",
+            "honey mustard",
+            "fire-roasted peppers",
+            "pickles",
+            "turkey",
+            "virginia ham",
+            "swiss cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm, pork's dynamite. The honey Dijon rocks. Love anything that's got red bell pepper in it. Good vinegar from the pickle. But the big calculation that makes this all tie together, the bread and the panini maker. That's really the kicker here. I mean, that is nice, crunchy. I mean, it's done right. Everything's melted in the center of it.",
+          "timestamp_start": 1384.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Cesar's Latin Grill",
+      "city": "Daytona Beach",
+      "state": "Florida",
+      "cuisine_type": "Venezuelan",
+      "owner_chef": "Cesar Altomar and Yelis Altomar",
+      "guy_intro": "That's because Daytona Beach isn't exactly overflowing with Venezuelan joints. So Cesar Altomar and his wife, Yelis, started schooling folks about their country's cuisine.",
+      "segment_number": 9,
+      "timestamp_start": 1522.9,
+      "timestamp_end": 1683.3,
+      "dishes": [
+        {
+          "dish_name": "Patacon Beef",
+          "description": "Shredded beef (boiled with peppers, onions, salt for 2 hours, then fried with oil, onions, green peppers, sweet peppers, tomatoes, salt, comino, peppers, sazon, soy sauce, garlic, beef stock). Garlic sauce (mayonnaise, onions, garlic, cilantro, water, salt, oil, mustard). Sweet plantains (cut, fried, flattened). Served with garlic sauce, shredded beef, cabbage, tomatoes, ham, shredded Venezuelan cheese, on sweet plantain slices.",
+          "ingredients": [
+            "beef",
+            "sweet plantains",
+            "garlic sauce",
+            "cabbage",
+            "tomatoes",
+            "ham",
+            "venezuelan cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "A lot of unique foods. There is nothing that will prepare you for that. The sweetness of the plantain is the first thing you've got. You get the richness and the creaminess of the cheese. Beef is delicious. It's got a little acid. It's got a little bit of garlic. Just the tanginess that you love of it. The garlic sauce is awesome. Sings all the way through. It's an enormous dish, but delicious.",
+          "timestamp_start": 1549.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Bottle Cap",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "cuisine_type": "American Bar Food",
+      "owner_chef": null,
+      "guy_intro": "And she's also crushing it with the menu here. You'll be telling all your friends about Bottle Cap.",
+      "segment_number": 10,
+      "timestamp_start": 1685.5,
+      "timestamp_end": 1871.7,
+      "dishes": [
+        {
+          "dish_name": "Titan Sandwich",
+          "description": "Chicken tenders (buttermilk marinated overnight with eggs, hot sauce, salt, garlic; breaded in cornflake breading with AP flour, cornflakes, garlic powder, onion powder, smoked paprika, black pepper, salt; fried). Snappy sauce (Peppadew peppers, Worcestershire, cayenne, hot sauce, Peppadew juice, mayo, ketchup). Onion rings (pancake batter, light beer lager, fried). Jalapeno poppers, mozzarella sticks. Burger patties (salt, pepper, smashed). Served on a bun with snappy sauce, lettuce, tomato, house-made bread and butter pickles, American cheese, bacon, double-stacked patties, chicken tender, onion ring, mozzarella stick, jalapeno popper, pepperoncini.",
+          "ingredients": [
+            "chicken tenders",
+            "cornflake breading",
+            "snappy sauce",
+            "burger patties",
+            "american cheese",
+            "bacon",
+            "onion rings",
+            "mozzarella stick",
+            "jalapeno popper",
+            "bun",
+            "house-made pickles"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The chicken tender was perfectly cooked. Nice and moist. Great breading on the outside of it. From the hot burger and the melting cheese to the cold tomato cold lettuce. There was just a nice little juxtaposition there. There's two things that really stand out. One is the snappy sauce. There's dynamite. The pepidou is a kiss of acidity and sweetness. Two, the bread and butter pickles that you guys make are awesome.",
+          "timestamp_start": 1712.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Cafe 222",
+      "city": "San Diego",
+      "state": "California",
+      "cuisine_type": "American Cafe",
+      "owner_chef": null,
+      "guy_intro": "Hot blonde. It's just I happen to be here. The sandwich is really called hot blonde.",
+      "segment_number": 11,
+      "timestamp_start": 1873.3,
+      "timestamp_end": 1977.9,
+      "dishes": [
+        {
+          "dish_name": "Hot Blonde Sandwich",
+          "description": "Roasted chicken (butter, salt, pepper, roasted). Pepper plant sauce (ketchup, grosso garlic, grosso chili flakes, salt, pepper, onion powder, pepperoncini juice). Garlic spread (same as Aleppo spread without Aleppo). Served on panini bread with garlic spread, brown mustard, pepper plant sauce, Swiss cheese, fresh tomatoes, avocado, cucumbers, roasted red onions, spinach, chicken, pressed in a panini press.",
+          "ingredients": [
+            "roasted chicken",
+            "pepper plant sauce",
+            "garlic spread",
+            "swiss cheese",
+            "avocado",
+            "panini bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's good. It's really good. It's like a club sandwich gone wild. This is the kind of sandwich my mom would flip out for.",
+          "timestamp_start": 1877.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Joy's Place",
+      "city": "San Diego",
+      "state": "California",
+      "cuisine_type": "Cafe",
+      "owner_chef": "Joy",
+      "guy_intro": "Joy is totally whimsical. She does amazing things with food. It's really about helping women because I was a single mom.",
+      "segment_number": 12,
+      "timestamp_start": 1982.2,
+      "timestamp_end": 2163.5,
+      "dishes": [
+        {
+          "dish_name": "Turkey Artichoke Panini",
+          "description": "Turkey breast (seasoned with salt and pepper, vacuum-sealed, sous vide). Artichoke tapenade (artichokes, green stuffed olives, Parmesan, Asiago, Romano, garlic, parsley, Italian salt and pepper, lemon rind, lemon juice, California olive oil, basil). Fresh basil dressing (grapeseed oil, California olive oil, local honey, brown rice vinegar, white wine vinegar, water, onion, garlic, oregano, dry mustard, Italian parsley, basil, salt). Served on rustic bread with sous vide turkey, artichoke tapenade, fresh basil dressing, tomatoes, Swiss cheese, pressed in a panini press.",
+          "ingredients": [
+            "turkey breast",
+            "artichoke tapenade",
+            "fresh basil dressing",
+            "rustic bread",
+            "swiss cheese",
+            "tomatoes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Smell and food trigger the most memory, in my opinion. Absolutely. So I was raised in a little town called Ferndale. I'm biting into this sandwich, and it took me back to Ferndale as a 10-year-old kid. The bread, the tapenade, the turkey, these are the kind of flavors I love. You either have to do each one of those pieces and do them exactly right, or it's not going to work. You do it all right, with great ingredients and the right technique, you're going to get this. Delicious.",
+          "timestamp_start": 2037.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Shepherd's BBQ",
+      "city": "Raleigh",
+      "state": "North Carolina",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Brandon Shepherd and Elizabeth Shepherd",
+      "guy_intro": "It's the genius of Brandon. Which all started when Chef Brandon Shepherd was just a kid, hanging out around the pit at family cookouts. Then, after working in kitchens, he and his wife Elizabeth desired to fire things up on their own.",
+      "segment_number": 13,
+      "timestamp_start": 2163.5,
+      "timestamp_end": 2362.8,
+      "dishes": [
+        {
+          "dish_name": "Boss Hog Sandwich",
+          "description": "Jalapeno cheddar sausage (brisket and pork trimmings, granulated garlic, smoked paprika, crushed black pepper, curing salt, kosher salt, mustard powder, milk powder, cream, jalapenos, mild cheddar, smoked with hickory, post oak, pecan). Pulled pork (pork butt, yellow mustard, salt, paprika, Three Little Pigs rub, touch of cherries, smoked 10 hours). Carolina gold mustard sauce (yellow mustard, dijon mustard, carolina vinegar sauce, white vinegar, water, Worcestershire sauce, smoked paprika, black pepper, cayenne, granulated garlic, onion powder, red chili flake, white sugar). Served on a beef tallow toasted bun with pit sausage, pulled pork, Carolina gold sauce, pickled red onions, Helen's collards.",
+          "ingredients": [
+            "pulled pork",
+            "jalapeno cheddar sausage",
+            "carolina gold mustard sauce",
+            "pickled red onions",
+            "collard greens",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Dynamite sandwich. The pork is tender, but doesn't have a ton of smoke. Sausage has got a great bite. Yeah, that's a great textural difference between the pulled pork and the sausage. I mean, it's nice to have that. That Carolina gold money. We could put that on a flip-flop. Legit.",
+          "timestamp_start": 2199.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Vagabond Kitchen & Tap House",
+      "city": "Atlantic City",
+      "state": "New Jersey",
+      "cuisine_type": "American Bar Food",
+      "owner_chef": "Elvis Cadavid and Tom Harris",
+      "guy_intro": "Atlantic City native, Elvis Cadavid. So he signed up his childhood buddy, Tom Harris. Bought the joint, fixed it up, and put it back on the map in 2013. When Tom and Elvis reopened as Vagabond, instantly it became a hit.",
+      "segment_number": 14,
+      "timestamp_start": 2368.4,
+      "timestamp_end": 2516.0,
+      "dishes": [
+        {
+          "dish_name": "Three-Way Sandwich",
+          "description": "Pulled pork, brisket, candied bacon, mango barbecue sauce, lime slaw. Served on a locally made brioche bun with house-made fries.",
+          "ingredients": [
+            "pulled pork",
+            "brisket",
+            "candied bacon",
+            "mango barbecue sauce",
+            "lime slaw",
+            "brioche bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "When I think about Atlantic City, I do not think about barbecue sandwiches. But I got to tell you, this would be a home away from home for a lot of folks that want some great barbecue. Mm. Mm. Smoke, nice tang, good season. Making a slaw, counterbalancing it with a little acid. That was a great sandwich. That is a really great sandwich.",
+          "timestamp_start": 2403.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Turkey Apple Brie",
+          "description": "Turkey, apple, brie cheese, served on cranberry walnut bread.",
+          "ingredients": [
+            "turkey",
+            "apple",
+            "brie cheese",
+            "cranberry walnut bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": null,
+          "timestamp_start": 2499.4,
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Look's Marketplace",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "cuisine_type": "American Deli/BBQ",
+      "owner_chef": null,
+      "guy_intro": "We are here at Look's Marketplace. Now, it's not your everyday grocery store. There's something for everyone.",
+      "segment_number": 15,
+      "timestamp_start": 2520.2,
+      "timestamp_end": 2690.1,
+      "dishes": [
+        {
+          "dish_name": "Porkulis Sandwich",
+          "description": "House-made ciabatta bread. Pit sausage (beef chuck, back fat, pork, salt, curing salt, ground mustard, crushed red pepper, black pepper, coriander, granulated onion, granulated garlic, smoked). Pork shoulder (yellow mustard, salt, paprika, Three Little Pigs rub, touch of cherries, smoked 12-15 hours). House-made spicy mustard barbecue sauce. Served on ciabatta with chili lime mayo, pit sausage, pork brisket (from the shoulder), pulled pork, spicy mustard BBQ sauce, pickled red onion, arugula.",
+          "ingredients": [
+            "ciabatta bread",
+            "pit sausage",
+            "pork shoulder",
+            "pork brisket",
+            "chili lime mayo",
+            "spicy mustard bbq sauce",
+            "pickled red onion",
+            "arugula"
+          ],
+          "dish_category": "entree",
+          "guy_response": "There are three textures of pork, three flavors of pork, because three things were treated individually, and they brought out. They brought out their best selves. It's a triple punch, left, right, left. The sauce and the accoutrement is not overpowering any of that. It just lets everybody sing, man. Being that I'm the, or I was the host of the show, I agree with everything Justin says. This is a wonderful way to explore the world of pork. All the pork is fantastic, seasoned great. That ciabatta roll is the perfect vessel. It's a full home run.",
+          "timestamp_start": 2540.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "The Daily Feast",
+      "city": "Portland",
+      "state": "Oregon",
+      "cuisine_type": "American Brunch",
+      "owner_chef": "Vanessa Stebbins and Monica Kissinger",
+      "guy_intro": "But things actually began with brunch, when owners Vanessa Stebbins and Monica Kissinger set out to pair scratch-made food with boozy drinks.",
+      "segment_number": 16,
+      "timestamp_start": 2690.1,
+      "timestamp_end": 2843.6,
+      "dishes": [
+        {
+          "dish_name": "Meatball Sub",
+          "description": "Homemade bread (power flour, wheat flour, granulated garlic, sugar, salt, yeast, water, oil, proofed, baked). Meatballs (ground pork, 80-20 ground beef, house-made bread soaked in milk, onion, parsley, Parmesan cheese, eggs, granulated garlic, fennel, pepper, salt, baked). Homemade tomato sauce (oil, fresh garlic, onion, pepper, oregano, salt, sugar, crushed tomatoes, cooked 4 hours, then anchovies, garlic, simmered 1.5 hours, fresh herbs, tomato sauce, immersion blended, simmered 0.5 hour, Parmesan cheese). Served on house-made bun with provolone cheese, meatballs, marinara, mozzarella, baked to melt cheese.",
+          "ingredients": [
+            "ground pork",
+            "ground beef",
+            "homemade bread",
+            "parmesan cheese",
+            "homemade tomato sauce",
+            "provolone cheese",
+            "mozzarella cheese",
+            "homemade bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That bread, with that little garlic kick, that's dynamite. Meatballs are tender, got great texture. Sauce is delicious. This really nice tomato, it's legit. I mean, I could easily be in an East Coast sub shop getting this.",
+          "timestamp_start": 2725.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Alex's Mexican Torta Place",
+      "city": "San Antonio",
+      "state": "Texas",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Alex",
+      "guy_intro": "I go to Mexico, and I see the whole holy sandwich being served with all the fresh things that Mexican food has. I kind of lost my mind. We started making them, and that kind of took off.",
+      "segment_number": 17,
+      "timestamp_start": 2848.3,
+      "timestamp_end": 2995.5,
+      "dishes": [
+        {
+          "dish_name": "Masa y Papa Torta",
+          "description": "Vegetarian torta. Huaraches (mashed potatoes, masarina, salt, oil, water, chili, jalapeno, hand-shaped, par-baked, pan-fried). Roasted tamarind tomatoes (tomatoes, rosemary, avocado leaf, habanero, garlic, diluted tamarind paste, oil, salt, pepper, roasted). Jalapeno mayo (charred chilies, garlic, salt, lime juice, mayo). Served on huaraches with jalapeno mayo, tamarind tomato, queso botanero (queso fresco with chili and cilantro), fresh onion with cilantro and lime, slices of avocado, shredded cabbage, pickled onion.",
+          "ingredients": [
+            "mashed potatoes",
+            "masarina",
+            "chili",
+            "jalapeno",
+            "tamarind tomatoes",
+            "jalapeno mayo",
+            "queso botanero",
+            "avocado",
+            "pickled onion",
+            "cabbage"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That might be one of the best. Vegetarian Mexican tortas I've ever had. Great crunch. It's creamy. It's spicy. It's tangy. It's rich. The acidity of the pickled onion is a must. The avocado flies right in. Then you get a little bit of fat coming through from that cheese. That's dynamite.",
+          "timestamp_start": 2864.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Jeff Brown and Blake Humble's Craft Beer Bar",
+      "city": "Denver",
+      "state": "Colorado",
+      "cuisine_type": "American Gastropub",
+      "owner_chef": "Brian Lane",
+      "guy_intro": "Beer is often the draw, but the food will keep you here, which is exactly how owners Jeff Brown and Blake Humble drew it up. So they signed up chef Brian Lane.",
+      "segment_number": 18,
+      "timestamp_start": 2998.5,
+      "timestamp_end": 3141.9,
+      "dishes": [
+        {
+          "dish_name": "Waffle Madame",
+          "description": "Waffle (all-purpose flour, granulated sugar, baking powder, kosher salt, eggs, buttermilk, vanilla, butter). Home fries. Maple mustard butter (butter, maple syrup, whole grain mustard). Ham. Eggs. Served as a sandwich with cheese, home fries, maple mustard butter, ham, eggs.",
+          "ingredients": [
+            "waffle",
+            "cheese",
+            "home fries",
+            "maple mustard butter",
+            "ham",
+            "eggs"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The waffle should be illegal. It absolutely is. You should have to weigh in before you can eat that thing.",
+          "timestamp_start": 3043.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Blue Agave Restaurante y Tequileria",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "cuisine_type": "American Brunch",
+      "owner_chef": "Bridget Bledsoe",
+      "guy_intro": "My father, he's really smiling down. That's because since he passed in 2013, his son David and daughter-in-law Brandi have carried on what he started. Which is the creation of chef Bridget Bledsoe, who's been heading up this kitchen since they opened in 2005.",
+      "segment_number": 19,
+      "timestamp_start": 3143.3,
+      "timestamp_end": 3296.6,
+      "dishes": [
+        {
+          "dish_name": "Coconut Cream Stuffed French Toast",
+          "description": "Two large pieces of challah bread stuffed with coconut cream.",
+          "ingredients": [
+            "challah bread",
+            "coconut cream"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "Each bite, you get the texture of the coconut, the sweetness with the crunch. I have no problem giving it a wow-wee.",
+          "timestamp_start": 3170.3,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Crab Cake",
+          "description": "Jumbo lump crab meat, Tabasco bacon onion jam, Old Bay remoulade. Crab cake mix (boiled meal, eggs, marshmallow, Old Bay, yellow mustard, kosher salt, roasted red peppers, parsley, cracker meal). Served as mini crab cakes with bacon jam, Old Bay remoulade, lettuce, red and yellow tomatoes, garnished with parsley.",
+          "ingredients": [
+            "jumbo lump crab meat",
+            "tabasco bacon onion jam",
+            "old bay remoulade",
+            "lettuce",
+            "tomatoes",
+            "parsley"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is outrageous.",
+          "timestamp_start": 3216.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Daybird",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Sichuan Hot Chicken",
+      "owner_chef": "Mei Lin",
+      "guy_intro": "Tonight is a very special Diners, Drivers, and Dives, because we are in the home of a Tournament of Champions champ. From season four, the one and only champ, Chef Mei Lin.",
+      "segment_number": 20,
+      "timestamp_start": 3296.6,
+      "timestamp_end": 3653.2,
+      "dishes": [
+        {
+          "dish_name": "Szechuan Hot Chicken Sando (Medium)",
+          "description": "Chicken thighs (pounded, brined in water, salt, granulated garlic, fish sauce, buttermilk for 12 hours). Chili oil (Szechuan peppercorns, black peppercorns, coriander seed, fennel seed, cumin seed, star anise, bay leaves, cinnamon, dry toasted, blended; chili de arbol, gochugaru chilies, infused in oil, sugar, spices, rested overnight, strained). Pickling liquid (mirin, sugar, reduced; coriander, black peppercorns, bay leaves, toasted; white vinegar, rice vinegar). Hot honey (pickled jalapeno/fresno liquid, honey). No heat spice mixture (bay leaves, cinnamon sticks, green peppercorn, black peppercorns, Sichuan peppercorns, coriander seed, green cardamom, star anise, mushroom powder, granulated onion, granulated garlic, sugar, salt). Chicken dredged in fish sauce/buttermilk/egg mix, then in flour/water mix (for flakes), then rice flour/cornstarch/flour mix. Double-fried. Medium Sando gets half dip in chili oil, seasoned with medium spice mix (cayenne, chili de arbol), hot honey. Served on a bun with slaw (red and green cabbage, chives, cilantro), pickled shallots, pickled chilies.",
+          "ingredients": [
+            "chicken thighs",
+            "szechuan peppercorns",
+            "chili oil",
+            "hot honey",
+            "slaw",
+            "pickled shallots",
+            "pickled chilies",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow, that's so crunchy. One of the best chicken crunches I've had. It's very juicy. I feel like I have to open my mouth real big for this one. The full sandwich bite with the slaw, that's the kicker. Slaw is money. All the pickled veg in there is really dynamite. I love that little extra honey kiss, but definitely the habanero ranch is my go-to. Amazing ranch.",
+          "timestamp_start": 3353.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Ernest's",
+      "city": "Point Pleasant Beach",
+      "state": "New Jersey",
+      "cuisine_type": "Deli/Butcher Shop",
+      "owner_chef": "Mel Cortalesa",
+      "guy_intro": "So when you're coming into town, got to hit Ernest. And the guy behind the counter is owner and butcher Mel Cortalesa, who took over the place in 07, 30 years after it originally opened.",
+      "segment_number": 21,
+      "timestamp_start": 3656.1,
+      "timestamp_end": 3809.7,
+      "dishes": [
+        {
+          "dish_name": "Homemade Jerky",
+          "description": "Homemade jerky, available in various spice levels.",
+          "ingredients": [
+            "beef"
+          ],
+          "dish_category": "snack",
+          "guy_response": "It's not too dry, not over seasoned. It's a nice balance to it. A little hot, a little sweet, right? Yeah. It's good jerky. Great jerky.",
+          "timestamp_start": 3704.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Tailgater (Sausage and Pepper Sandwich with Cheese)",
+          "description": "House-made sausage (spices, set for a day). Served with peppers, cheese (provolone), on bread.",
+          "ingredients": [
+            "house-made sausage",
+            "peppers",
+            "provolone cheese",
+            "bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's good sausage, man. That was really good sausage. The key is that fennel. You think? Oh, and it gets great flavor all the way through it. And I like the fact that you let it set for a day before you cook it. The bread is nice, tender, but it'll hold it together. Salty provolone. Good, right?",
+          "timestamp_start": 3749.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Marty's BBQ",
+      "city": "Austin",
+      "state": "Texas",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Marty Gleason and Nazareth Saavedra",
+      "guy_intro": "There's not a lot of food trucks like this food truck. And there aren't a lot of pitmasters like former attorney Marty Gleason. He owns this funky food truck with Nazareth Saavedra.",
+      "segment_number": 22,
+      "timestamp_start": 3812.7,
+      "timestamp_end": 3964.4,
+      "dishes": [
+        {
+          "dish_name": "Big Pig",
+          "description": "Pulled chicken (chicken thighs, rub with natural brown sugar, paprika, granulated garlic salt, cinnamon, onion, Old Bay, salt, mustard powder, lemon pepper, seasoned salt, chili powder, cayenne; smoked 2-3 hours). Brisket (kosher salt, lemon pepper, black pepper, mustard rub, pickle brine slather, smoked 16-18 hours). Hooli-hooli sauce (pineapple juice, ketchup, teriyaki, brown sugar, garlic, ginger, heated). Sausage. Abe Frohman (four cheese Italian). Big Pink sauce. Alabama sauce. Onion rings. Served with brisket, pulled pork, hooli-hooli sauce, chicken, sausage, Abe Frohman, onion rings, Big Pink sauce, Alabama sauce.",
+          "ingredients": [
+            "pulled chicken",
+            "brisket",
+            "pulled pork",
+            "sausage",
+            "hooli-hooli sauce",
+            "big pink sauce",
+            "alabama sauce",
+            "onion rings",
+            "four cheese italian"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Good smoke on the brisket. I like the pulled pork. I like that you get some big pieces out of it. It's not all shredded up. I love the onion ring touch and the house-made sauces. Only thing I recommend, a lot of napkins.",
+          "timestamp_start": 3853.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Butcher's Kitchen Char-B-Q",
+      "city": "Reno",
+      "state": "Nevada",
+      "cuisine_type": "BBQ/Deli",
+      "owner_chef": "Big Ed and Ed Jr.",
+      "guy_intro": "Triple D hanging outside of Reno, Nevada, at Butcher's Kitchen Char-Vic. And the wild man here is Big Ed, who owns the joint with Ed Jr.",
+      "segment_number": 23,
+      "timestamp_start": 3964.4,
+      "timestamp_end": 4130.4,
+      "dishes": [
+        {
+          "dish_name": "Filet Mignon Sandwich",
+          "description": "Filet mignon (marinated in red wine vinegar, lemon juice, fresh garlic, crushed red pepper, black pepper, basil, oregano, sugar, parsley, mustard powder, thyme, salt, water, olive oil for 2-4 hours, tenderized with Impressor tool). Cooked to medium rare. Served on a toasted bun with provolone cheese, peppers, onions, pepperoncinis.",
+          "ingredients": [
+            "filet mignon",
+            "red wine vinegar",
+            "lemon juice",
+            "fresh garlic",
+            "provolone cheese",
+            "peppers",
+            "onions",
+            "pepperoncinis",
+            "toasted bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'm not a fan of the filet. But if you're going to give it that kiss of the vinegar and the garlic, and then you hit it with the acid and the sweetness of the caramelized onions and peppers, but then you get some of the cherry peppers in there and a little salty provolone, this is what you want to take sandwich. The real deal.",
+          "timestamp_start": 3989.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Dick's Northwest Sausage & Deli",
+      "city": "Mount Vernon",
+      "state": "Washington",
+      "cuisine_type": "Deli/Sausage",
+      "owner_chef": "Julie",
+      "guy_intro": "Nobody does it quite like Julie does. The little addition of the couple pieces of pepperoni to remind you of what this place is really about is awesome.",
+      "segment_number": 24,
+      "timestamp_start": 4133.4,
+      "timestamp_end": 4286.6,
+      "dishes": [
+        {
+          "dish_name": "Hot Pastrami on Rye",
+          "description": "Pastrami (top round, corned beef cure, pink curing salt, 8 injections, tumbled 5 hours, dry-rubbed with coriander, garlic powder, paprika, brown sugar, crack black pepper, smoked 6 hours, 140-175 degrees). Served on buttered rye bread with provolone cheese, Swiss cheese, mayonnaise, mustard, sauerkraut.",
+          "ingredients": [
+            "top round pastrami",
+            "rye bread",
+            "provolone cheese",
+            "swiss cheese",
+            "mayonnaise",
+            "mustard",
+            "sauerkraut"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Toast on the bread is money. The slice on the pastrami is a perfect tour. There's texture, but not so thin that it's just falling apart. Provolone Swiss combo, great. And the right amount of sauerkraut. You do everything right, excellent sandwich.",
+          "timestamp_start": 4171.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Polish Sausage",
+          "description": "House-made Polish sausage.",
+          "ingredients": [
+            "pork",
+            "spices"
+          ],
+          "dish_category": "snack",
+          "guy_response": null,
+          "timestamp_start": 4256.9,
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Miller's East Coast Deli",
+      "city": "San Francisco",
+      "state": "California",
+      "cuisine_type": "Deli",
+      "owner_chef": "Matt Levin and Michael Royal",
+      "guy_intro": "Because owner Matt Levin's been working to perfect his recipe since he was 16. Not in his own head hitter, Chef Michael Royal. To give old school pastrami a try on the West Coast.",
+      "segment_number": 25,
+      "timestamp_start": 4294.5,
+      "timestamp_end": 4489.2,
+      "dishes": [
+        {
+          "dish_name": "Toasted 19 (Pastrami Sandwich)",
+          "description": "Pastrami (brined for a week, then coriander and black pepper, smoked with hickory, steamed for 4 hours). Lacquer (pastrami drippings, brown sugar, black pepper, coriander, reduced by half). Served on toasted rye bread with Russian dressing, coleslaw, Swiss cheese, and lacquered pastrami.",
+          "ingredients": [
+            "pastrami",
+            "rye bread",
+            "russian dressing",
+            "coleslaw",
+            "swiss cheese",
+            "pastrami lacquer"
+          ],
+          "dish_category": "entree",
+          "guy_response": "You can be a hard-core New Yorker. Nothing's going to prepare you for that. It's that good, man. Really nice toasted rye. Perfectly brined, smoked, steamed. It's that good.",
+          "timestamp_start": 4350.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Grill House",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "cuisine_type": "American Brunch",
+      "owner_chef": "Andy Myers",
+      "guy_intro": "And that's the vibe Louisville natives Tyler Trotter and Lori Beck were going for when they opened this joint in an old house. So they brought in trained chef and Kentucky native Andy Myers to amp up and narrow down the dishes.",
+      "segment_number": 26,
+      "timestamp_start": 4491.4,
+      "timestamp_end": 4688.0,
+      "dishes": [
+        {
+          "dish_name": "Fried Bologna Sandwich",
+          "description": "House-made bologna (all beef, spice kit with grated nutmeg, dextrose, black pepper, coriander, garlic powder, salt, curing salt, paprika, nonfat dry milk powder, ice water; blended, ground, sheet-trayed, partially frozen, cut, ground again, cased, smoked with cherry wood, vacuum-sealed, cooked in immersion circulator). Served on a brioche bun with New York white cheddar, fried bologna, sunny-side up egg, finishing salt, cracked pepper, hot sauce, baby mustard greens.",
+          "ingredients": [
+            "house-made bologna",
+            "brioche bun",
+            "new york white cheddar",
+            "sunny-side up egg",
+            "baby mustard greens"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh my god. That is straight up legit awesome. It's super flavorful. This is kind of a cross between a nice summer sausage, and a bologna. The balance is really great. And the texture's the best part about it. This is dynamite. I like the egg. It makes it kind of saucy and messy. I don't like any sandwich that's not going to run down my arms.",
+          "timestamp_start": 4535.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Sauce",
+      "city": "New York",
+      "state": "New York",
+      "cuisine_type": "Dutch Street Food",
+      "owner_chef": "Chin Kuo",
+      "guy_intro": "Coming back is co-owner and chef, Chin Kuo, who opened this joint with some college buddies back in 2011. It's sauce in Dutch. We're inspired by Dutch street food.",
+      "segment_number": 27,
+      "timestamp_start": 4690.0,
+      "timestamp_end": 4852.9,
+      "dishes": [
+        {
+          "dish_name": "Chicken Satay Pocket",
+          "description": "Chicken, carrots, onions, served in a pocket with peanut sauce.",
+          "ingredients": [
+            "chicken",
+            "carrots",
+            "onions",
+            "pocket bread",
+            "peanut sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Great sandwich, man. Peanut sauce isn't overdone with peanut. Chicken's nice and tender and crunchy. Outrageous texture. Nice, big, hearty sandwich. A lot of flavors.",
+          "timestamp_start": 4724.3,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Sloppy Jacques",
+          "description": "Braised beef and bacon, served on a brioche bun.",
+          "ingredients": [
+            "braised beef",
+            "bacon",
+            "brioche bun",
+            "house-made ketchup"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Really rich. That is big flavor. If you like the Sloppy Joes, that is over the top. You're getting the beer. You definitely get the seasoning. It's really got a sweet note that's coming from the house-made ketchup, I think. I love the savory, sweet kind of balance of the bacon and the stout. It's a little bit of a mess to eat, but a glorious mess.",
+          "timestamp_start": 4778.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "J28",
+      "city": "Hollywood",
+      "state": "Florida",
+      "cuisine_type": "Peruvian",
+      "owner_chef": "Javier Rondon and Marco Rondon",
+      "guy_intro": "And it's served up by brothers Javier and Marco Rondon, who are repping the Peruvian tastes I know about, and then some. July 28th is for... It's the Peruvian Independence Day. And we open on July 28th also.",
+      "segment_number": 28,
+      "timestamp_start": 4855.9,
+      "timestamp_end": 5169.8,
+      "dishes": [
+        {
+          "dish_name": "Mushroom Quinoa Bowl",
+          "description": "Aj\u00ed amarillo paste (boiled 3 times, peeled, blended). Sauce (stir-fried with amarillo paste, baby food (secret recipe), garlic, ginger paste, red wine vinegar, soy sauce). Firmini mushrooms toasted in oil, red onions, Roma tomatoes, scarred, cooked with jus. Served with cooked quinoa, mushroom mixture, green onions, cilantro.",
+          "ingredients": [
+            "aji amarillo",
+            "firmini mushrooms",
+            "quinoa",
+            "red onions",
+            "roma tomatoes",
+            "green onions",
+            "cilantro"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's got a lot of texture in it. But you know what the key is to this? This quinoa has been cooked so perfectly, each little bite pops, pops, pops, giving you this little extra bits of texture. That's one of the most basic dishes we've ever done on Triple D. But I will tell you, the flavor is through the roof.",
+          "timestamp_start": 4904.4,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Chicharron Sandwich",
+          "description": "Rosetta rolls (flour, sugar, salt, yeast, shortening, proofed, baked). Fire sauce (rocoto peppers, limo peppers, salt, oil, water). Pork belly (marinated overnight in ginger, oregano, five spices, brown sugar, salt, pepper, aji amarillo, aji panga paste, garlic paste, red wine vinegar, soy sauce; boiled in marinade and water, drained, fried crispy, sliced). Served on rosetta roll with mayo, sweet potato, pork belly, pickled onions (lime juice, garlic, cilantro), fire sauce.",
+          "ingredients": [
+            "rosetta roll",
+            "pork belly",
+            "sweet potato",
+            "pickled onions",
+            "fire sauce",
+            "mayo"
+          ],
+          "dish_category": "entree",
+          "guy_response": "When I think of chicharron, I think of Mexican chicharron. The crunchy skin. Yep. The bread gives me that crunch. After that, you get that creaminess of the sweet potato. The much needed acid of the onion. And the tender, juicy pork. And then the little icing on top. That pepper sauce. This is fantastic.",
+          "timestamp_start": 5037.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "The Black Pig",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "cuisine_type": "American Diner",
+      "owner_chef": "Brett Sawyer",
+      "guy_intro": "That's because chef and owner Brett Sawyer has built a reputation at other joints around town and brought those culinary skills to this concept.",
+      "segment_number": 29,
+      "timestamp_start": 5171.3,
+      "timestamp_end": 5350.0,
+      "dishes": [
+        {
+          "dish_name": "Surf and Turf",
+          "description": "Shaved steak sandwich. Certified Angus beef tri-tip (rubbed with kosher salt, black pepper, chili powder, onion powder, garlic powder, dry rosemary; cooked in oven, chilled, sliced). Duxelle (butter, shallots, garlic, sun-dried tomatoes, tarragon, parsley, crimini mushrooms, salt, white vinegar, red wine, cooked 1-1.5 hours). Lobster beef au jus (beef bones rubbed with tomato paste, roasted; lobster bodies, black peppercorns, bay leaf, water, boiled, simmered overnight). Bearnaise sauce (tarragon champagne vinegar reduction, whole eggs, yolks, salt, Calabrian chilies, melted butter). Served on a milk bun with duxelle, tri-tip, run onions, tarragon chili Bearnaise, and lobster beef jus for dipping.",
+          "ingredients": [
+            "certified angus beef tri-tip",
+            "duxelle",
+            "lobster beef au jus",
+            "bearnaise sauce",
+            "milk bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The sandwich is spectacular before you dip it. Right, right, right. The beef flavors through the roof. That is crazy. The lobster really comes out. I cannot believe how much lobster flavor's in there. It is full on surf and turf. One of the most whacked out thing I've ever seen on Triple D.",
+          "timestamp_start": 5209.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Heather's Cafe",
+      "city": "Portland",
+      "state": "Oregon",
+      "cuisine_type": "American Cafe",
+      "owner_chef": "Heather Haviland",
+      "guy_intro": "By owner Heather Haviland. Who started here six years ago when the place was a coffee shop. Three years later, she bought into the place, filled out the kitchen. And filled up the menu.",
+      "segment_number": 30,
+      "timestamp_start": 5350.0,
+      "timestamp_end": 5522.9,
+      "dishes": [
+        {
+          "dish_name": "Reuben",
+          "description": "Homemade corned beef (brisket, brine with water, kosher salt, sugar, garlic cloves, curing salt, peppercorn, fresh ginger, bay leaves, mayonnaise, whole cloves, allspice, red pepper flakes, coriander, mustard seed, boiled, cooled, brined 7 days; then cooked in oven with strained brine, fresh thyme, carrots, onions, celery, fresh water, simmered 3 hours). Homemade rye bread. Homemade sauerkraut. Homemade Thousand Island dressing (cucumbers made into pickles, homemade ketchup, local honey, mayonnaise). Served on rye bread with corned beef, sauerkraut, Swiss cheese (implied, common for Reuben), Thousand Island dressing, toasted.",
+          "ingredients": [
+            "homemade corned beef",
+            "homemade rye bread",
+            "homemade sauerkraut",
+            "homemade thousand island dressing",
+            "swiss cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I don't know what I'm even gonna say. Look at the goosebumps on my arm. That bread, that kraut, with that corn. I don't know what's better on all of this. Now we're gonna hit the Thousand Island. I don't know that you should accept money for these. Bring us your firstborn.",
+          "timestamp_start": 5387.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "The Grilled Cheeserie",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "cuisine_type": "American Grilled Cheese",
+      "owner_chef": "Crystal DeLuna Bogan and Joseph Bogan",
+      "guy_intro": "A simple menu that chef Crystal DeLuna Bogan and her musician husband, Joseph, have stuck to since they opened the truck in 2010.",
+      "segment_number": 31,
+      "timestamp_start": 5524.2,
+      "timestamp_end": 5701.4,
+      "dishes": [
+        {
+          "dish_name": "Pimento Mac and Cheese Melt",
+          "description": "Pimento mac and cheese (macaroni, Tennessee cheddar, mayo (eggs, spice mix, paprika, cayenne, pepper, hot sauce, oil), roasted peppers). Served on bread (buttered with butter and mayo mix) with pimento mac and cheese, local tomatoes, bacon bits, cheddar cheese, grilled and pressed. Served with house-made pickles and roasted red pepper and tomato soup.",
+          "ingredients": [
+            "macaroni",
+            "tennessee cheddar",
+            "mayo",
+            "roasted peppers",
+            "bread",
+            "tomatoes",
+            "bacon bits",
+            "cheddar cheese",
+            "house-made pickles"
+          ],
+          "dish_category": "entree",
+          "guy_response": "What do you think about that? You know what, I'll tell you something. If you're left with just matte pimento by itself, there's not enough texture. Texture would come up. But you put the pasta in there and the tomato, a little bit of spice coming out of that as well. This is where it goes on. That's how you do it. That is so good. I'm gonna go into like a little dream sequence. I am telling you what, this just takes me back to childhood.",
+          "timestamp_start": 5544.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Sam LaGrassa's",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "cuisine_type": "Deli/Sandwich Shop",
+      "owner_chef": "Sam LaGrassa, Rob LaGrassa, Ronnie LaGrassa, Rich LaGrassa",
+      "guy_intro": "And Sam LaGrasse has been making masterpieces for more than 40 years. Now with the help of his three sons. Rob, Ronnie, Rich.",
+      "segment_number": 32,
+      "timestamp_start": 5703.3,
+      "timestamp_end": 5871.2,
+      "dishes": [
+        {
+          "dish_name": "Chipotle Pastrami",
+          "description": "Smoked pastrami (stock from previous day's pastrami, water, scored, brown sugar, cooked 2.5-3 hours, cooled, sliced). Chipotle honey mustard (mustard, honey, brown sugar, brown chipotle pepper, mixed). Coleslaw (fresh cabbage, shredded carrots, granulated sugar, white vinegar, kosher salt, black pepper, whole celery seed, parsley, mayonnaise, mixed). Served on an Italian roll with chipotle honey mustard, Swiss cheese, coleslaw, pastrami, pressed on a grill.",
+          "ingredients": [
+            "smoked pastrami",
+            "chipotle honey mustard",
+            "coleslaw",
+            "italian roll",
+            "swiss cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Look at that pastrami. The sugar rubbed down, you gave it a grip. The slaw's got good tang, but the kicker, got chipotle mustard. Really nice heat, not overdone. That's killer.",
+          "timestamp_start": 5745.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "John Raleigh and Jeffrey Kaplan's Gastropub",
+      "city": "Seattle",
+      "state": "Washington",
+      "cuisine_type": "American Gastropub",
+      "owner_chef": "John Raleigh and Jeffrey Kaplan",
+      "guy_intro": "The one-two keg kitchen punch was all part of the plan when John Raleigh and Jeffrey Kaplan partnered up on this place. I wanted to do, like, a gastropub with good beer, and he wanted a farmhouse brewery with good food.",
+      "segment_number": 33,
+      "timestamp_start": 5878.0,
+      "timestamp_end": 6041.2,
+      "dishes": [
+        {
+          "dish_name": "Chicken and Biscuit Sandwich",
+          "description": "Chicken (airliner chicken breast/thigh, brined overnight in hot water, garlic powder, kosher salt, sugar, ice; sous vide 1 hour at 165 degrees; dredged in rice flour, fried). Biscuit (flour, salt, baking soda, baking powder, cold butter, local goat cheddar, green onion, buttermilk, folded, custom-cut, baked). Served on toasted house-made biscuit with horseradish crema, fried chicken breast, house-made pickles, onion rings (from rice flour).",
+          "ingredients": [
+            "chicken breast/thigh",
+            "rice flour",
+            "biscuit",
+            "goat cheddar",
+            "horseradish crema",
+            "house-made pickles",
+            "onion rings"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Nice, tender biscuit. Great chicken. This is tender. Great flavor. You're definitely getting a little bit of the brine. It's a light, crisp fry, and the brine of the pickle and the horseradish sauce is dynamite.",
+          "timestamp_start": 5916.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "OSTO",
+      "city": "Ottawa",
+      "state": "Ontario, Canada",
+      "cuisine_type": "Canadian Pub Food",
+      "owner_chef": "Mark Steele",
+      "guy_intro": "That's because Chef Mark Steele is from Newfoundland. He went from corporate cooking to catering to this joint. Orleans Catering Companies. Orleans is an area here. It's the East End of Ottawa.",
+      "segment_number": 34,
+      "timestamp_start": 6041.2,
+      "timestamp_end": 6212.1,
+      "dishes": [
+        {
+          "dish_name": "East Coast Donair",
+          "description": "Ground beef (ground chuck, garlic powder, onion powder, smoked paprika, pepper, salt, cayenne, fresh oregano, rolled out, baked). Donair sauce (evaporated milk, sweetened condensed milk, fresh garlic, sugar, vinegar, mixed to thicken). Served on grilled pita with garlic butter, cheddar, crisp lettuce, donair sauce, cherry tomatoes, sweet mini peppers, sliced jalapeno, pickled red onion.",
+          "ingredients": [
+            "ground chuck beef",
+            "donair sauce",
+            "pita bread",
+            "cheddar cheese",
+            "lettuce",
+            "tomatoes",
+            "peppers",
+            "jalapeno",
+            "pickled red onion"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Delicious, chef. The meat is what's the most impressive. With the seasoning. With the crust. With the caramelization. But when you get the fresh vegetables mixed with the cheese, and then you get the little kiss of the sauce, it rounds it out. It's so good.",
+          "timestamp_start": 6084.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Full Belly Deli",
+      "city": "Reno",
+      "state": "Nevada",
+      "cuisine_type": "Deli/Sandwich Shop",
+      "owner_chef": null,
+      "guy_intro": "Now we're going to get into a chicken sandwich that's coated in nacho cheese chips. Just when you think they weren't going to let you be healthy at the full-belly deli, they go ahead and bake the chicken.",
+      "segment_number": 35,
+      "timestamp_start": 6212.1,
+      "timestamp_end": 6476.8,
+      "dishes": [
+        {
+          "dish_name": "Nacho Pollo Loco",
+          "description": "Chicken breast (seasoned egg wash with hot sauce, kosher salt, black pepper; dredged in flour, then egg wash, then packed with nacho cheese chips, baked). Southwest sauce (chipotles in adobo, fresh cilantro, mayonnaise, sour cream, horseradish, lemon juice, salt, pepper). Pickles (white vinegar, sugar, salt, yellow mustard seed, toasted caraway seed, peppercorns, whole garlic, bay leaf, arbol chili, fresh dill, pickling cucumbers, sous vide 2.5 hours, rested overnight). Served on jalapeno cheddar bread with Southwest sauce, romaine lettuce, heirloom tomatoes, pickle, nacho crusted chicken breast.",
+          "ingredients": [
+            "chicken breast",
+            "nacho cheese chips",
+            "southwest sauce",
+            "jalapeno cheddar bread",
+            "romaine lettuce",
+            "tomatoes",
+            "pickles"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's got good texture, good chew, but not heavy. I love the cheese and the jalapenos on the outside. And the chicken. The chicken breast. It's got a really good crunch. I mean, I heard it when you hit it with the knife. Awesome smokiness out of the Southwest sauce. But the kicker that refreshes it is that pickle. And that pickle sings.",
+          "timestamp_start": 6326.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Tres Hombres BBQ",
+      "city": "San Antonio",
+      "state": "Texas",
+      "cuisine_type": "Barbecue",
+      "owner_chef": null,
+      "guy_intro": "Tres Hombres has Fontino habanero sausage as well as pulled pork. And it has brisket. It is a big one.",
+      "segment_number": 36,
+      "timestamp_start": 6479.1,
+      "timestamp_end": 6614.2,
+      "dishes": [
+        {
+          "dish_name": "Tres Hombres Sandwich",
+          "description": "Pulled pork (Boston butt, yellow mustard and pickle brine slather, dry rub with coarse ground black pepper, kosher salt, paprika, chili powder, brown sugar, granulated garlic, granulated onion; smoked 12 hours). Brisket (black pepper, kosher salt, paprika, cayenne, granulated garlic, granulated onion, cumin, Mexican oregano, mustard and pickle brine slather, dry rub; smoked 16-18 hours). Signature house thick sauce (three types of chilies toasted, caramelized onions, molasses, garlic, water, steeped peppers, blended; ketchup, apple cider vinegar, brown sugar, cumin chili flake, whole grain mustard, pickling brine, soy, lemon juice, cayenne, salt, cooked 1-1.5 hours). Habanero fontina sausage. Served on a bun with habanero fontina, pulled pork, thick sauce, beef brisket, more thick sauce, pickled red onions.",
+          "ingredients": [
+            "pulled pork",
+            "brisket",
+            "habanero fontina sausage",
+            "signature house thick sauce",
+            "pickled red onions",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Delicious brisket. Love the sausage. Pulled pork's nice and tender. It's legit. It's real deal. It's great flavor.",
+          "timestamp_start": 6486.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Keir Leone's Italian Restaurant",
+      "city": "New York",
+      "state": "New York",
+      "cuisine_type": "Italian",
+      "owner_chef": "Keir Leone",
+      "guy_intro": "What's your last name? Keir. Keir Leone? Yeah. That's what I thought it was.",
+      "segment_number": 37,
+      "timestamp_start": 6614.2,
+      "timestamp_end": 6718.5,
+      "dishes": [
+        {
+          "dish_name": "Meatball Sandwich",
+          "description": "Meatballs (veal, ground chuck, sweet Italian sausage, eggs, bread crumbs from French baguettes, fresh basil, minced garlic, oregano, minced onions, Parmesan cheese, pepper, salt, milk, baked). Marinara (Roman tomatoes boiled, peeled, seeded, cooked down; anchovies, garlic, cooked down, added to tomato sauce, simmered 1.5 hours; fresh herbs, oregano, parsley, basil, salt, pepper, tomato sauce, immersion blended, simmered 0.5 hour, Parmesan cheese). Served on a bun with meatballs, marinara, provolone cheese (implied, common for meatball subs), warmed.",
+          "ingredients": [
+            "veal",
+            "ground chuck",
+            "italian sausage",
+            "french baguette bread crumbs",
+            "parmesan cheese",
+            "roman tomatoes",
+            "anchovies",
+            "fresh herbs",
+            "bun",
+            "provolone cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "So this meatball, nice and tender. The marinara is on point. Especially the fresh herbs. Wild garlic. Touch of that anchovy in there. Nice job, man.",
+          "timestamp_start": 6616.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Derrick's Waffle House",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "cuisine_type": "American Waffles",
+      "owner_chef": "Derrick Green and Leron Green",
+      "guy_intro": "But it was actually health that was Derrick Green's true inspiration. After his wife passed, Derrick took his waffles to the public, working his way to opening this joint. He runs with his wife, Leron.",
+      "segment_number": 38,
+      "timestamp_start": 6718.5,
+      "timestamp_end": 6926.7,
+      "dishes": [
+        {
+          "dish_name": "Confused Cousin Chicken Sandwich",
+          "description": "Waffle (almond milk, flour, baking powder, pure vanilla, white sugar, brown sugar, egg substitute, coconut oil). Chicken (unbleached all-purpose flour, granulated garlic, white pepper, Mediterranean spice blend, parsley, granulated onion, kosher salt; dry flour, egg wash, dry flour, fried). Garlic mac (Colby Jack cheese, sharp cheddar cheese, sodium citrate, heavy cream, sous vide; noodles, eggs, bacon fat, ghee, garlic salt, granulated garlic, white pepper, cheese sauce, heavy cream). Barbecue sauce (water, brown sugar, paprika, mustard, garlic, black pepper, salt, ketchup, lemon juice, molasses, liquid smoke, light corn syrup). House sauce (hot sauce, ranch, barbecue sauce, honey). Served with grilled cheese, chicken, maple syrup, mac and cheese, bacon, spicy barbecue, house sauce.",
+          "ingredients": [
+            "waffle",
+            "fried chicken",
+            "garlic mac and cheese",
+            "barbecue sauce",
+            "house sauce",
+            "maple syrup",
+            "bacon"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mac and cheese is delicious. Chicken's nice, crisp on that. Nice crunch. One of my favorite things is that spicy barbecue sauce. I love it. I love barbecue sauce. That, contrasting with the maple syrup, get the hot, get the spicy, get the sweet. It is a gigantic juxtaposition of flavors and textures. Dynamite.",
+          "timestamp_start": 6757.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Gull & Company Malt House",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "cuisine_type": "American Pub Food",
+      "owner_chef": "Joe Forekin, Jim Lyons, Matt Youcke",
+      "guy_intro": "Gull and Company malt house is your usual corner bar but like at the next level. And the dudes serving up all those goods, that'll Joe Forekin, Jim Lyons and Matt Youcke, some real characters who gave this casual spot a formal name.",
+      "segment_number": 39,
+      "timestamp_start": 6930.6,
+      "timestamp_end": 7092.2,
+      "dishes": [
+        {
+          "dish_name": "Wydowski",
+          "description": "Kielbasa (ground pork, paprika, onion powder, coarse black pepper, salt, fresh garlic, granulated garlic, mixed, baked). House-made cheese sauce (butter, chicken stock, granulated garlic, onion powder, coarse black pepper, sharp American cheese, whisked). House-cut fries (double fried). Served with kielbasa loaf (sliced like lunch meat), caramelized onions, cheese sauce, on a bun (implied), with fries.",
+          "ingredients": [
+            "kielbasa",
+            "house-made cheese sauce",
+            "caramelized onions",
+            "bun",
+            "house-cut fries"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's delicious. It's unique. I don't think I've ever had anything like it. It is part ham and cheese. It is part cheesesteak. There's those big flavors that you get in kielbasa. And the uniqueness of how you do it from making it into the loaf, to slicing it, to throwing it on the flat top, kind of caramelizing the sausage, that is a destination sandwich.",
+          "timestamp_start": 6968.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Melt Bar & Grilled",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "cuisine_type": "American Grilled Cheese",
+      "owner_chef": "Matt Fish",
+      "guy_intro": "Tell me this place is not off the chain. By chef and owner Matt Fish. Who just can't give up his childhood favorite.",
+      "segment_number": 40,
+      "timestamp_start": 7092.2,
+      "timestamp_end": 7249.7,
+      "dishes": [
+        {
+          "dish_name": "Parmageddon",
+          "description": "Pierogis (fresh potatoes, cheddar cheese, browned). Grilled onions. Kraut spice (cabbage, vodka, cider vinegar, reduced). Served on grilled bread with sharp cheddar cheese, pierogis, grilled onions, soft cabbage, pressed in a meltification machine.",
+          "ingredients": [
+            "pierogis",
+            "grilled onions",
+            "cabbage",
+            "vodka",
+            "cider vinegar",
+            "sharp cheddar cheese",
+            "grilled bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Out of bounds. Crunch on the bread, fantastic. Pierogi, great. But the cabbage with the vodka and the cider, it's over the top and around again over the top. Oh, thank you. That is one of the best grilled cheese I've ever had.",
+          "timestamp_start": 7146.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Riley's Restaurant",
+      "city": "Logan",
+      "state": "Utah",
+      "cuisine_type": "American Diner",
+      "owner_chef": "Riley Brown",
+      "guy_intro": "And Chef Riley Brown are in charge of filling up guests once again. Everyone in Logan knows about her. People come from out of town to come here.",
+      "segment_number": 41,
+      "timestamp_start": 7249.7,
+      "timestamp_end": 7393.0,
+      "dishes": [
+        {
+          "dish_name": "Inside-Out Grilled Cheese",
+          "description": "Salsa (roasted red bell pepper, roasted green pepper, jalapenos, whole stewed tomatoes, green onions, garlic, toasted ground cumin, sugar, chopped red onion, white vinegar, sriracha, cilantro, house seasoning). Black beans (olive oil, peppers, onions, salsa, canned beans strained, salt, garlic salt, black pepper, water, cooked 15 minutes). Guacamole. Served on grilled bread with shredded cheese (crisped on outside, melted on inside), fresh made guacamole, scoop of beans, sriracha.",
+          "ingredients": [
+            "grilled bread",
+            "shredded cheese",
+            "guacamole",
+            "black beans",
+            "sriracha"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I've had a lot of crazy food, dude, but this is taking it. You get this fried crunch, call this the skirt. Then you take delicious beans and guacamole, stick them inside of a really thick quesadilla. Dynamite.",
+          "timestamp_start": 7292.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Parasol's",
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "cuisine_type": "Cajun/Creole/Po'Boys",
+      "owner_chef": "Jeff Carreras",
+      "guy_intro": "And it's the one that made parasols a local legend. That'd be Jeff Carreras. Who bought this joint 10 years ago. And kept things the way they've always been, especially the roast beef.",
+      "segment_number": 42,
+      "timestamp_start": 7393.0,
+      "timestamp_end": 7707.0,
+      "dishes": [
+        {
+          "dish_name": "Roast Beef Po'Boy",
+          "description": "Roast beef (inside round, boiled in straight water for 1.5 hours, cooled, sliced). Gravy (flour, oil, black pepper, garlic powder, salt, kitchen bouquet, stock from boiled beef, cooked). Homemade rolls (water, fresh yeast, salt, diamalt, flour, butter, shortening, proofed, punched down, rolled, scored, buttered, baked). Served on homemade rolls with roast beef, gravy, lettuce, tomatoes, pickles, toasted in oven.",
+          "ingredients": [
+            "inside round beef",
+            "gravy",
+            "homemade rolls",
+            "lettuce",
+            "tomatoes",
+            "pickles"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm, that's good. That roast beef is capital T tender, man. Oh, yeah, it just falls apart as dry as it was earlier. From as dry as it was, juicy, messy, creamy. It's legit right there.",
+          "timestamp_start": 7423.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "The Crab Cake Co.",
+      "city": "Somers Point",
+      "state": "New Jersey",
+      "cuisine_type": "Seafood/American",
+      "owner_chef": "Steve Novak",
+      "guy_intro": "Down to Summer's Point, a funky little joint called the Crab Cake Co. And the guy burying the two is Steve Novak. Who bought this place back in 2010 thanks to a little help from the family.",
+      "segment_number": 43,
+      "timestamp_start": 7707.0,
+      "timestamp_end": 7873.8,
+      "dishes": [
+        {
+          "dish_name": "Crab Melt",
+          "description": "Crab cake (mayo, eggs, fresh lemon juice, honey mustard, sriracha, crystal hot sauce, Worcestershire sauce, Old Bay seasoning, celery seed, baking powder, fresh chopped parsley, panko breadcrumbs, jumbo lump crab meat, mixed). Served on buttered bread with Monterey Jack cheese, crab cake, steamed to melt cheese, cooked on grill.",
+          "ingredients": [
+            "jumbo lump crab meat",
+            "mayo",
+            "eggs",
+            "lemon juice",
+            "honey mustard",
+            "sriracha",
+            "old bay",
+            "panko breadcrumbs",
+            "buttered bread",
+            "monterey jack cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Crab cake is a little bit creamier than most people expect. Yeah. Crispy on the outside. Tons of crab. No question about the amount of crab in there. Nice crunch of the toast. Not too much cheese.",
+          "timestamp_start": 7753.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

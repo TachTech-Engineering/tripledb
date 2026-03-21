@@ -1,0 +1,260 @@
+{
+  "video_id": "m9kfH5jjuIw",
+  "video_title": "Top #DDD Bacon Videos of All Time with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Vagabond",
+      "city": "Atlantic City",
+      "state": "New Jersey",
+      "cuisine_type": "American Bar Food",
+      "owner_chef": "Elvis Cadavid and Tom Harris",
+      "guy_intro": "So I'm here in the Chelsea Heights section of Atlantic City, right between the boardwalk and the bay. And man, was this area hit hard by Superstorm Sandy. A lot of businesses went out and never came back, except for a funky little joint like this. Welcome to Vagabond.",
+      "segment_number": 1,
+      "timestamp_start": 5.9,
+      "timestamp_end": 171.9,
+      "dishes": [
+        {
+          "dish_name": "Three-Way Sandwich",
+          "description": "A sandwich combining pulled pork, brisket, and candied bacon, topped with mango barbecue sauce and lime slaw, served on a locally made brioche bun.",
+          "ingredients": [
+            "pulled pork",
+            "brisket",
+            "candied bacon",
+            "mango barbecue sauce",
+            "lime slaw",
+            "brioche bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. Smoked, nice tang, good season. Making a slaw, counterbalancing it with a little acid. That was a great sandwich. That was a really great sandwich.",
+          "timestamp_start": 59.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "The Rally Inn",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "cuisine_type": "American Comfort Food",
+      "owner_chef": "Eric Lettieri",
+      "guy_intro": "So, I'm here in Cleveland. Happens to be a joint that's serving Cleveland comfort food. I got to check it out. This is the Rally Inn.",
+      "segment_number": 2,
+      "timestamp_start": 171.9,
+      "timestamp_end": 345.7,
+      "dishes": [
+        {
+          "dish_name": "Bacon Wrap Tots",
+          "description": "Large tots made from boiled Yukon potatoes, roasted garlic, brown butter, and heavy cream, mixed with shredded hash, wrapped in a whole piece of bacon, fried, and served with a chipotle ranch sauce.",
+          "ingredients": [
+            "yukon potatoes",
+            "bacon",
+            "roasted garlic",
+            "brown butter",
+            "heavy cream",
+            "shredded hash",
+            "chipotle ranch sauce"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Incredibly creative. You get crispy, you get creamy, you get crunchy, unctuous bacon. Thanks. The chipotle sauce, which is so needed because it adds a little bit of heat, it adds another little dimension. The creaminess of the ranch, cooling it down a touch. Funky, fried, freaky. Freaky, fried, eh, funky? It's funky, freaky, fried. It is delicious and really done right.",
+          "timestamp_start": 220.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Joe's Diner",
+      "city": "San Diego",
+      "state": "California",
+      "cuisine_type": "American Diner",
+      "owner_chef": null,
+      "guy_intro": "So I'm here in beautiful San Diego, California, in an area known as Mission Hills. Now I'm here to check out a diner that was once a bistro, and it's owned by a guy named, Rick, but that's not the name of the diner, but it's his sister's name, but his sister's not actually an owner of the diner. I know this is really confusing, but I hear the food's great. This is Joe's Diner.",
+      "segment_number": 3,
+      "timestamp_start": 345.7,
+      "timestamp_end": 492.4,
+      "dishes": [
+        {
+          "dish_name": "Joe's Meatloaf",
+          "description": "California grass-fed ground beef meatloaf mixed with diced pasilla chili peppers, Italian parsley, pecorino cheese, panko breadcrumbs, eggs, milk, salt, pepper, and Worcestershire sauce, wrapped in applewood smoked bacon, glazed with a ketchup, brown sugar, dry mustard, and hot sauce mixture, then baked. Served with garlic Yukon mashed potatoes, French green beans, country gravy, and beef demi-glace.",
+          "ingredients": [
+            "ground beef",
+            "pasilla chili peppers",
+            "pecorino cheese",
+            "applewood smoked bacon",
+            "ketchup glaze",
+            "beef demi-glace",
+            "mashed potatoes",
+            "green beans"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's fantastic. That's some of the most tender, moist meatloaf I've tried. This is my first time that I've ever had pasillas in a meatloaf. Between the pecorino and the pasilla, this has a ton of personality. It's like its own style of meatloaf. The demi's a nice little kiss, but the real star of it is that sauce that you've glazed on the outside. I mean, then you go into extra innings, adding in this gravy. The mashed potatoes are great. Green beans are on point. You mask your French bistro energy into this American staple really well.",
+          "timestamp_start": 363.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "George and the Dragon",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "British-Filipino Fusion",
+      "owner_chef": "Fred, Stacey, and Paco Navarro",
+      "guy_intro": "So what do you call a joint that is an English pub with a little Filipino flair? You're right. This is George and the Dragon.",
+      "segment_number": 4,
+      "timestamp_start": 492.4,
+      "timestamp_end": 706.1,
+      "dishes": [
+        {
+          "dish_name": "Bacon Onion Dip",
+          "description": "A baked dip made with caramelized onions (brown sugar, balsamic vinegar), whipped cream cheese, mayonnaise, Worcestershire sauce, salt, cayenne pepper, dry mustard, and Parmesan cheese, topped with cooked bacon and chives.",
+          "ingredients": [
+            "caramelized onions",
+            "cream cheese",
+            "mayonnaise",
+            "worcestershire sauce",
+            "dry mustard",
+            "parmesan cheese",
+            "bacon",
+            "chives"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "That's ridiculous. You know what? This should be illegal. It's not just onions and bacon. There's much more depth. I think you know what really makes it? It's that mustard. Secret ingredient. A little change of that. Better than good. Excellent.",
+          "timestamp_start": 551.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Joe's Square",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "cuisine_type": "Italian Pizza",
+      "owner_chef": null,
+      "guy_intro": "There's just something a little different about the pizza at Joe's Square in Baltimore, Maryland. And this one. For a big club. Joe's take on surf and turf. But it's a souvenir from Italy that's a game changer for this pie.",
+      "segment_number": 5,
+      "timestamp_start": 706.1,
+      "timestamp_end": 892.6,
+      "dishes": [
+        {
+          "dish_name": "Bacon and Clams Pizza",
+          "description": "Pizza made with dough from a 200-year-old Italian starter, topped with roasted garlic, frozen clams, chopped bacon, bocconcini/cilincini mozzarella, sliced Vidalia onion, and Asiago cheese, baked in a high-temperature oven, finished with oregano and olive oil.",
+          "ingredients": [
+            "pizza dough",
+            "roasted garlic",
+            "clams",
+            "bacon",
+            "mozzarella",
+            "vidalia onion",
+            "asiago cheese",
+            "oregano",
+            "olive oil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. Crust is cooked off perfect. Nice texture. Nice chew. This is a lot of clams. Great garlic sauce. Fresh herb at the end finishes it. Dude. Crazy good.",
+          "timestamp_start": 782.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Dad's Kitchen",
+      "city": null,
+      "state": null,
+      "cuisine_type": "American",
+      "owner_chef": "Luis Pastera",
+      "guy_intro": "A really off-the-hook spin on bacon cheeseburgers. This is Dad's Kitchen.",
+      "segment_number": 6,
+      "timestamp_start": 892.6,
+      "timestamp_end": 1067.8,
+      "dishes": [
+        {
+          "dish_name": "Dad's Burger",
+          "description": "An 8oz beef patty with bacon and blue cheese crusted onto it, cooked on a griddle, served on a toasted bun with house-made Aleppo spread (roasted garlic, Aleppo pepper, lemon juice, garlic oil, eggs) and fries.",
+          "ingredients": [
+            "beef patty",
+            "bacon",
+            "blue cheese",
+            "aleppo spread",
+            "hamburger bun",
+            "fries"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is juiced. Dude. It's probably the juiciest burger we've ever tried. Ladies and gentlemen, this is the balance. And this is out of bounds. This thing is righteous. Dude. Take a look here at how the bacon and the cheese come together. Look at this. Look at this. Look at this. Look at this. Look at this. Look at this. Look at this. Look at this. Look at this. Look at this. The cheese have just melded. Killer burger. This is a cross between Ho Dads and Squeeze In. I mean, this is up there at that level of burger greatness. Something so simple done so right. Grand slam. Awesome. That's moving. It's just delicious.",
+          "timestamp_start": 927.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Dr. Feelgood's Kitchen",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "cuisine_type": "American",
+      "owner_chef": "Josh Gerwin",
+      "guy_intro": "So I'm here in the beautiful high desert of Santa Fe, New Mexico. Now, if you've been watching Triple D for a while, you know that I love to throw in my music references. I'm always talking about Metallica and ACDC, Kid Rock and Leonard Skinner. So when I hear there's a chef that's all over the place about farm to table, and he's got a restaurant where the name kind of plays a little homage to one of my favorite Smotley crew. You know I got to check it out. This is Dr. Feelgood's kitchen.",
+      "segment_number": 7,
+      "timestamp_start": 1067.8,
+      "timestamp_end": 1252.3,
+      "dishes": [
+        {
+          "dish_name": "Bacon Burger BLT",
+          "description": "A BLT featuring a 9oz patty made from ground applewood smoked pork belly (bacon) and lean meat, cooked in a wood-fired oven. Served on house-made potato bread (kaiser roll) with mayonnaise, heirloom tomatoes, and organic greens, accompanied by house-made onion rings.",
+          "ingredients": [
+            "pork belly",
+            "lean meat",
+            "applewood smoke",
+            "potato bread",
+            "mayonnaise",
+            "heirloom tomatoes",
+            "organic greens",
+            "onion rings"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Bro, this is what everybody wants a BLT to be like. You're getting the volume of a burger, the flavor of the bacon, the whole top. Top of that patty is just all that crispy, crunchy, unctuous flavor. Then on the inside, it's super tender. It's just done perfectly. I mean, it's BLT of another level. You are a dangerous man.",
+          "timestamp_start": 1139.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Fox Brothers Barbecue",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Jonathan and Justin Foxx",
+      "guy_intro": "So I'm here in Atlanta, Georgia, and I am looking for what? Exactly. Some real deal barbecue. You know what it is, guy? With this crate 502 in here, we just got to bump the timing up a little bit. That's all it is. So you call your buddy, Rutledge, who knows a lot about cars and a ton about barbecue. This is the real deal? This is the real deal. This is Fox Brothers Barbecue.",
+      "segment_number": 8,
+      "timestamp_start": 1252.3,
+      "timestamp_end": 1486.0,
+      "dishes": [
+        {
+          "dish_name": "Fox Brothers Burger",
+          "description": "A chopped beef sandwich featuring certified Angus beef brisket, smoked overnight with hickory. Served on a toasted bun with house-made jalapeno mayo, a pimento cheese patty, peppered bacon, pickles, tomato, and onion.",
+          "ingredients": [
+            "angus beef brisket",
+            "hickory smoke",
+            "jalapeno mayo",
+            "pimento cheese",
+            "peppered bacon",
+            "pickles",
+            "tomato",
+            "onion",
+            "hamburger bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, that's a great burger. You're just, like, cleaning up over there like a lion that just ate a gazelle. I don't know what happened. I don't know. I went after mine. It's super tender brisket. When you chop that brisket up, you get a chance to incorporate that fat. So it makes it even a little bit more unctuous. And adding the pimento cheese and adding the veggies on top of it brings that burger element to it. That's Fox Brothers right there. Damn, man. Come on. That's full speed, man. That's all throttle, no bottle, man. That is just getting it done.",
+          "timestamp_start": 1316.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

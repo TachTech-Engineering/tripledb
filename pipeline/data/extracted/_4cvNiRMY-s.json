@@ -1,0 +1,314 @@
+{
+  "video_id": "_4cvNiRMY-s",
+  "video_title": "Top 10 Craziest #DDD Potato Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Banksy",
+      "city": null,
+      "state": "Australia",
+      "cuisine_type": "Australian",
+      "owner_chef": null,
+      "guy_intro": "Beef potato pie. The beef pie's great because the beef's really well done. It's very savory. It's a wonderful mix between the meat and the mashed potatoes.",
+      "segment_number": 1,
+      "timestamp_start": 6.0,
+      "timestamp_end": 276.9,
+      "dishes": [
+        {
+          "dish_name": "Beef and Red Wine Pie with Cheesy Potato Top",
+          "description": "Short crust pastry pie filled with Angus beef chuck roll braised in red wine and spices, topped with cheesy mashed potatoes.",
+          "ingredients": [
+            "angus beef chuck roll",
+            "short crust pastry",
+            "red wine",
+            "mashed potatoes",
+            "provolone cheese",
+            "parmesan cheese",
+            "onion powder",
+            "ginger powder"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The braised beef inside of this is out of bounds. There is flavor on top of flavor. Great herb, great wine. Fantastic texture. Potatoes are delicious. Love the little bit of kick and the little bit of extra that you're getting from the provolone. From the gravy to the braising to the seasoning, you didn't miss an opportunity to swing... What do they have in cricket? Is it a bat? Yep. You did miss the opportunity to swing the bat, my friend. Delicious. Beef pies with cheesy potato top. This is amazing. It's so good. We have chicken pot pie in the United States. This blows chicken pot pie out of the water. Oh, yeah. It's one of my favorite dishes here at Banksy.",
+          "timestamp_start": 15.0,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Sweet Potato Lasagna",
+          "description": "Lasagna made with sweet potato slices instead of pasta, layered with marinara sauce, ground beef ragu, and a ricotta-feta-cream cheese blend.",
+          "ingredients": [
+            "sweet potatoes",
+            "ground beef",
+            "marinara sauce",
+            "ricotta cheese",
+            "feta cheese",
+            "cream cheese",
+            "basil",
+            "oregano",
+            "red wine"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Uh, dynamite. The sweet potato holds it together. You got a hearty marinara. That's all of the lasagna you want with none of the guilt of the carb of the pasta. Out of the park, buddy. Well done.",
+          "timestamp_start": 197.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "A Sec",
+      "city": "Arroyo Seco",
+      "state": "New Mexico",
+      "cuisine_type": "Southwestern",
+      "owner_chef": "Elijah Safford",
+      "guy_intro": "So I'm here in Arroyo Seco, New Mexico, which is right between Taos and Taoski Valley. This little town's got this cool restaurant. It's been here for about ten years, and it's had three owners. The most recent owner actually started in the restaurant as a line cook. Oh, he's got a big imagination, a great palate, and an exciting menu, and I hear he's a member of Flavortown. This is a sec. Lamb lollies, bison gumbo. This is a local gem. Firing chicken. You can have a comfort food, but with an adventurous flair. And the amount of specials that they rotate in. Thanks, guys, a little bit. And it's chef Elijah Safford.",
+      "segment_number": 2,
+      "timestamp_start": 276.9,
+      "timestamp_end": 475.3,
+      "dishes": [
+        {
+          "dish_name": "Bison Red Chili Fries",
+          "description": "Shoestring fries topped with braised bison short ribs, red chili gravy, and cheese curds.",
+          "ingredients": [
+            "bison short ribs",
+            "shoestring fries",
+            "red chili",
+            "cheese curds",
+            "calabrian peppers",
+            "chipotle in adobo",
+            "ancho chiles",
+            "onions"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's dangerous. I'm a big shoestring guy. I want the crunch. The braise on the short rib is delicious, and the shreds great. The cheese curd is stretchy and squeaky, rich, roasted, smoky. So you like it? Oh, no. I love it. Cheese curding on bison chili fry. The cheese curds are great. The red chili's spot on. The bison was very moist, was shredding. I've eaten a lot of fries in my life, and these are the absolute best fries I've ever had.",
+          "timestamp_start": 329.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Rustica Eatery and Tavern",
+      "city": "Moorhead",
+      "state": "Minnesota",
+      "cuisine_type": "American",
+      "owner_chef": null,
+      "guy_intro": "I'm here in Moorhead, Minnesota. This is Rustica Eatery and Tavern.",
+      "segment_number": 3,
+      "timestamp_start": 475.3,
+      "timestamp_end": 575.0,
+      "dishes": [
+        {
+          "dish_name": "Fingerling Poutine",
+          "description": "Fingerling potatoes topped with chili-braised beef, Mah\u00f3n cheese, bacon, roasted garlic, and beef gravy.",
+          "ingredients": [
+            "fingerling potatoes",
+            "beef",
+            "mah\u00f3n cheese",
+            "bacon",
+            "roasted garlic",
+            "red chili flake",
+            "red wine",
+            "mirepoix"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This right here, I don't even know if calling it poutine is the right thing to do because it's a very elevated poutine. Going to a regular French fried potato would have been simple. You take it and mix it up and throw in the fingerlings, which is the royalty of potatoes. A little diamond.",
+          "timestamp_start": 478.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": "G\u00fcero",
+      "city": "Portland",
+      "state": "Oregon",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Megan Sanchez and Alec Morrison",
+      "guy_intro": "I'm here in Portland, Oregon. Love this town. Great food town. Got plenty of food. Got my nieces up here. My buddy Pete. Come up here all the time. But you know what? I've never been up here for Mexican food. So, I hear about this place. I'm ready to check it out. And then, I find out all they have on the menu is tortas. You know, Mexican sandwiches? And that's the least likely thing I'd order at a Mexican restaurant. And everybody says, listen, don't judge the book by the cover. Right, Fieri? Exactly. This is G\u00fcero, number one tortas. But this is actually Mexican 2.0 from Megan Sanchez and Alec Morrison.",
+      "segment_number": 4,
+      "timestamp_start": 575.0,
+      "timestamp_end": 762.5,
+      "dishes": [
+        {
+          "dish_name": "Masa y Papa Torta",
+          "description": "Vegetarian Mexican sandwich with a potato and masa huarache, roasted tamarind tomatoes, jalapeno mayo, queso botanero, fresh onion, cilantro, lime, avocado, shredded cabbage, and pickled onion.",
+          "ingredients": [
+            "mashed potatoes",
+            "masarina",
+            "tamarind tomatoes",
+            "jalapeno mayo",
+            "queso botanero",
+            "avocado",
+            "pickled onion",
+            "cabbage"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That might be one of the best vegetarian Mexican tortas I've ever had. Great crunch. It's creamy. It's spicy. It's tangy. It's rich. The acidity of the pickled onion is a must. The avocado flies right in. Then you get a little bit of fat coming through from that cheese. That's dynamite any way you slice it.",
+          "timestamp_start": 627.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Herbie's Bar and Chowder House",
+      "city": "Marathon",
+      "state": "Florida",
+      "cuisine_type": "American",
+      "owner_chef": "Shirley and Peter Damaris",
+      "guy_intro": "So I'm here in Marathon, Florida, down in the Keys. I'm out here finding the joints for you. You're going to dig this. Herbie's Bar and Chowder House. Tuna tacos for you. Hidden gem all day long. It's one of those mom and pop places. And the mom and pop here are Shirley and Peter Damaris, who became empty nesters, moved to Peter's hometown, and bought this Marathon Key landmark that first opened in 1945.",
+      "segment_number": 5,
+      "timestamp_start": 762.5,
+      "timestamp_end": 942.6,
+      "dishes": [
+        {
+          "dish_name": "Chicken Smashed Potato",
+          "description": "Brined and fried chicken breasts served over a smashed baked potato, topped with caramelized onion cream sauce and scallions.",
+          "ingredients": [
+            "chicken breasts",
+            "baked potato",
+            "caramelized onion cream sauce",
+            "orange concentrate",
+            "ginger",
+            "rosemary",
+            "buffalo sauce",
+            "scallions"
+          ],
+          "dish_category": "entree",
+          "guy_response": "And that chicken is layered with flavor. And it soaks up that brine, so it's super juicy. And the caramelized onion anti-spito gravy is the piece de resistance. I mean, that's what ties this whole thing together. I mean, it's the best. You got briny, salty, herby, a little bit of spice in it, crunchy chicken served on a luxurious potato. This is a stick-to-your-ribs kind of a meal, and it's really done with real culinary process. Well done.",
+          "timestamp_start": 793.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": null,
+      "city": null,
+      "state": "New Mexico",
+      "cuisine_type": "Southwestern",
+      "owner_chef": null,
+      "guy_intro": "We're going to make our bison fries. It's house-cut fries topped with slow-cooked buffalo, cheese, and some gravy, the ultimate comfort food.",
+      "segment_number": 6,
+      "timestamp_start": 942.6,
+      "timestamp_end": 1079.3,
+      "dishes": [
+        {
+          "dish_name": "Bison Gravy Dirty Fries",
+          "description": "House-cut, twice-fried red potatoes topped with slow-cooked bison osso bucco, green chili gravy, and melted Gruy\u00e8re cheese.",
+          "ingredients": [
+            "bison osso bucco",
+            "red potatoes",
+            "gruyere cheese",
+            "green chili",
+            "bone marrow",
+            "carrots",
+            "celery",
+            "red wine"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The gruyere, I can smell it right off the bat. That's remarkable. I mean, like, this is like getting a bite of your favorite steak dinner. Big, rich beef flavor coming from that osso bucco. The fry has tremendous potato flavor. It's just submersed in enough of that jus. The gruyere got its way to melt down, nook and cranny, all the way to the bottom of the fries. That's a destination dish. I'd come back tomorrow for this and the next day. All right, bison gravy dirty fries.",
+          "timestamp_start": 942.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "Pearlie's Restaurant and Delicatessen",
+      "city": "Richmond",
+      "state": "Virginia",
+      "cuisine_type": "Jewish / American Deli",
+      "owner_chef": "Rochelle and Kevin Roberts",
+      "guy_intro": "Now, Triple D, I think I've seen them all. I've seen the delicatessens. I've seen the diners. I've seen the sandwich shops. I've seen the corner stores. You name it. But I'm here in Richmond, Virginia, where this couple has resurrected an institution. They brought it back using their own little funky style. This is Pearlie's Restaurant and Delicatessen.",
+      "segment_number": 7,
+      "timestamp_start": 1079.3,
+      "timestamp_end": 1314.9,
+      "dishes": [
+        {
+          "dish_name": "Potato and Duck Pierogies",
+          "description": "Handmade pierogies filled with boiled potatoes and duck leg confit, served with shiitake mushrooms, charred tomato ketchup, mirepoix, duck stock, and chive sour cream.",
+          "ingredients": [
+            "pierogi dough",
+            "duck legs",
+            "potatoes",
+            "shiitake mushrooms",
+            "roasted tomato ketchup",
+            "duck fat",
+            "chive sour cream",
+            "juniper berry"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I don't know that the word pierogi describes this. It's like calling my Camaro a car. That's a vintage hot rod. Great duck. The duck jus reduction with the pierogi soaks up. The vegetables. The mushrooms. A little kiss of that roasted tomato sauce. This is like I've been going to all the movies in black and white. And then today, I went to IMAX. A dynamite.",
+          "timestamp_start": 1125.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "DMK Burger Bar",
+      "city": "Chicago",
+      "state": "Illinois",
+      "cuisine_type": "American",
+      "owner_chef": "Michael Kornick",
+      "guy_intro": "I'm about eight blocks south of the famous Wrigley Field on Sheffield Avenue. Now, this is the avenue where everybody stands when someone hits a home run and they run them for the ball. But we're not here to talk about baseball. We're not even here to talk about Chicago dogs. We're here to talk about burgers that are right on. This is DMK Burger Bar.",
+      "segment_number": 8,
+      "timestamp_start": 1314.9,
+      "timestamp_end": 1474.4,
+      "dishes": [
+        {
+          "dish_name": "Parmesan Truffle Cream Fries",
+          "description": "Aged Idaho russet potatoes, 3-inch cut, twice-fried in beef fat, seasoned with salt, pepper, Parmesan cheese, and parsley, served with a white truffle aioli.",
+          "ingredients": [
+            "idaho russet potatoes",
+            "beef fat",
+            "white truffle oil",
+            "parmesan cheese",
+            "egg yolks",
+            "lemon juice",
+            "salt",
+            "pepper"
+          ],
+          "dish_category": "side",
+          "guy_response": "Mm. Crunchy, exterior, tender. Such a richness. More importantly, they made the skin on. See, I like pepper on my fries, too. The aioli, nice. It melts right into the fries. I mean, real deal, man. Real deal. You're going to have a gourmet burger joint. You better serve up a gourmet fry. That's it, right? Excellent. Truffle fry up. Great fries. Thank you. Great fries. Here are the Parmesan truffle cream fries. They're crispy, but they're soft in the middle. Real potato taste. Truffle is delicious. The cream is kind of sweet. And with the cheese on top of the fries, it's kind of tangy. It's just a very rich taste.",
+          "timestamp_start": 1340.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Desert Oak Barbecue",
+      "city": "El Paso",
+      "state": "Texas",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Rich Funk and Suzanne",
+      "guy_intro": "So I'm here in El Paso, Texas. I'm in a strip mall. And I'm looking for, wait for it, barbecue. Now, no, wait, wait, wait, wait. Listen, listen, I felt the exact same way. I mean, El Paso, Texas, real deal, barbecue, strip mall. You've got to be kidding me. Until I heard about this dude, he's got a big monster smoker that's a stick burner. I mean, no gas assist. It's real deal. This is Desert Oak Barbecue.",
+      "segment_number": 9,
+      "timestamp_start": 1474.4,
+      "timestamp_end": 1663.8,
+      "dishes": [
+        {
+          "dish_name": "El Paso Stuffed Potato with Brisket",
+          "description": "Smoked baked potato stuffed with butter, salt, pepper, cheese, sour cream, chives, a quarter pound of smoked brisket, beans, and jalapenos toreados.",
+          "ingredients": [
+            "baked potato",
+            "smoked brisket",
+            "jalapenos toreados",
+            "cheese",
+            "sour cream",
+            "chives",
+            "beans",
+            "lime juice"
+          ],
+          "dish_category": "entree",
+          "guy_response": "There's a lot more going on in this than what most people would call the average stuffed baked potato. Wow. Toreado is one of my new favorite things. One thing I like on your brisket, it's not overly smoky, nicely seasoned, good bark, beans are delicious. The whole thing is a package deal, man, besides the fact that it's not a human size. It's like four human sizes. Yeah. Excellent.",
+          "timestamp_start": 1527.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+Loading faster-whisper large-v3 model on CUDA...
+Transcribing nGUnOvwUuXg (1/30)... skipped (already exists)
+Transcribing RUWkrxmqaw8 (2/30)... skipped (already exists)
+Transcribing aCQJe2aokOM (3/30)... skipped (already exists)
+Transcribing 9Fu3mZun2UM (4/30)... skipped (already exists)
+Transcribing zhxB4stNX3c (5/30)... skipped (already exists)
+Transcribing uMsMddqOAkQ (6/30)... skipped (already exists)
+Transcribing BjnkNESIRrY (7/30)... skipped (already exists)
+Transcribing qbJwpZoDA1k (8/30)... skipped (already exists)
+Transcribing AEU65UApH-I (9/30)... skipped (already exists)
+Transcribing Afbfs6YltzU (10/30)... skipped (already exists)
+Transcribing s4paBhmYAls (11/30)... skipped (already exists)
+Transcribing CDOlBQlTAQk (12/30)... skipped (already exists)
+Transcribing v4TA89evUms (13/30)... skipped (already exists)
+Transcribing Fv7z97qiyes (14/30)... skipped (already exists)
+Transcribing m9kfH5jjuIw (15/30)... skipped (already exists)
+Transcribing h_3259ZF-58 (16/30)... skipped (already exists)
+Transcribing 1hYE7xlDGyA (17/30)... skipped (already exists)
+Transcribing rk1PMEkx7ls (18/30)... skipped (already exists)
+Transcribing _4cvNiRMY-s (19/30)... skipped (already exists)
+Transcribing x-F_Uefzb7M (20/30)... skipped (already exists)
+Transcribing SHfPUpDjyh8 (21/30)... skipped (already exists)
+Transcribing etw8ask5pu0 (22/30)... skipped (already exists)
+Transcribing GxPdiwl_-ZM (23/30)... skipped (already exists)
+Transcribing jBKb5yhXePc (24/30)... skipped (already exists)
+Transcribing Xu2A6TLh-m8 (25/30)... skipped (already exists)
+Transcribing Q-WK3sFJaz8 (26/30)... done (2368 segments, 0 low-confidence) [365.8s]
+Transcribing oLPQD627Bvg (27/30)... done (2395 segments, 0 low-confidence) [395.2s]
+Transcribing gFjHGCw9btk (28/30)... done (3948 segments, 0 low-confidence) [597.9s]
+Transcribing XgCrXozba1c (29/30)... done (4704 segments, 36 low-confidence) [708.9s]
+Transcribing kqHH46ykXG8 (30/30)... done (5240 segments, 0 low-confidence) [795.3s]
+
+--- Transcription Summary ---
+Total processed: 5
+Total segments:  18655
+Low confidence:  36
+Errors:          0

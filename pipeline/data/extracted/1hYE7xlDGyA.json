@@ -1,0 +1,289 @@
+{
+  "video_id": "1hYE7xlDGyA",
+  "video_title": "Top 10 #DDD BBQ Brisket Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "B.B.'s Lawnside Barbecue",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Clint Boyer",
+      "guy_intro": "I'm here in Kansas City, Missouri. Now most folks, most folks would argue this is like the epicenter of great barbecue. So I'm here to check out a joint that has been smoking the meat and rocking the blues for over 20 years.",
+      "segment_number": 1,
+      "timestamp_start": 131.6,
+      "timestamp_end": 296.4,
+      "dishes": [
+        {
+          "dish_name": "Burn-ins (Burnt Ends)",
+          "description": "Brisket point cut, smoked for 12-14 hours, then cooked down two more hours, and trimmed into chunks.",
+          "ingredients": [
+            "brisket",
+            "seasoning salt",
+            "meat tenderizer",
+            "hickory smoke"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, daddy. That is money. That is money. Look at this smoke ring right here. This falls apart. It's perfect.",
+          "timestamp_start": 212.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Vagabond",
+      "city": "Atlantic City",
+      "state": "New Jersey",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Elvis Cadavid and Tom Harris",
+      "guy_intro": "So I'm here in the Chelsea Heights section of Atlantic City. It's right between the boardwalk and the bay. And man, was this area hit hard by Superstorm Sandy. A lot of businesses went out and never came back, except for a funky little joint like this. Welcome to Vagabond.",
+      "segment_number": 2,
+      "timestamp_start": 296.4,
+      "timestamp_end": 470.4,
+      "dishes": [
+        {
+          "dish_name": "Barbecue Three-Way Sandwich",
+          "description": "Pulled pork, brisket, and candied bacon on a locally made brioche bun with mango barbecue sauce and lime slaw.",
+          "ingredients": [
+            "pulled pork",
+            "brisket",
+            "candied bacon",
+            "mango barbecue sauce",
+            "lime slaw",
+            "brioche bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Smoke, nice tang. Good season. Making a slaw, counterbalancing it with a little acid. That was a great sandwich. I had a really great sandwich. Thank you very much. Well done.",
+          "timestamp_start": 349.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Big Mike's BBQ",
+      "city": "Houston",
+      "state": "Texas",
+      "cuisine_type": "Tex-Mex Barbecue",
+      "owner_chef": "Big Mike",
+      "guy_intro": "I would not bring the $6 million man to a Houston barbecue joint if it wasn't legit. He's making everything from scratch. You're going to love this place. This is the Triple D Camaro. And this is the pit room.",
+      "segment_number": 3,
+      "timestamp_start": 470.4,
+      "timestamp_end": 663.2,
+      "dishes": [
+        {
+          "dish_name": "Brisket Tacos",
+          "description": "Prime beef brisket smoked for 12 hours, served in scratch-made tortillas (with smoked rendered brisket fat) with cheddar cheese and house-made salsa roja.",
+          "ingredients": [
+            "prime beef brisket",
+            "kosher salt",
+            "coarse pepper",
+            "pickle juice",
+            "mustard",
+            "flour tortilla",
+            "smoked brisket fat",
+            "cheddar cheese",
+            "salsa roja"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm, it's delicious. Smooth. The fat inside of the tortilla, love it. It's tender. It just comes apart. And the fact that you're doing prime. Yeah. It's probably one of the best brisket tacos I've had.",
+          "timestamp_start": 526.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Carolina Kitchen",
+      "city": "Sparks",
+      "state": "Nevada",
+      "cuisine_type": "Carolina Barbecue",
+      "owner_chef": "Clay Cobb",
+      "guy_intro": "So I'm here in Sparks, Nevada, just about a mile or two outside of Reno. Now, when you're cruising through a town like this and you drive by and you see a barbecue trailer, and then you see yourself an old hickory pit, an old hickory pit, an old hickory pit, and another old hickory pit, I bet you they're doing some real deal barbecue. This is Carolina Kitchen.",
+      "segment_number": 4,
+      "timestamp_start": 663.2,
+      "timestamp_end": 846.0,
+      "dishes": [
+        {
+          "dish_name": "Wagyu Brisket Platter",
+          "description": "Wagyu brisket trimmed, rubbed with kosher salt, coarse black pepper, and granulated garlic, smoked for 15 hours over almond wood, wrapped, finished to 203F, and rested. Served with collard greens and moonshine barbecue sauce.",
+          "ingredients": [
+            "wagyu brisket",
+            "kosher salt",
+            "black pepper",
+            "granulated garlic",
+            "mustard",
+            "almond wood",
+            "collard greens",
+            "bacon",
+            "moonshine barbecue sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I mean, that is about as juicy and tender. That is killer. It's one of the best briskets I've seen outside of Texas, actually. Not that I think this brisket needs sauce in the world of collards. Boy, I'll tell you what. Tender and cooked down, but still enough texture. That's great, man. This is like you've been working with a pit master down in Texas for a while. A real deal. Well done, man.",
+          "timestamp_start": 721.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "ZZQ",
+      "city": "Richmond",
+      "state": "Virginia",
+      "cuisine_type": "Barbecue",
+      "owner_chef": null,
+      "guy_intro": "I'm going to bring you some of the best barbecue you've ever seen on Triple D. And after this spot, you'll say, I thank you. This is ZZQ.",
+      "segment_number": 5,
+      "timestamp_start": 846.0,
+      "timestamp_end": 985.1,
+      "dishes": [
+        {
+          "dish_name": "Tres Hombres Sandwich",
+          "description": "Habanero fontina sausage, pulled pork (smoked for 12 hours), and beef brisket (smoked for 16-18 hours) on a bun with signature house thick sauce and pickled red onions.",
+          "ingredients": [
+            "habanero fontina sausage",
+            "pulled pork",
+            "beef brisket",
+            "black pepper",
+            "kosher salt",
+            "paprika",
+            "chili powder",
+            "brown sugar",
+            "granulated garlic",
+            "granulated onion",
+            "cayenne",
+            "cumin",
+            "Mexican oregano",
+            "yellow mustard",
+            "pickle brine",
+            "house thick sauce",
+            "pickled red onions"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Delicious brisket. Love the sausage. Pulled pork's nice and tender. It's legit. It's real deal. It's great flavor. Well done, chef.",
+          "timestamp_start": 857.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Bluebird Barbecue",
+      "city": "Burlington",
+      "state": "Vermont",
+      "cuisine_type": "Barbecue / Asian Fusion",
+      "owner_chef": null,
+      "guy_intro": "Hanging out in Burlington, Vermont. We're at the Bluebird barbecue joint. And they're taking their classic cue and running with it.",
+      "segment_number": 6,
+      "timestamp_start": 985.1,
+      "timestamp_end": 1160.0,
+      "dishes": [
+        {
+          "dish_name": "Pit Master Ramen with Burnt Ends",
+          "description": "Ramen noodles in a dashi broth (chicken bone broth with ginger, garlic, lemongrass, soy sauce, bonito flakes, kombu, cilantro, green onions, lime juice), topped with burnt ends (brisket point cubed, rubbed, sauced, smoked), pickled carrot, pickled jalapeno, shaved radishes, scallions, six-minute egg, and toasted sesame oil.",
+          "ingredients": [
+            "brisket",
+            "salt pepper blend",
+            "chicken bone broth",
+            "ginger",
+            "garlic",
+            "lemongrass",
+            "soy sauce",
+            "bonito flakes",
+            "kombu",
+            "lime juice",
+            "ramen noodles",
+            "pickled carrot",
+            "pickled jalapeno",
+            "radishes",
+            "scallions",
+            "six-minute egg",
+            "toasted sesame oil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I was having a shovel fest. The dashi broth is spot on. And it's actually a little more aggressive than maybe a typical dashi because you're going to drop in these big pieces of burnt end, which I was so worried was just going to turn into a smoke pit. But it doesn't. Absolutely not. Love the acid of the pickling and a really good noodle. Yeah. Legit, bro. Noodles going in. The meat is so tender and juicy. It's got that umami, the whole sweet and the sour, and deliciousness.",
+          "timestamp_start": 992.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Desert Oak Barbecue",
+      "city": "El Paso",
+      "state": "Texas",
+      "cuisine_type": "Central Texas Barbecue",
+      "owner_chef": "Rich Funk and Suzanne",
+      "guy_intro": "So I'm here in El Paso, Texas. I'm in a strip mall, and I'm looking for, wait for it, barbecue. No, wait, wait, wait, wait. Listen, listen. I felt the exact same way. I mean, El Paso, Texas, real deal, barbecue, strip mall. You got to be kidding me. Until I heard about this dude. He's got a big monster smoker that's a stick burner. I mean, no gas assist. It's real deal. This is Desert Oak Barbecue.",
+      "segment_number": 7,
+      "timestamp_start": 1160.0,
+      "timestamp_end": 1351.8,
+      "dishes": [
+        {
+          "dish_name": "El Paso Stuffed Potato with Brisket",
+          "description": "Smoked baked potato stuffed with butter, salt, pepper, cheese, sour cream, chives, a quarter pound of brisket (smoked 18 hours with salt and pepper), beans, and jalapenos toreados (roasted jalapenos marinated in lime juice, soy sauce, and onions).",
+          "ingredients": [
+            "baked potato",
+            "butter",
+            "salt",
+            "pepper",
+            "cheese",
+            "sour cream",
+            "chives",
+            "brisket",
+            "beans",
+            "jalapenos",
+            "lime juice",
+            "soy sauce",
+            "onions"
+          ],
+          "dish_category": "entree",
+          "guy_response": "There's a lot more going on in this than what most people would call the average stuffed baked potato. Wow. Torriato is one of my new favorite things. One thing I like on your brisket, it's not overly smoky, nicely seasoned, good bark, beans are delicious. The whole thing is a package deal, man, besides the fact that it's not a human size. It's like four human sizes. Yeah. Excellent.",
+          "timestamp_start": 1214.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Fox Brothers Barbecue",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "cuisine_type": "Texas Barbecue",
+      "owner_chef": "Jonathan and Justin Fox",
+      "guy_intro": "So I'm here in Atlanta, Georgia, and I am looking for what? Exactly. Some real deal barbecue. You know what it is, guy. So with this Crate 502 in here, we just gotta bump the timing up a little bit. That's all it is. So you call your buddy Rutledge, who knows a lot about cars and a ton about barbecue. This is the real deal? This is the real deal. This is Fox Brothers Barbecue.",
+      "segment_number": 8,
+      "timestamp_start": 1351.8,
+      "timestamp_end": 1576.3,
+      "dishes": [
+        {
+          "dish_name": "Fox Brothers Burger",
+          "description": "Chopped certified Angus beef brisket (smoked 10-12 hours with salt and pepper) on a toasted bun with house-made jalapeno mayo, pimento cheese patty (cheddar, pepper jack, mayonnaise, pimentos, cayenne), peppered bacon, pickles, tomato, and onion.",
+          "ingredients": [
+            "certified angus beef brisket",
+            "salt",
+            "pepper",
+            "jalapeno mayo",
+            "pimento cheese",
+            "cheddar cheese",
+            "pepper jack cheese",
+            "mayonnaise",
+            "pimentos",
+            "cayenne pepper",
+            "peppered bacon",
+            "pickles",
+            "tomato",
+            "onion",
+            "toasted bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "You just have to use that cleaning up over there like a lion that just ate a gazelle. I don't know what happened. I went after mine. It's super tender brisket. When you chop that brisket up, you get a chance to incorporate that fat. Yeah. So it makes it even a little bit more unctuous. And adding the pimento cheese and adding the veggies on top of it brings that burger element to it. Mm. That's Fox Brothers right there. Damn, man. Come on. That's full speed, man. That's all throttle, no bottle, man. That is just getting it done.",
+          "timestamp_start": 1416.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

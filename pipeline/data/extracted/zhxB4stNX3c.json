@@ -1,0 +1,108 @@
+{
+  "video_id": "zhxB4stNX3c",
+  "video_title": "Top Fries Guy Fieri Ate on #DDD | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "59er Diner",
+      "city": "Leavenworth",
+      "state": "Washington",
+      "cuisine_type": "American Diner",
+      "owner_chef": "Joe Cannata",
+      "guy_intro": "I'm right outside of Leavenworth, Washington on Highway 2. This is the 59er Diner. Owner, wild man Joe Cannata keeps the joint rocking and rolling.",
+      "segment_number": 1,
+      "timestamp_start": 15.7,
+      "timestamp_end": 129.2,
+      "dishes": [
+        {
+          "dish_name": "Wet Fries",
+          "description": "French fries topped with a rich, two-day beef gravy made from beef stock, vegetables, and a roux.",
+          "ingredients": [
+            "french fries",
+            "beef bones",
+            "carrots",
+            "onions",
+            "celery",
+            "oregano",
+            "roux",
+            "parsley"
+          ],
+          "dish_category": "side",
+          "guy_response": "It's just good, straightforward, scratch-made diner gravy. All the way in Washington, far away from diner land, this is what you should expect when you're in New Jersey on the turnpike and you stop off at a diner. Joe, it's delicious. It's just a jam in the middle of nowhere. It's very special. Once in a while, you come across something like this. And I say this to folks all the time. You see a diner, and you think, maybe I should stop. Well, you know what? You better.",
+          "timestamp_start": 95.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Rosedale Diner",
+      "city": "Toronto",
+      "state": "Canada",
+      "cuisine_type": "Canadian Diner",
+      "owner_chef": null,
+      "guy_intro": "I'm here on Yonge Street, which is once considered the longest street in the world. And it divides Toronto, Canada by the east and the west. I'm here to check out a joint that's been here since 1939. This is the Rosedale Diner.",
+      "segment_number": 2,
+      "timestamp_start": 317.0,
+      "timestamp_end": 535.8,
+      "dishes": [
+        {
+          "dish_name": "Poutine au Canard",
+          "description": "French fries topped with slow-cooked duck confit, Quebecois cheese curds, and a rich gravy made with duck fat, veal demi-glace, chocolate, and red wine.",
+          "ingredients": [
+            "duck legs",
+            "maple syrup",
+            "rosemary",
+            "thyme",
+            "duck fat",
+            "veal demi-glace",
+            "chocolate",
+            "red wine",
+            "russet fries",
+            "boiled onions",
+            "quebecois cheese curds"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, my god. Boom. Wow. That's crazy. The duck is unbelievably tender. And the richness of this canard, French for duck, gravy is outrageous. Very decadent. It's such a refined meal. I mean, I say if it's funky, I'll find it. But this is fancy funky. I mean, all I need to do is have a little candle, maybe some white wine, and can someone please dim the lights? That's what I'm talking about. Couldn't you feel it? Pure elegance. Dig it.",
+          "timestamp_start": 333.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "DMK Burger Bar",
+      "city": "Chicago",
+      "state": "Illinois",
+      "cuisine_type": "American Burger Bar",
+      "owner_chef": "Michael Cornick",
+      "guy_intro": "I'm about eight blocks south of the famous Wrigley Field on Sheffield Avenue. Now, this is the avenue where everybody stands when someone hits a home run and they run them for the ball. But we're not here to talk about baseball. We're not even here to talk about Chicago dogs. We're here to talk about burgers that are right on. This is DMK Burger Bar. Head chef Michael Cornick is cranking out real deal burgers and homemade sides like a truffle aioli for the fries.",
+      "segment_number": 3,
+      "timestamp_start": 536.8,
+      "timestamp_end": 696.0,
+      "dishes": [
+        {
+          "dish_name": "Parmesan Truffle Cream Fries",
+          "description": "Aged Idaho russet potatoes, triple-cooked in beef fat, seasoned with salt, pepper, and Parmesan cheese, served with a homemade white truffle aioli.",
+          "ingredients": [
+            "idaho russet potatoes",
+            "beef fat",
+            "salt",
+            "pepper",
+            "parmesan cheese",
+            "parsley",
+            "egg yolks",
+            "lemon juice",
+            "virgin olive oil",
+            "white truffle oil"
+          ],
+          "dish_category": "side",
+          "guy_response": "Crunchy, exterior, tender. Such a richness. More importantly to me than any, skin on. See, I like pepper on my fries, too. The aioli. Nice. It melts right into the fries. I mean, real deal, man. Real deal. You're going to have a gourmet burger joint. You better serve up a gourmet fry. That's it, right? Excellent. Truffle fry up. Great fries. Thank you.",
+          "timestamp_start": 599.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

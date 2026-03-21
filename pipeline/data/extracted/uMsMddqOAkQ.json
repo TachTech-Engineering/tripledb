@@ -1,0 +1,41 @@
+{
+  "video_id": "uMsMddqOAkQ",
+  "video_title": "Top #DDD Videos in Atlanta with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Twisted Soul",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "cuisine_type": "Southern",
+      "owner_chef": null,
+      "guy_intro": "Now we're going to put some south in the mouth.",
+      "segment_number": 1,
+      "timestamp_start": 633.0,
+      "timestamp_end": 784.0,
+      "dishes": [
+        {
+          "dish_name": "Southern Marinated Fried Chicken with Sweet Potato Apple Chutney and Collard Green Roll",
+          "description": "Chicken brined in sweet tea for 24 hours, dredged in flour and house seasoning, then fried in cast iron. Served with a chutney made from butter, Granny Smith apples, lemon juice, fingerling sweet potatoes, brown sugar, cinnamon, clove, ginger, red peppers, apple cider, gold raisins, and ginger-infused bourbon. Accompanied by a collard green roll made from blanched collard greens filled with cooked turnip, mustard, collard greens, jalapenos, celery salt, red pepper flakes, and paprika, simmered for 2-3 hours.",
+          "ingredients": [
+            "chicken",
+            "sweet tea brine",
+            "flour",
+            "apples",
+            "sweet potatoes",
+            "ginger-infused bourbon",
+            "collard greens",
+            "turnip greens",
+            "jalapenos",
+            "cinnamon"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The chutney is dynamite. Love that little golden raisin texture at the end. Congratulations for wrecking collard greens for the rest of my life. That's mean. It's nasty. That's what it is. Oh, oh. Yeah. I want to order 100 of these. That's just good, old-fashioned, honest fried chicken. Skin's nice and crispy. Holds a good crust. The chicken is juicy but crispy. The collard green roll has a little bite to it. It's a different twist. But it's wonderful.",
+          "timestamp_start": 709.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

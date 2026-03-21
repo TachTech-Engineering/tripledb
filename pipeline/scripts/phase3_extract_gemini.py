@@ -16,7 +16,7 @@ from pathlib import Path
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
 RATE_LIMIT_DELAY = 4.5        # seconds between requests (stay under 15 RPM)
-TIMEOUT = 120                 # 2 minutes per request (generous for cloud API)
+TIMEOUT = 300                 # 5 minutes per request (needed for marathons)
 MAX_RETRIES = 2
 
 DATA_DIR = Path("data")

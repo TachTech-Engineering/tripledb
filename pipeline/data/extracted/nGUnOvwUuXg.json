@@ -1,0 +1,58 @@
+{
+  "video_id": "nGUnOvwUuXg",
+  "video_title": "Guy Fieri Eats a MASSIVE Plate of BBQ Meatloaf | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "Moat Mountain Smokehouse and Brewery",
+      "city": "North Conway",
+      "state": "New Hampshire",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Vicki Valentino and Steven Johnson",
+      "guy_intro": "I'm here to check out a joint where they came up here for the skiing to brew beer and to smoke meats and well they've been doing it for 22 years so I got to check it out. This is Moat Mountain Smokehouse and Brewery.",
+      "segment_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 210.0,
+      "dishes": [
+        {
+          "dish_name": "Barbecue Meatloaf",
+          "description": "A blend of 80-20 ground beef and short rib, mixed with Cajun mirepoix (red and green bell peppers, onions), Austin barbecue sauce, Worcestershire, sour cream, garlic, parsley, black pepper, eggs, and panko breadcrumbs, formed into loaves, glazed with Austin sauce, and baked at 350 for about an hour and a quarter.",
+          "ingredients": [
+            "ground beef",
+            "short rib",
+            "red bell peppers",
+            "green bell peppers",
+            "onions",
+            "austin barbecue sauce",
+            "sour cream",
+            "garlic",
+            "panko breadcrumbs"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's great meatloaf. It's so tender, moist, full of flavor. Your Austin City barbecue sauce is wham bam.",
+          "timestamp_start": 155.3,
+          "confidence": 1.0
+        },
+        {
+          "dish_name": "Roasted Garlic Mashed Potatoes",
+          "description": "Red bliss potatoes cooked in a steam kettle, mixed with roasted garlic in olive oil, melted butter, milk, kosher salt, black pepper, half and half, and sour cream, then whipped.",
+          "ingredients": [
+            "red bliss potatoes",
+            "roasted garlic",
+            "olive oil",
+            "butter",
+            "milk",
+            "sour cream",
+            "black pepper",
+            "kosher salt"
+          ],
+          "dish_category": "side",
+          "guy_response": "Then you move over to the mashed potatoes which have an awesome amount of sour cream in them. Roasted garlic flavor all the way through.",
+          "timestamp_start": 107.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}
