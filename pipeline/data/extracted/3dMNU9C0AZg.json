@@ -1,0 +1,89 @@
+{
+  "video_id": "3dMNU9C0AZg",
+  "video_title": "Guy Fieri Eats \"Next-Level\" Cuban Sandwich in Louisiana | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "Iverstein Butcher",
+      "city": "Baton Rouge",
+      "state": "Louisiana",
+      "cuisine_type": "American",
+      "owner_chef": "Gail Iverstein",
+      "guy_intro": "So I'm here in southern Louisiana, Baton Rouge to be exact, to check out a butcher shop. Not your average butcher shop, this is Iverstein Butcher, where farmer butcher chef Gail Iverstein is bringing his commitment to the natural meat cycle to the table, and they also have a restaurant.",
+      "segment_number": 1,
+      "timestamp_start": 1.4,
+      "timestamp_end": 354.3,
+      "dishes": [
+        {
+          "dish_name": "Cuban Sandwich",
+          "description": "Smoked ham, pulled pork with mojo sauce, Swiss cheese, pickles, mayo, and mustard, pressed on bread.",
+          "ingredients": [
+            "smoked ham",
+            "pulled pork",
+            "mojo sauce",
+            "swiss cheese",
+            "pickles",
+            "mayo",
+            "mustard",
+            "cuban bread"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Bro, it eats like a dinner. Just really precisely put together. Dude, you're on your game. That's a sandwich I'd drive an hour to go get. The pork with the mojo really just pops. I'm a big fan of the crunch. And honestly, I'm gonna eat the whole thing.",
+          "timestamp_start": 164.3,
+          "confidence": 1.0
+        },
+        {
+          "dish_name": "Butcher Burger",
+          "description": "A burger patty served with pork rinds.",
+          "ingredients": [
+            "beef patty",
+            "pork rinds",
+            "bun",
+            "cheese",
+            "lettuce",
+            "tomato"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is one of the best burgers I've had.",
+          "timestamp_start": 214.4,
+          "confidence": 0.9
+        },
+        {
+          "dish_name": "Hog's Head Grilled Cheese with Ham",
+          "description": "Fried head cheese (made from boiled pig's head, shredded meat, reduced collagen, seasoned, battered, and fried in pork fat) served on butter-toasted bread with ham, smoked Gouda, house-made remoulade, and pickled onions.",
+          "ingredients": [
+            "head cheese",
+            "ham",
+            "smoked gouda",
+            "remoulade",
+            "pickled onions",
+            "bread",
+            "pork fat",
+            "cornstarch",
+            "egg wash",
+            "flour",
+            "bread crumb"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Well, I've never had head cheese fried like this. It's 20 different flavors at once. I mean, this head cheese is fantastic. It's seasoned perfectly. Silky smooth. It's almost juicy coming out of like a sausage casing. That head cheese just needs to be by itself. Absolutely. Not even fried. I like it when it's in its band, but I'd like to see the solo album. The coating on the meat that's in there is incredible. I've never seen it done like that before. I'm a ham fanatic. This is probably the best ham I've ever had in my life. That's a lot coming from Mignon.",
+          "timestamp_start": 233.0,
+          "confidence": 1.0
+        },
+        {
+          "dish_name": "Pork Rinds (Chicharrones)",
+          "description": "Crispy pork rinds fried in hog lard and seasoned with a house blend.",
+          "ingredients": [
+            "pork skin",
+            "hog lard",
+            "house seasoning"
+          ],
+          "dish_category": "snack",
+          "guy_response": "It's hard to focus right now because I'm having these chicharrones.",
+          "timestamp_start": 304.3,
+          "confidence": 0.8
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "video_id": "U9iWsUdePa4",
+  "video_title": "Guy Fieri Eats AWESOME Bulgogi Cheesesteak in Atlanta \ud83d\udd25 | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "full_episode",
+  "restaurants": [
+    {
+      "name": "Yumbie",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "cuisine_type": "Korean Mexican Fusion",
+      "owner_chef": "Carson and Katie Young",
+      "guy_intro": "So I'm here in Atlanta, Georgia, a couple minutes walk from Piedmont Park. This is Yumbie. It's a husband-and-wife team doing a mashup between Korean and Mexican. They were the ones that actually helped start the entire food truck game here in Atlanta. Chef Carson Young, the first hearing impaired chef I've ever had on the show, along with his wife Katie, literally hit the streets serving street food and worked hard to get street food laws passed before opening their first truck, then expanding to their brick-and-mortar.",
+      "segment_number": 1,
+      "timestamp_start": 1.6,
+      "timestamp_end": 353.8,
+      "dishes": [
+        {
+          "dish_name": "Bulgogi Cheesesteak",
+          "description": "Philly cheesesteak with ribeye beef marinated for 72 hours, cooked with onions, topped with sriracha queso, yumbee chili sauce, and cucumber kimchi.",
+          "ingredients": [
+            "bulgogi beef",
+            "ribeye",
+            "sriracha queso",
+            "gochujang chili paste",
+            "cucumber kimchi",
+            "pineapple",
+            "sesame oil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The meat is so tender. The cucumber kimchi is refreshing just enough cheese sauce to where it's not heavy and weighted down. Packed with flavor delicious. That's juicy. It's tender the queso on the Philly is fantastic. You get a perfect balance of sweet spicy, dude. That's incredible.",
+          "timestamp_start": 78.2,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Loaded Sesame Fries with Korean Barbecue Chicken",
+          "description": "French fries seasoned with kosher salt and white sugar, topped with Korean barbecue chicken marinated in yumbee chili sauce, sriracha cheese sauce, chipotle sour cream, pickled jalapenos, and a salad of green leaf lettuce, cilantro, scallion, red onion, and soy sesame vinaigrette.",
+          "ingredients": [
+            "french fries",
+            "korean barbecue chicken",
+            "yumbee chili sauce",
+            "sriracha cheese sauce",
+            "chipotle sour cream",
+            "pickled jalapenos",
+            "soy sesame vinaigrette"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It is a flavor bomb fries are super crispy. I really like the salad it plays into it really well. I mean there's just so much going on you have to show ID to be able to ride this ride. That's ridiculous but if I wanna be ready one minute break the fries down for me. I love the jalapenos and the chicken the fries themselves. They're also really great with the sriracha queso. They're a little bit spicy, but not too spicy. It's still good. Me like food.",
+          "timestamp_start": 211.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Bingo Deli",
+      "city": "Gainesville",
+      "state": "Florida",
+      "cuisine_type": "Eclectic American",
+      "owner_chef": "Will Thomas",
+      "guy_intro": "Well, I'm here in Gainesville, Florida. I'm about to check out this restaurant, Bingo Deli. The name and what the menu says, they don't exactly match up, as it's much more of an eclectic foodery than a deli. Chef and owner Will Thomas has worked at kitchens from grills to gourmet, and his background as a musician is keeping things chill. The idea is an old-school classic gathering place, serving home cooking with some technique and super fresh local ingredients.",
+      "segment_number": 2,
+      "timestamp_start": 364.8,
+      "timestamp_end": 576.2,
+      "dishes": [
+        {
+          "dish_name": "Spicy Shrimp Roll",
+          "description": "Shrimp slow-poached in butter, served on house-made pen de mai bread, with paprika aioli, pickled carrots, pickled jalapenos, chive, green onion, cilantro, and celery.",
+          "ingredients": [
+            "shrimp",
+            "house-made bread",
+            "butter",
+            "paprika aioli",
+            "pickled carrots",
+            "pickled jalapenos",
+            "cilantro"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The bread is still warm. Really good shrimp. You would have a really good argument with somebody whether or not it was lobster. This is like you opened up with a soft jazz set. And then you played me a little Motley Crue because I got a jalapeno pop. And then you give me a little Skinner because I get a bunch of great shrimp. Bread that is almost too good to be made into a sandwich. Lights out. I mean, creativity 101. The shrimp is just cooked perfectly. The bread holds up really good to the creaminess of the shrimp. And then there's a zing. And then there's a zing at the end. You get your mind blown here with the food.",
+          "timestamp_start": 414.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

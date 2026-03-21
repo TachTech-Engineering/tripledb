@@ -1,0 +1,765 @@
+{
+  "video_id": "a8vXm6R-tKc",
+  "video_title": "Top Chicken Dishes on #DDD with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Joe's Gizzard City",
+      "city": null,
+      "state": null,
+      "cuisine_type": "American Comfort Food",
+      "owner_chef": "Joe Jr.",
+      "guy_intro": "But with a name like Joe's Gizzard City, you know why I'm here. The gizzard's up. And they're the best gizzards in the world. Thank goodness we're serving them from chickens. That great idea came from Joe Sr., who took over his father's chicken joint in 1968.",
+      "segment_number": 1,
+      "timestamp_start": 28.1,
+      "timestamp_end": 228.1,
+      "dishes": [
+        {
+          "dish_name": "Fried Gizzards",
+          "description": "Gizzards pressure cooked to tenderize, seasoned with garlic powder, celery salt, and salt, then battered with a special flour mix and deep-fried.",
+          "ingredients": [
+            "gizzards",
+            "garlic powder",
+            "celery salt",
+            "salt",
+            "special flour",
+            "oil"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "I don't think, I think they're quite tasty, actually. I think the seasoning that you pressure cook them in, that makes a big difference. The batter is killer. Don't get gizzards anywhere else. Who needs gizzards? Gizzards are the best.",
+          "timestamp_start": 77.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Fried Chicken",
+          "description": "Chicken boiled first to ensure juiciness, then battered with garlic powder and celery salt, and deep-fried.",
+          "ingredients": [
+            "chicken",
+            "garlic powder",
+            "celery salt",
+            "special batter",
+            "oil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's super tender and moist. My gosh, it falls apart. You know the first thing I get out of that? What's that? It's that garlic flavor of that chicken when it boiled. Mm. Sure is a different way to do chicken.",
+          "timestamp_start": 187.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Curry in a Hurry",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "cuisine_type": "Pakistani",
+      "owner_chef": "Sonny Nassar",
+      "guy_intro": "Fried chicken is coming up. It's like Easter. It's made in Southwestern Salt Lake City. It's a flavor bomb. Like the Pakistani flavors Sonny Nassar learned to cook with at his parents' popular joint down the street.",
+      "segment_number": 2,
+      "timestamp_start": 229.8,
+      "timestamp_end": 384.8,
+      "dishes": [
+        {
+          "dish_name": "Curry Fried Chicken",
+          "description": "Chicken brined for 24 hours in a mixture of water, vinegar, lemon juice, black pepper, salt, curry powder, house garam masala, ginger, and garlic. Then coated in house spice and deep-fried for 15 minutes.",
+          "ingredients": [
+            "chicken",
+            "garam masala",
+            "indian chili powder",
+            "salt",
+            "hot curry powder",
+            "vinegar",
+            "lemon juice",
+            "ginger",
+            "garlic"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The fried chicken. That's good crisp on that. I like to get the pita bread. Put everything in it and just make a little bite of it. It's good stuff. Mmm. To get all that curry spice, then you get the moisture and the fat of the chicken. Wow, that's a lot of flavor. Bro, real deal. Thank you. This chicken is unique. It wrecks fried chicken. There's so much flavor in it. It wrecks it. It's very crunchy, very juicy.",
+          "timestamp_start": 257.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Lentil Curry",
+          "description": "Yellow and green lentils cooked for about two hours with salt, garam masala, hot curry powder, crushed chili peppers, and Indian chili powder. Topped with sizzled onions and cumin.",
+          "ingredients": [
+            "yellow lentils",
+            "green lentils",
+            "salt",
+            "garam masala",
+            "hot curry powder",
+            "crushed chili peppers",
+            "indian chili powder",
+            "onions",
+            "cumin"
+          ],
+          "dish_category": "entree",
+          "guy_response": "If all you sold was spicy lentils, I would show up. That's it. The lentils are really gangster.",
+          "timestamp_start": 315.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Tom Faye's Pizza",
+      "city": "Jackson",
+      "state": "Wyoming",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Tom Faye",
+      "guy_intro": "These pizzas are the creation of chef and owner Tom Faye, who came back home after culinary school and opened this joint in 2011. Knowing that we needed to fill a niche in town, serve pizza by the slice and just have it. No one was doing pizza by the slice? No. Just needed to be up to par. We needed some good pizza in town.",
+      "segment_number": 3,
+      "timestamp_start": 384.8,
+      "timestamp_end": 548.5,
+      "dishes": [
+        {
+          "dish_name": "Funky Chicken Pizza",
+          "description": "Starts with chicken breast marinated for 24 hours in basil, garlic, lemon slices, and oil, then roasted. Built on hand-tossed dough with fresh basil pesto, mozzarella cheese, roasted chicken, artichoke hearts, red onions, and ricotta cheese, then baked at 575 degrees for 10 minutes.",
+          "ingredients": [
+            "chicken breast",
+            "basil",
+            "garlic",
+            "lemon",
+            "olive oil",
+            "pesto",
+            "mozzarella",
+            "artichoke hearts",
+            "red onions",
+            "ricotta cheese",
+            "pizza dough"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Roasting the chicken with the garlic. Outrageous. Making your own pesto over the top. Little bit of that ricotta coming in. Creaminess, saltiness.",
+          "timestamp_start": 422.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Sidewinders",
+      "city": "Jackson",
+      "state": "Wyoming",
+      "cuisine_type": "American Pub Fare",
+      "owner_chef": "Joe Bill",
+      "guy_intro": "This marine right here, this aviator, has got his hands full with a scratch-made joint and a really cool sports bar. You named the joint Sidewinders after something that was so major in your life, being a pilot in the Marine Corps. So I could understand why, when you're going to do something to that degree, you're going to make sure that the food has that much respect as well. And you really have shown that. That's not typically what you find in a sports bar.",
+      "segment_number": 4,
+      "timestamp_start": 548.5,
+      "timestamp_end": 742.9,
+      "dishes": [
+        {
+          "dish_name": "Chicken Pot Pie",
+          "description": "Roasted chicken (rubbed with thyme, oregano, parsley, celery salt, mustard, bushberry pepper, cayenne, red chili flake, and granulated garlic) combined with a filling of mirepoix (white onions, garlic, celery, carrot) sweated down, deglazed with white wine, then mushrooms, salt, pepper, basil, oregano, parsley, cayenne, chicken stock, 'cowboy roux', heavy cream, and potatoes. Topped with puff pastry and egg wash, then baked.",
+          "ingredients": [
+            "chicken",
+            "thyme",
+            "oregano",
+            "parsley",
+            "celery salt",
+            "cayenne",
+            "garlic",
+            "white onions",
+            "celery",
+            "carrots",
+            "mushrooms",
+            "white wine",
+            "chicken stock",
+            "roux",
+            "heavy cream",
+            "potatoes",
+            "puff pastry"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Good looking pot pie. You know, there's something about chicken on the bone, to make the stock from the bone. There's such a depth. It's creamy. Love that you got the mushrooms in there. Not a ton of crust. The veggies are tender. But you get some real texture out of those carrots and the celery. Dynamite.",
+          "timestamp_start": 556.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Dad's Chicken & Dumplings",
+      "city": null,
+      "state": null,
+      "cuisine_type": "American Comfort Food",
+      "owner_chef": null,
+      "guy_intro": "I got to see some chicken and dumplings. So how do we make it here? We bake the chickens for Wednesday. We have baked chicken on the menu. My dad wanted to incorporate leftovers into an entree, not to waste the food. So he started doing chicken and dumplings.",
+      "segment_number": 5,
+      "timestamp_start": 742.9,
+      "timestamp_end": 903.4,
+      "dishes": [
+        {
+          "dish_name": "Chicken and Dumplings",
+          "description": "Baked chicken (seasoned with salt, black pepper, chili powder, brown sugar, and paprika) is shredded. Gravy is built from margarine, celery, onion, garlic, chicken drippings, water, black pepper, white pepper, poultry seasoning, sage, and chicken base, then fortified with pulled chicken. Dumplings are made from all-purpose and self-rising flour, salt, lard, and ice water, then rolled out and cut. Cooked together until thickened.",
+          "ingredients": [
+            "chicken",
+            "salt",
+            "black pepper",
+            "chili powder",
+            "brown sugar",
+            "paprika",
+            "celery",
+            "onion",
+            "garlic",
+            "chicken drippings",
+            "sage",
+            "all-purpose flour",
+            "self-rising flour",
+            "lard",
+            "ice water"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Creaminess. Tender chunks of chicken. I almost finished the whole bowl in that time.",
+          "timestamp_start": 742.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "Raleigh & Kaplan's Gastropub",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Gastropub",
+      "owner_chef": "John Raleigh and Jeffrey Kaplan",
+      "guy_intro": "Cheers. This is the neighborhood pub with above average pub fare. It's off the beaten path, but the food is really great. You come for the food. I come for the food. And the one two keg kitchen punch was all part of the plan when John Raleigh and Jeffrey Kaplan partnered up on this place. I wanted to do like a gastropub with good beer and he wanted a farmhouse brewery with good food. We do like farm to table dishes we all grew up with, but just a little upscale.",
+      "segment_number": 6,
+      "timestamp_start": 903.4,
+      "timestamp_end": 1067.2,
+      "dishes": [
+        {
+          "dish_name": "Chicken and Biscuit Sandwich",
+          "description": "Chicken (airliner cut) brined overnight in hot water, garlic powder, kosher salt, and sugar, then sous vide at 165F for an hour, then dredged in rice flour and fried. Biscuit made from flour, salt, baking soda, baking powder, cold butter, local goat cheddar, green onion, and buttermilk. Assembled with horseradish crema, fried chicken, house-made pickles, and onion rings.",
+          "ingredients": [
+            "chicken",
+            "garlic powder",
+            "kosher salt",
+            "sugar",
+            "rice flour",
+            "flour",
+            "baking soda",
+            "baking powder",
+            "butter",
+            "goat cheddar",
+            "green onion",
+            "buttermilk",
+            "horseradish crema",
+            "pickles",
+            "onion rings"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Nice, tender biscuit. Great chicken. This is tender. Great flavor. You're definitely getting a little bit of the brine. It's a light, crisp fry. And the brine of the pickle and the brine. The brine of the pickle and the horseradish sauce is dynamite. I give you props.",
+          "timestamp_start": 942.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "Dan Sheridan's BBQ",
+      "city": "Wilmington",
+      "state": null,
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Dan Sheridan",
+      "guy_intro": "And you can get some really good barbecue. But this neighborhood joint wasn't initially on chef and owner Dan Sheridan's radar. I had a small pickling company going on. Pickling company. Yeah. Everybody has one of those. We would have to sell tons of pickles to pay rent. I mean, that'll put you in a pickle. So Dan tapped into his culinary background and went full-blown barbecue. Smoking up everything from beef. Brisket rib plate. To bird. Like what this little barbecue spot is known for. Chicken salad sandwich.",
+      "segment_number": 7,
+      "timestamp_start": 1067.2,
+      "timestamp_end": 1204.3,
+      "dishes": [
+        {
+          "dish_name": "Smoked Chicken Salad Sandwich",
+          "description": "A 3.5lb chicken spatchcocked, rubbed with a dry rub (cumin, garlic powder, onion powder, chili powder, cheese, salt, cayenne, black pepper, dry mustard, Cajun seasoning, paprika, brown sugar), smoked for 2.5-3 hours over cherry wood at 250F, then shredded. Mixed with mayo, white and dark meat, celery, house-made bacon bits, lemon, dill, seasoning salt, salt, and pepper. Served on brioche buns with house-made pickles.",
+          "ingredients": [
+            "chicken",
+            "cumin",
+            "garlic powder",
+            "onion powder",
+            "chili powder",
+            "cayenne",
+            "black pepper",
+            "dry mustard",
+            "cajun seasoning",
+            "paprika",
+            "brown sugar",
+            "cherry wood",
+            "mayo",
+            "celery",
+            "bacon",
+            "lemon",
+            "dill",
+            "pickles",
+            "brioche bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Any time you're making smoked chicken with smoked bacon, put them together in a sandwich. Can't go wrong. Not too much smoke on the chicken. We get a little celery in there. Base foundation. All right. What are these pickled with? Vinegar, salt, sugar. There's some dill in there, our dry rub, and some Old Bay. The dry rub gets in the pickles, too? Yes, sir. Everything. Well done. Congratulations.",
+          "timestamp_start": 1102.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Jimmy Berti's Diner",
+      "city": null,
+      "state": null,
+      "cuisine_type": "American Diner",
+      "owner_chef": "Ben McFarland",
+      "guy_intro": "50s diner kind of place. It's like a down-home country kitchen. Biscuits and gravy up. You get a lot. A lot of food. Here's your chicken fried skillet. Hungry guys to feed. A lot of lagers, construction guys. And just about everyone else. We come here all the time, and we love it. Pancakes, hashbrowns, everything. Simple, straightforward, comfort food, man. Same stuff. This joint's been serving up for decades. So when long-time restaurant vet Jimmy Berti bought the place. He kept what worked. It's essentially the same menu. With a few of his own twists.",
+      "segment_number": 8,
+      "timestamp_start": 1328.1,
+      "timestamp_end": 1505.2,
+      "dishes": [
+        {
+          "dish_name": "Chicken and Dumplings",
+          "description": "Chicken (skinned, rubbed with olive oil and rosemary) baked at 350F for 40 minutes, then deboned. Dough for dumplings made from flour, baking powder, baking soda, salt, butter, and buttermilk, rolled out and cut with a shot glass. Dumplings baked separately for 6 minutes. Broth made from water, carrots, dill, parsley, basil, and salt, then onions, celery, peas, and chicken are added and boiled for 10 minutes. Served with small biscuits.",
+          "ingredients": [
+            "chicken",
+            "olive oil",
+            "rosemary",
+            "flour",
+            "baking powder",
+            "baking soda",
+            "salt",
+            "butter",
+            "buttermilk",
+            "water",
+            "carrots",
+            "dill",
+            "parsley",
+            "basil",
+            "onions",
+            "celery",
+            "peas"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mmm. I didn't think it was gonna nearly have the chicken flavor. You got a ton in there. Look at that big piece of chicken. The veggies. Mmm. Look at the dumplings, though. Right there. Firm, but tender dumplings. Got texture. Mmm. Delicious, man. Scratch-made chicken and dumplings. You don't see this every day. It's good eats, man. Mmm.",
+          "timestamp_start": 1362.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "Uncle Lou's Fried Chicken",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Southern Fried Chicken",
+      "owner_chef": null,
+      "guy_intro": "...the name is still Uncle Lou's Fried Chicken, and he's taking it to the max. Whole fried chicken? That's our signature item.",
+      "segment_number": 9,
+      "timestamp_start": 1519.2,
+      "timestamp_end": 1614.2,
+      "dishes": [
+        {
+          "dish_name": "Whole Fried Chicken (The Corruption)",
+          "description": "Whole chicken injected with Cajun Creole butter, then deep-fried. Legs and thighs are cooked first for 40 minutes. The fried chicken is then dunked in 'the corruption' sauce, a sweet and spicy glaze.",
+          "ingredients": [
+            "chicken",
+            "cajun creole butter",
+            "oil",
+            "corruption sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. Oh, my gosh. You could really pick up the flavor of that garlic butter. You really don't need a knife. Look how tender and juicy that is. That's it. It's not really oily. I think people think, oh, you fried it. It's gonna be all oily. Take our first family photo. Looks like us, doesn't it. You're off the chain, man. I got to tell you. Wow. That's good. This is like real chicken.",
+          "timestamp_start": 1524.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "Swine Coliseum",
+      "city": null,
+      "state": "Nevada",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Darren Wark and Shad Curtin",
+      "guy_intro": "Barbecue nachos with pork. Food here is phenomenal. Half rack, bean and mac. It is a bonanza of barbecue bliss. Courtesy of champion barbecuers, Darren Wark and Shad Curtin, two dudes who opened this joint in 2010. And at 11,000 square feet, well, I'm calling it the Swine Coliseum. This is nuts. Three full-blown smokers, 24-7. That's a big Ferris wheel in Flavortown. The brisket, pork, the ribs are crazy. And don't forget about the chicken.",
+      "segment_number": 10,
+      "timestamp_start": 1614.2,
+      "timestamp_end": 1867.0,
+      "dishes": [
+        {
+          "dish_name": "Asian Smoked Wings",
+          "description": "Chicken wings are smoked, then deep-fried, and finally glazed with an Asian sauce.",
+          "ingredients": [
+            "chicken wings",
+            "smoke (cherrywood)",
+            "oil",
+            "asian glaze"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "And I like that you cook it when you're crispy. It's fantastic. Cherrywood plays in perfect. Great spice, nice balance, subtle, not overdone. Great job, brother.",
+          "timestamp_start": 1648.4,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Apple Dumpling",
+          "description": "A dessert featuring apples baked inside dough, cooked in a syrup. Described as having a balance of tang, crunch, and soft dough.",
+          "ingredients": [
+            "apples",
+            "dough",
+            "syrup"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "This is money. Well, you get that tang. You get a little bit of the crunch of the dough. Then you get some of the soft dough that's cooked in the syrup the entire time. Apple dumpling gang rides again. This rocks.",
+          "timestamp_start": 1704.5,
+          "confidence": 0.9
+        },
+        {
+          "dish_name": "Smoked Wing Nachos",
+          "description": "Chicken wings rubbed with oil, smoked for 45 minutes at 275F, then deep-fried. Tossed in a dry rub (half Cajun seasoning, half rib rub), moonshine barbecue sauce, cheese, and bacon, then baked. Topped with diced tomato, green onion, spicy ranch, and sour cream.",
+          "ingredients": [
+            "chicken wings",
+            "oil",
+            "cajun seasoning",
+            "rib rub",
+            "moonshine barbecue sauce",
+            "cheese",
+            "bacon",
+            "diced tomato",
+            "green onion",
+            "spicy ranch",
+            "sour cream"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "I love the smoke, a little fry to it. We need the tortilla chip. You get the crunch of the outside of the wing. The cheese melts on really nice. Then you have the bacon sticking to it. So you get all best of both worlds all over it. You hit that moonshine sauce on there, which is dynamite. You get yourself some of the cool sour cream. That's one of the most unique dishes I've seen on Triple D. And you actually pull it off.",
+          "timestamp_start": 1772.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Full Belly Deli",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Deli",
+      "owner_chef": null,
+      "guy_intro": "We're talking about scratch made sandwiches, funky creations. Nacho pollo loco in the window. The nacho pollo loco sandwich is ridiculous. The chicken itself is breaded with the nacho cheese chips. You don't find this anywhere else. It's really delicious. Now we're going to get into a chicken sandwich that's coated in nacho cheese chips. This is the kind of stuff that we used to make up when we were in college. When you would have the leftover potato chips that were the crumbles at the bottom, I would always incorporate those. Just when you think they weren't going to let you be healthy at the Full Belly Deli, they go ahead and bake the chicken.",
+      "segment_number": 11,
+      "timestamp_start": 1867.0,
+      "timestamp_end": 2033.0,
+      "dishes": [
+        {
+          "dish_name": "Nacho Pollo Loco Sandwich",
+          "description": "Chicken breast dredged in seasoned egg wash (hot sauce, kosher salt, black pepper), then packed with nacho cheese chips and baked. Served on jalapeno cheddar bread with Southwest sauce (chipotles in adobo, cilantro, mayonnaise, sour cream, horseradish, lemon juice, salt, pepper), romaine lettuce, heirloom tomatoes, and house-made pickles (cucumbers sous vide in white vinegar, sugar, salt, yellow mustard seed, caraway seed, peppercorns, garlic, bay leaf, arbol chili, and dill).",
+          "ingredients": [
+            "chicken breast",
+            "hot sauce",
+            "kosher salt",
+            "black pepper",
+            "nacho cheese chips",
+            "chipotles in adobo",
+            "cilantro",
+            "mayonnaise",
+            "sour cream",
+            "horseradish",
+            "lemon juice",
+            "cucumbers",
+            "white vinegar",
+            "sugar",
+            "salt",
+            "mustard seed",
+            "caraway seed",
+            "peppercorns",
+            "garlic",
+            "bay leaf",
+            "arbol chili",
+            "dill",
+            "jalapeno cheddar bread",
+            "romaine lettuce",
+            "heirloom tomatoes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's got good texture, good chew, but not heavy. I love the cheese and the jalapenos on the outside. And the chicken breast, it's got a really good crunch. I mean, I heard it when you hit it with the knife. Awesome smokiness out of the Southwest sauce, but the chicken breast, the kicker that refreshes it is that pickle. And that pickle sings.",
+          "timestamp_start": 1883.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "Four Confused Cousins",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Waffles",
+      "owner_chef": "Derek Green",
+      "guy_intro": "Sarah's waffle up. Everything's waffles here. And these are the best waffles I've ever had. And these are the best waffles in town. More waffle batter. They're appealing to the eye, and your tongue will be happy. But it was actually health that was Derek Green's true inspiration. Recipes and everything that I came up with literally was because I had a wife that had cancer, and I also had a mom that had cancer. And you can hide a lot of ingredients in the waffle so that they don't have to take as many pills. After his wife passed, Derek took his waffles to the public, working his way to opening this joint that he runs with his wife, Leron. Four Confused Cousins.",
+      "segment_number": 12,
+      "timestamp_start": 2033.0,
+      "timestamp_end": 2253.9,
+      "dishes": [
+        {
+          "dish_name": "Confused Cousin Chicken Sandwich",
+          "description": "A waffle (made with almond milk, flour, baking powder, pure vanilla, white sugar, brown sugar, egg substitute, and coconut oil) is used as the bun. Chicken (coated in unbleached all-purpose flour, adobo, granulated garlic, white pepper, Mediterranean spice blend, parsley, granulated onion, and kosher salt) is dredged in dry flour, egg wash, and dry flour, then fried at 350F for 6 minutes. Garlic mac and cheese (Colby Jack, sharp cheddar, sodium citrate, heavy cream, noodles, eggs, bacon fat, ghee, garlic salt, granulated garlic, white pepper, and turmeric) is added. The sandwich is assembled with grilled cheese, chicken, maple syrup, bacon, garlic mac, and spicy barbecue sauce (hot sauce, ranch, barbecue sauce, and honey).",
+          "ingredients": [
+            "almond milk",
+            "flour",
+            "baking powder",
+            "vanilla",
+            "white sugar",
+            "brown sugar",
+            "egg substitute",
+            "coconut oil",
+            "chicken",
+            "adobo",
+            "garlic",
+            "white pepper",
+            "mediterranean spice blend",
+            "parsley",
+            "onion",
+            "kosher salt",
+            "colby jack cheese",
+            "sharp cheddar cheese",
+            "sodium citrate",
+            "heavy cream",
+            "noodles",
+            "eggs",
+            "bacon fat",
+            "ghee",
+            "turmeric",
+            "hot sauce",
+            "ranch",
+            "barbecue sauce",
+            "honey",
+            "maple syrup"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I don't even know how to attack it. Hands. Pick it up? Do you have a pressure washer? That's a bite. Mac and cheese is delicious. Chicken's nice crisp on that, nice crunch. One of my favorite things is that spicy barbecue sauce. That contrasting with the maple syrup. Get the hot, get the spicy, then you get the sweet. It is a gigantic juxtaposition of flavors and textures. Dynamite.",
+          "timestamp_start": 2077.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Ed and Paul's Fried Chicken",
+      "city": null,
+      "state": "Oklahoma",
+      "cuisine_type": "Southern Fried Chicken",
+      "owner_chef": "Ed and Paul",
+      "guy_intro": "Coming at ya. It's about the chicken. It is. Always hot and fresh. It's got a lot of history behind it, known as one of the oldest bars in Oklahoma and best fried chicken in the state. Just ask anyone here. How's the fried chicken? Awesome. Here we go. Chicken started in 1960. My brother George, he would cook them on an old cast iron skillet. George passed away back in 1964, but his brothers Ed and Paul are still serving it and that's the only way you can get it.",
+      "segment_number": 13,
+      "timestamp_start": 2253.9,
+      "timestamp_end": 2421.2,
+      "dishes": [
+        {
+          "dish_name": "Fried Chicken",
+          "description": "Whole cut-up chicken dusted in a breading made from wheat flour, cornmeal, salt, baking powder, sugar, and paprika, then deep-fried at 330F for 15 minutes.",
+          "ingredients": [
+            "chicken",
+            "wheat flour",
+            "cornmeal",
+            "salt",
+            "baking powder",
+            "sugar",
+            "paprika",
+            "oil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Excellent, man. Super tender and juicy. You just, the skin turns into a nice crust because of the flour and the corn meal. But boy, it's good. It's cooled down to a point now where I can just start shoveling it in. Here's the chicken. The most tender, the juiciest chicken I've ever had. Tastes like my grandmother's chicken. It's crispy. It's good. It's juicy. It's crunchy. I kind of like to mix in the bread and butter pickle. And around here, everybody's got their own way of eating it. Pick at it and pick at it and then you go at it. You have to have a bite of your chicken and a bite of the pickle and a bite of onions. Pickle, onion. Mmm. That's the way to do it.",
+          "timestamp_start": 2297.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "My Thing Hash Joint",
+      "city": null,
+      "state": "Texas",
+      "cuisine_type": "Tex-Mex",
+      "owner_chef": null,
+      "guy_intro": "When you come to Texas and you get hash, you got to get it with chicken. Well, only here. Okay. This is my thing. It's my thing. Word.",
+      "segment_number": 14,
+      "timestamp_start": 2421.2,
+      "timestamp_end": 2521.2,
+      "dishes": [
+        {
+          "dish_name": "Chicken Hash",
+          "description": "Chicken seasoned with chili powder, garlic, and black pepper, baked until done, then chopped. Potatoes are browned until crispy, then bell pepper, onions, and black pepper are added. The chopped chicken is then stirred in. Served on fried tortillas with queso (made from milk, bell peppers, jalapenos, habaneros, a flour and milk slurry, and American cheese) and fresh tomatoes.",
+          "ingredients": [
+            "chicken",
+            "chili powder",
+            "garlic",
+            "black pepper",
+            "butter",
+            "potatoes",
+            "bell pepper",
+            "onions",
+            "tortillas",
+            "milk",
+            "jalapenos",
+            "habaneros",
+            "american cheese",
+            "tomatoes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's great. Add some righteous hash, girl. You know what the kicker is here? The tortillas. Absolutely. But the extra kicker, that cheese sauce, it's almost like a Mexican Alfredo. You've got to try this. Nice job. Thank you, sir. That is really good. Good. It's always kind of never hit or miss because it's always a hit. It's like a smorgasbord of flavors.",
+          "timestamp_start": 2429.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Pagoda Restaurant",
+      "city": "North Pole",
+      "state": "Alaska",
+      "cuisine_type": "Indian",
+      "owner_chef": "Sham Arora",
+      "guy_intro": "The lamb karahi. When this restaurant changed, it was a huge welcome for people to understand how great Indian food really is. And it's chef Sham Arora and his family who are schooling the locals about the regional flavors of their homeland. Northern India.",
+      "segment_number": 15,
+      "timestamp_start": 2521.2,
+      "timestamp_end": 2681.9,
+      "dishes": [
+        {
+          "dish_name": "Chicken Tikka Masala",
+          "description": "Chicken marinated for 48 hours in homemade yogurt, salt, paprika, turmeric, garam masala, lemon juice, ginger, and garlic, then cooked in a tandoor oven at 400F over mesquite charcoal. Served in a sauce made from onion gravy (cumin, coriander, onions, tomatoes) and a separate spice blend (ginger garlic, garam masala, turmeric, paprika), finished with bell pepper, cream, fenugreek leaf, and cilantro. Served over rice cooked with cloves, bay leaf, and cumin seed.",
+          "ingredients": [
+            "chicken",
+            "homemade yogurt",
+            "salt",
+            "paprika",
+            "turmeric",
+            "garam masala",
+            "lemon juice",
+            "ginger",
+            "garlic",
+            "onions",
+            "tomatoes",
+            "cumin",
+            "coriander",
+            "bell pepper",
+            "cream",
+            "fenugreek leaf",
+            "cilantro",
+            "rice",
+            "cloves",
+            "bay leaf",
+            "cumin seed",
+            "mesquite charcoal"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'm having anxiety right now about how to shovel it in fast enough, but do it and not look like I'm the first time a dog's seen a bowl of food. This is very approachable. That's probably one of the staple dishes that people should try when they're trying Indian food for the first time. Oh my gosh, I'm telling you.",
+          "timestamp_start": 2567.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Ayam Kalasan Indonesian Kitchen",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Indonesian",
+      "owner_chef": null,
+      "guy_intro": "Here's your ginger fried chicken. The fried ginger chicken is really good. We call it ayam kalasan. This tastes exactly like how my grandma used to make it.",
+      "segment_number": 16,
+      "timestamp_start": 2681.9,
+      "timestamp_end": 2806.9,
+      "dishes": [
+        {
+          "dish_name": "Ginger Fried Chicken (Ayam Kalasan)",
+          "description": "Chicken (country chicken) boiled for two hours with ginger paste (candlenut, shallots, garlic, ginger, galangal, fresh turmeric, turmeric powder), bruised lemongrass, Indonesian bay leaf, turmeric, and salt. Coconut milk is then added and cooked for 20 minutes. The chicken is strained, dried, and served with sambal trasi (a hot sauce with shrimp paste, Thai chilies, shallots, tomatoes, lime leaf, red peppers, sugar, salt, and paprika).",
+          "ingredients": [
+            "chicken",
+            "candlenut",
+            "shallots",
+            "garlic",
+            "ginger",
+            "galangal",
+            "turmeric",
+            "lemongrass",
+            "indonesian bay leaf",
+            "salt",
+            "coconut milk",
+            "thai chilies",
+            "shrimp paste",
+            "tomatoes",
+            "lime leaf",
+            "red peppers",
+            "sugar",
+            "paprika"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I love the Yardbird. This little ginger fry crunch that's on the outside, I keep chasing it around because I want more of it. The sambal is the bomb. With the rice, with the crunch, with the fry, with the chicken, when you can get that optimum bite, it's dynamite.",
+          "timestamp_start": 2688.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "Pyrenees",
+      "city": "Bakersfield",
+      "state": "California",
+      "cuisine_type": "Basque",
+      "owner_chef": "Gilbert Hernandez",
+      "guy_intro": "Pyrenees is a landmark. The food here is incredible. Good flavors, made from scratch, right from home. And right from the Basque tradition. This Old World menu has been a longtime staple here. So when Julie and Rod Crawford took over in 2014, they weren't about to change it. Basque food, is it hard to explain that to people in Bakersfield? No, everybody in Bakersfield gets it. The rest of the world. And French-born chef, Gilbert Hernandez, knows a thing or two about the Basque people.",
+      "segment_number": 17,
+      "timestamp_start": 2806.9,
+      "timestamp_end": 3030.7,
+      "dishes": [
+        {
+          "dish_name": "Fried Garlic Chicken (Basque style)",
+          "description": "Chicken seasoned with salt, black pepper, garlic powder, chicken base, fresh garlic, and olive oil, then marinated for at least two hours. Buttermilk is added, and the chicken is dredged in seasoned flour (black pepper, salt). Pan-fried (not deep-fried). Served with green beans, french fries, and a garlic sauce (fresh garlic, olive oil, butter, and parsley).",
+          "ingredients": [
+            "chicken",
+            "salt",
+            "black pepper",
+            "garlic powder",
+            "chicken base",
+            "fresh garlic",
+            "olive oil",
+            "buttermilk",
+            "flour",
+            "butter",
+            "parsley",
+            "green beans",
+            "french fries"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The garlic is very strong, but the garlic and the flavor inside the chicken is what is really nice. It's tender. It's juicy. Lots of flavor. The crust on the chicken is great. I have restaurants called Johnny Garlic's. I have one in Bakersfield. But if I was going to ever make fried garlic chicken, that would be the example. Outstanding. The garlic just hits you right away as soon as you bite into it. Probably don't want to have your first date after you eat it, but it's very, very good.",
+          "timestamp_start": 2876.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Florence's Yam Fried Chicken",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "cuisine_type": "Southern Comfort Food",
+      "owner_chef": "Florence",
+      "guy_intro": "When they ask what do you want? I said, I want your yam fried chicken. You've never tasted something that is so moist, so good and so flavorful.",
+      "segment_number": 18,
+      "timestamp_start": 3030.7,
+      "timestamp_end": 3168.8,
+      "dishes": [
+        {
+          "dish_name": "Yam Fried Chicken",
+          "description": "Fresh chicken seasoned with salt and pepper, dredged in seasoned flour, then fried in Dutch ovens. Served with candy yams (cooked yams with sugar, turned into syrup) and collard greens (cooked with water, baking soda, sugar, salt, and chicken stock for 1.5 hours). The fried chicken is then dipped in the yam syrup.",
+          "ingredients": [
+            "chicken",
+            "salt",
+            "pepper",
+            "flour",
+            "oil",
+            "yams",
+            "sugar",
+            "collard greens",
+            "water",
+            "baking soda",
+            "chicken stock"
+          ],
+          "dish_category": "entree",
+          "guy_response": "You invented that? Yes. Delicious. You really season your chicken well. There's a lot of flavor in that pot. I love collard greens. Nice and tender, not mushy. Perfectly cooked chicken, tender candied yams, and you. Package deal. Fantastic. I need that yam fried chicken. Amazing. Tender and juicy on the inside. The yam sauce just made it so delicious. And how about the collards? I have them every time I come here and I come here from two to three times a week.",
+          "timestamp_start": 3038.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

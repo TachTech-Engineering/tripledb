@@ -1,0 +1,98 @@
+{
+  "video_id": "FP1JpiY5HNc",
+  "video_title": "Guy Fieri Returns to *Legendary* Fried Chicken Joint  | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "Uncle Lou's",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "cuisine_type": "Southern",
+      "owner_chef": "Louis Martin",
+      "guy_intro": "I'm here in Memphis, Tennessee. Back in 2008, oh, I had my chicken world changed forever. Check this guy out, Uncle Lou's. Uncle Lou, Mr. Louis Martin, he's a one of a kind. He opened this joint back in 2001, and his chicken definitely made an impression on me.",
+      "segment_number": 1,
+      "timestamp_start": 9.6,
+      "timestamp_end": 419.0,
+      "dishes": [
+        {
+          "dish_name": "Homestyle Fried Chicken",
+          "description": "Chicken dredged in seasoned flour (salt, pepper, onion, garlic, cinnamon) and deep-fried to a light, crunchy coating without an egg wash.",
+          "ingredients": [
+            "chicken",
+            "all purpose flour",
+            "black pepper",
+            "salt",
+            "onion",
+            "garlic",
+            "cinnamon"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's good. Good crunch. That's why we don't do the egg wash. You cook that chicken skin. That's a crunchy chicken skin that people like.",
+          "timestamp_start": 72.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Sweet Spicy Tenderloins",
+          "description": "Jumbo chicken tenderloins marinated for 48 hours in 'corruption' seasoning, dredged in flour, deep-fried, then tossed in 'sweet, spicy love' sauce.",
+          "ingredients": [
+            "chicken tenderloins",
+            "corruption seasoning",
+            "chili powder",
+            "paprika",
+            "honey",
+            "red wine vinegar",
+            "louisiana hot sauce",
+            "flour"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow, man. You're close to getting a hug right now. I say this when I do Triple D. I'm going to send them to you. The flavor town army is going to show up. Just be ready to handle them, and you have been.",
+          "timestamp_start": 138.2,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Sweet, Spicy Love Sauce (Honey Dip Sauce)",
+          "description": "Award-winning sauce made with red wine vinegar, Louisiana hot sauce, 'corruption' seasoning, and double honey, brought to a boil and then heat turned off.",
+          "ingredients": [
+            "red wine vinegar",
+            "louisiana hot sauce",
+            "corruption seasoning",
+            "honey"
+          ],
+          "dish_category": "side",
+          "guy_response": "Oh. That's like sweet, spicy love. Note that. You're like, what do you call this? I said, we call it honey dip. No, brother. No. Sweet, spicy love. Yeah. Name change.",
+          "timestamp_start": 251.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Sweet, Spicy Love Beans",
+          "description": "Northern beans cooked in a pressure cooker, then drained and mixed with 'corruption' seasoning, salt, 'sweet, spicy love' sauce, and honey.",
+          "ingredients": [
+            "northern beans",
+            "corruption seasoning",
+            "salt",
+            "sweet, spicy love sauce",
+            "honey"
+          ],
+          "dish_category": "side",
+          "guy_response": "There's a little bit of hot, a little bit of spice. Perfect. Black pepper, a little bit of sweet. Just fantastic.",
+          "timestamp_start": 347.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "World-Famous Honey Butter Biscuits",
+          "description": "Biscuits baked off, then brushed with melted butter and glazed with honey.",
+          "ingredients": [
+            "biscuits",
+            "melted butter",
+            "honey"
+          ],
+          "dish_category": "side",
+          "guy_response": "This biscuit is like a biscuit donut. It's sweet. Honey buttery donut biscuit.",
+          "timestamp_start": 389.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

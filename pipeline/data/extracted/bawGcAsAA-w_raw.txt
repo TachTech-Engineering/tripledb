@@ -1,0 +1,1401 @@
+{
+  "video_id": "bawGcAsAA-w",
+  "video_title": "Global Flavors on #DDD with Guy Fieri | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "marathon",
+  "restaurants": [
+    {
+      "name": "Crush Craft",
+      "city": "Dallas",
+      "state": "Texas",
+      "cuisine_type": "Thai",
+      "owner_chef": null,
+      "guy_intro": "So I'm here in the uptown neighborhood of Dallas, Texas, where an immigrant from Thailand is living the American dream and crushing it in so many ways. Welcome to Crush Craft.",
+      "segment_number": 1,
+      "timestamp_start": 17.2,
+      "timestamp_end": 111.2,
+      "dishes": [
+        {
+          "dish_name": "Drunken Noodle",
+          "description": "Chicken marinated in oil, chicken base, sugar, and oyster sauce, tenderized with evaporated milk. Cooked with Thai chilies, garlic, onion, bell pepper, tomatoes, basil, and big fat noodles, all tossed in a drunken noodle sauce made from vinegar, sugar, sweet soy sauce, seasoning soy sauce, and oyster sauce.",
+          "ingredients": [
+            "chicken",
+            "fat noodles",
+            "drunken noodle sauce",
+            "thai chilies",
+            "garlic",
+            "basil",
+            "oyster sauce",
+            "evaporated milk"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The chicken is really nice and tender. The veggies are crisp. Everything is just done right. It's the balance. I'm so glad I don't live by you. Because this would be a place I would be at at least five times a day.",
+          "timestamp_start": 26.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Aloy Thai",
+      "city": "Boulder",
+      "state": "Colorado",
+      "cuisine_type": "Thai",
+      "owner_chef": null,
+      "guy_intro": "I love coming to college campus towns. I'm here in Boulder, Colorado, about a mile from the campus. Now, why do I love it? You got a lot of activities, got a lot of cool bars, hear a lot of great music, and the food, the food's outrageous. You got AM food, you got pub grub, you got late night, and you got ethnic. Why do you have ethnic? Because you got people from all over the world who want food from all over the world. This is Aloy Thai.",
+      "segment_number": 2,
+      "timestamp_start": 111.2,
+      "timestamp_end": 228.4,
+      "dishes": [
+        {
+          "dish_name": "Lemongrass Chicken Barbecue",
+          "description": "Chicken marinated overnight in a blend of tamarind sauce, Thai ding soy sauce, white pepper, sugar, lemongrass, Sri Lanka lime leaf, cilantro root, and turmeric, then grilled. Served with a tamarind dipping sauce made from tamarind, sugar, fish sauce, ground rice, and cilantro.",
+          "ingredients": [
+            "chicken",
+            "lemongrass",
+            "tamarind",
+            "lime leaf",
+            "cilantro root",
+            "turmeric",
+            "fish sauce",
+            "ground rice"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's Thai, but it eats as tender as perfectly cooked chicken breast. I mean, it's great the way it is, but the tamarind sauce. Yes. With the sweet, sour, and heat of the lemon chicken, then the gritty crunch of the dried rice. When you put it all together, it becomes outrageous. It's not just a drum solo here. I mean, this is the whole band rocking.",
+          "timestamp_start": 149.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Jitlada",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Thai",
+      "owner_chef": "Jazz and Jetlata",
+      "guy_intro": "Man, the things I get myself into. I'm here in Los Angeles. Actually, where exactly? We're in Hollywood. No, we're in Thai town. Wherever we are. So Artie and Jet were judges on Guy's Kosher Games. We had this crazy chef named Jazz that comes in and rocks the house. And I said, if you win... Then we have to go. And here we are. This is Jetlata.",
+      "segment_number": 3,
+      "timestamp_start": 228.4,
+      "timestamp_end": 357.0,
+      "dishes": [
+        {
+          "dish_name": "Green Curry",
+          "description": "Homemade green curry paste (serrano chili, Thai chili, garlic, red onion, chopped lemongrass, Sri Lanka lime skin, lime leaves, cilantro) cooked with coconut milk, chicken, fish sauce, eggplant, bamboo shoot, bell pepper, and Thai basil.",
+          "ingredients": [
+            "chicken",
+            "coconut milk",
+            "green curry paste",
+            "thai chilies",
+            "lemongrass",
+            "eggplant",
+            "bamboo shoot",
+            "thai basil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Dude, wow. Oh, my gosh. Oh, dude, that's hot. Oh, my God. I just ate the enamel off my teeth. That's delicious. But there's so much flavor. It's not just spicy. This is what I really appreciate about this. It is hot, but it's not unpleasantly hot where it's destroying your taste buds. It's just this warm heat throughout your face. Yeah. It's so alive. We're just hitting every taste bud. The problem is, is I don't want to stop. I know. That's it. I know. The craveability is through the roof. So good, Jazz.",
+          "timestamp_start": 248.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Mu Yai Thai",
+      "city": "Seabright",
+      "state": "New Jersey",
+      "cuisine_type": "Thai",
+      "owner_chef": "Mama Tseng, Wara, and Prao",
+      "guy_intro": "So I'm here in Seabright, New Jersey, which is about an hour from New York City, and this is a really well-known beach town. Everybody loves coming here. Now, this area was hit super hard in 2012 from Hurricane Sandy, and they say that this was six feet underwater. Well, fortunately, everybody rebuilt. Otherwise, this place wouldn't be here, where a mom and her two daughters immigrated from Thailand, and they're here serving up the real deal. This is Mu Yai Thai.",
+      "segment_number": 4,
+      "timestamp_start": 357.0,
+      "timestamp_end": 575.6,
+      "dishes": [
+        {
+          "dish_name": "Mu Ping and Mu Tad (Pork Platter)",
+          "description": "Pork marinated in oyster sauce, soy sauce, salt, and paprika. Mu Ping is grilled on skewers, while Mu Tad is fried. Served with a sweet chili sauce (vinegar, pepper, chili paste, sugar, flour) and a spicy dipping sauce (Thai pepper, ghost pepper, garlic, cilantro, sugar, salt, lime juice).",
+          "ingredients": [
+            "pork",
+            "oyster sauce",
+            "soy sauce",
+            "paprika",
+            "sweet chili sauce",
+            "thai pepper",
+            "garlic",
+            "cilantro"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm. I love that you get the two different plays on this. Delicious. Really good ingredients makes all the difference in the world. Mm. I don't like. I don't like. I love. Oh, you're okay. Thank you. I love. Got your pork platter right here. On point. It's fantastic. The pork, the tenderness was very good. The green dipping sauce is incredible.",
+          "timestamp_start": 434.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Asian Experience",
+      "city": "Taft",
+      "state": "California",
+      "cuisine_type": "Thai",
+      "owner_chef": "Dennis and Nikki Schertz",
+      "guy_intro": "So we're shooting diners, driving some diners, driving some guys over in Bakersfield, California, about 45 minutes away. And I come here to TAF to visit some friends. And they say, hey, guy, let's take you out to dinner. We've got a great place. After my first bite, I knew this joint had to be on Triple D. This is Asian experience.",
+      "segment_number": 5,
+      "timestamp_start": 575.6,
+      "timestamp_end": 817.0,
+      "dishes": [
+        {
+          "dish_name": "Pad Thai",
+          "description": "Noodles cooked with a tamarind sauce (tamarind paste, sugar, salt, paprika, cooked for 3 hours), pork broth, sweet radish, garlic, pork, Thai chilies, bean sprouts, and onions. Served with peanuts.",
+          "ingredients": [
+            "tamarind paste",
+            "pork",
+            "noodles",
+            "thai chilies",
+            "peanuts",
+            "bean sprouts",
+            "garlic",
+            "sweet radish"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh. The tamarind sauce. Yes. That's really what gets the whole party started. Little sweet there, crunchy peanut. You get a touch of the chili flake coming through. I love that the noodles are really al dente. It's authentic. You make it just like you make for your family? Yes, my family like it like this, and my mom cook like this. That's it. Cooking is fun. You're fun, Nikki. Huh? I tell you what, no deal. I have a pad thai right here. Delicious. It's rich. It's got great meat and spice flavors to it. It's just noodle heaven.",
+          "timestamp_start": 654.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Antonio's",
+      "city": "Taos",
+      "state": "New Mexico",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Antonio Matusa",
+      "guy_intro": "And then ceviche, three tacos, and chicken fajitas. There's nothing on this menu that is not high quality. A crispy salmon tacos. He takes recipes and makes up his own versions. That's why it's so interesting and so delicious. Those versions come from Chef Antonio Matusa's Mexican heritage, mashed up with the flavors from his wife Sarah's hometown of Taos. Ceviche, three tacos, please. Table 10.",
+      "segment_number": 6,
+      "timestamp_start": 817.0,
+      "timestamp_end": 980.7,
+      "dishes": [
+        {
+          "dish_name": "Chile Relleno en Nogada",
+          "description": "A mild green poblano chili filled with a savory mixture of ground beef, apples, pears, raisins, onions, garlic, and spices (oregano, thyme, clove, cumin, cinnamon). Topped with a rich nogada sauce made from pecans, cream cheese, goat cheese, feta cheese, cinnamon, onion, brandy, sugar, and heavy cream. Garnished with cotija cheese, cilantro, and pomegranate seeds.",
+          "ingredients": [
+            "poblano chili",
+            "ground beef",
+            "pears",
+            "pecans",
+            "cream cheese",
+            "goat cheese",
+            "feta cheese",
+            "pomegranate"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The savory spiced meat contrasted with this sweet, salty, nutty sauce. And the little kiss of the pomegranate, the little bite. I love that you keep it traditional, but you also kind of change it to what you think is going to be better, like using the pecans. That is one of the more elevated, culinarily professional dishes I've had in a Mexican restaurant. Chile relleno and nogada right here. This is so good. I like the pomegranate in this. Absolutely amazing, amazing relleno.",
+          "timestamp_start": 865.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.95
+    },
+    {
+      "name": "Perk",
+      "city": "Taos",
+      "state": "New Mexico",
+      "cuisine_type": "Americano with Southwest Kick",
+      "owner_chef": "Paulina Carmen Martinez, Randy Morris, Jennifer Peterson, and Gabby Garcia",
+      "guy_intro": "Any time we want to go for breakfast, everyone in the family, let's go to Perk. Fabulous food. Pancakes, fresh fruit, order up. It's hard to get a great breakfast. That's why restaurant chef Paulina Carmen Martinez created this place.",
+      "segment_number": 7,
+      "timestamp_start": 980.7,
+      "timestamp_end": 1334.3,
+      "dishes": [
+        {
+          "dish_name": "Breakfast Enchiladas",
+          "description": "Tortillas filled with slow-roasted pork (rubbed with spices and cilantro jalapeno sauce, roasted for 4.5 hours, then grilled), chipotle ricotta, and zesty black beans. Smothered in a spicy New Mexico chili sauce (chilies, cayenne, garlic, honey, chicken base, chipotles in adobo). Topped with two eggs and fresh cilantro.",
+          "ingredients": [
+            "pork",
+            "new mexico chili sauce",
+            "tortillas",
+            "chipotle ricotta",
+            "black beans",
+            "eggs",
+            "cilantro jalapeno sauce",
+            "honey"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is really good. Awesome. The New Mexican chili enchilada sauce is right on point. A little bit of heat. Nice little sweetness to it from that honey. Call it a breakfast enchilada. Call it a breakfast burrito. Call it whatever you want. Just don't call me late for it. Number one. Top notch. It's the perfect mixture of New Mexican flavors with, like, the French cuisine.",
+          "timestamp_start": 1016.2,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Pollo Borrachon (Drunken Chicken)",
+          "description": "Chicken drumsticks and thighs cooked with carrots, mushrooms, bacon, yellow onions, paprika, black pepper, parsley, salt, red wine, and water. The stew is thickened with a roux and served under a baked dough crust, along with ripe potatoes, green beans, roasted red bell pepper, peas, and cheese.",
+          "ingredients": [
+            "chicken drumsticks",
+            "chicken thighs",
+            "red wine",
+            "bacon",
+            "mushrooms",
+            "potatoes",
+            "dough crust",
+            "cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. It's delicious. It's savory. It's light but rich, creative. The chicken's so flavorful. This is one of the most unique, craveable pot pies I've ever seen. I just can't get enough of it. Pollo borrachon. It was delicious. A great dish. You can really taste the red wine. And then, surprise, there's beans in there too. Ta-da! It's exciting to open up the crust. Is that not the bomb? Soul food right there.",
+          "timestamp_start": 1222.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Susan Harry's Taco Place",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Mexican",
+      "owner_chef": "Susan Harry and Manuel Valdez",
+      "guy_intro": "Another chicken burrito, no cilantro. It's delicious. Salsa, everybody's fine? Great. Order's up, please. Casual and funky. The car and the boots really stuck out. Okay, boys. There's no other place like it. This is taco with two steak tacos, okay? Un quesadilla solamente. And is it always this chaotic? Yeah. I bet it's chaotic. I bet it's chaotic. I bet it's chaotic. I feel like I walked into a fiesta. Two fish tacos? The food's fabulous. Pretty much awesomeness. Enjoy the fish tacos? Yes. It's money. Everybody's happy. Because this ain't Susan Harry's first rodeo. It's all I've done since I was the age 13. Taco de pescado. After running all kinds of restaurants, she wanted to open a Mexican place.",
+      "segment_number": 8,
+      "timestamp_start": 1334.3,
+      "timestamp_end": 1488.1,
+      "dishes": [
+        {
+          "dish_name": "Carne Adobada Tacos",
+          "description": "Thinly sliced pork shoulder (pork butt) marinated in a blend of cumin, cayenne, garlic, California chili, New Mexico chili, clove, bay leaf, and oil. Cooked in the oven until soft, then crisped on a griddle. Served in two tortillas with cilantro, onion, and lime.",
+          "ingredients": [
+            "pork shoulder",
+            "cumin",
+            "cayenne",
+            "garlic",
+            "california chili",
+            "new mexico chili",
+            "tortillas",
+            "cilantro"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. That's great. The flavor is amazing. Why even have the tortilla? Just serve it in my hand. Or in my shoe. Or in my pocket. Awesome.",
+          "timestamp_start": 1384.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "name": "The Tamale Place",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Vladimir",
+      "guy_intro": "That's dough made from corn. The key ingredient to any great tamale. And we make fresh masa here. The way Vladimir learned to do it from his father.",
+      "segment_number": 9,
+      "timestamp_start": 1488.1,
+      "timestamp_end": 1666.2,
+      "dishes": [
+        {
+          "dish_name": "Beef Tamale",
+          "description": "Fresh masa (raw corn, lime, ground) mixed with oil, salt, baking powder, and red salsa. Filled with shredded beef (cooked with onion, garlic, salt, water) and a rich red sauce (ancho, guajillo, pasilla, puya chilies, garlic, onion, black pepper, ground cloves, salt, tomatoes, pureed). Wrapped in corn husks and steamed for 35-40 minutes.",
+          "ingredients": [
+            "masa",
+            "shredded beef",
+            "ancho chilies",
+            "guajillo chilies",
+            "pasilla chilies",
+            "red sauce",
+            "corn husks",
+            "baking powder"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm. The masa's got really nice flavor to it. Mm. And the meat inside. Nothing like shredded Mexican beef. Mm. Great job, brother. Thank you. Here's your two beef friends. It tastes great. You can taste all of the flavors blending. It's really kind of sweet and beefy at the same time.",
+          "timestamp_start": 1525.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Rene Valenzuela's Taco Truck",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Mexican",
+      "owner_chef": "Rene Valenzuela",
+      "guy_intro": "Two chicharron taco. Very authentic Mexican food. Tacos are awesome. Two tacos coming up. Chicken mido. Got a little bit of an addiction for it. A steak tostada. This is my favorite food. That's one of the biggest taco trucks I've ever seen. How big is that school bus? It's about 35 feet. But when we're done, Rene Valenzuela opened this joint in 91.",
+      "segment_number": 10,
+      "timestamp_start": 1666.2,
+      "timestamp_end": 1855.2,
+      "dishes": [
+        {
+          "dish_name": "Chilorio Torta",
+          "description": "A sandwich featuring carnitas (Boston butt cooked in pork lard with Mexican bellies, allspice, and orange, then shredded) coated in a chilorio sauce (toasted ancho and pasilla chilies, oregano, vinegar, garlic, salt, fried in lard). Served on homemade bread with refried beans, queso, jalapenos, tomatoes, white onions, marinated onions, cabbage, and cilantro.",
+          "ingredients": [
+            "pork carnitas",
+            "ancho chilies",
+            "pasilla chilies",
+            "homemade bread",
+            "refried beans",
+            "queso",
+            "jalapenos",
+            "cabbage"
+          ],
+          "dish_category": "entree",
+          "guy_response": "All right, it's out of bounds, dude. All right. The freshness of the bread right off the bat. Then you get this hot, little bit spicy, the meat. Then you get the crunch of the onion and the little snap from the jalapeno. Mm. This has got to be one of the best tortas I've ever had. All right. I mean one of the best, dude.",
+          "timestamp_start": 1716.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Michelle Sanchez's Latin Fusion",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Latin Fusion",
+      "owner_chef": "Michelle Sanchez",
+      "guy_intro": "Yellowtail. Up. Talk about Lat Fusion. This is where it's at. Yarmada Burger. Thank you. It's a great restaurant. Unborn chef Michelle Sanchez opened in 2012 after some truly dedicated service.",
+      "segment_number": 11,
+      "timestamp_start": 1855.2,
+      "timestamp_end": 1972.2,
+      "dishes": [
+        {
+          "dish_name": "Chimi Burrito",
+          "description": "A fusion burrito with a three-cheese blend, Chuchi rice, sweet plantains, and vaca (beef), all flash-fried in a tortilla. Served with avocado lime crema, sour cream, tangled love (fries), and pico de gallo.",
+          "ingredients": [
+            "tortilla",
+            "three-cheese blend",
+            "chuchi rice",
+            "sweet plantains",
+            "vaca beef",
+            "avocado lime crema",
+            "pico de gallo",
+            "fries"
+          ],
+          "dish_category": "entree",
+          "guy_response": "You get the salty beef and its deep, rich beef flavor, and then you get that super-seasoned rice, and all of a sudden, that fried sweet plantain comes in. I mean, wow. That is a Thanksgiving in a burrito, just Cuban-style, with Mexican influence, with french fries on top.",
+          "timestamp_start": 1885.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "Catherine Gonzalez's Kitchen",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Mexican",
+      "owner_chef": "Catherine Gonzalez",
+      "guy_intro": "Get these eggs going poached here. This restaurant is absolutely amazing. It's an alternative to, like, traditional breakfast, lunch places. I have the chula fritters. What makes the food here so good? The different spins she puts on it. And the chef doing the spinning here is Catherine Gonzalez, who didn't have to go far from home to find her inspiration.",
+      "segment_number": 12,
+      "timestamp_start": 1972.2,
+      "timestamp_end": 2127.2,
+      "dishes": [
+        {
+          "dish_name": "Mom's Red Chili Chilaquiles",
+          "description": "House-made corn chips topped with pulled pork (rubbed with spices, braised, and roasted), a silky red chile sauce (California chile, Mexican oregano, cumin, onion, garlic, salt), green onion, queso fresco, and avocado. Finished with microgreens chile oil and a sweet date and onion jam.",
+          "ingredients": [
+            "pulled pork",
+            "red chile sauce",
+            "corn chips",
+            "queso fresco",
+            "avocado",
+            "date and onion jam",
+            "microgreens chile oil",
+            "california chile"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The chile sauce, it's silky, a lot of chile flavor. You do this really dynamite pork. You go a little bit extra with that. The chips are nice and crunchy. The jam is just that kind of that funky little twist that makes it yours. That's the next level.",
+          "timestamp_start": 2003.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.85
+    },
+    {
+      "name": "Vida Cantina",
+      "city": "Portsmouth",
+      "state": "New Hampshire",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Chef David",
+      "guy_intro": "Welcome back, Triple D. Hunter is leading the show on the Hunter and Guy Triple D experience. We're at Vida Cantina. Chef David here in Portsmouth, New Hampshire is bringing real deal Mexican food to the folks of the Northeast.",
+      "segment_number": 13,
+      "timestamp_start": 2127.2,
+      "timestamp_end": 2295.8,
+      "dishes": [
+        {
+          "dish_name": "Pig Head Platter",
+          "description": "A full pig head, brined for days, then confit in its own fat for 8 hours. Rubbed with a vibrant salsa verde (grilled tomatillos, poblanos, serranos, cilantro, onion, garlic) and blistered in a 500-degree oven. Served with cilantro, onions, lime, salsa fresca, salsa verde, mango habanero sauce, and house-made tortillas.",
+          "ingredients": [
+            "pig head",
+            "brine",
+            "salsa verde",
+            "tortillas",
+            "cilantro",
+            "onions",
+            "lime",
+            "mango habanero sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I know it's got to be a little, you know, unique for people to have this culinary experience. But the truth of it is, the flavor, when you've got the skin, the bone, the fat, the brine, and the roast with that salsa verde over the top of it, I mean, that's ridiculous. So much flavor. That's one of the most beautiful presentations of roasted pork I've ever seen.",
+          "timestamp_start": 2146.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Adam Medina's Traditional Spot",
+      "city": "Northern New Mexico",
+      "state": "New Mexico",
+      "cuisine_type": "Northern New Mexico",
+      "owner_chef": "Adam and Raelynn Medina",
+      "guy_intro": "Wow. I got chicken fajitas. It's an amazing place to come and eat authentic northern New Mexico food. The chili is the best here. You have the risotos hanging outside, the dobe walls, and the cheese. Everything in this area is known for. And when Adam Medina and his wife, Raelynn, opened this traditional spot, they went into it with the help of Adam's late father.",
+      "segment_number": 14,
+      "timestamp_start": 2295.8,
+      "timestamp_end": 2482.4,
+      "dishes": [
+        {
+          "dish_name": "Carne Adobada",
+          "description": "Pork sirloin marinated for at least 8 hours in a unique blend of garlic, white vinegar, salt, reduced pork stock, and a chili base (crushed red chili, caribe, chili powder). Served with red chili sauce (fried ground pork, roux, garlic, chili mixture, pork stock), Mexican rice, and beans.",
+          "ingredients": [
+            "pork sirloin",
+            "pork stock",
+            "new mexico chilies",
+            "garlic",
+            "white vinegar",
+            "red chili sauce",
+            "rice",
+            "beans"
+          ],
+          "dish_category": "entree",
+          "guy_response": "You don't know you're hungry. You're just shoveling. It's like trying to eat with a Tasmanian devil. This sauce has got a real depth of flavor. It does. Good amount of heat. Really tender. Lots of flavor. I love the amount of sauce you put on there, because now you can incorporate it into the beans and the rice. I see why everybody loves it. Carne on another plate. The meat is just what really brings out that chili flavor. Just amazing. Can't beat it anywhere. Just like mom's.",
+          "timestamp_start": 2335.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Rancho de Chimayo",
+      "city": "Chimayo",
+      "state": "New Mexico",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Felipe and Lizbeth Castaneda",
+      "guy_intro": "This is the only place we go to for Mexican food in town. Chile relleno goes with the salsas. Ingredients are fresh. They make their own sauces. And it's been legit since you started coming 20 years ago. Yes. The food here is very similar to my hometown. Probably because Felipe Castaneda and his wife, Lizbeth, have been serving up authentic recipes from their hometowns for decades.",
+      "segment_number": 15,
+      "timestamp_start": 2482.4,
+      "timestamp_end": 2817.5,
+      "dishes": [
+        {
+          "dish_name": "Pollo en Pipian",
+          "description": "Bone-on, skin-on chicken breast cooked with garlic, tomatoes, onion, and salt. Served with a rich pipian sauce (toasted guajillo, chile de arbol, California chilies, pumpkin seeds, blue corn, blended with chicken broth and water). Accompanied by Mexican rice and beans, and a side of Salsa Doña Diabla.",
+          "ingredients": [
+            "chicken",
+            "guajillo chilies",
+            "chile de arbol",
+            "pumpkin seeds",
+            "blue corn",
+            "chicken broth",
+            "mexican rice",
+            "salsa doña diabla"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The chicken is tender. The Diabla, hello. The sauce is hot. And the pipián, it's got the flavor of the enchilada, but the richness of the mole, outstanding. This is nice and light and flaky. The beans are creamy and silky. That's got to be something you could serve to your mom. I mean, legit. Pollo pipián right here. Pollo pipián tastes a little spicy, but really good. Their chicken is outstanding.",
+          "timestamp_start": 2521.8,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Masipapa Torta",
+          "description": "A vegetarian torta featuring a potato and masa dough (huarache) par-baked and pan-fried. Filled with roasted tamarind tomatoes (rosemary, avocado leaf, habanero, garlic, tamarind paste), queso botanero (queso fresco with chili and cilantro), fresh onion, cilantro, lime, avocado slices, shredded cabbage, and pickled onion. Spread with jalapeno mayo.",
+          "ingredients": [
+            "mashed potatoes",
+            "masa dough",
+            "roasted jalapeno",
+            "tamarind tomatoes",
+            "jalapeno mayo",
+            "queso botanero",
+            "avocado",
+            "pickled onion"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That might be one of the best vegetarian Mexican tortas I've ever had. Great crunch. It's creamy. It's spicy. It's tangy. It's rich. The acidity of the pickles and pickled onion is a must. The avocado flies right in. Then you get a little bit of fat coming through from that cheese. That's dynamite. Anyway you slice it, I'd order that every day.",
+          "timestamp_start": 2681.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Silvio Solano's Mexican Restaurant",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Mexican",
+      "owner_chef": "Silvio Solano, Alex, and Alex",
+      "guy_intro": "Fish tacos, please, on the fly. To me, it's the most authentic Mexican food. The flavors are unmatched. Beef fajitas. The three generations are amazing. We have Alex and Alex and Silvio. It's the grandfather, father, son trifecta, and they've been giving Canadians the flavors from Silvio Solano's homeland, since he opened in 1988.",
+      "segment_number": 16,
+      "timestamp_start": 2817.5,
+      "timestamp_end": 3012.8,
+      "dishes": [
+        {
+          "dish_name": "Green Chilaquiles",
+          "description": "A casserole of tortilla chips tossed in a vibrant chile verde sauce (onions, grilled garlic, jalapeno, cilantro, grilled tomatillos). Layered with cooked chicken thigh and breast, mozzarella, beans, and rice crema. Topped with cilantro, onions, pickled onions, queso fresco, and a crispy chip.",
+          "ingredients": [
+            "chicken",
+            "tortilla chips",
+            "chile verde sauce",
+            "mozzarella",
+            "queso fresco",
+            "pickled onions",
+            "beans",
+            "rice crema"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Bury me in this. This is great. You get a lot of great tang, a lot of acid. You get the, you know, the tender chicken. Yeah. Excellent. Thank you. I have the chilaquiles verde. The chilaquiles is my favorite dish. The chicken is super moist and very flavorful. It's the spicing and the flavors that connect with your mouth. Connect with your mouth.",
+          "timestamp_start": 2862.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "The Ale House",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Pub Grub / Mexican",
+      "owner_chef": "Kevin Joseph and Miguel Izquierdo",
+      "guy_intro": "Having a great place like the Ale House at the base of the mountain is a treat for all of us. Chicken sandwich. The lift is right there. And this is usually where you come and get the frozen chicken tenders. No frozen here. Frozen's out there. Fresh is in here. Yeah. Elevating this slope-side menu was a gamble. Excuse me, ladies. Taken by owner Kevin Joseph.",
+      "segment_number": 17,
+      "timestamp_start": 3012.8,
+      "timestamp_end": 3173.3,
+      "dishes": [
+        {
+          "dish_name": "Carnitas Nachos",
+          "description": "Layered nachos featuring tender carnitas (bone-in pork butt cooked in lard and bacon fat with oranges and garlic, then shredded). Topped with fresh guacamole, a rich cheese sauce (sharp cheddar, asadero cheese), refried beans, pico de gallo, pickled jalapenos, and crema.",
+          "ingredients": [
+            "pork carnitas",
+            "lard",
+            "oranges",
+            "garlic",
+            "guacamole",
+            "sharp cheddar cheese",
+            "asadero cheese",
+            "tortilla chips",
+            "refried beans"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Every chip has got to have the goods. Yep. The way you make the carnitas is really moist. The pickled veggies are money on that. Really good guac too. Wow. These are deconstructed taquito. Yep. It's got the crunch. It's got the ingredients. Exactly. This is probably one of the best nacho presentations I've seen.",
+          "timestamp_start": 3053.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "La Texanita",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Mexican",
+      "owner_chef": "Alma Mendez",
+      "guy_intro": "More wine country with this. The huarache. I'm in Mexico when I'm here. Your favorite thing on the menu? Carne asada tacos. We take them down. And this really is where I bring my family and friends. How is it, mom? Fantastic. Pozole. Every time I bite into it, it reminds me of Mexico. Coz owner Alma Mendez.",
+      "segment_number": 18,
+      "timestamp_start": 3173.3,
+      "timestamp_end": 3349.0,
+      "dishes": [
+        {
+          "dish_name": "Carne Asada Tacos",
+          "description": "Handmade tortillas filled with carne asada (onions cooked, meat added, cooked for 30 minutes, lime juice added). Garnished with fresh onions, cilantro, salsa, radishes, and jalapenos.",
+          "ingredients": [
+            "carne asada",
+            "handmade tortillas",
+            "onions",
+            "cilantro",
+            "salsa",
+            "lime",
+            "radishes",
+            "jalapenos"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Onions almost have their own sweetness to them. And the natural juices and the fat from the meat cooked everything. But I'm telling you something, there's just nothing that can beat the handmade tortilla and cooking it the right way. Shake your booty. And shake your booty. The right way. Great job.",
+          "timestamp_start": 3254.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Big Mike's Playhouse",
+      "city": "Central Texas",
+      "state": "Texas",
+      "cuisine_type": "Barbecue / Mexican",
+      "owner_chef": null,
+      "guy_intro": "What is going on here in Big Mike's Playhouse? Central Texas barbecue. What are we smoking with? All post oak. What kind of pits? Propane tanks that we modified.",
+      "segment_number": 19,
+      "timestamp_start": 3349.0,
+      "timestamp_end": 3480.1,
+      "dishes": [
+        {
+          "dish_name": "Brisket Tacos",
+          "description": "Prime beef brisket, trimmed and rubbed with pickle juice, mustard, and a blend of salts and peppers. Smoked for 12 hours over post oak, then rested. Served in homemade tortillas (flour, salt, baking powder, smoked rendered brisket fat) with cheddar cheese and house-made salsa roja.",
+          "ingredients": [
+            "prime beef brisket",
+            "pickle juice",
+            "mustard",
+            "pepper",
+            "post oak wood",
+            "homemade tortillas",
+            "cheddar cheese",
+            "salsa roja"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm. It's delicious. Smooth. The fat inside of the tortilla. Love it. It's tender. It just comes apart. Mm. And the fact that you're doing prime. Yeah. It's probably one of the best brisket tacos I've had.",
+          "timestamp_start": 3358.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Taco Gordo",
+      "city": "Burlington",
+      "state": "Vermont",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Charlie Sizemore",
+      "guy_intro": "Taco Gordo is the best Mexican food this close to the Canadian border. Tinga, brisket, beans, and rice. I'm from California. And this is the first place in Vermont that I felt I encapsulated what a true taco is. Real deal, southwestern, Mexican.",
+      "segment_number": 20,
+      "timestamp_start": 3480.1,
+      "timestamp_end": 3648.2,
+      "dishes": [
+        {
+          "dish_name": "Al Pastor Tacos",
+          "description": "Thinly sliced pork butt marinated for at least a day in a house adobo (toasted guajillo, pasilla, chipotle chilies, peppercorns, cloves, cumin, cinnamon, annatto seed, apple cider vinegar, blackened garlic, oregano, sugar, salt). Roasted on a spit with pineapple. Served on lard-cooked tortillas with onion, cilantro, and salsa roja.",
+          "ingredients": [
+            "pork butt",
+            "adobo marinade",
+            "pineapple",
+            "tortillas",
+            "onion",
+            "cilantro",
+            "salsa roja",
+            "guajillo chilies"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is also probably one of the closest I've been to having authentic al pastor outside of Mexico. Mmm. The tortilla's great. The al pastor is tender. It's got a ton of flavor. There's a good amount of char on this. The marinade comes through. The little piece of pineapple on top is key. Are we in Flavortown right now? I am at customs. I am crossing the border. That is a dynamite taco. Welcome to Flavortown.",
+          "timestamp_start": 3515.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Mejado and Ron Hell's Mexican Restaurant & Market",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Fernando Mejado and Jorge Ron Hell",
+      "guy_intro": "You can't get this kind of authentic Mexican anywhere in the Twin Cities. Sopa de mariscos. It's like walking into a little cafe in Mexico. And much more, because when Fernando Mejado and Jorge Ron Hell opened in 2011, they went for, well, pardon the expression, the whole enchilada.",
+      "segment_number": 21,
+      "timestamp_start": 3648.2,
+      "timestamp_end": 3786.5,
+      "dishes": [
+        {
+          "dish_name": "Al Pastor Tacos",
+          "description": "Pork marinated for 24 hours in al pastor sauce (guajillo pepper, orange juice, lime juice, cumin, black pepper, bay leaves, oregano, annatto seed paste, garlic, onions, salt, white vinegar). Cooked on a flat top with oil, onions, bacon, and pineapple. Served on double tortillas with cilantro, onions, lime juice, and avocado salsa (boiled jalapenos, garlic, onions, salt, avocados).",
+          "ingredients": [
+            "pork",
+            "al pastor sauce",
+            "guajillo pepper",
+            "annatto seed",
+            "tortillas",
+            "pineapple",
+            "bacon",
+            "avocado salsa"
+          ],
+          "dish_category": "entree",
+          "guy_response": "There is no way we're in Minnesota. No way. The meat perfectly marinated. It's got a nice crisp to it. Right amount of onion. Tortillas are charred. The salsa is outstanding. Nice job, buddy.",
+          "timestamp_start": 3685.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "La Unica Birria",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Mexican",
+      "owner_chef": "Yasmany Mendoza and Evarista",
+      "guy_intro": "We got a line on Venice Boulevard. Let's get this place moving. La unica birria is the best place you will find. Birria, 100%. Tortillas ready. How'd you find it? Just walked up to it? Just driving by, yeah. On one to 10, where do these guys rate? They about 10 for me. That's exactly how Yasmany Mendoza and his family felt about their mom Evarista's cooking.",
+      "segment_number": 22,
+      "timestamp_start": 3786.5,
+      "timestamp_end": 3990.7,
+      "dishes": [
+        {
+          "dish_name": "Quesatacos de Chivo (Goat Birria Tacos)",
+          "description": "Goat meat cooked for 3-4 hours with birria paste (California chile, black peppercorns, allspice, clove, cinnamon, garlic, onion). Served in handmade tortillas dipped in fat, with Monterey Jack cheese, chopped birria, limes, cilantro, onions, and chile de arbol salsa. Accompanied by consomme for dipping.",
+          "ingredients": [
+            "goat birria",
+            "birria paste",
+            "california chile",
+            "allspice",
+            "cinnamon",
+            "handmade tortillas",
+            "monterey jack cheese",
+            "cilantro",
+            "consomme"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Without question, one of the best birria tacos I've ever had. Thank you very much. It's not gamey. It's not too spicy. It's not too salty. It's in balance. And then you get a great mixture of the onion and the cilantro. You've got to come down here and do that dunk. If I could figure out how to get in the consomme in a kiddie pool, that's kind of weird, huh?",
+          "timestamp_start": 3815.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Munoz Family Mexican Restaurant",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Mexican",
+      "owner_chef": "Papa Tito Munoz",
+      "guy_intro": "One quesadilla. When you think about Mexican food, what is the difference between the good, the bad, and the ugly? Definitely the sauces, but also the rice and beans. And how these guys do. Excellent. It lived up to the hype. You want a torta? I can't say enough about how good everything is. Every bite is a magical bite. It's perfect. Really has the sazon of the family. You really know. The sazon. Sasson. The flavor of the family. That would be the Munoz family, with veteran chef Papa Tito leading the charge.",
+      "segment_number": 23,
+      "timestamp_start": 3990.7,
+      "timestamp_end": 4197.2,
+      "dishes": [
+        {
+          "dish_name": "Pork Tamale",
+          "description": "Masa (salt, baking soda, shortening, pork stock) mixed and filled with pork butt (cooked with salt, onions, Mexican oregano, garlic, bay leaves) and a chili sauce (Mexican oregano, black peppercorns, onions, garlic, cumin seeds, allspice, guajillo, California chili de arbol peppers). Wrapped in softened corn husks and steamed.",
+          "ingredients": [
+            "pork butt",
+            "masa",
+            "guajillo chilies",
+            "california chili de arbol",
+            "mexican oregano",
+            "garlic",
+            "cumin",
+            "allspice"
+          ],
+          "dish_category": "entree",
+          "guy_response": "They're delicious. The masa has great texture. The pork is delicious. Not too spicy. And you've got a good ratio. It's not a bunch of masa and a little bit of pork inside. This is like a nice 50-50.",
+          "timestamp_start": 4047.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Mercado La Carreta",
+      "city": "Old San Juan",
+      "state": "Puerto Rico",
+      "cuisine_type": "Puerto Rican",
+      "owner_chef": null,
+      "guy_intro": "All right, chef. So you've been to Puerto Rico before. I've been a couple of times. OK, what did you think of the food scene? Amazing. I thought so, too. So I thought today you and I would cruise around and check out three of the best joints I've heard about. I am so ready for all of them. All right, first one we're talking about, the couple that owns it are the real deal. This is Mercado La Carreta.",
+      "segment_number": 24,
+      "timestamp_start": 4197.2,
+      "timestamp_end": 4397.1,
+      "dishes": [
+        {
+          "dish_name": "Drop and Stop Chicken with Trifongo",
+          "description": "Sous vide chicken breast stuffed with trifongo (cassava, green plantain, ripe plantain, mashed with butter, garlic, salt). The chicken is seasoned with olive oil, salt, paprika, oregano, and garlic powder. Served with mamposteado rice (onions, peppers, potatoes, sofrito, tomato sauce, sazon achiote, pink beans, rice) and a garlic cream sauce.",
+          "ingredients": [
+            "chicken breast",
+            "trifongo",
+            "cassava",
+            "green plantain",
+            "ripe plantain",
+            "garlic",
+            "mamposteado rice",
+            "pink beans"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I love the chicken. It's tender. It's not dry at all. And that garlic cream sauce definitely complements it. My favorite, though, is the trifongo. You get a little bit of garlic. You get a little kiss of sweet. Then you get the crunch. Then you get the cream. You haven't lost the texture of the rice with all of that liquid. I mean, delicious. Really good stuff. Thank you. And the sous vide chicken with trifongo. The rice here is so tasty. The trifongo, delicious. I mean, does it get any better than that?",
+          "timestamp_start": 4247.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Jambo Cafe",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "cuisine_type": "African Caribbean",
+      "owner_chef": "Ahmed Oboe",
+      "guy_intro": "Back in 2013, the road trip took me to Santa Fe, New Mexico, where I enjoyed everything you'd expect. Phenomenal weather, chili peppers, wonderful artists. Then you got to think about the African Caribbean cuisine. Oh, you don't know about the African Caribbean cuisine? Oxtail with my fungo and collard greens. Probably because you haven't been to this joint. This is Jambo Cafe.",
+      "segment_number": 25,
+      "timestamp_start": 4397.1,
+      "timestamp_end": 4612.6,
+      "dishes": [
+        {
+          "dish_name": "Goat Stew",
+          "description": "Goat meat seared and then slow-cooked with onions, garlic, tomato paste, beef stock, and chicken stock for 2.5 hours. Carrots and potatoes are added to the stew.",
+          "ingredients": [
+            "goat meat",
+            "onions",
+            "garlic",
+            "tomato paste",
+            "beef stock",
+            "chicken stock",
+            "carrots",
+            "potatoes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That goat is so tender and so rich. If that's the only dish you sold, I'd come back every week. When you're making food like this, this is about the ingredients. It's about the technique. Correct. But it's about, in your particular situation, it's about the love. You really love the customers.",
+          "timestamp_start": 4520.4,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Island Spice Banana Leaf Wrap (Mahi-Mahi)",
+          "description": "Mahi-mahi marinated overnight in a blend of fresh ginger, chili powder, thyme, coriander, allspice, garlic, cinnamon, jalapeno, black pepper, brown sugar, paprika, and oil. Steamed in a banana leaf for 15 minutes. Served with black rice, sautéed baby bok choy, and a coconut tamarind mango sauce.",
+          "ingredients": [
+            "mahi-mahi",
+            "banana leaf",
+            "ginger",
+            "chili powder",
+            "thyme",
+            "coriander",
+            "allspice",
+            "garlic",
+            "coconut tamarind mango sauce",
+            "black rice"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow, that's tender. The fish can't be any more fresh. Serves it with the black rice, the fresh veggies, the tamarind mango sauce. Outstanding. Thank you. I'm glad you enjoyed it. Very soulful dish. Everything is good.",
+          "timestamp_start": 6770.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Erazú",
+      "city": "Chicago",
+      "state": "Illinois",
+      "cuisine_type": "Costa Rican",
+      "owner_chef": "Miriam Cerdas, Henry, and Omar Cadena",
+      "guy_intro": "You know, I don't think it's any surprise to anyone. I'm a huge fan of Latin cuisine. I mean, I've been to Mexico a bunch, cooked Puerto Rican, a Salvadorian, Cuban food all on Guy's Big Bite. Any chance we get on Triple D, well, we try to visit the Latin restaurants. So here we are in Bucktown in Chicago to check out what may be a Triple D first, a Costa Rican, joint. This is Erazú.",
+      "segment_number": 26,
+      "timestamp_start": 4612.6,
+      "timestamp_end": 4968.4,
+      "dishes": [
+        {
+          "dish_name": "Chifrijo",
+          "description": "An appetizer featuring crispy chicharron (pork belly cooked with garlic and salt, then fried), served over black bean soup and rice. Topped with fresh pico de gallo (onion, tomato, cilantro, jalapeno), avocado, and a Costa Rican salsa called lasano.",
+          "ingredients": [
+            "pork belly chicharron",
+            "black bean soup",
+            "rice",
+            "pico de gallo",
+            "avocado",
+            "lasano salsa",
+            "garlic",
+            "jalapeno"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "The chicharron's on point. A nice fat. It's got a nice crunch. The tomato, the onion. Can you feel it? I don't need to go anywhere. I'm in Costa Rica right now. I like it. Great job, man. The bomb.",
+          "timestamp_start": 4661.0,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Pepito Sandwich",
+          "description": "A sandwich served on French bread, spread with pureed black beans (cooked with garlic, onion, misano sauce, sugar). Filled with grilled ribeye steak and onions, and melted Munster cheese. Finished with lasano sauce and butter.",
+          "ingredients": [
+            "french bread",
+            "black beans",
+            "ribeye steak",
+            "munster cheese",
+            "onions",
+            "garlic",
+            "misano sauce",
+            "lasano sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The beans, prime time. The meat's great. The nice big onions, the lasagna. If you look inside these veins right here, lasagna is running up and down inside of there. I can't stop eating it. The bomb. Thank you. You rocked it. Flattered. Thank you. Rocked it. Thank you very much. Pepito? It's super delicious. The flavors just all melt together. Different than any other sandwich.",
+          "timestamp_start": 4813.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Jamaica Kitchen",
+      "city": "Kendall",
+      "state": "Florida",
+      "cuisine_type": "Jamaican / Jamaican Chinese",
+      "owner_chef": "Cheryl and Anson Chin",
+      "guy_intro": "You ever find yourself cruising around town thinking, well, I want some Jamaican food. You know, like some stewed oxtail or maybe some curried goat, or better yet, some stewed peas with pigtail. Well, if you're in Kendall, Florida, you're in luck. You got to come and check out this joint, Jamaica Kitchen.",
+      "segment_number": 27,
+      "timestamp_start": 4968.4,
+      "timestamp_end": 5179.5,
+      "dishes": [
+        {
+          "dish_name": "Pork and Ham Choy",
+          "description": "Pork belly cooked with sugar, salt, mushroom soy sauce, bean sauce, oyster sauce, green onions, white onions, water, garlic, sesame oil, and black beans. Thickened with a corn starch slurry and finished with pickled mustard greens.",
+          "ingredients": [
+            "pork belly",
+            "pickled mustard greens",
+            "sugar",
+            "salt",
+            "mushroom soy sauce",
+            "bean sauce",
+            "oyster sauce",
+            "garlic"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'm not a liar. See the sauce on that? Money. Big, deep, rich flavor. That's good. A little bit tangy. And at the same time, it's a little sweet.",
+          "timestamp_start": 5075.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "The Jerk Shack",
+      "city": "San Antonio",
+      "state": "Texas",
+      "cuisine_type": "Caribbean",
+      "owner_chef": "Nicola Black",
+      "guy_intro": "So I'm here in San Antonio, Texas with the one and only, the legend, Bruce McGill. Now, Bruce, I got to be honest, this is no animal house I'm taking you to. But I did hear about it from my cousin Vinny. All right. All right. All right. OK. I know. It's a little too soon. Anyhow, here's the story. A military vet gets out, wants to serve Caribbean food to the folks of San Antonio. And, well, she started as a little shack, hence the name. Are you hungry? I'm hungry. Fantastic. Now, that's the intro I was expecting. Now art thou truly a guy. Shall we eat? Made it through that one. This is the Jerk Shack.",
+      "segment_number": 28,
+      "timestamp_start": 5179.5,
+      "timestamp_end": 5439.4,
+      "dishes": [
+        {
+          "dish_name": "Jerk Chicken",
+          "description": "Chicken brined in a mixture of salt, sugar, oranges, lemons, habaneros, garlic, bay leaves, fresh thyme, and peppercorn. Marinated for 24 hours in a jerk marinade (green and red bell peppers, garlic, habanero, green and white onions, vegetable oil, roasted, blended with thyme, brown sugar, black peppercorns, red wine vinegar, molasses, orange and lemon peels, ginger, salt, pepper). Grilled for 20-25 minutes. Served with jerk barbecue sauce and mac and cheese.",
+          "ingredients": [
+            "chicken",
+            "jerk marinade",
+            "habaneros",
+            "thyme",
+            "ginger",
+            "orange peels",
+            "lemon peels",
+            "jerk barbecue sauce",
+            "mac and cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "How do you say that in Jamaican? Your technique's great. Oh, man. Barbecue sauce is spot on. You put enough char on this, you get the smokiness. There's great depth of flavor all the way through this. Great spice. Not too much. Oh, it's good. I was going to agree with that.",
+          "timestamp_start": 5249.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Orozco's",
+      "city": "San Juan",
+      "state": "Puerto Rico",
+      "cuisine_type": "Puerto Rican",
+      "owner_chef": "Jaime and Maria Orozco",
+      "guy_intro": "I'm here in Puerto Rico. PR, as the locals call it, on Ashford Avenue. This is kind of like a hotel row. All the tourists come. You're going to find all kinds of restaurants down here. But can you find yourself a real deal Puerto Rican restaurant serving meals like grandma made? You will right here. This is Orozco's.",
+      "segment_number": 29,
+      "timestamp_start": 5439.4,
+      "timestamp_end": 5642.1,
+      "dishes": [
+        {
+          "dish_name": "Shrimp Empanadas",
+          "description": "Shrimp cooked in Creole sauce (green pepper, onions, tomato, cooking wine, adobo, chicken base, oregano, sazon con achiote, garlic, tomato paste) and a homemade hot sauce (red chili flakes, garlic paste, cooking wine, sazon achiote, Spanish paprika, cayenne liquid). Filled into dough with cheese and tri-colored bell peppers, then deep-fried.",
+          "ingredients": [
+            "shrimp",
+            "empanada dough",
+            "creole sauce",
+            "hot sauce",
+            "cheese",
+            "bell peppers",
+            "cilantro",
+            "cooking wine"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "That's on point. The Creole shrimp, you didn't overcook them. So they're still nice and tender. The boss of the sauce is the hot sauce. Slamming. Legit, bro. Tell your pops to pick that up. Yeah. Dynamite. It's not too spicy. That acid coming in from the pickled jalapenos. Just about anything. Flip flop.",
+          "timestamp_start": 5508.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Trap Fusion",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "cuisine_type": "Southern / Caribbean Fusion",
+      "owner_chef": "Jason Gardner and Markeith McCoy",
+      "guy_intro": "We're in Memphis, Tennessee in the Whitehaven neighborhood. I'm like five minutes from the airport. You can almost hear it. And about 15 minutes from downtown. And I've been saying to everybody, listen, I'm coming to Memphis. Been here a bunch of times. I want to try some, like, true Memphis food. They say, what do you mean? Barbecue? I said, I don't know. Something that just really represents Memphis. They said, oh, how about a place in Memphis? How about a place that's doing Memphis and Caribbean together? I said, that's my kind of place. This is Trap Fusion.",
+      "segment_number": 30,
+      "timestamp_start": 5642.1,
+      "timestamp_end": 5866.5,
+      "dishes": [
+        {
+          "dish_name": "Jerk Lamb Chops",
+          "description": "Lamb chops rubbed with lime, marinated for 24 hours in a blend of Himalayan salt, black peppercorn, paprika, onion powder, pureed garlic, soy sauce, and olive oil. Seasoned with a lamb rub (cayenne, black pepper, rosemary, thyme) and smoked for 4 hours. Served with a jerk reduction sauce (Scotch bonnets, allspice, nutmeg, orange juice, rosemary, Caribbean seasoning) and a side of cabbage, squash, and zucchini.",
+          "ingredients": [
+            "lamb chops",
+            "lime",
+            "himalayan salt",
+            "paprika",
+            "garlic",
+            "soy sauce",
+            "rosemary",
+            "thyme"
+          ],
+          "dish_category": "entree",
+          "guy_response": "There's one thing that lamb's not missing. Flavor. You have packed it in there, my friend. That's like 10 buddies going to one concert in a Honda. The smoke is great. Taste the lamb. You definitely know it's jerk. You definitely know it has smoke. But you're kind of like bringing three flavors all together to the center. And you cooked them perfectly. That's a great dish.",
+          "timestamp_start": 5719.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Jazz Bistro on 4th",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Cuban",
+      "owner_chef": "Ricosan",
+      "guy_intro": "When I hear there's a jazz joint that has a real deal Cuban chef, well, that says Triple D all over it. This is Jazz Bistro on 4th.",
+      "segment_number": 31,
+      "timestamp_start": 5866.5,
+      "timestamp_end": 5974.0,
+      "dishes": [
+        {
+          "dish_name": "Churrasco",
+          "description": "London broil steak cooked with olive oil, green olives, onions, and garlic. Served with a sofrito (cilantro, parsley, tomato, oregano, paprika, cumin, jalapenos, bell peppers) and a Ricosan sauce (peppers, carrots, onions, lemon lime juice, tomato juice, salt, pepper, oregano, cilantro). Finished with a chimichurri (cilantro, parsley, onions, paprika, anchovy, olive oil, lemon lime).",
+          "ingredients": [
+            "london broil steak",
+            "sofrito",
+            "ricosan sauce",
+            "chimichurri",
+            "green olives",
+            "onions",
+            "garlic",
+            "jalapenos"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Then I don't know what would happen. Because if this much flavor is coming out of this little kitchen, you're like the culinary Tony Montana right now, dude. Well, one taste, one love, one rico.",
+          "timestamp_start": 5873.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.8
+    },
+    {
+      "name": "Karina's Jamaican Grill",
+      "city": "Chesterfield",
+      "state": "Virginia",
+      "cuisine_type": "Jamaican",
+      "owner_chef": "Karina",
+      "guy_intro": "So I'm right outside of Richmond, Virginia in Chesterfield to check out a joint everybody's talking about. And they're serving up my favorites. This is Karina's Jamaican Grill.",
+      "segment_number": 32,
+      "timestamp_start": 5974.0,
+      "timestamp_end": 6151.9,
+      "dishes": [
+        {
+          "dish_name": "Oxtail",
+          "description": "Oxtail marinated for 24 hours in Scotch bonnet peppers, yellow onions, adobo, thyme, garlic, and Worcestershire sauce. Seared, then braised in water for 2 hours. Finished with more onions, peppers, scallions, Scotch bonnet, stewed tomatoes, thyme, and adobo, thickened with a flour slurry. Served with rice and peas (small red beans, bay leaf, onion, allspice, thyme, garlic, coconut milk, scallion, Scotch bonnets).",
+          "ingredients": [
+            "oxtail",
+            "scotch bonnet peppers",
+            "yellow onions",
+            "adobo",
+            "thyme",
+            "garlic",
+            "stewed tomatoes",
+            "rice and peas"
+          ],
+          "dish_category": "entree",
+          "guy_response": "This is the dish right now that should be torturing you. It is so delicious. You get the tenderness, but the chew of the oxtail. It's luscious. It's tangy. It's meaty. Just soaking up all that gravy, all that sauce. That slow-mo was for you. Got oxtail with rice and peas. The flavor and the tenderness, right on the money. I'll suck the meat off the bone. Is that good? Fantastic. I can't give it a better word. The killer is the rice and peas on there. I want more of that all day. Tremendous.",
+          "timestamp_start": 5985.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Big J's Place",
+      "city": "Finneytown",
+      "state": "Ohio",
+      "cuisine_type": "Caribbean Soul Food",
+      "owner_chef": "Jason Howard",
+      "guy_intro": "So I'm about 20 minutes north of Cincinnati in an area known as Fittytown. To check out a joint, well, here's the story I got. The chef is from here, and he went to Texas to go to college. That's where he met his wife. She's from the Virgin Islands. His mom happens to be from Antigua. He's got this heart and passion for food, and he realizes halfway through his marketing degree, he wants to go to culinary school. Gets his degree, comes back to the place he loves, cooking the food he loves. This is Big J's place.",
+      "segment_number": 33,
+      "timestamp_start": 6151.9,
+      "timestamp_end": 6405.9,
+      "dishes": [
+        {
+          "dish_name": "Oxtail Dinner (Oxtail, Macaroni and Cheese, Collard Greens)",
+          "description": "Oxtails seasoned with a dry rub (salt, black pepper, garlic, basil, allspice, Sazon, Goya, brown sugar) and a wet seasoning (fresh garlic, Worcestershire, browning seasoning, soy sauce, cilantro, bell peppers, onions, carrots, Scotch bonnet pepper sauce). Seared and slow-cooked for 5 hours in beef stock. Served with macaroni and cheese (heavy cream, cheddar, mozzarella, Colby Jack, elbow macaroni, Cajun seasoning) and collard greens (kale, cooked with onions, cilantro, ginger, chicken stock).",
+          "ingredients": [
+            "oxtails",
+            "dry rub",
+            "wet seasoning",
+            "scotch bonnet pepper sauce",
+            "beef stock",
+            "macaroni and cheese",
+            "collard greens",
+            "rice",
+            "cheddar cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "then come down here to the oxtail conversion program. There's cheese in the mac and cheese. That's more cheese than you get on nachos. There you go. You just wrecked Southern Greens for me. And he gives you the diet fork. Force and control. Wow. Plating oxtail. Oxtails are awesome. They're very tender, well flavored. Collard greens are great. This mac and cheese off the chain.",
+          "timestamp_start": 6221.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Willy's Pinchos",
+      "city": "Orlando",
+      "state": "Florida",
+      "cuisine_type": "Puerto Rican",
+      "owner_chef": "Willy Garcia",
+      "guy_intro": "I was in Orlando, Florida back in 2017 when a hot tip came in from someone in the know. A buddy of mine says, hey, Guido, I know how much you love mofongo, and I know how much you dig funky joints. I got the place you got to check out. So I did. And the rumors were spot on. So much so, he had to double in size to fit all the fans. This is Willy's Pinchos.",
+      "segment_number": 34,
+      "timestamp_start": 6405.9,
+      "timestamp_end": 9007.9,
+      "dishes": [
+        {
+          "dish_name": "Mofongo with Pork Fry",
+          "description": "Green plantains boiled, peeled, cut in chunks, and fried. Mashed with a house mojito (garlic, salt, pepper). Served with fried pork butt (boneless, marinated overnight in mojito and oil), onions, cilantro sauce, and mayo ketchup sauce.",
+          "ingredients": [
+            "plantains",
+            "pork butt",
+            "garlic",
+            "salt",
+            "cilantro sauce",
+            "mayo ketchup sauce",
+            "onions",
+            "mojito"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, that's good mofongo, buddy. So just different people have different ways? Yeah. We don't play with the rules. Delicious. Yeah. Mofongo has to be pureed. We still have to have big pieces. So you get soft, and then something that's almost crunchy like a pretzel nugget. Nice job, brother.",
+          "timestamp_start": 6484.0,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "911 Sampler with Mamposteado Rice",
+          "description": "A platter featuring fried chicken, shrimp, fried pork, and cubed steak, all seasoned with adobo and blackened seasoning. Served with grilled onions and peppers, and mamposteado rice (a Puerto Rican fried rice with green and red peppers, onions, cilantro, culantro, sweet plantains, rice, and beans).",
+          "ingredients": [
+            "fried chicken",
+            "fried shrimp",
+            "fried pork",
+            "cubed steak",
+            "adobo",
+            "blackened seasoning",
+            "onions",
+            "peppers",
+            "mamposteado rice",
+            "sweet plantains"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The meat is perfectly cooked. Has a little bit of chicken, a little bit of pork, a little bit of shrimp. If you're in the mood for a little bit of everything, that's definitely the plate to get.",
+          "timestamp_start": 8721.2,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Jibarito Sandwich",
+          "description": "A sandwich using fried plantains as 'bread' (green plantains, mashed, fried). Filled with seasoned top round steak, pastrami (cooked on flat top with mojito and mustard), melted cheese, mayo, lettuce, tomatoes, mayo ketchup, and potato sticks. Finished with cilantro sauce.",
+          "ingredients": [
+            "plantain bread",
+            "top round steak",
+            "pastrami",
+            "mojito",
+            "cheese",
+            "mayo",
+            "lettuce",
+            "potato sticks"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Pastrami's a nice. Because you're not expecting it. You're going for these Latin flavors. The plantain as the bread, it's really tasty. Fantastic.",
+          "timestamp_start": 8841.9,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Caribbean Red Snapper",
+          "description": "A whole red snapper, seasoned with adobo and blackened seasoning, then deep-fried until crispy. Served with grilled onions and peppers on skewers, limes, and a Criolla sauce (red and green peppers, onions, seasoning, garlic, cilantro, tomato sauce).",
+          "ingredients": [
+            "red snapper",
+            "adobo",
+            "blackened seasoning",
+            "onions",
+            "peppers",
+            "limes",
+            "criolla sauce",
+            "cilantro",
+            "garlic"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's money. It's money. Don't take my lime. Red snapper. It's crispy from the outside and the inside. It's super soft. It blew my mind. It was flaky, crispy, and cooked perfectly. The red Criolla sauce is like the perfect touch.",
+          "timestamp_start": 8922.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Joey's Kitchen",
+      "city": "Kauai",
+      "state": "Hawaii",
+      "cuisine_type": "Hawaiian-Filipino Fusion",
+      "owner_chef": "Joey",
+      "guy_intro": "How are you guys? Joey's Kitchen is talk of the town. Order up, pinakbet, kicharon. We used to say it was our best kept secret, but I'm afraid the secret's out. Dave, five garlic shrimp, two orders. The menu's like a Hawaiian-Filipino fusion.",
+      "segment_number": 35,
+      "timestamp_start": 9007.9,
+      "timestamp_end": 9334.4,
+      "dishes": [
+        {
+          "dish_name": "Garlic Kawaii Shrimp",
+          "description": "Shrimp sautéed with butter, garlic, and sweet basil, then tossed in a calamansi fish sauce (calamansi, palm vinegar, sweet chili sauce, fish sauce, cilantro, garlic, salt, sugar). Served with a green papaya salad (julienne carrots and green papaya, salted). Garnished with sea asparagus.",
+          "ingredients": [
+            "shrimp",
+            "calamansi fish sauce",
+            "calamansi",
+            "palm vinegar",
+            "sweet chili sauce",
+            "green papaya salad",
+            "garlic",
+            "sweet basil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Super crunchy. I love green papaya. That shrimp is tender and sweet. The sauce is money. With the delicious little papaya salad, it's a great cleanser. We gotta eat the head. I see you doing it. Sure. This is how we eat it. Well, you made that look easy.",
+          "timestamp_start": 9038.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Fabian Criollo",
+      "city": "Connecticut",
+      "state": "Connecticut",
+      "cuisine_type": "Venezuelan",
+      "owner_chef": "Michael Young",
+      "guy_intro": "Fabian Criollo. Venezuelan food, it can be spicy. It doesn't have to be that spicy. Slappy my carepa ready. I love the fact that it's called beach food, because it feels fun when it comes. Going down with the Venezuelan tequenos. It's so cool that guy visited here. That's why I came. I'm glad she listened to me, because everyone should experience Michael Young's real deal Venezuelan dishes.",
+      "segment_number": 36,
+      "timestamp_start": 9334.4,
+      "timestamp_end": 9534.4,
+      "dishes": [
+        {
+          "dish_name": "Perneal Arepa",
+          "description": "Arepa (pre-cooked cornmeal, water, salt, black pepper, deep-fried) filled with perneal (pork shoulder/butt brined for 72 hours in white vinegar, sugar, salt, bay leaves, rosemary, then rubbed with adobo, cumin, garlic, onion powder, peppers, guasacaca, and slow-cooked until tender and shredded).",
+          "ingredients": [
+            "arepa masa",
+            "pork shoulder",
+            "brine",
+            "adobo",
+            "cumin",
+            "garlic",
+            "guasacaca sauce",
+            "rosemary"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I love the arepas. The outside is crispy and crunchy, and the inside is a little creamier. And then whatever you order, and it kind of gets sucked up into the softness of the corn.",
+          "timestamp_start": 9394.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Humira Empanada",
+          "description": "Savory empanada dough (flour, water, salt, milk, butter, egg) filled with a mixture of corn, sofrito (onion, green and red bell pepper, garlic, oregano), Parmesan cheese, and mozzarella. Baked until golden.",
+          "ingredients": [
+            "empanada dough",
+            "corn",
+            "mozzarella",
+            "parmesan cheese",
+            "sofrito",
+            "bell peppers",
+            "onions",
+            "garlic",
+            "butter"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "The filling is fantastic. Like a commercial.",
+          "timestamp_start": 9483.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Buraco",
+      "city": "San Juan",
+      "state": "Puerto Rico",
+      "cuisine_type": "Venezuelan",
+      "owner_chef": "Leo Mendoza and Javier Enrique Perez",
+      "guy_intro": "I'm here in Puerto Rico. And you know when you walk into a food park and where they have all the food trucks, and you hear the gravel on your feet, and you hear a rooster going off in the background? You know it's going to be real deal. And we're here to check out a joint where two brothers from another mother from Venezuela have opened up an arepa shop. You got to check it out. This is Buraco.",
+      "segment_number": 37,
+      "timestamp_start": 9534.4,
+      "timestamp_end": 9683.6,
+      "dishes": [
+        {
+          "dish_name": "Llanera Arepa",
+          "description": "An arepa (pre-cooked cornmeal, water, salt, black pepper, deep-fried) filled with seasoned skirt steak (paprika, turmeric, onion powder, salt, comino, moringa, Worcestershire sauce). Topped with huasacaca (oil, green pepper, parsley, cilantro, salt, avocado, olive oil, vinegar, tomato), queso, and microgreens.",
+          "ingredients": [
+            "arepa",
+            "skirt steak",
+            "paprika",
+            "turmeric",
+            "moringa",
+            "worcestershire sauce",
+            "guasacaca sauce",
+            "queso"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Sabor. Perfect. The queso caliente makes it creamy. The carne is cut small. It's easy to eat. The huasacaca doesn't cover it, doesn't take it over. And the arepa is perfect. Tender, not dry. We call it a vessel. It's the perfect way to eat it.",
+          "timestamp_start": 9598.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Maria Empanada",
+      "city": "Denver",
+      "state": "Colorado",
+      "cuisine_type": "Argentinian",
+      "owner_chef": "Lorena Canarovilla",
+      "guy_intro": "So I'm here on South Broadway about 10 minutes from downtown Denver, Colorado, to check out a joint with a great story. Now, check this out. The chef, she came from Buenos Aires, Argentina, 12 years ago. Now she's got an empanada empire. This is Maria Empanada.",
+      "segment_number": 38,
+      "timestamp_start": 9683.6,
+      "timestamp_end": 9956.8,
+      "dishes": [
+        {
+          "dish_name": "Beef Empanadas",
+          "description": "Empanada dough (salt, baking powder, margarine, flour, eggs, water) filled with a savory mixture of ground beef, onions, red peppers, crushed red pepper, cumin, and Spanish paprika. Baked with olives and an egg wash. Served with a homemade chimichurri sauce (parsley, red pepper, garlic, salt, pepper, pimentón, crushed red pepper, vinegar, olive oil).",
+          "ingredients": [
+            "empanada dough",
+            "ground beef",
+            "onions",
+            "red peppers",
+            "cumin",
+            "spanish paprika",
+            "olives",
+            "chimichurri sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "A little more than like. Oh, I like it too. There's a subtlety, a subtle flavor, a subtle texture. Just a uniqueness. Not too spicy. You've got to have a trim to enjoy it. It's light, little flavor, little crust. Simple. That's what an empanada is supposed to be. Excellent job. Thank you. Very good. Easy to eat. Great flavor. It's delicately done. Very soft. Very savory. The chimichurri sauce is the ultimate compliment.",
+          "timestamp_start": 9810.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "The Guava Tree Cafe",
+      "city": "Nob Hill",
+      "state": "New Mexico",
+      "cuisine_type": "Puerto Rican / Colombian Fusion",
+      "owner_chef": "Diego Barbosa and Ana Kuyoc",
+      "guy_intro": "So one of the types of food that we're looking for here in this Nob Hill area is Latino. But I'm not talking about the Latino you would expect from getting some Tex-Mex. No, I'm talking about Puerto Rican food. I'm talking about Puerto Rican and a little bit of Colombian mixed together. This is the Guava Tree Cafe.",
+      "segment_number": 39,
+      "timestamp_start": 9956.8,
+      "timestamp_end": 10417.1,
+      "dishes": [
+        {
+          "dish_name": "Arepa Machilla (Vegetarian Arepa)",
+          "description": "A grilled arepa (white cornmeal, salt, water) filled with roasted white mushrooms, black beans (green onions, peppers, garlic, bay leaves, red pepper), and sweet plantains. Topped with fresco cheese and served with Ogao sauce (tomatoes, green onions, peppers, comino, achote, oil).",
+          "ingredients": [
+            "arepa dough",
+            "white cornmeal",
+            "mushrooms",
+            "black beans",
+            "sweet plantains",
+            "red bell peppers",
+            "fresco cheese",
+            "ogao sauce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's a really good arepa. Nice and tender. Soft and pillowy on the inside. I love that you really roasted down the mushrooms. That's my favorite part. Good bite to the beans. The roasted red bell peppers are great. And the salsa. Ogao. I like the acid of that

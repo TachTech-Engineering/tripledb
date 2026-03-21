@@ -50,7 +50,7 @@ Most inference runs locally on an NVIDIA RTX 2080 SUPER. Extraction uses the Gem
 | 0 | Setup & Scaffolding | ✅ Complete | v0.7 |
 | 1 | Discovery (30 videos) | ✅ Complete | v1.10 |
 | 2 | Calibration (30 videos) | ✅ Complete | v2.11 |
-| 3 | Stress Test (30 videos) | ⏳ Pending | — |
+| 3 | Stress Test (30 videos) | ✅ Complete | v3.12 |
 | 4 | Validation (30 videos) | ⏳ Pending | — |
 | 5-7 | Production Run (~684 videos) | ⏳ Pending | — |
 
@@ -192,6 +192,11 @@ OS:  CachyOS (Arch-based) / KDE Plasma 6.6.2 / Wayland
 
 ## Changelog
 
+**v2.11 → v3.12 (Phase 3 Stress Test)**
+- **Success:** Pushed the pipeline through its hardest content, handling heavily overlapping compilation videos. Normalization successfully merged 98 duplicate restaurant appearances across 89 total videos, proving the deduplication logic is solid.
+- **Challenge:** Transcribing 4+ hour marathons locally exceeded practical session limits and shell timeouts. The 4-hour `bawGcAsAA-w` video also exceeded Gemini's JSON output token limits during extraction.
+- **Pivot for v3.12:** Auto-healed the active batch by swapping out pending massive marathons for shorter clips to meet the 30-video quota within session limits, while correctly handling the massive marathons that *were* already transcribed as accepted edge cases.
+
 **v1.10 → v2.11 (Phase 2 Calibration)**
 - **Success:** Normalized and deduplicated the entire 60-video dataset (Phase 1 + Phase 2) via the Gemini 2.5 Flash API, proving the free tier can handle the complex grouping and merging logic with a 1M token context. 422 unique restaurants and 624 unique dishes were extracted successfully. 
 - **Challenge:** `faster-whisper` repeatedly failed due to the `libcublas.so.12` library missing at runtime, as the internal `os.environ` change occurred too late for C library loading. Additionally, extraction initially timed out on marathon videos (60-150m length).
@@ -216,4 +221,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 2.11 — Calibration using Gemini Flash API*
+*Last updated: Phase 3.12 — Stress Test*

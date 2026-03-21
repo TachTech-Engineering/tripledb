@@ -1,0 +1,56 @@
+{
+  "video_id": "N5XoAYJdEFM",
+  "video_title": "Guy Fieri Tries Nonna\u2019s Sauce and Meatballs | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "The Saucy Sicilian",
+      "city": null,
+      "state": "Oklahoma",
+      "cuisine_type": "Italian",
+      "owner_chef": "Gannon Mendez and Priscilla",
+      "guy_intro": "Gannon Mendez left the corporate world to open a food truck, The Saucy Sicilian, asking his mom Priscilla to join him from Colorado to bring old school Italian, just like his great grandmother.",
+      "segment_number": 1,
+      "timestamp_start": 8.5,
+      "timestamp_end": 146.0,
+      "dishes": [
+        {
+          "dish_name": "Nona's Meatballs",
+          "description": "Homemade meatballs from a great grandmother's recipe, made with 50-50 pork and beef, eggs, garlic, homemade breadcrumbs, parsley, and Parmesan cheese, then roasted in the oven.",
+          "ingredients": [
+            "pork",
+            "beef",
+            "eggs",
+            "garlic",
+            "breadcrumbs",
+            "parsley",
+            "parmesan cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Delicious and tender and moist. Great sauce. A little sprinkle of the Parmesan right at the end. That fresh basil. Hits that sauce and just blooms. And that's a good amount of garlic. I'm telling you, your grandma taught you right. Great job, Chef.",
+          "timestamp_start": 33.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Great Grandma's Marinara Sauce",
+          "description": "Marinara sauce made with olive oil, seared short rib (removed and added back), garlic, onions, tomato paste, tomato sauce, water, sugar, salt, red pepper flakes, black pepper, and bay leaves, simmered for eight hours with the meatballs.",
+          "ingredients": [
+            "olive oil",
+            "short rib",
+            "garlic",
+            "onions",
+            "tomato paste",
+            "tomato sauce",
+            "bay leaves",
+            "red pepper flakes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Delicious and tender and moist. Great sauce. A little sprinkle of the Parmesan right at the end. That fresh basil. Hits that sauce and just blooms. And that's a good amount of garlic. I'm telling you, your grandma taught you right. Great job, Chef.",
+          "timestamp_start": 60.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

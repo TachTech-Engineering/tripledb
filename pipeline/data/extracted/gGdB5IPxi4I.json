@@ -1,0 +1,333 @@
+{
+  "video_id": "gGdB5IPxi4I",
+  "video_title": "Top #DDD Korean-Inspired Food Videos with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Hanguk Ta Korea",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "cuisine_type": "Korean-Mexican Fusion",
+      "owner_chef": "Tomas Lee",
+      "guy_intro": "So I'm here in the West Midtown area of Atlanta. I'm here to check out a joint that's doing tacos. Well, they're not really even tacos. They're doing Korean food. Well, it's not even really Korean, it's more like Korean tacos. It's unconventional flavor fusion that's been on my radar since 2018. And these days, there's a whole lot more of them. This is Hanguk Ta Korea.",
+      "segment_number": 1,
+      "timestamp_start": 87.8,
+      "timestamp_end": 299.1,
+      "dishes": [
+        {
+          "dish_name": "Tongdak Fried Chicken Tacos",
+          "description": "Chicken tenders brined in buttermilk, double-dredged in all-purpose flour, rice flour, cornstarch, garlic powder, onion powder, salt, pepper mix, then fried. Served on warm tortillas with chipotle aioli, soy sesame salad, and jack cheese.",
+          "ingredients": [
+            "chicken tenders",
+            "buttermilk",
+            "all-purpose flour",
+            "rice flour",
+            "cornstarch",
+            "chipotle aioli",
+            "soy sesame salad",
+            "jack cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm, great crunch from the chicken. It's delicious. Korean fried chicken is ready. When you bite into it, it's got that Korean flavor, and it has a little bit of a spice.",
+          "timestamp_start": 182.1,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Crispy Shrimp Tacos",
+          "description": "Shrimp dredged in all-purpose flour, rice flour, garlic powder, onion powder, sea salt, fresh cracked pepper, water, then fried. Served on tortillas with sole sauce, hoisin tartar, and soy sesame salad.",
+          "ingredients": [
+            "shrimp",
+            "all-purpose flour",
+            "rice flour",
+            "garlic powder",
+            "onion powder",
+            "sea salt",
+            "hoisin tartar",
+            "soy sesame salad"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's outstanding. I give up. I'm waving the flag, bro. That might be one of my favorites. Appreciate that. When I bite into that, I'm just like, yeah, that's it. I think it's the balance of flavors, don't you? This makes the average taco very boring.",
+          "timestamp_start": 248.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Big Bon Bodega",
+      "city": "Savannah",
+      "state": "Georgia",
+      "cuisine_type": "Korean-American Fusion",
+      "owner_chef": null,
+      "guy_intro": "So we're here in Savannah, Georgia, with the one and only Iron Chef Stephanie Izar. Chef, are you hungry? Always. Fantastic. We're here. I had a food truck that's not even open. We're in Savannah. I want something a little more Savannah-y. Do you like pizza? Yes. Do you like bagels? Of course. Do you like kimchi? You have no idea. Fantastic. We're here. This is Big Bon Bodega.",
+      "segment_number": 2,
+      "timestamp_start": 299.1,
+      "timestamp_end": 508.9,
+      "dishes": [
+        {
+          "dish_name": "Korean Mama Bagel Sandwich",
+          "description": "Sesame bagel with kimchi cream cheese, bulgogi meat, American cheese, pickled onions, and kimchi. Bulgogi meat is flank steak marinated in garlic, ginger, sesame oil, soy sauce, cola, brown sugar. Kimchi is napa cabbage brined, then mixed with a paste of red bell pepper, salted shrimp, fish sauce, garlic, ginger, sugar, rice paste, gochugaru, cilantro, scallions. Kimchi cream cheese is cream cheese, chopped kimchi, sambal, green onions, gochugaru, fresh ginger.",
+          "ingredients": [
+            "sesame bagel",
+            "kimchi cream cheese",
+            "bulgogi meat",
+            "american cheese",
+            "pickled onions",
+            "napa cabbage",
+            "flank steak",
+            "gochugaru"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The bagel is dynamite. It's got great chew. I wouldn't have thought to put American cheese on this with the cream cheese, but it makes that Philly cheesesteak sort of flavor. And then those red onions just cut through all of that richness. It's amazing. The bulgogi, you can put that on a flip-flop, but it's a really well-constructed sandwich. I mean, I almost thought you were going to have too much of the kimchi cream cheese, but there's the right amount of considering the amount of bagel that there is. I mean, it's dynamite.",
+          "timestamp_start": 349.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Bop and Grill",
+      "city": "Chicago",
+      "state": "Illinois",
+      "cuisine_type": "Korean-American Fusion",
+      "owner_chef": null,
+      "guy_intro": "So here I am in Chicago to check out a joint where they're putting a little Asian spin on some all-American classics. This is Bop and Grill.",
+      "segment_number": 3,
+      "timestamp_start": 508.9,
+      "timestamp_end": 669.3,
+      "dishes": [
+        {
+          "dish_name": "Umami Burger",
+          "description": "Burger with truffle duck salad (braised mushrooms with pork fat, butter, onions, garlic, bonito flakes, anchovy dashi, portobello mushrooms, truffle oil), smoked bacon, smoked gouda, togarashi mayo, sun-dried tomato confit, on a brioche bun.",
+          "ingredients": [
+            "beef patty",
+            "truffle duck salad",
+            "smoked bacon",
+            "smoked gouda",
+            "togarashi mayo",
+            "sun-dried tomato confit",
+            "brioche bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": null,
+          "timestamp_start": 518.7,
+          "confidence": 0.6
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Beer Garden",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Korean-German Fusion",
+      "owner_chef": "Eddie Ha",
+      "guy_intro": "So I'm here on the edge of Koreatown in Los Angeles, right down the street from Beer Belly. Remember that place, the duck? Oh, anyhow, I'm here to check out this Korean restaurant where they've got the traditional environment, the traditional menu. Not so much. No, this is Beer Garden, fusion grill and craft beer.",
+      "segment_number": 4,
+      "timestamp_start": 669.3,
+      "timestamp_end": 838.3,
+      "dishes": [
+        {
+          "dish_name": "Drunken Chicken C3",
+          "description": "Whole chicken brined for 24 hours in Korean beer (Hite), water, honey, parsley, lemons, garlic, bay leaf, dry oregano, kosher salt, black pepper. Then seasoned, placed over Guinness stout, and roasted in the oven. Served with cabbage frisee salad, pickled jalapeno, and pickled daikon.",
+          "ingredients": [
+            "whole chicken",
+            "hite beer",
+            "honey",
+            "lemons",
+            "garlic",
+            "guinness stout",
+            "cabbage frisee",
+            "pickled jalapeno"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh. We like to do beer can chicken, but I don't think I've ever had one that's infused and has this much flavor of beer. You get some of that nice roasted flavor from the skin. Then you get a little bite of that slaw. We'll buy that jalapeno. Chef, nicely done. Thank you, Chef.",
+          "timestamp_start": 722.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Pizzeria Lola",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Korean-Italian Fusion",
+      "owner_chef": "Anne",
+      "guy_intro": "Did you know they have one of the only copper-covered, wood-fired French pizza ovens, a Le Pagnole, at this place where they're doing off-the-hook pizza? This is Pizzeria Lola. They have a bunch of pizzas. They have pizzas that are really out there and innovative. Including a tribute to Anne's deep Korean roots. The Lady Zaza.",
+      "segment_number": 5,
+      "timestamp_start": 838.3,
+      "timestamp_end": 1031.8,
+      "dishes": [
+        {
+          "dish_name": "Lady Zaza Pizza",
+          "description": "Pizza with red California tomatoes as base, house-made Korean sausage (Berkshire pork, salt, pepper, sugar, ginger, garlic, Korean chili), kimchi (napa cabbage brined, then mixed with Korean chili powder, fish sauce, scallion, brined shrimp, garlic, ginger, sugar, rice paste, gochugaru, cilantro, scallions), serrano peppers, fresh scallion, finished with sesame oil, soy chili glaze, and toasted black and white sesame seeds.",
+          "ingredients": [
+            "pizza dough",
+            "red california tomatoes",
+            "korean sausage",
+            "kimchi",
+            "serrano peppers",
+            "scallion",
+            "sesame oil",
+            "soy chili glaze"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. A little bit of sweet, a little salt. You got some crunch. There's onions, a little bit of the serrano. We got dragon sauce on top. Out of all joints we've tried, without question, this is way up there. Just dynamite.",
+          "timestamp_start": 856.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Soy Bistro",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "cuisine_type": "Korean Bistro",
+      "owner_chef": "Kenji",
+      "guy_intro": "You have your fourth generation Japanese guy from Seattle, that moves down to Los Angeles, and then makes his way out to Nashville, where he meets this really cool couple that have a Korean bistro, and finally, they sell it to him. That's the story we hear all the time, right? No, you got to check it out. This is Soy Bistro.",
+      "segment_number": 6,
+      "timestamp_start": 1031.8,
+      "timestamp_end": 1204.8,
+      "dishes": [
+        {
+          "dish_name": "Spicy Pork Bulgogi",
+          "description": "Thinly sliced pork shoulder washed with lemon-lime soda, then marinated for 24 hours in a blend of sweet onions, pineapple, ginger, green onion, garlic, Korean chili powder, Michu (rice cooking wine), soy sauce, gochujang paste, toasted sesame seeds, sesame oil. Sauteed with sweet onion, julienne carrots, garlic, green onions. Served with rice, pickled carrot slaw (carrots, radish, white vinegar, water, sugar, salt), and romaine lettuce for wraps.",
+          "ingredients": [
+            "pork shoulder",
+            "lemon-lime soda",
+            "sweet onions",
+            "pineapple",
+            "ginger",
+            "korean chili powder",
+            "gochujang paste",
+            "romaine lettuce"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I could drown in that. This has got a good Korean Nashville barbecue cross-play in there to it. Delicious pickled veg. A great way to try Korean food. You could tell I didn't like it, by the way. I just powered through the entire lettuce leaf, stacked up with half of the dish, and I'm like...",
+          "timestamp_start": 1091.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Kansas City Taco Company",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "cuisine_type": "Korean-Mexican Fusion",
+      "owner_chef": null,
+      "guy_intro": "So I'm here on the north end side of downtown Kansas City, Missouri, in an area known as River Market, to check out a taco joint. No, not my place. That's over at P&L, Power and Light District. That's a whole other story. Now, I'm here to check out this place where a dude from Newport, Rhode Island, ended up coming to Kansas City to open up a taco place and do tacos his way. This is Kansas City Taco Company.",
+      "segment_number": 7,
+      "timestamp_start": 1204.8,
+      "timestamp_end": 1355.5,
+      "dishes": [
+        {
+          "dish_name": "Korean Pork Tacos",
+          "description": "Pork loin marinated overnight in 'Korean pork slava' (garlic, chili darbol, ginger, soy sauce, onion, rice wine vinegar, sesame oil, Korean chili powder, sugar). Cooked with homemade kimchi (napa cabbage brined with non-ionized salt, then mixed with 'slurly' of rice vinegar, lime juice, ginger, dried chilies, sliced garlic, green onions, shredded daikon, Korean chili powder, sugar, fermented for 3 days). Served on tortillas with baja slaw, ginger-infused hoisin drizzle, cilantro, and toasted sesame seeds.",
+          "ingredients": [
+            "pork loin",
+            "garlic",
+            "ginger",
+            "soy sauce",
+            "korean chili powder",
+            "napa cabbage",
+            "rice vinegar",
+            "tortillas",
+            "baja slaw",
+            "hoisin"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's a good bite. It's really good. The pork's a nice play. It's a good amount of spice. Kimchi's got the funk. Got a little bit of heat. Korean is what you're trying to invoke. You did it. Right on.",
+          "timestamp_start": 1244.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Deji Korean Barbecue",
+      "city": "Aurora",
+      "state": "Colorado",
+      "cuisine_type": "Korean Barbecue",
+      "owner_chef": "Jo Kim",
+      "guy_intro": "I love Colorado. I mean, they got so much going on here, especially the food scene. I mean, who could forget Fat Sully's? Give me some pie. Then you got Lauer Kraut's. Love that place. So there's no doubt that these guys got a Korean restaurant. And not just any Korean restaurant. This one's off the hook. This is Deji Korean Barbecue.",
+      "segment_number": 8,
+      "timestamp_start": 1358.9,
+      "timestamp_end": 1635.9,
+      "dishes": [
+        {
+          "dish_name": "Beef Bulgogi",
+          "description": "Thinly sliced ribeye marinated for 12 hours in a sauce made with water, garlic, onions, pineapples, apples, soy sauce, sugar, black pepper, sesame oil, and soju. Cooked on a grill.",
+          "ingredients": [
+            "ribeye",
+            "garlic",
+            "onions",
+            "pineapples",
+            "apples",
+            "soy sauce",
+            "soju"
+          ],
+          "dish_category": "entree",
+          "guy_response": null,
+          "timestamp_start": 1428.8,
+          "confidence": 0.6
+        },
+        {
+          "dish_name": "Chicken Bulgogi",
+          "description": "Chicken marinated for 24 hours in garlic, soybean oil, sesame oil, ginger, black pepper, sugar, soy sauce, and soju. Cooked on a grill.",
+          "ingredients": [
+            "chicken",
+            "garlic",
+            "soybean oil",
+            "sesame oil",
+            "ginger",
+            "soy sauce",
+            "soju"
+          ],
+          "dish_category": "entree",
+          "guy_response": null,
+          "timestamp_start": 1466.2,
+          "confidence": 0.6
+        },
+        {
+          "dish_name": "Kimchi Pancakes",
+          "description": "Pancakes made with fermented kimchi (cabbage, onions, garlic, shrimp, daikon radish, ginger, rice, seafood broth, fish sauce, Korean red peppers, sugar), tofu, jalapenos, onions, sugar, Korean red peppers, egg, potato starch, and flour. Fried/sauteed.",
+          "ingredients": [
+            "fermented kimchi",
+            "tofu",
+            "jalapenos",
+            "onions",
+            "egg",
+            "potato starch",
+            "flour"
+          ],
+          "dish_category": "side",
+          "guy_response": null,
+          "timestamp_start": 1550.5,
+          "confidence": 0.6
+        },
+        {
+          "dish_name": "Fish Cake",
+          "description": "Fish cakes cooked in a wok with onions, green onions, carrots, jalapenos, garlic, soy sauce, black pepper, sugar, corn syrup, seafood broth, crushed red peppers, Korean red peppers, and sesame oil.",
+          "ingredients": [
+            "fish cakes",
+            "onions",
+            "green onions",
+            "carrots",
+            "jalapenos",
+            "garlic",
+            "soy sauce",
+            "corn syrup"
+          ],
+          "dish_category": "side",
+          "guy_response": null,
+          "timestamp_start": 1581.3,
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

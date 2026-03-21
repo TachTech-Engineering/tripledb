@@ -1,0 +1,245 @@
+{
+  "video_id": "sLdes-FbjOs",
+  "video_title": "Top 10 #DDD Garlic Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Opal Thai food",
+      "city": "Haleiwa",
+      "state": "Hawaii",
+      "cuisine_type": "Thai",
+      "owner_chef": "Opal",
+      "guy_intro": "If you've ever been to the island of Oahu, most likely been to the North Shore. You know, we're talking big waves and great surfing. So you're cruising through the town of Haleiwa, and the inevitable question comes up. Where do I eat? Don't worry. I got the inside track on a go-to joint. This is Opal Thai food. If you don't know what you want on the menu, just tell him what you like, and he'll make you something.",
+      "segment_number": 1,
+      "timestamp_start": 36.7,
+      "timestamp_end": 351.3,
+      "dishes": [
+        {
+          "dish_name": "Glazed Garlic Chicken Wing, Classic Style",
+          "description": "Fried chicken wing, no batter, with a garlic base chili sauce, vegetable broth, light rice soy, palm nectars, cooked low and slow, finished with fresh garlic and basil.",
+          "ingredients": [
+            "chicken wings",
+            "garlic",
+            "chili paste",
+            "vegetable broth",
+            "rice soy",
+            "palm nectar",
+            "thai basil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Holy moly. That's the most garlic I've had on anything, dude. Tell someone it's going to be cooked with garlic. They're expecting a harsh, raw garlic bitterness, sour fire. This has been cooked so nice and low and slow with a little bit of that chili paste. A little bit of the palm nectar. We'll do that kind of a spicy, sweet, salty soy. Put my no means, the fire-breathing garlic dragon. A little bit of this fried Thai basil. Nice and sweet and crunchy. Punches the palate.",
+          "timestamp_start": 78.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Be More Pacific",
+      "city": "Houston",
+      "state": "Texas",
+      "cuisine_type": "Filipino",
+      "owner_chef": null,
+      "guy_intro": "I'm here in Houston, Texas. I'm about 10 minutes from downtown in the historic area, here to check out a joint where two buddies or college roommates opened up a traditional Filipino food truck in Austin. Then they opened a brick and mortar in Austin. And then they came down here to Houston to open. Boom. Then the pandemic hits. They closed Austin, but Houston's still going strong. This is Be More Pacific.",
+      "segment_number": 2,
+      "timestamp_start": 351.3,
+      "timestamp_end": 527.5,
+      "dishes": [
+        {
+          "dish_name": "Longanisa and Spiced Ham Silog",
+          "description": "Garlic rice topped with spiced ham (ground pork, garlic, salt, sugar, corn starch, baked in water bath), longanisa sausage (diced pork shoulder, apple cider vinegar, soy sauce, black pepper, salt, brown sugar, granulated garlic, cased overnight, simmered, then griddled), and a well-done egg, garnished with green onion and homemade banana ketchup.",
+          "ingredients": [
+            "garlic rice",
+            "spiced ham",
+            "longanisa sausage",
+            "egg",
+            "green onion",
+            "banana ketchup",
+            "pork shoulder",
+            "apple cider vinegar",
+            "brown sugar"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's dynamite. The pork loaf. It is so tender and super flavorful. This sausage, it's got awesome chew, flavor all the way through. Tons of garlic. You better like garlic. No more eating. Step away from the bowl, guy. Longanisa and spiced ham silap. The sausage and the spiced ham were very well seasoned. Garlic rice was super flavorful. It just matched everything together, and everything was in one bite. And it was perfect. Well, it made me do a little happy dance.",
+          "timestamp_start": 391.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Joey's Kitchen",
+      "city": "Lahaina",
+      "state": "Hawaii",
+      "cuisine_type": "Filipino-Asian Fusion",
+      "owner_chef": null,
+      "guy_intro": "So we're here on a family vacay in Maui. I'm doing what I always do. That's cruise around and look for awesome Triple D joints. So I'm here in Lahaina in a strip mall, here to check out a joint called Joey's, Joey's Something. And what do you think they serve? No, they're not serving cheese steaks, not hot dogs, not burgers. No, it's not an all-American diner with that name. No, it's Filipino-Asian fusion. I didn't see that one coming. This is Joey's Kitchen.",
+      "segment_number": 3,
+      "timestamp_start": 527.5,
+      "timestamp_end": 673.9,
+      "dishes": [
+        {
+          "dish_name": "Garlic Kawaii Shrimp with Green Papaya Salad",
+          "description": "Shrimp sauteed with butter and garlic, sweet basil, and a calamansi fish sauce (calamansi, palm vinegar, sweet chili sauce, fish sauce, cilantro, garlic, salt, sugar). Served with a green papaya salad (julienned carrots, green papaya, dressed with the same calamansi fish sauce).",
+          "ingredients": [
+            "shrimp",
+            "garlic",
+            "butter",
+            "sweet basil",
+            "calamansi",
+            "fish sauce",
+            "green papaya",
+            "carrots",
+            "palm vinegar"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Super crunchy. I love green papaya. That shrimp is tender and sweet. The sauce is money. With the delicious little papaya salad blender. You got to eat the head. I see you doing it. Sure. This is how we eat it. Well, you made that look easy. The garlic coat. The kawaii shrimp. The kawaii shrimp was one of my favorite dishes in Hawaii. The papaya salad was so fresh.",
+          "timestamp_start": 582.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Catelli's",
+      "city": "Geyserville",
+      "state": "California",
+      "cuisine_type": "Italian",
+      "owner_chef": "Nick Catelli and Dominica Catelli",
+      "guy_intro": "I'm here at a cool little town called Geyserville in the Northern California wine country to check out a place that I kind of have some ideas about. A place that I kind of have some history with. I imagine a coach feels really proud when one of his players turns pro. Because that's how I feel when one of my guys that's worked with me in my restaurants ventures out to open his own place. That brings us here to Catelli's. Here we go, folks. Get your food ready. Where Nick Catelli. And his sister, Dominica. Have come home. My nanny and nonno, Virginia and Santi, opened Catelli's in 1935. And Nick and Dominica figured. They'd be running it someday.",
+      "segment_number": 4,
+      "timestamp_start": 673.9,
+      "timestamp_end": 902.3,
+      "dishes": [
+        {
+          "dish_name": "Catelli's Meat Ravioli",
+          "description": "Handmade ravioli with a filling made from roasted pork butt, beef chunks, chicken, and house-made sausage (pork, chardonnay, black peppercorns, fennel seed, red pepper flakes, thyme, garlic, nutmeg, salt), mixed with roasted vegetables (onion, celery, garlic, swiss chard), bread, pecorino, parmesan, herbs (thyme, basil, Italian parsley, rosemary, sage), and eggs. Served with a butter garlic sauce (butter, garlic, salt, parsley, parmesan).",
+          "ingredients": [
+            "pork butt",
+            "beef",
+            "chicken",
+            "house-made sausage",
+            "onion",
+            "garlic",
+            "swiss chard",
+            "pecorino cheese",
+            "parmesan cheese",
+            "ravioli dough",
+            "butter",
+            "parsley"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow. So tender, delicate, and so rich. Small, dainty, handmade perfection is what this is. This is one of the best raviolis I've ever had.",
+          "timestamp_start": 738.3,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "OB Noodle House",
+      "city": "San Diego",
+      "state": "California",
+      "cuisine_type": "Vietnamese",
+      "owner_chef": null,
+      "guy_intro": "This is the OB Noodle House. Ocean Beach is a really small beach community. They're very proud of their identity. This restaurant definitely fits in. 40 plus taps of really good beer. And what goes with beer? Of course, wings. Spicy garlic wings. The absolute best wings that I've ever had.",
+      "segment_number": 5,
+      "timestamp_start": 902.3,
+      "timestamp_end": 1067.1,
+      "dishes": [
+        {
+          "dish_name": "Spicy Garlic Wings",
+          "description": "Mid-thigh chicken wings marinated in garlic, salt, pepper, sugar, and a chili oil saute sauce (hot oil, ground ginger, garlic, ground lemongrass, ground onions, chili paste, habanero, Thai chili pepper, peanut butter, hoisin sauce, simmered for a day). Deep-fried, then wok-tossed with hot oil, garlic, pepper, sugar, granulated garlic, white pepper, and green onions. Garnished with cilantro.",
+          "ingredients": [
+            "chicken wings",
+            "garlic",
+            "ginger",
+            "lemongrass",
+            "onions",
+            "chili paste",
+            "habanero",
+            "thai chili pepper",
+            "peanut butter",
+            "hoisin sauce",
+            "cilantro",
+            "green onions"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh my gosh. Yeah. A little bit of heat, not too much. Good amount of spice to it. A little bit of sweet. Just a little bit of the crispiness on the skin. They're tender. They're juicy. There's a lot of flavor. There's a lot of depth of flavor. I'm impressed. Tell me that wing is not the bomb. That's excellent. Not too spicy on the outside, but just the right amount of heat. Really, really good.",
+          "timestamp_start": 916.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Pyrenees Cafe",
+      "city": "Bakersfield",
+      "state": "California",
+      "cuisine_type": "Basque",
+      "owner_chef": "Gilbert Hernandez",
+      "guy_intro": "On Triple D, I love finding the old school joints. Boy, do I have one for you. A joint from 1901. So here I am on the east side of Bakersfield, California, right by the Southern Pacific Railroad. Now from 1901 to 1935, this place was a lot of different joints. But since 1935, everybody in Bakersfield knows this place. This is the Pyrenees Cafe.",
+      "segment_number": 6,
+      "timestamp_start": 1067.1,
+      "timestamp_end": 1309.3,
+      "dishes": [
+        {
+          "dish_name": "Fried Garlic Chicken",
+          "description": "Chicken seasoned with salt, black pepper, garlic powder, chicken base, fresh garlic, and olive oil, marinated for at least two hours. Then coated in buttermilk and seasoned flour (black pepper, salt) and pan-fried. Served with green beans and french fries, and a garlic sauce (fresh garlic, olive oil, butter, parsley).",
+          "ingredients": [
+            "chicken",
+            "garlic",
+            "salt",
+            "black pepper",
+            "buttermilk",
+            "flour",
+            "olive oil",
+            "butter",
+            "parsley",
+            "green beans",
+            "french fries"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The garlic on the outside is very strong, but the garlic and the flavor inside the chicken is what is really nice. It's tender, it's juicy, lots of flavor. The crust on the chicken is great. I have restaurants called Johnny Garlic's. I have one in Bakersfield. But if I was going to ever make fried garlic chicken, that would be the example. Outstanding. The garlic just hits you right away as soon as you bite into it. Probably don't want to have your first date after you eat it, but it's very, very good. The best chicken that you'll ever have.",
+          "timestamp_start": 1166.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Broke the Mouth Grinds",
+      "city": "Kona",
+      "state": "Hawaii",
+      "cuisine_type": "Filipino-Hawaiian-American",
+      "owner_chef": "Robin Ganeer and Jean Nguyen",
+      "guy_intro": "I love bringing Triple D to the islands, man. I've been to Oahu. I've been to Maui. I've been to Molokai. Finally, I make it to the big island of Hawaii. So what do I do when I go to Hawaii? So what do I do when I come here? I'm looking for some locals' food. That is, if you're looking for some Filipino-Hawaiian-American twist, oh, I got you joined. It's right here at Broke the Mouth Grinds.",
+      "segment_number": 7,
+      "timestamp_start": 1309.3,
+      "timestamp_end": 1517.0,
+      "dishes": [
+        {
+          "dish_name": "Garlic Furikake Chicken",
+          "description": "Boneless, skin-on chicken thighs dusted in flour and granulated garlic, deep-fried. Dipped in a sauce made from soy sauce, brown sugar, white sugar, black pepper, garlic, and furikake (dried seaweed, sesame seeds), brought to a boil. Served with chili pepawata (Hawaiian rock salt, minced garlic, sriracha, sweet chili sauce, Hawaiian chili peppers).",
+          "ingredients": [
+            "chicken thighs",
+            "garlic",
+            "furikake",
+            "soy sauce",
+            "brown sugar",
+            "sriracha",
+            "hawaiian chili peppers",
+            "flour",
+            "sesame seeds",
+            "seaweed"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The crunch of the chicken, outstanding. Like, over the top. The sweet that you're getting, the sweet that you're getting from the dip, with the soy, brown sugar, and the garlic, it's great. But it's the contrast that you get from the chili water that makes it sing. Whoo. You ain't wearing board shorts after you eat this. You know, muumuu. The garlic furikake chicken. The chicken is absolutely incredible. The sauce has this syrupy flavor to it with a real sweet back end. It's super tender on the inside. It's really crunchy. Yeah, yeah, yeah. It's like a luau in your mouth.",
+          "timestamp_start": 1369.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

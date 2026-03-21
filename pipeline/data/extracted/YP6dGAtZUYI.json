@@ -1,0 +1,88 @@
+{
+  "video_id": "YP6dGAtZUYI",
+  "video_title": "Guy Fieri Eats HEAVENLY Pastrami Sandwich at BBQ Joint | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "Southern Soul Barbeque",
+      "city": "St. Simon's Island",
+      "state": "Georgia",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Harrison Sapp and Griffin Buffkin",
+      "guy_intro": "Beachside and barbecue make a perfect combo and that's exactly what I found on St. Simon's Island, Georgia back in 2010. Now they've had some minor setbacks since then, but these days they're back bigger and better than ever. This is Southern Soul. Two dudes smoking out of an old gas station. I had to see what Harrison Sapp and Griffin Buffkin were doing.",
+      "segment_number": 1,
+      "timestamp_start": 2.6,
+      "timestamp_end": 528.0,
+      "dishes": [
+        {
+          "dish_name": "Pulled Pork",
+          "description": "Pork butts rubbed with a scratch-made spice blend, smoked 10-14 hours at 225-250\u00b0F, basted with apple juice until the bone slides out easily.",
+          "ingredients": [
+            "pork butt",
+            "turbinado sugar",
+            "kosher salt",
+            "chili powder",
+            "brown sugar",
+            "apple juice",
+            "smoke"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Good stuff, huh? I need some pulled pork casino Triple D. It's probably the best pulled pork that I've had. They cook it and smoke it to perfection.",
+          "timestamp_start": 63.2,
+          "confidence": 1.0
+        },
+        {
+          "dish_name": "Pastrami Reuben",
+          "description": "House-brined pastrami (water, salt, brown sugar, pickling spices, curing salt) for 3-7 days, then smoked 10-14 hours. Sliced and grilled with sauerkraut and Swiss cheese, served on toasted marble rye bread with scratch-made Thousand Island dressing.",
+          "ingredients": [
+            "pastrami",
+            "rye bread",
+            "sauerkraut",
+            "swiss cheese",
+            "thousand island dressing",
+            "pickling spices",
+            "smoke"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Here's the pastrami Reuben with fries the pastrami it just melts in your mouth Thousand Island dressing is made from scratch. It's phenomenal especially on the marble rye bread. It's like I'm home again. I'm cool. It is one of my favorites. I haven't tried a thing here yet that I do not like.",
+          "timestamp_start": 170.0,
+          "confidence": 1.0
+        },
+        {
+          "dish_name": "St. Louis Ribs",
+          "description": "St. Louis cut ribs with silver skin removed, rubbed with a spice blend (similar to pork butt rub but with extra sugar), smoked for 4-5 hours to an internal temperature of 165-175\u00b0F, then finished on the grill with additional sugar and honey.",
+          "ingredients": [
+            "st. louis ribs",
+            "spice rub",
+            "sugar",
+            "honey",
+            "smoke"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I don't know about this extra honey. We do like it sweet. That's a mess of ribs, dude the bark on that. It's tender. It's totally cooked, right? Hmm. Why'd I live in California? I'd weigh a lot more if I live.",
+          "timestamp_start": 358.0,
+          "confidence": 1.0
+        },
+        {
+          "dish_name": "Brisket Chili",
+          "description": "Brisket seasoned with salt and pepper, smoked 10-14 hours, wrapped in butcher paper, rested, then chopped. Chili base made with onions, garlic, tomatoes, green chili, mustard, ketchup, beer, chili powder, cumin, salt, pepper, cayenne, and dark red chili beans, combined with the chopped brisket and beef stock. Served with sour cream, cheddar cheese, and chopped onions.",
+          "ingredients": [
+            "brisket",
+            "onions",
+            "garlic",
+            "tomatoes",
+            "green chili",
+            "chili powder",
+            "dark red chili beans",
+            "cheddar cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Chili's ready. Let's plate it up little sour cream cheddar cheese. Chopped onions and this is our brisket chili got a brisket chili chili is amazing. Nice cut up onions in the inside when you put the brisket in and give it a little smoke texture perfecto. I love the chili. It has that smoky brisket in it. Love that little twist dude. You're gonna be open forever.",
+          "timestamp_start": 431.5,
+          "confidence": 1.0
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

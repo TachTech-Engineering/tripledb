@@ -1,0 +1,57 @@
+{
+  "video_id": "zgOqwKDLxiE",
+  "video_title": "Guy Fieri and Ricky Carmichael Eat DYNAMITE Mac & Cheese | Diners, Drive-Ins and Dives Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "Tally Mac Shack",
+      "city": "Tallahassee",
+      "state": "Florida",
+      "cuisine_type": "Gourmet Mac and Cheese",
+      "owner_chef": "Justin Cruz",
+      "guy_intro": "So I'm here in Tallahassee, Florida with my good friend, Ricky Carmichael. We're going to give you eating on campus and the bomb mac and cheese, because this is the Tally Mac Shack. The mac mixologist is chef and owner Justin Cruz, who knows a thing or two about keeping it homestyle, bringing Grandma's recipe into this, and making everything from scratch.",
+      "segment_number": 1,
+      "timestamp_start": 0.8,
+      "timestamp_end": 388.0,
+      "dishes": [
+        {
+          "dish_name": "El Jefe",
+          "description": "A mac and cheese dish that's a cross between a Cuban sandwich and mac and cheese, featuring mojo pork, pickles, and mustard.",
+          "ingredients": [
+            "mojo pork",
+            "mac and cheese",
+            "pickles",
+            "mustard",
+            "provolone",
+            "swiss",
+            "chimichurri",
+            "bechamel"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's dynamite. It's like having a Cuban sandwich without the bread. I love it.",
+          "timestamp_start": 54.2,
+          "confidence": 1.0
+        },
+        {
+          "dish_name": "Tikka Masala Bites",
+          "description": "Mac and cheese balls with lamb-style jackfruit, tikka masala seasoning, hot Cheetos breading, and a mint ranch dipping sauce.",
+          "ingredients": [
+            "jackfruit",
+            "tikka masala seasoning",
+            "mac and cheese",
+            "mint ranch",
+            "hot cheetos breading",
+            "mozzarella",
+            "bechamel",
+            "cheddar"
+          ],
+          "dish_category": "snack",
+          "guy_response": "That's more flavor than mac and cheese should be allowed to eat. It's really balanced. The sauce is a great complement with the mint ranch. I like the crustiness. And it's not a flavor that I can say I've ever had in mac and cheese. It's a gourmet mac and cheese. Delicious.",
+          "timestamp_start": 224.2,
+          "confidence": 1.0
+        }
+      ],
+      "confidence": 1.0
+    }
+  ]
+}

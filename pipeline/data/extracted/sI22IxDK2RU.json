@@ -1,0 +1,94 @@
+{
+  "video_id": "sI22IxDK2RU",
+  "video_title": "Guy Fieri Returns for *Dynamite* Thai Food in Arizona \ud83e\udde8 | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "The Wild Tiger",
+      "city": "Scottsdale",
+      "state": "Arizona",
+      "cuisine_type": "Thai",
+      "owner_chef": "Alishan Weaver",
+      "guy_intro": "And after that pick-up in 2014, Bo and I took a wild ride meeting a chef who's still firing up her untamed take on Thai. This is The Wild Tiger, a new version of Thai food. That's Chef Alishan Weaver, who's got the tiger by the tail with her own fierce take on this traditional cuisine.",
+      "segment_number": 1,
+      "timestamp_start": 21.8,
+      "timestamp_end": 432.0,
+      "dishes": [
+        {
+          "dish_name": "Dragon Eggs",
+          "description": "Shrimp, pork, and crab dumplings, steamed first then deep-fried, served with dragon egg sauce and jalapeno rings.",
+          "ingredients": [
+            "pork loin",
+            "bay shrimp",
+            "crab",
+            "wonton wrappers",
+            "oyster sauce",
+            "gold mountain seasoning",
+            "garlic",
+            "sugar"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Not too spicy, not too salty. Dynamite. Shrimp, crab, chicken, pork, oyster sauce, a little bit of sugar. That dish has just skyrocketed.",
+          "timestamp_start": 75.3,
+          "confidence": 0.98
+        },
+        {
+          "dish_name": "Ginger Fish",
+          "description": "Alaskan salmon battered in flour, pancake mix, and cornstarch, coated in seasoned panko breadcrumbs, deep-fried, and served with a tangy sweet sauce and saut\u00e9ed vegetables.",
+          "ingredients": [
+            "alaskan salmon",
+            "ginger",
+            "soy sauce",
+            "lemon juice",
+            "oyster sauce",
+            "panko breadcrumbs",
+            "bell pepper",
+            "snow peas",
+            "carrots"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The salmon's fantastic. I haven't had tempura or fried salmon in the sauces and know that you scratch make all this. It's beautiful dish. All your dishes have such vibrant color. Ginger fish. The salmon melts in your mouth. You can get hints of the ginger. While you're eating it. It was such a decadent flavor. I loved it.",
+          "timestamp_start": 176.6,
+          "confidence": 0.98
+        },
+        {
+          "dish_name": "Muyang",
+          "description": "Pork marinated in coconut milk, Gold Mountain sauce, and spices, then grilled on skewers until caramelized.",
+          "ingredients": [
+            "pork",
+            "coconut milk",
+            "gold mountain sauce",
+            "oyster sauce",
+            "garlic",
+            "black pepper",
+            "sugar",
+            "cilantro"
+          ],
+          "dish_category": "snack",
+          "guy_response": "Mm. The coconut. Really, really good. A little caramelization of the sugar. Sugar. Mm. Ridiculous. You nailed it.",
+          "timestamp_start": 290.2,
+          "confidence": 0.98
+        },
+        {
+          "dish_name": "Pineapple Prawns",
+          "description": "Seasoned panko breaded cocoa chili shrimp, deep-fried, and served with a coconut chili pineapple curry, steamed broccoli, spring onions, and fresh pineapple.",
+          "ingredients": [
+            "prawns",
+            "pineapple",
+            "coconut milk",
+            "chili paste",
+            "panko breadcrumbs",
+            "gold mountain seasoning",
+            "tomatoes",
+            "sweet onions"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Tender shrimp. Massive shrimp. Yep, yep. Delicious. Pineapple prawn. The prawns were spectacular. Who doesn't like deep fried shrimp? But then you have that punch of the pineapple. Seals the deal.",
+          "timestamp_start": 344.2,
+          "confidence": 0.98
+        }
+      ],
+      "confidence": 0.99
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "video_id": "u5idAcinsCg",
+  "video_title": "Wildest Meat Lover Pizza Videos on #DDD with Guy Fieri \ud83e\udd69\ud83c\udf55 Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Aubrey J's Pizza Garage",
+      "city": "Boulder",
+      "state": "Colorado",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Audrey Sherman",
+      "guy_intro": "So I'm on the northern side of Boulder, Colorado to check out a pizza joint. Oh, no, it's just not any pizza joint. No, no, this chef is studying in Italy. She's made pizza for the greats on the East and West Coast. And from what I'm told, you better watch out. This is Aubrey J's Pizza Garage.",
+      "segment_number": 1,
+      "timestamp_start": 5.7,
+      "timestamp_end": 234.3,
+      "dishes": [
+        {
+          "dish_name": "Spicy Pig Pizza",
+          "description": "Hand-pinched sausage made from ground pork with sea salt, fennel seed, calabrese chilies, and local Colorado honey, cooked raw on the pizza. Topped with house-made California tomato sauce, natural casing pepperoni, roasted jalapeno, chopped garlic, and olive oil, baked at 650 degrees.",
+          "ingredients": [
+            "pork",
+            "fennel seed",
+            "calabrese chilies",
+            "colorado honey",
+            "california tomatoes",
+            "pepperoni",
+            "roasted jalapeno",
+            "garlic",
+            "olive oil",
+            "high-gluten flour",
+            "biga"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The crust is outstanding. When you're going to the extent that you're going to here, starting with the mother or the biga, it just shows. The sausage is great. The Sicilian oregano is dynamite. The right size pepperoni. The roasted jalapeno is just giving a little bit of that heat. Mm. I can't find anything I don't like. The crust on that, it's a meal in itself. Just the right level of spice. You can taste that fat from the meat. It's really good. It coats your mouth.",
+          "timestamp_start": 97.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Bonfire",
+      "city": "Tempe",
+      "state": "Arizona",
+      "cuisine_type": "American",
+      "owner_chef": "David Lindsley",
+      "guy_intro": "Now, Gweed, I don't come to Tempe much. But if that place exists, I'd know about it. Well, let me introduce you to Bonfire. Walking in, I have a Gila Monster burger. It's not your typical restaurant. Arizona Gold Wings in the window. Initially, we were like, oh, it's a new sports bar. Let's go watch the game. But the food is fantastic. And for David Lindsley, the restaurant biz has always been more than just a game. It's a family legacy.",
+      "segment_number": 2,
+      "timestamp_start": 234.3,
+      "timestamp_end": 421.6,
+      "dishes": [
+        {
+          "dish_name": "Old Smoky Pizza",
+          "description": "House-made dough, topped with chicken thighs brined in water, brown sugar, salt, black pepper, garlic, and red chili flake. Pork and brisket are dry-rubbed with salt, Italian seasoning, onion powder, granulated garlic, paprika, and black pepper, then applewood smoked for 6-8 hours. Finished with house-made BBQ sauce, shredded mozzarella, caramelized onions, garlic butter, oregano, white cheddar cheese curds, pecorino romano, and parmesan, baked at 650 degrees.",
+          "ingredients": [
+            "flour",
+            "water",
+            "salt",
+            "sugar",
+            "yeast",
+            "chicken thighs",
+            "pork",
+            "brisket",
+            "apple wood",
+            "bbq sauce",
+            "mozzarella",
+            "caramelized onions",
+            "white cheddar cheese curds",
+            "pecorino romano",
+            "parmesan"
+          ],
+          "dish_category": "entree",
+          "guy_response": "In all honesty, when we started putting all those ingredients on the pizza, I thought it was going to weigh down that crust. But the way you cooked that pizza, the way the crust is house made, kept its texture, the structure, and the sauce works. That's a good balance. Really good pie. When you're a lot of things, you're trying to do barbecue, you're doing pizza and so forth, there's going to be a flaw? I'm not finding it in that. Well done.",
+          "timestamp_start": 265.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Pastabilities",
+      "city": "Syracuse",
+      "state": "New York",
+      "cuisine_type": "Italian",
+      "owner_chef": null,
+      "guy_intro": "I'm here in Armory Square in Syracuse, New York. You see that joint right there? Shot Triple D there. It's called Kitty Hoyne's. It's like the real deal Irish pub. And now, I'm directly across the street. I mean, this is kind of like a Triple D double dip. This place here, I hear they make their own sauce, they make their own bread, and they make their own pasta. I mean, the pasta-bilities are endless.",
+      "segment_number": 3,
+      "timestamp_start": 421.6,
+      "timestamp_end": 631.5,
+      "dishes": [
+        {
+          "dish_name": "Duck Bacon Flatbread Pizza",
+          "description": "Duck breast cured for seven days with a rub of minced garlic, cracked pepper, sugar, fresh rosemary, fresh sage, salt, and pink salt, then applewood smoked for 1.5 hours and sliced thin. Topped on a flatbread with garlic oil, fresh mozzarella, dried cherries, caramelized onions, Humboldt Fog goat cheese, and smoked duck bacon. Baked for 12 minutes, finished with pomegranate syrup, cracked pepper, basil, and parsley.",
+          "ingredients": [
+            "duck breast",
+            "minced garlic",
+            "cracked pepper",
+            "sugar",
+            "fresh rosemary",
+            "fresh sage",
+            "salt",
+            "pink salt",
+            "apple wood",
+            "pomegranate syrup",
+            "garlic oil",
+            "fresh mozzarella",
+            "dried cherries",
+            "caramelized onions",
+            "humboldt fog goat cheese",
+            "basil",
+            "parsley"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The crust on this flatbread is righteous. So the bread has such great hue. The fresh moths, tartness of that cherry, a little bit of funkaliciousness coming from that humboldt fog. Nobody takes the lead role except the duck bacon. It's probably, one of the best duck dishes I've ever had. Yeah, you jackpot it on that one, girl. Wow. Excellent. Flatbread pizza's up. It's probably one of the best pizzas I've ever had.",
+          "timestamp_start": 444.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Grayson Hammer Pizzeria",
+      "city": "Redmond",
+      "state": "Oregon",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Adam",
+      "guy_intro": "Well, anyhow, I'm here in Redmond, Oregon, right outside of Bend, where they're serving pizza at the pulpit. Listen, can you hear it? That might be the bells of Flavortown. Church, this is Grayson Hammer Pizzeria.",
+      "segment_number": 4,
+      "timestamp_start": 640.0,
+      "timestamp_end": 879.7,
+      "dishes": [
+        {
+          "dish_name": "Prodigal Pig Pizza",
+          "description": "A twist on Hawaiian pizza. Features smoked pork butt, scored and seasoned with gochujang sauce, salt, and pepper, smoked for 10 hours. House-made dough, kalbi sauce (black pepper, brown sugar, garlic, green onion, ginger, yellow onion, sesame oil, mirin, soy sauce), and pineapple slaw (ginger, shallot, cilantro, pineapple, serranos). Topped with fresh mozzarella and fontina, baked at 700-800 degrees with white oak, finished with pineapple slaw and pickled onion.",
+          "ingredients": [
+            "pork butt",
+            "gochujang sauce",
+            "salt",
+            "pepper",
+            "yeast",
+            "hard red wheat flour",
+            "kalbi sauce",
+            "pineapple",
+            "serranos",
+            "fresh mozzarella",
+            "fontina",
+            "pickled onion",
+            "white oak"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Dynamite. That crust is so light and airy and fluffy. The balance that you create with that pineapple slaw, because you're getting a lot of heat from the serranos and the jalape\u00f1os, with the acidity from the onions countering the brown sugar that you have in the kalbi sauce. That's what gives it the balance and the harmony. I know I'm preaching to the choir on . But I got to confess, it's excellent pizza. Goju chain pulled pork going on. It's a spin on a Hawaiian, but way, way better, because you have that smoky deliciousness of the pork and the kalbi sauce that's on that gives that a little bit of sweet and tangy at the same time. The pizza crust is incredible. It's got a little bit of spice, a little bit of juice, and some tanginess from the pineapple.",
+          "timestamp_start": 695.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Griggs Street Pizza",
+      "city": "Greenwich",
+      "state": "Connecticut",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Matt Watson",
+      "guy_intro": "So that's my introduction to Greenwich, Connecticut. Someone hits the front end of the Camaro. Out of control, dude. I'm a maniac. This place better be worth it. What's the story? My boy, Randy, is making incredible pies. They're making their own bread. They're pulling cheese every day, and I love it. I got the evidence. I found it. Hunter, put the evidence in the car. Do you want me to get the police report? Hunter, put the evidence in the car. Where's witnesses? I can get the witnesses. Hunter, put the evidence in the car. This is Griggs Street Pizza.",
+      "segment_number": 5,
+      "timestamp_start": 879.7,
+      "timestamp_end": 1096.5,
+      "dishes": [
+        {
+          "dish_name": "Pepperoni Hot Honey Pizza",
+          "description": "House-made sourdough dough, fresh mozzarella pulled from curd, and house-made tomato sauce (organic California tomatoes, olive oil, roasted garlic, kosher salt, Sicilian oregano, crushed tomato). Topped with ripped basil, pepperoni, garlic oil, and hot honey (roasted habaneros, roasted garlic, honey). Baked at 650 degrees, finished with Sicilian oregano and pecorino.",
+          "ingredients": [
+            "sourdough starter",
+            "high-gluten flour",
+            "salt",
+            "olive oil",
+            "mozzarella curd",
+            "organic california tomatoes",
+            "roasted garlic",
+            "kosher salt",
+            "sicilian oregano",
+            "roasted habaneros",
+            "honey",
+            "basil",
+            "pepperoni",
+            "pecorino"
+          ],
+          "dish_category": "entree",
+          "guy_response": "That's the one. The crust is outstanding. It's light, it's airy, it's got good sourdough, good yeast to it. This simple tomato sauce where tomato is alive and well. A-plus pizza. A-plus, A-plus. It hits all the marks.",
+          "timestamp_start": 943.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Red Wagon Pizza",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Peter Campbell",
+      "guy_intro": "So I'm here in Minneapolis, Minnesota. Now, we get recommendations for Triple D joints from a lot of people. But in particular, when your crew that shoots Triple D, hold on, this crew right here, when they tell you that you got to come check out a pizza joint that's right down the street from there, from their house, well, you know I'm there. This is Red Wagon Pizza.",
+      "segment_number": 6,
+      "timestamp_start": 1096.5,
+      "timestamp_end": 1316.9,
+      "dishes": [
+        {
+          "dish_name": "Red Wagon Pizza",
+          "description": "Features house-made dough from heritage wheat flour and day-old mother dough. Topped with house-made sausage (cubed pork butt, bacon, sopressata, garlic, onion, fennel powder, salt, pepper), house-made sauce, a blend of mozzarella and provolone, banana peppers, and sopressata ribbons. Baked for 90 seconds, then finished with buzzed crushed red pepper, house-made garlic sauce, and fig-infused balsamic.",
+          "ingredients": [
+            "heritage wheat flour",
+            "day-old dough",
+            "yeast",
+            "pork butt",
+            "bacon",
+            "sopressata",
+            "garlic",
+            "fennel powder",
+            "mozzarella",
+            "provolone",
+            "banana peppers",
+            "crushed red pepper",
+            "garlic sauce",
+            "fig-infused balsamic"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, dynamite. Everything you're doing in the pizza is balanced. Fresh made sausage, you've got handmade dough, you've got homemade sauce, you've got a nice little acid bite in there coming from the banana pepper, a little touch of the chili flake. It's an artisan pizza, man. Everybody at home right now is going, oh, I want a bite of that pizza, because it's the real deal. Fantastic.",
+          "timestamp_start": 1153.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Pinky G's Pizzeria",
+      "city": "Jackson",
+      "state": "Wyoming",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Tom Fett",
+      "guy_intro": "I'm here at Jackson, Wyoming, about a half block off the town square, right in front of the Pink Garter Theater. Now, back in the day, this was the theater that you came to to catch a musical or a play. Now it's where you come to see some rockin' bands. And speaking of rockin', locals around here tell me, you want some rockin' pizza? Go to the joint right under the theater. This is Pinky G's Pizzeria.",
+      "segment_number": 7,
+      "timestamp_start": 1316.9,
+      "timestamp_end": 1496.5,
+      "dishes": [
+        {
+          "dish_name": "Funky Chicken Pizza",
+          "description": "Chicken breast marinated for 24 hours with fresh chopped basil, garlic, lemon slices, and oil, then roasted at 575 degrees. Served on hand-tossed dough with fresh basil pesto, mozzarella cheese, roasted chicken, artichoke hearts, red onions, and ricotta cheese. Baked at 575 degrees.",
+          "ingredients": [
+            "chicken breast",
+            "fresh basil",
+            "garlic",
+            "lemon slices",
+            "oil",
+            "cornmeal",
+            "flour",
+            "basil pesto",
+            "mozzarella cheese",
+            "artichoke hearts",
+            "red onions",
+            "ricotta cheese"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Roasting the chicken with the garlic, outrageous. Making your own pesto over the top. Little bit of that ricotta coming in. Creaminess, saltiness.",
+          "timestamp_start": 1361.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "The Saucy Sicilian",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "cuisine_type": "Italian Pizza",
+      "owner_chef": "Gannon Mendez and Priscilla Mendez",
+      "guy_intro": "I'm here in OKC for a little pizza in the parking lot. Now, this isn't just a regular old pizza truck. No, this thing is a monster. And the oven? Not any regular old oven. No, it's wood-fired. And the recipes, well, they're not your everyday recipes, because they're handed down from generations. This is the Saucy Sicilian.",
+      "segment_number": 8,
+      "timestamp_start": 1496.5,
+      "timestamp_end": 1687.1,
+      "dishes": [
+        {
+          "dish_name": "Trapagni Pizza",
+          "description": "House-made dough proofed for three days, topped with ricotta cheese, mozzarella, fresh figs, roasted garlic, and roasted red pepper. Baked in a wood-fired pecan hickory oven for 90 seconds, then finished with prosciutto and a balsamic maple glaze (balsamic vinegar reduced with pure maple syrup).",
+          "ingredients": [
+            "high-gluten flour",
+            "salt",
+            "water",
+            "yeast",
+            "ricotta cheese",
+            "mozzarella",
+            "fresh figs",
+            "roasted garlic",
+            "roasted red pepper",
+            "prosciutto",
+            "balsamic vinegar",
+            "pure maple syrup",
+            "pecan hickory wood"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I mean, it's just really delicious. The crust is the foundation, and it's out of bounds. Neapolitan pizza has to be in balance, and you give good portions, a good amount of prosciutto. It's an honest pizza, scratch-made, handmade, with a lot of family love in it. Well done.",
+          "timestamp_start": 1549.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    },
+    {
+      "name": "Dirty Water Dough Company",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "cuisine_type": "Pizza",
+      "owner_chef": null,
+      "guy_intro": "We're going to check out a funky joint that is using beer to make their pizza dough, and I hear it's the real deal. This is Dirty Water Dough Company. Turn of the century. Wow, we're going that far back. The Charles River, which was the main water supply, got so polluted that the water was undrinkable, so they started putting beer in their dough. I mean, it gives the crust almost like a bagel-y, soft inside, and then you get a nice crispy outside. And there's nothing wrong with that.",
+      "segment_number": 9,
+      "timestamp_start": 1687.1,
+      "timestamp_end": 1875.4,
+      "dishes": [
+        {
+          "dish_name": "Dirty Taco Pizza",
+          "description": "Dough made with special high-protein, low-ash flour, salt, olive oil, yeast, water, and Dirty Water IPA. Topped with a light red sauce (oil, onions, garlic, oregano, pepper, salt, red chili flakes, ground peeled tomatoes), shredded mozzarella, yellow cheddar, and house-made taco meat (ground beef, paprika, granulated garlic, pepper, salt, enchilada sauce). Baked, then finished with fresh lettuce, diced tomato, nacho cheese chips, and a sour cream swirl.",
+          "ingredients": [
+            "special flour",
+            "salt",
+            "olive oil",
+            "yeast",
+            "dirty water ipa",
+            "red sauce",
+            "onions",
+            "garlic",
+            "red chili flakes",
+            "ground beef",
+            "paprika",
+            "enchilada sauce",
+            "shredded mozzarella",
+            "yellow cheddar",
+            "lettuce",
+            "diced tomato",
+            "nacho cheese chips",
+            "sour cream"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The crust is dynamite. It's too simple. It's got good pull. I get the yeastiness out of it. It's delicious. I mean, as you can tell, I didn't like it at all. My son Ryder, he's going to lose his mind on this one. Hey, bud. Good morning, Ryder. So what are your two favorite things that you ask for dinner all the time? Tacos and pizza. Check it out. Ready? Drum roll, please. A taco pizza. Bring it home. It's crunchy like a taco, cheesy like a pizza, and the cool lettuce and then the sour cream all over the top. Mmm. All right, I'll bring one home. Love you, bud. All right, love you too. I knew he would love it. Bro, you smashed it. Well done.",
+          "timestamp_start": 1745.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    },
+    {
+      "name": "Pizzeria Lola",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "cuisine_type": "Pizza",
+      "owner_chef": "Ann Kim",
+      "guy_intro": "Did you know they have one of the only copper-covered, wood-fired, French pizza ovens, a Le Pagnole, at this place where they're doing off-the-hook pizza? This is Pizzeria Lola.",
+      "segment_number": 10,
+      "timestamp_start": 1875.4,
+      "timestamp_end": 2129.0,
+      "dishes": [
+        {
+          "dish_name": "Mascheroni Pizza",
+          "description": "A 48-hour dough made with a poolish and Italian flour. Topped with house-made fennel sausage (ground Berkshire pork, toasted fennel seeds, fresh chopped garlic, chili flakes, salt, pepper), house red sauce (California Stanislaus tomatoes, red pear tomatoes, tomato puree, salt, dried basil, dried oregano, granulated garlic, onion powder), Wisconsin mozzarella, and natural casing pepperoni. Baked in an oven running between 550-600 degrees.",
+          "ingredients": [
+            "flour",
+            "yeast",
+            "water",
+            "italian sea salt",
+            "berkshire pork",
+            "toasted fennel seeds",
+            "fresh chopped garlic",
+            "chili flakes",
+            "salt",
+            "pepper",
+            "california stanislaus tomatoes",
+            "dried basil",
+            "dried oregano",
+            "granulated garlic",
+            "onion powder",
+            "wisconsin mozzarella",
+            "natural casing pepperoni"
+          ],
+          "dish_category": "entree",
+          "guy_response": "We got this heirloom pork with the real fat in it and the real flavor, and the fennel is rocking this. A lot of people say, oh, sausage and pepperoni. I've had that all the time. This is way beyond your everyday pizza joint on the corner, sausage and pepperoni. You got to try this one. It's the most heightened, delicious pepperoni sausage pizza you've ever had. You're like, this is what pepperoni is supposed to taste like.",
+          "timestamp_start": 1923.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

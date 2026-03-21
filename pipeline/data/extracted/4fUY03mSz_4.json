@@ -1,0 +1,37 @@
+{
+  "video_id": "4fUY03mSz_4",
+  "video_title": "Guy Fieri Eats a Brisket Melt | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "clip",
+  "restaurants": [
+    {
+      "name": "The Butcher Shop",
+      "city": null,
+      "state": null,
+      "cuisine_type": "American BBQ",
+      "owner_chef": "Rocco",
+      "guy_intro": "Hunter and I are hanging out, triple D, at a place called The Butcher Shop, a father-son joint. These guys have got a full-blown butcher shop, the real deal, a restaurant, and a beer garden. As soon as you walk into the door, you're already in a great mood, before you even tasted the food.",
+      "segment_number": 1,
+      "timestamp_start": 0.0,
+      "timestamp_end": 191.0,
+      "dishes": [
+        {
+          "dish_name": "Brisket Melt",
+          "description": "Smoked brisket served on Texas toast with cheese, brisket jus, house barbecue sauce, and caramelized onions.",
+          "ingredients": [
+            "brisket",
+            "texas toast",
+            "cheese",
+            "brisket jus",
+            "barbecue sauce",
+            "caramelized onions"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, my gosh. Mm. Love the smoke, but not too much smoke to where you say this is only a barbecue sandwich. This is a cross between a barbecue sandwich and a French dip. Maybe that's the caramelized onion that comes through. Yeah, you get sweetness and smoky and salty. It's great. Guys, I have a brisket melt. It's just a whole combination. You can't put it down. And I love caramelized onions. And I'm a big cheese guy. Yeah. You've hit all your points. I've hit all my points. And the toast is great, too.",
+          "timestamp_start": 124.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

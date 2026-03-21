@@ -1,0 +1,295 @@
+{
+  "video_id": "GsIQKUzkLTo",
+  "video_title": "Top #DDD Dessert Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Nicole's Fine Pastry",
+      "city": "Fargo",
+      "state": "North Dakota",
+      "cuisine_type": "Pastry",
+      "owner_chef": "Nicole Henson",
+      "guy_intro": "I'm here in Fargo, North Dakota, and when I hear about a place that's been doing it all from scratch since 2003, I got to check it out. This is Nicole's Fine Pastry.",
+      "segment_number": 1,
+      "timestamp_start": 7.4,
+      "timestamp_end": 173.5,
+      "dishes": [
+        {
+          "dish_name": "Sticky Bun",
+          "description": "Yeasted dough with mashed potatoes, filled with cinnamon, sugar, and cardamom, topped with caramel sauce and pecans.",
+          "ingredients": [
+            "yeast dough",
+            "mashed potatoes",
+            "caramel sauce",
+            "pecans",
+            "cinnamon",
+            "cardamom",
+            "butter",
+            "sugar"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "I don't know this thing of putting the potato in it. But when I eat the dough on this, it's rich. It has the texture of bread, but the light fluffiness of cake. Not too many pecans, not too much caramel. Yeah? It's dynamite. It's really delicious.",
+          "timestamp_start": 48.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Crepe Expectations",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "cuisine_type": "Crepes",
+      "owner_chef": "Lou and Jen Remillard",
+      "guy_intro": "So I'm here on the southeast side of Las Vegas, Nevada, right on the border of Henderson. I tell you, when I went to school here, they didn't have any shopping centers like this out here. No way. Look at this place. It's got everything. It's got a cooking school, it's got a pet bakery, and it's got a, wait for it, wait for it, exactly, a crepe shop. A crepe shop? Now, after I hit them up in 2015, they moved a few doors down the strip mall, where they tripled up on the space, supersized the menu, and scaled down where it counts. This is Crepe Expectations.",
+      "segment_number": 2,
+      "timestamp_start": 173.5,
+      "timestamp_end": 363.4,
+      "dishes": [
+        {
+          "dish_name": "Southern Comfort Crepe",
+          "description": "Crepe filled with fresh grilled peaches, brown butter graham crumble, candied pecans, topped with bourbon caramel sauce and whipped cream.",
+          "ingredients": [
+            "crepe",
+            "grilled peaches",
+            "brown butter graham crumble",
+            "candied pecans",
+            "bourbon caramel",
+            "whipped cream",
+            "powdered sugar"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "This is delicious. The peaches are great. The little crumble inside's fantastic. It definitely has got the bourbon in it. It does. You're heavy handed with it. Yeah. You're not drinking it, but you're giving it to everybody else. What a giver. What a giver. What a giver. The southern comfort. The peaches in there have these candied pecans, and it's just like the best explosion. You have this graham cracker thing going on, and it tastes a bit flamb\u00e9ed. I love it, and I will be back tomorrow, all right?",
+          "timestamp_start": 255.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "South of Beale",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "cuisine_type": "American",
+      "owner_chef": "Brian",
+      "guy_intro": "I'm in like some kind of a popcorn coma. I'm hanging out with Chef Brian in south of Beale in Memphis. Dude, what have you done to me? I've never eaten that much popcorn in my life. Seriously, Tom, I'm going to take it away. Hopefully, we're onto something nice and light now.",
+      "segment_number": 3,
+      "timestamp_start": 363.4,
+      "timestamp_end": 539.9,
+      "dishes": [
+        {
+          "dish_name": "Jack and Coke Bread Pudding",
+          "description": "Bread pudding made with hula bread and hoagie roll, soaked in a custard of egg yolks, sugar, heavy cream, and Coca-Cola reduction, served with Jack Daniels ice cream and cola syrup.",
+          "ingredients": [
+            "hula bread",
+            "hoagie roll",
+            "egg yolks",
+            "heavy cream",
+            "coca-cola reduction",
+            "jack daniels",
+            "cola syrup",
+            "sugar"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "Wow. Who would have thunk? You got nothing wrong with this, buddy. You got great cream. Brain freeze. I don't like when bread pudding gets all mushy, mushy, mushy. It's got a nice crunch on the bottom, nice crunch on the top. So you got great flavor in it. You definitely pick up the Jack Daniels in the ice cream. And then the cola syrup over the top of that just brings it right back home. This right here, this is why. You can't move to Memphis. Oh, it's great. That's really tasty, man.",
+          "timestamp_start": 375.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "The Crest Cafe",
+      "city": "San Diego",
+      "state": "California",
+      "cuisine_type": "American Comfort Food",
+      "owner_chef": "Cecilia Moreno and Ruben Medina",
+      "guy_intro": "Man, you've got to love San Diego. Look at this town. Great weather, cool people, and unique restaurants. So I'm here in the Hillcrest neighborhood to check out a joint that has healthy, hearty comfort food. This is the Crest Cafe.",
+      "segment_number": 4,
+      "timestamp_start": 539.9,
+      "timestamp_end": 743.7,
+      "dishes": [
+        {
+          "dish_name": "Creme Brulee French Toast",
+          "description": "Hala bread dipped in an egg, cream, cinnamon, sugar, and vanilla dredge, cooked, then topped with a ricotta, honey, vanilla, orange zest whipped cream and a brown sugar, butter, maple syrup, vanilla creme brulee sauce, and fresh strawberries.",
+          "ingredients": [
+            "hala bread",
+            "eggs",
+            "heavy cream",
+            "cinnamon",
+            "ricotta cheese",
+            "orange zest",
+            "maple syrup",
+            "strawberries"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "I mean, that's like half dessert, half breakfast. It's excellent. Right amount of French toast, right thickness of it. It's not soggy, not too sweet. The whipped cream with the ricotta in it gives it a richness and a little bit of tang with the zest of the orange. It's great balance. Good job, buddy.",
+          "timestamp_start": 610.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Jammin' Crepes",
+      "city": "Princeton",
+      "state": "New Jersey",
+      "cuisine_type": "Crepes",
+      "owner_chef": "Kim and Amin Risk, Kathy Klockenbrink",
+      "guy_intro": "Yo, guy, we're here in Princeton, New Jersey. You know I like to jam, right? Ha ha. Well, this is Jam & Jam. Jam & Jam. Jam & Crepes. Boom.",
+      "segment_number": 5,
+      "timestamp_start": 743.7,
+      "timestamp_end": 946.5,
+      "dishes": [
+        {
+          "dish_name": "20-Layer Orchard Lemon Crepe Cake",
+          "description": "A cake made of 20 layers of classic French crepes, filled with a mousse of cream cheese, confectioner's sugar, homemade applesauce, and whipped cream, topped with meringue and lemon curd.",
+          "ingredients": [
+            "french crepes",
+            "cream cheese",
+            "applesauce",
+            "whipped cream",
+            "meringue",
+            "lemon curd",
+            "confectioner's sugar"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "That tastes like wow. So you get the great flavor of the meringue, the curd. But then what happens is right in the middle, all the substance is that light, fluffy French crepe. And I'm letting you know, there's 20 layers on there. 20 layer lemon crepe cake. OK. It's really light and fluffy. And it tastes just as delicious as it looks.",
+          "timestamp_start": 785.7,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Dulce Dough",
+      "city": "St. Simons Island",
+      "state": "Georgia",
+      "cuisine_type": "Bakery",
+      "owner_chef": null,
+      "guy_intro": "So I'm here on St. Simons Island, Georgia. I've been here a bunch of times. You talk about a great destination for food. This is Dulce Dough. A doughnut shop is not doing it justice. This is an homage to my grandmother.",
+      "segment_number": 6,
+      "timestamp_start": 946.5,
+      "timestamp_end": 1127.1,
+      "dishes": [
+        {
+          "dish_name": "Baba au Rhum with Caramelized Pineapple Jam and Dulce Pastry Cream",
+          "description": "Brioche dough fried, soaked in a rum glaze (brown/granulated sugar, cinnamon, clove, cardamom, white/aged rum, vanilla bean, apricot jam), filled with caramelized pineapple jam, and topped with dulce pastry cream (cornstarch, sugar, milk, yolks, vanilla paste, gelatin, butter, roasted white chocolate, whipped cream).",
+          "ingredients": [
+            "brioche dough",
+            "rum glaze",
+            "caramelized pineapple jam",
+            "dulce pastry cream",
+            "white chocolate",
+            "whipped cream",
+            "apricot jam",
+            "cardamom"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "It's really good. The caramelization of the rum, spot on. The dulce is great, and I love this little carmeled sugar chocolate that goes through it. But it's the pineapple that kind of ties everything together. It gives you a little acidity. Thank you. Delicious.",
+          "timestamp_start": 960.6,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "In a Pickle",
+      "city": null,
+      "state": null,
+      "cuisine_type": "American Breakfast/Lunch",
+      "owner_chef": null,
+      "guy_intro": "It's in a pickle. Wait a minute. We've been in a pickle half our lives. I know. But that's the name of the joint breakfast and lunch. In a pickle. I'm hungry.",
+      "segment_number": 7,
+      "timestamp_start": 1122.1,
+      "timestamp_end": 1263.4,
+      "dishes": [
+        {
+          "dish_name": "Pumpkin Bread French Toast",
+          "description": "Homemade pumpkin bread (eggs, oil, water, pumpkin, flour, cinnamon, baking powder, baking soda, salt, sugar) sliced and dipped in an egg custard (eggs, light cream, vanilla, cinnamon), cooked, then topped with sweet cream cheese (cream cheese, butter, powdered sugar, vanilla), powdered sugar, all-spice, and dulce de leche caramel sauce.",
+          "ingredients": [
+            "pumpkin bread",
+            "eggs",
+            "light cream",
+            "cinnamon",
+            "cream cheese",
+            "butter",
+            "dulce de leche caramel sauce",
+            "all-spice"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "You missed out on this one, Hagar. I enjoy that more than I enjoy a typical dessert, because you got a savory factor to it. Pumpkin bread baked that way on the sheet. You're getting a little bit of the crust, but this soft, moist center to it. And you're getting all the spices. But you get the tang of the cream cheese coming through, so you get a little bit of the sweet and sour combo when you're taking that much time to make such a simple dish the next level. That's why you're doing so well. The pumpkin bread French toast.",
+          "timestamp_start": 1129.1,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Jimmy's Down the Street",
+      "city": null,
+      "state": null,
+      "cuisine_type": "Diner",
+      "owner_chef": "Kim Woolard",
+      "guy_intro": "This place here has been doing business for over 50 years and is now called Jimmy's Down the Street.",
+      "segment_number": 8,
+      "timestamp_start": 1263.4,
+      "timestamp_end": 1481.2,
+      "dishes": [
+        {
+          "dish_name": "Monster Caramel Pecan Roll",
+          "description": "Large yeast dough roll (milk, water, salt, sugar, eggs, cinnamon, butter, flour) filled with brown sugar and cinnamon, baked on a bed of caramel sauce (butter, corn syrup, brown sugar) and pecans.",
+          "ingredients": [
+            "yeast dough",
+            "milk",
+            "eggs",
+            "butter",
+            "cinnamon",
+            "brown sugar",
+            "caramel sauce",
+            "pecans",
+            "corn syrup"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "Such great texture to the dough. The sugar and the caramel starts to almost candy up right on the outside of it. The pecans are rocking. And it's not just a little sprinkle dinkle. That's a fish full of pecan. Awesome. Nice job.",
+          "timestamp_start": 1296.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Sisters of the New South",
+      "city": "Savannah",
+      "state": "Georgia",
+      "cuisine_type": "Southern Cooking",
+      "owner_chef": "Vicki and Kenneth Brown",
+      "guy_intro": "So I'm here in Savannah, Georgia, and I am looking for some dynamite pizza. No, I'm sorry, Chinese food. No, Mexican. I'm just kidding. You know what I'm looking for. I'm looking for some Southern cooking. This is Sisters of the New South. And boy, I'm hungry.",
+      "segment_number": 9,
+      "timestamp_start": 1481.2,
+      "timestamp_end": 1645.0,
+      "dishes": [
+        {
+          "dish_name": "Georgia Peach Cobbler",
+          "description": "Cobbler with a blind-baked biscuit-like crust (water, butter, egg, sugar, shortening, flour) filled with fresh peeled peaches, water, vanilla, sugar, butter, nutmeg, cinnamon, brown sugar, and cornstarch slurry, topped with another crust and baked.",
+          "ingredients": [
+            "peaches",
+            "biscuit crust",
+            "butter",
+            "sugar",
+            "vanilla",
+            "nutmeg",
+            "cinnamon",
+            "brown sugar",
+            "cornstarch"
+          ],
+          "dish_category": "dessert",
+          "guy_response": "That is about one of the most honest desserts I've had in the last 10 years on Triple K. The simple biscuit crust. It's a little bit of sugar. It's a little bit of vanilla. You're highlighting the peach. Crocs, Danny. Thank you, sir.",
+          "timestamp_start": 1539.9,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

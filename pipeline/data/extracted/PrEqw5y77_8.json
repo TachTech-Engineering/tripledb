@@ -1,0 +1,405 @@
+{
+  "video_id": "PrEqw5y77_8",
+  "video_title": "Top 10 #DDD Videos in Los Angeles with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network",
+  "video_type": "compilation",
+  "restaurants": [
+    {
+      "name": "Jitlada",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Thai",
+      "owner_chef": "Jazz Singsanong",
+      "guy_intro": "I'm here in Los Angeles. Actually, where exactly? We're in Hollywood. No, we're in Thai town. Wherever we are. And here we are. This is Jitlada. One. The best Thai food in the country.",
+      "segment_number": 1,
+      "timestamp_start": 26.1,
+      "timestamp_end": 206.5,
+      "dishes": [
+        {
+          "dish_name": "Green Curry Chicken",
+          "description": "Homemade green curry with serrano and Thai chilies, garlic, red onion, lemongrass, lime skin, lime leaves, cilantro, cooked with coconut milk, fish sauce, eggplant, bamboo shoots, bell pepper, and Thai basil.",
+          "ingredients": [
+            "serrano chili",
+            "thai chili",
+            "garlic",
+            "red onion",
+            "lemongrass",
+            "coconut milk",
+            "fish sauce",
+            "eggplant",
+            "chicken",
+            "thai basil"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Oh, dude, that's hot. Oh, my God. I just ate the enamel off my teeth. That's delicious. But there's so much flavor. It's not just spicy. This is what I really appreciate about this. It is hot, but it's not unpleasantly hot where it's destroying your taste buds. It's just this warm heat throughout your face. Yeah. It's so alive. We're just hitting every taste bud. The problem is, is I don't want to stop. I know, I know. Your crave-ability is through the roof. So good, Jaz. Green curry chicken. It's phenomenal. The spices are nice and complex. Once you try it, you really can't put that spoon down.",
+          "timestamp_start": 155.0,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "North End Cafe",
+      "city": "Manhattan Beach",
+      "state": "California",
+      "cuisine_type": "American/Italian Fusion",
+      "owner_chef": "John Atkinson",
+      "guy_intro": "Well, you get this joint that I found back in 2010 in Manhattan Beach. I'm not even thinking about what to tell you about this. I'm just enjoying it while I eat it. And this tiny place is still cranking out tons of flavor. This is North End Cafe.",
+      "segment_number": 2,
+      "timestamp_start": 215.9,
+      "timestamp_end": 588.1,
+      "dishes": [
+        {
+          "dish_name": "Linguine Carbonara",
+          "description": "Handmade pasta with pancetta, olive oil, garlic, wine, cream, black pepper, egg white, pecorino romano, and a fresh egg yolk on top.",
+          "ingredients": [
+            "flour",
+            "egg",
+            "pancetta",
+            "olive oil",
+            "garlic",
+            "cream",
+            "black pepper",
+            "pecorino romano",
+            "egg yolk"
+          ],
+          "dish_category": "entree",
+          "guy_response": "The pasta is phenomenal. Pancetta's got nice crisp to it. And then the only way to do it is with the pecorino romano. Nice job.",
+          "timestamp_start": 361.7,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Tommy Boy Sandwich",
+          "description": "Braised short rib, deep-fried in a Dixie fry batter, served on a soft bun with Creole remoulade, Swiss cheese, cabbage slaw, fermented Fresno chilies, and hip tang sauce.",
+          "ingredients": [
+            "short rib",
+            "mirepoix",
+            "creole salt",
+            "remoulade",
+            "swiss cheese",
+            "cabbage slaw",
+            "fresno chilies",
+            "hip tang sauce",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I love that it's in the Dixie fry. Delicious.",
+          "timestamp_start": 459.2,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "Kahlua Pig Monte Cristo Egg Rolls",
+          "description": "Slow-cooked Kahlua pig, Swiss cheese, black forest ham, scallion, teriyaki, and sesame seeds wrapped in an egg roll and fried. Served with wasabi mojo and teriyaki sauce.",
+          "ingredients": [
+            "pork butt",
+            "banana leaf",
+            "swiss cheese",
+            "black forest ham",
+            "scallion",
+            "teriyaki",
+            "egg roll wrapper",
+            "wasabi mojo"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "I just want to hear you say money. That's like bank. Bank. There's money, and then there's bank.",
+          "timestamp_start": 562.4,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Bludso's",
+      "city": "Compton",
+      "state": "California",
+      "cuisine_type": "Barbecue",
+      "owner_chef": "Kevin Bludso",
+      "guy_intro": "So you're looking for a killer barbecue joint. How do you find it? Well, you could read about it. A friend could tell you about it. You could watch some crazy show about a dude driving all over the country trying great food. Or you could sniff it out. That's why I drive a convertible, and that's what's led me here to Compton to check out some killer barbecue. That was back in 2013. And while the nose still knows, the eyes tell a different story. Because this barbecue spot that was once filling the Compton air with their signature smoker smell has now spread the aroma all over LA at Bludso's.",
+      "segment_number": 3,
+      "timestamp_start": 588.1,
+      "timestamp_end": 821.0,
+      "dishes": [
+        {
+          "dish_name": "Pork Ribs",
+          "description": "Pork ribs rubbed with a blend of brown sugar, white sugar, seasoning salt, chili powder, granulated garlic, black pepper, cumin, cayenne pepper, oregano, and granulated onion, then set for 24 hours and smoked at 250 degrees for 3.5-4 hours.",
+          "ingredients": [
+            "pork ribs",
+            "brown sugar",
+            "chili powder",
+            "granulated garlic",
+            "black pepper",
+            "cumin",
+            "cayenne pepper",
+            "oregano",
+            "granulated onion"
+          ],
+          "dish_category": "entree",
+          "guy_response": "I'll tell you what. This is a righteous rib. All that flavor just coming out of that bone, onto that pork. Man.",
+          "timestamp_start": 713.5,
+          "confidence": 0.95
+        },
+        {
+          "dish_name": "L.A. Rib Tips",
+          "description": "Rib tips mustered, seasoned with garlic salt and black pepper, smoked with post oak and pecan for two hours, then cut up, fried, and sauced with a homemade blend of hot sauce, barbecue sauce, and garlic.",
+          "ingredients": [
+            "rib tips",
+            "mustard",
+            "garlic salt",
+            "black pepper",
+            "post oak",
+            "pecan",
+            "hot sauce",
+            "barbecue sauce",
+            "garlic"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "Here's the thing I love about them. I love my wings really well done. I don't want them to be fatty and chewy and gooey. I want them to have some crisp to them. That's what's happening here. You've smoked them. The flavor's going all the way through. And then you're rehydrating them with this buffalo sauce. So you get all the texture, all the smoke, all the flavor. They're fun to eat. That's delicious.",
+          "timestamp_start": 773.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Marouche",
+      "city": "Hollywood",
+      "state": "California",
+      "cuisine_type": "Armenian/Lebanese",
+      "owner_chef": "Nellie",
+      "guy_intro": "I'm here on the east side of Hollywood in an area close to Little Armenia. And I'm with the one and only super chef, Nyesha Arrington. If you're into falafel, if you're into shawarma, if you're into Armenian, Lebanese food, you are going to love Marouche.",
+      "segment_number": 4,
+      "timestamp_start": 821.0,
+      "timestamp_end": 995.2,
+      "dishes": [
+        {
+          "dish_name": "Beef Shawarma",
+          "description": "Tri-tip marinated for two days in vinegar, white wine, oil, allspice, seven spice, black pepper, cardamom, salt, onions, bay leaves, and lemon juice, then skewered and cooked on a rotisserie. Served with homemade hummus and an onion, sumac, parsley, and tahini mix.",
+          "ingredients": [
+            "tri-tip",
+            "vinegar",
+            "white wine",
+            "allspice",
+            "seven spice",
+            "cardamom",
+            "lemon juice",
+            "onions",
+            "hummus",
+            "tahini",
+            "sumac",
+            "parsley"
+          ],
+          "dish_category": "entree",
+          "guy_response": "It's really light and fluffy. I feel so warm up from the shawarma. The flavor of the lemon is incredible, and how it sort of tenderizes the meat. There's so much flavor in the meat. And when you get that hummus with it and the pilaf, that's a meal, right? Beautiful. This is the way I want to eat five nights a week. Delicious.",
+          "timestamp_start": 966.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Black Market Liquor Bar",
+      "city": "Studio City",
+      "state": "California",
+      "cuisine_type": "Eclectic American",
+      "owner_chef": "Antonia Lofaso",
+      "guy_intro": "I'm here in Studio City, California, and today this is an interesting one. You know, I have shot diners, drive-ins, and dives all over this country, out of this country, for chefs you know and chefs you don't know. But tonight, well, no, this one's special, see? Because I'm going to a restaurant that's owned by a very dear friend of mine. Well, she's actually like a little sister to me. But when I eat, I'm like, oh, my god. Why did I show up doing diners, drive-ins, and dives? Well, the gloves are off. I'm not going to pull any punches. I hope she's ready. Actually, I'm just kidding. This is Chef Antonio LaFaso's Black Market Liquor Bar.",
+      "segment_number": 5,
+      "timestamp_start": 995.2,
+      "timestamp_end": 1228.2,
+      "dishes": [
+        {
+          "dish_name": "Hamachi Crudo",
+          "description": "Diced hamachi served with a two-day aged yuzu ponzu, tempura crispy broccolini, and a shiso aioli, garnished with Thai basil, mint, black sesame, and green onion.",
+          "ingredients": [
+            "hamachi",
+            "jalapenos",
+            "thai basil",
+            "yuzu",
+            "orange juice",
+            "tamari",
+            "broccolini",
+            "tempura batter",
+            "shiso",
+            "mayonnaise"
+          ],
+          "dish_category": "appetizer",
+          "guy_response": "You hit all the marks here. Fresh, eclectic. You're giving crunchy, you're giving supple, you're giving raw. Spicy factor, sweet factor. I mean, just check, check, check, check, check, check, check the box. It is delicate and balanced. That would compete with any Japanese restaurant on any level.",
+          "timestamp_start": 1198.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Harold and Bell's",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Creole/Cajun",
+      "owner_chef": "Ryan Legaux",
+      "guy_intro": "You know, on Triple D, we have featured just about every type of food you can imagine. But one that we don't do nearly enough, Creole and Cajun. So guess where I'm at? I'm in Los Angeles, California, in the Jefferson Park neighborhood, to check out a joint that I've been to before. And you're going to love. This is Harold and Bell's.",
+      "segment_number": 6,
+      "timestamp_start": 1228.2,
+      "timestamp_end": 1405.4,
+      "dishes": [
+        {
+          "dish_name": "Gumbo",
+          "description": "A rich gumbo made with seafood stock, the holy trinity (peppers, celery, onions), sassafras leaf, Creole seasoning, thyme, basil, parsley, black pepper, granulated onion, and garlic, thickened with a roux. Contains chicken thighs, beef hot links, diced ham, smoked sausage, blue crab, and shrimp.",
+          "ingredients": [
+            "seafood stock",
+            "peppers",
+            "celery",
+            "onions",
+            "sassafras leaf",
+            "creole seasoning",
+            "roux",
+            "chicken thighs",
+            "smoked sausage",
+            "blue crab",
+            "shrimp"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Mm. That's fantastic. You pick up that seafood, even though there was just a little bit of that blue crab, you get, mm. Yeah. You get that velvety texture coming over your tongue from that sassafras and getting it from that roux. Oh, I just sit here and eat it all day.",
+          "timestamp_start": 1382.8,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Beer Garden",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Korean-German Fusion",
+      "owner_chef": "Eddie Ha",
+      "guy_intro": "So I'm here on the edge of Koreatown in Los Angeles, right down the street from Beer Belly. Remember that place, the duck? Oh, anyhow, I'm here to check out this Korean restaurant where they've got the traditional environment, the traditional menu. Not so much. No, this is Beer Garden, fusion grill and craft beer.",
+      "segment_number": 7,
+      "timestamp_start": 1405.4,
+      "timestamp_end": 1601.9,
+      "dishes": [
+        {
+          "dish_name": "Drunken Chicken",
+          "description": "Chicken brined for 24 hours in Korean beer, water, honey, parsley, lemons, garlic, bay leaf, dry oregano, salt, and black pepper. Cooked beer can style with Guinness stout, seasoned with salt, pepper, and oil, then roasted. Served with cabbage frisee salad, pickled jalapeno, and pickled daikon.",
+          "ingredients": [
+            "chicken",
+            "korean beer",
+            "honey",
+            "lemons",
+            "garlic",
+            "bay leaf",
+            "guinness stout",
+            "cabbage frisee",
+            "pickled jalapeno",
+            "pickled daikon"
+          ],
+          "dish_category": "entree",
+          "guy_response": "We like to do beer can chicken. But I don't think I've ever had one that's infused and has this much flavor of beer. You get some of that nice roasted flavor from the skin. Then you get a little bite of that slaw. We'll buy that jalapeno. Chef, nicely done.",
+          "timestamp_start": 1554.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Dayburg",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Sichuan/Nashville Hot Fried Chicken Fusion",
+      "owner_chef": "Bae Lin",
+      "guy_intro": "All right, so where are we? Virgil Village. All right, where's that? It's near K-Town. You been here before? Never. You? Not yet. I have. It's kind of hard to find. Chef Bae Lin. TOC 4 champ. And we're hungry. And there's a simple neon chicken on the outside. Sounds good. This is Dayburg.",
+      "segment_number": 8,
+      "timestamp_start": 1601.9,
+      "timestamp_end": 1954.0,
+      "dishes": [
+        {
+          "dish_name": "Szechuan Hot Chicken Sando (Medium)",
+          "description": "Chicken thighs brined in buttermilk, fish sauce, salt, and garlic. Double-fried for crunch, then half-dipped in a chili oil made with Szechuan peppercorns and chili de arbol. Served on a bun with habanero ranch, a slaw of cabbage, chives, cilantro, pickled shallots, and chilies, and a drizzle of hot honey.",
+          "ingredients": [
+            "chicken thighs",
+            "buttermilk",
+            "fish sauce",
+            "szechuan peppercorns",
+            "chili de arbol",
+            "habanero ranch",
+            "cabbage",
+            "pickled shallots",
+            "honey",
+            "bun"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Wow, that's so crunchy. One of the best chicken crunches I've had. Very juicy. I feel like I have to open my mouth real big for this one. The full sandwich bite with the slaw, that's the kicker. Slaw is money. All the pickled veg in there is really dynamite. Thank you. I love that little extra honey kiss. But definitely the habanero ranch is my go-to. Amazing ranch.",
+          "timestamp_start": 1920.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "Tacos and Birria, La \u00danica",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Mexican",
+      "owner_chef": null,
+      "guy_intro": "So I'm cruising down the streets of Los Angeles, and I can find a taco truck about every 100 yards. Well, I heard about this truck that's serving up one of my all-time favorites, and that's Birria. Welcome to Tacos and Birria, La \u00danica.",
+      "segment_number": 9,
+      "timestamp_start": 1954.0,
+      "timestamp_end": 2132.0,
+      "dishes": [
+        {
+          "dish_name": "Queso Tacos de Chivo (Birria Tacos)",
+          "description": "Goat meat cooked in a birria paste made from chile California, black peppercorns, allspice, clove, cinnamon, garlic, and onion. Served on handmade tortillas dipped in fat, with Monterey Jack cheese and chopped birria, garnished with lime, cilantro, onions, and chile de arbol salsa, with consomme for dipping.",
+          "ingredients": [
+            "goat meat",
+            "chile california",
+            "allspice",
+            "cinnamon",
+            "garlic",
+            "onion",
+            "handmade tortillas",
+            "monterey jack cheese",
+            "cilantro",
+            "lime",
+            "chile de arbol"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Without question, one of the best birria tacos I've ever had. Thank you very much. It's not gamey. It's not too spicy. It's not too salty. It's in balance. And then you get a great mixture of the onion and the cilantro. You've got to come down here and do that dunk.",
+          "timestamp_start": 2098.5,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    },
+    {
+      "name": "La Tostada Ria",
+      "city": "Los Angeles",
+      "state": "California",
+      "cuisine_type": "Mexican Seafood",
+      "owner_chef": "Fernando",
+      "guy_intro": "Welcome back. I am hanging out at La Tostada Ria with Chef Fernando. This guy's got a story that you will love. Comes from Mexico, goes to Canada, opens a taqueria, comes down to the United States, opens a carnitas joint here in Grand Central Market, then goes to culinary school. Elevates himself in the world of food and opens up La Tostada Ria.",
+      "segment_number": 10,
+      "timestamp_start": 2132.0,
+      "timestamp_end": 2351.0,
+      "dishes": [
+        {
+          "dish_name": "Patrona Burger",
+          "description": "A burger featuring wild Mexican shrimp cooked with Oaxaca cheese, served on a buttered bun with chipotle aioli, lettuce, tomato, raw onion, a salsa of mango, avocado, and radish, and shredded potatoes for crunch.",
+          "ingredients": [
+            "wild mexican shrimp",
+            "oaxaca cheese",
+            "bun",
+            "chipotle aioli",
+            "lettuce",
+            "tomato",
+            "onion",
+            "mango",
+            "avocado",
+            "shredded potatoes"
+          ],
+          "dish_category": "entree",
+          "guy_response": "Good news is, that's fantastic. The bad news is. The crew's hitting the vending machine. When you bite into it, you get the saltiness of the cheese, the texture of the cheese, the shrimp's cooked perfectly, and then all the accoutrement, the shredded lettuce, the chipotle mayo, the tomato, the raw onion, the phenomenal salsa with the mango and the avocado. I pride myself in my burgers. I'm known for my burgers. That right there, in my expectation level of burgers, that is about as high as they go. Thank you. Outstanding.",
+          "timestamp_start": 2266.2,
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.97
+    }
+  ]
+}

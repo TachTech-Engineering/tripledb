@@ -35,3 +35,27 @@ Total processed: 5
 Total segments:  18655
 Low confidence:  36
 Errors:          0
+Loading faster-whisper large-v3 model on CUDA...
+Transcribing N5XoAYJdEFM (1/31)... skipped (already exists)
+Transcribing oNAJPVxTzf8 (2/31)... skipped (already exists)
+Transcribing 4fUY03mSz_4 (3/31)... skipped (already exists)
+Transcribing YP6dGAtZUYI (4/31)... skipped (already exists)
+Transcribing YusraidcpAY (5/31)... skipped (already exists)
+Transcribing xV3Iz6GiPMs (6/31)... skipped (already exists)
+Transcribing ZD8u6GDWBlA (7/31)... skipped (already exists)
+Transcribing 7II3tnaCdvk (8/31)... skipped (already exists)
+Transcribing ZctjiG7zTSI (9/31)... skipped (already exists)
+Transcribing rJIZ0TnqKik (10/31)... skipped (already exists)
+Transcribing sLdes-FbjOs (11/31)... skipped (already exists)
+Transcribing GsIQKUzkLTo (12/31)... skipped (already exists)
+Transcribing gGdB5IPxi4I (13/31)... skipped (already exists)
+Transcribing E47B448Umik (14/31)... skipped (already exists)
+Transcribing m_MICeB6fSE (15/31)... skipped (already exists)
+Transcribing Md2RWnHYOBk (16/31)... skipped (already exists)
+Transcribing _FFS8tlgqa8 (17/31)... skipped (already exists)
+Transcribing u5idAcinsCg (18/31)... skipped (already exists)
+Transcribing ldQyfAABOOg (19/31)... skipped (already exists)
+Transcribing sBCNCQnaZ6M (20/31)... skipped (already exists)
+Transcribing PrEqw5y77_8 (21/31)... skipped (already exists)
+Transcribing a8vXm6R-tKc (22/31)... skipped (already exists)
+Transcribing fLIOQDzdfw4 (23/31)... 
