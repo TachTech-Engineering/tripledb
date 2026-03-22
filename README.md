@@ -260,6 +260,13 @@ OS:  CachyOS (Arch-based) / KDE Plasma 6.6.2 / Wayland
 
 ## Changelog
 
+**v5.14 → v8.21 (Phase 8 Flutter Front End)**
+- **Success:** Initial Flutter Web build completed using CanvasKit and Riverpod. Implemented Home Page, auto-cycling Trivia Engine, Search Results, Restaurant Details, and Map visualization.
+- **Challenge:** Critical runtime `TypeError` caused by null values in raw JSON fields, and `latlong2` import conflicts.
+- **Outcome:** Null-safe data models implemented, layout parity achieved across Desktop and Mobile, and 0 issues in `flutter analyze`. The core app is STABLE and ready for Firestore wiring (Phase 5).
+
+
+
 **v4.13 → v5.14 (Phase 5 Production Setup)**
 - **Success:** Fixed null-name restaurant merging bug that was collapsing 14 distinct
   extraction failures into a single record. Built Group B runner infrastructure with
