@@ -1,0 +1,37 @@
+Loading faster-whisper large-v3 model on CUDA...
+Transcribing l9nQ9pnwtvw (1/30)... skipped (already exists)
+Transcribing hIHaPsx0Jqg (2/30)... skipped (already exists)
+Transcribing T4LcF7K3_GQ (3/30)... skipped (already exists)
+Transcribing 8TWhMzRmb3w (4/30)... skipped (already exists)
+Transcribing U6Qj-j8XzOU (5/30)... skipped (already exists)
+Transcribing yiBOhtmrXSA (6/30)... skipped (already exists)
+Transcribing XCHQ732SECo (7/30)... skipped (already exists)
+Transcribing DpwN3JG5y1w (8/30)... skipped (already exists)
+Transcribing XIZje5Rs9bY (9/30)... skipped (already exists)
+Transcribing MtaEkTqSEDY (10/30)... skipped (already exists)
+Transcribing g0umSZRZPbY (11/30)... skipped (already exists)
+Transcribing _1RPx4cwLak (12/30)... skipped (already exists)
+Transcribing lj5GOIddoPQ (13/30)... skipped (already exists)
+Transcribing 4CP3_T2Vpac (14/30)... skipped (already exists)
+Transcribing iT0-fLupvuc (15/30)... skipped (already exists)
+Transcribing 4iXbrdoBFww (16/30)... skipped (already exists)
+Transcribing 75F_erXujx4 (17/30)... skipped (already exists)
+Transcribing 7a2p_MS1Tlc (18/30)... skipped (already exists)
+Transcribing qvRArnsQOTI (19/30)... skipped (already exists)
+Transcribing J8ykVH5Gmz8 (20/30)... skipped (already exists)
+Transcribing Ir1YCkpjhS8 (21/30)... skipped (already exists)
+Transcribing Kq9cOZ-HdVQ (22/30)... skipped (already exists)
+Transcribing 9kAHcHiiKPU (23/30)... skipped (already exists)
+Transcribing HWxB_EjGE_o (24/30)... skipped (already exists)
+Transcribing xKYk4O9B6-0 (25/30)... skipped (already exists)
+Transcribing KNWxHQXWWbk (26/30)... skipped (already exists)
+Transcribing 8NsZBJnGpE4 (27/30)... done (2296 segments, 0 low-confidence) [339.7s]
+Transcribing Cyy1T1cvkJM (28/30)... done (2201 segments, 6 low-confidence) [392.0s]
+Transcribing 8_hXn-uL-iY (29/30)... done (3378 segments, 0 low-confidence) [529.1s]
+Transcribing PUNTEPb4RVs (30/30)... done (8479 segments, 37 low-confidence) [1290.6s]
+
+--- Transcription Summary ---
+Total processed: 4
+Total segments:  16354
+Low confidence:  43
+Errors:          0

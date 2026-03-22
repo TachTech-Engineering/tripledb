@@ -1,3 +1,7 @@
+# TripleDB Pipeline — Agent Instructions
+
+## Current Iteration: 4.13
+
 Read these two documents in order, then execute the plan:
 
 1. ../docs/ddd-design-v4.13.md — Architecture, methodology, locked decisions

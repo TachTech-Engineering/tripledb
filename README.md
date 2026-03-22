@@ -2,7 +2,7 @@
 
 **Every restaurant from Diners, Drive-Ins and Dives — structured, searchable, and mapped.**
 
-TripleDB processes 804 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
+TripleDB processes 805 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
 
 🌐 **tripleDB.com** · 📂 **Phase 1.10** · 🔧 **Status: Phase 1 Discovery (Completed)**
 
@@ -22,14 +22,14 @@ A searchable database and Flutter Web app where you can:
 ## Architecture
 
 ```
-YouTube Playlist (804 videos)
+YouTube Playlist (805 videos)
     ↓ yt-dlp
 MP3 Audio
     ↓ faster-whisper (CUDA)
 Timestamped Transcripts
     ↓ Gemini 2.5 Flash API
 Structured Restaurant JSON
-    ↓ Qwen 3.5-9B (local, Ollama)
+    ↓ Gemini 2.5 Flash API
 Normalized + Deduplicated JSONL
     ↓ Firecrawl + Playwright
 Enriched Data (addresses, ratings, open/closed)
@@ -51,7 +51,7 @@ Most inference runs locally on an NVIDIA RTX 2080 SUPER. Extraction uses the Gem
 | 1 | Discovery (30 videos) | ✅ Complete | v1.10 |
 | 2 | Calibration (30 videos) | ✅ Complete | v2.11 |
 | 3 | Stress Test (30 videos) | ✅ Complete | v3.12 |
-| 4 | Validation (30 videos) | ⏳ Pending | — |
+| 4 | Validation (30 videos) | ✅ Complete | v4.13 |
 | 5-7 | Production Run (~684 videos) | ⏳ Pending | — |
 
 ### Execution Model
@@ -156,7 +156,7 @@ The iteration counter is global — it never resets. The full project history is
 | Audio Download | yt-dlp | YouTube → mp3 |
 | Transcription | faster-whisper (CUDA) | mp3 → timestamped JSON |
 | Extraction | Gemini 2.5 Flash API | Transcript → restaurant JSON |
-| Normalization | Qwen 3.5-9B (Ollama) | Dedupe, validate, schema-conform |
+| Normalization | Gemini 2.5 Flash API | Dedupe, validate, schema-conform |
 | Enrichment | Firecrawl + Playwright MCP | Address, ratings, geocoords |
 | Database | Cloud Firestore | Denormalized restaurant documents |
 | Frontend | Flutter Web + Firebase Hosting | tripleDB.com |
@@ -190,7 +190,21 @@ OS:  CachyOS (Arch-based) / KDE Plasma 6.6.2 / Wayland
 
 ---
 
+
+## Current Metrics
+
+- Videos processed: ~120 of 805
+- Unique restaurants: 608
+- Unique dishes: 1015
+- States covered: 56
+- Extraction quality: 98% guy_intro, 98% guy_response
+
 ## Changelog
+
+**v3.12 → v4.13 (Phase 4 Validation)**
+- **Success:** Successfully validated the end-to-end pipeline with locked prompts. Processed 30 validation videos without human intervention, achieving 162 dedup merges across ~120 total processed videos. Secret scan verified no keys in tracked files.
+- **Challenge:** Transcription of marathon videos takes significant time, but background execution prevented timeouts. A few videos resulted in empty JSONs due to formatting errors but did not break the pipeline.
+- **Outcome:** Group B green-lit. Readiness checklist passed.
 
 **v2.11 → v3.12 (Phase 3 Stress Test)**
 - **Success:** Pushed the pipeline through its hardest content, handling heavily overlapping compilation videos. Normalization successfully merged 98 duplicate restaurant appearances across 89 total videos, proving the deduplication logic is solid.
@@ -221,4 +235,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 3.12 — Stress Test*
+*Last updated: Phase 4.13 — Validation*

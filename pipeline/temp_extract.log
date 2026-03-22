@@ -1,0 +1,199 @@
+Extraction prompt: 6124 chars (~1531 tokens)
+Videos to process: 30
+Backend: Gemini 2.5 Flash API
+Rate limit: 1 request per 4.5s
+
+[1/30] l9nQ9pnwtvw
+  Making Alex Guarnaschelli's Lamb Pasta | Diners, Drive-ins and Dives with Guy Fieri | Food Network
+  Type: clip | Duration: 119s | Transcript: 2103 chars
+  Calling Gemini Flash (attempt 1)... done [3.7s]
+  ⚠️ empty
+
+[2/30] hIHaPsx0Jqg
+  Guy Fieri Tries Some Funky Chicken Pizza | Diners, Drive-Ins and Dives | Food Network
+  Type: clip | Duration: 200s | Transcript: 2993 chars
+  Calling Gemini Flash (attempt 1)... done [8.3s]
+  ✅ 1 restaurants, 1 dishes
+
+[3/30] T4LcF7K3_GQ
+  Seafood CHOWDER-Topped French FRIES | Diners, Drive-ins and Dives with Guy Fieri | Food Network
+  Type: clip | Duration: 217s | Transcript: 4992 chars
+  Calling Gemini Flash (attempt 1)... done [12.2s]
+  ✅ 1 restaurants, 1 dishes
+
+[4/30] 8TWhMzRmb3w
+  Guy Fieri Eats Pork Tamales | Diners, Drive-Ins and Dives | Food Network
+  Type: clip | Duration: 235s | Transcript: 3331 chars
+  Calling Gemini Flash (attempt 1)... done [6.9s]
+  ✅ 1 restaurants, 1 dishes
+
+[5/30] U6Qj-j8XzOU
+  Guy Fieri Returns for "Ridiculous" Thai in CO | Diners, Drive-Ins and Dives | Food Network
+  Type: clip | Duration: 454s | Transcript: 8497 chars
+  Calling Gemini Flash (attempt 1)... done [14.0s]
+  ✅ 1 restaurants, 4 dishes
+
+[6/30] yiBOhtmrXSA
+  Top 5 #DDD Videos in Nevada with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: full_episode | Duration: 947s | Transcript: 22432 chars
+  Calling Gemini Flash (attempt 1)... done [23.3s]
+  ✅ 5 restaurants, 5 dishes
+
+[7/30] XCHQ732SECo
+  Guy Fieri Eats the 15-INCH Homewrecker Hot Dog at Hillbilly Hotdogs 🌭 | Diners, Drive-Ins & Dives
+  Type: full_episode | Duration: 950s | Transcript: 21248 chars
+  Calling Gemini Flash (attempt 1)... done [28.3s]
+  ✅ 4 restaurants, 8 dishes
+
+[8/30] DpwN3JG5y1w
+  5 CRAZIEST #DDD Mac and Cheese Videos with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network
+  Type: full_episode | Duration: 993s | Transcript: 20383 chars
+  Calling Gemini Flash (attempt 1)... done [24.1s]
+  ✅ 5 restaurants, 5 dishes
+
+[9/30] XIZje5Rs9bY
+  Top 5 #DDD Videos in Tennessee with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: full_episode | Duration: 1055s | Transcript: 23127 chars
+  Calling Gemini Flash (attempt 1)... done [24.9s]
+  ✅ 4 restaurants, 4 dishes
+
+[10/30] MtaEkTqSEDY
+  Top #DDD Chinese Food Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: full_episode | Duration: 1074s | Transcript: 21358 chars
+  Calling Gemini Flash (attempt 1)... done [25.2s]
+  ✅ 5 restaurants, 6 dishes
+
+[11/30] g0umSZRZPbY
+  Top 5 CRAZIEST BBQ Vids in #DDD History with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: full_episode | Duration: 1113s | Transcript: 26283 chars
+  Calling Gemini Flash (attempt 1)... done [31.0s]
+  ✅ 5 restaurants, 6 dishes
+
+[12/30] _1RPx4cwLak
+  Top 10 Most-Outrageous Foods on #DDD with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: full_episode | Duration: 1172s | Transcript: 25651 chars
+  Calling Gemini Flash (attempt 1)... done [13.2s]
+  ⚠️ empty
+
+[13/30] lj5GOIddoPQ
+  Top Mexican Food Videos on #DDD with Guy Fieri (Part 2) | Diners, Drive-Ins and Dives | Food Network
+  Type: full_episode | Duration: 1261s | Transcript: 27367 chars
+  Calling Gemini Flash (attempt 1)... done [23.1s]
+  ✅ 2 restaurants, 5 dishes
+
+[14/30] 4CP3_T2Vpac
+  Top #DDD Food Truck Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: full_episode | Duration: 1282s | Transcript: 27830 chars
+  Calling Gemini Flash (attempt 1)... done [52.9s]
+  ✅ 6 restaurants, 9 dishes
+
+[15/30] iT0-fLupvuc
+  10 Most-Insane #DDD Sausage Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: full_episode | Duration: 1295s | Transcript: 29377 chars
+  Calling Gemini Flash (attempt 1)... done [26.6s]
+  ⚠️ empty
+
+[16/30] 4iXbrdoBFww
+  Top Grill and Griddle #DDD Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: compilation | Duration: 1503s | Transcript: 34069 chars
+  Calling Gemini Flash (attempt 1)... done [36.3s]
+  ✅ 8 restaurants, 9 dishes
+
+[17/30] 75F_erXujx4
+  #DDD Road Trip: Top Videos in the Great Plains with Guy Fieri 🚗 | Diners, Drive-Ins and Dives
+  Type: compilation | Duration: 1751s | Transcript: 41812 chars
+  Calling Gemini Flash (attempt 1)... done [20.9s]
+  ✅ 1 restaurants, 2 dishes
+
+[18/30] 7a2p_MS1Tlc
+  Top 10 Vegan & Vegetarian Videos on #DDD with Guy Fieri | Diners, Drive-Ins, and Dives
+  Type: compilation | Duration: 1794s | Transcript: 42615 chars
+  Calling Gemini Flash (attempt 1)... done [38.4s]
+  ✅ 2 restaurants, 8 dishes
+
+[19/30] qvRArnsQOTI
+  Top #DDD Throwback Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: compilation | Duration: 2175s | Transcript: 48754 chars
+  Calling Gemini Flash (attempt 1)... done [57.2s]
+  ✅ 10 restaurants, 15 dishes
+
+[20/30] J8ykVH5Gmz8
+  Top 10 #DDD Deli Videos with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: compilation | Duration: 2227s | Transcript: 50772 chars
+  Calling Gemini Flash (attempt 1)... done [58.0s]
+  ✅ 10 restaurants, 16 dishes
+
+[21/30] Ir1YCkpjhS8
+  Top #DDD Lamb Dishes with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: compilation | Duration: 2235s | Transcript: 50695 chars
+  Calling Gemini Flash (attempt 1)... done [54.5s]
+  ✅ 11 restaurants, 12 dishes
+
+[22/30] Kq9cOZ-HdVQ
+  Top 10 #DDD Videos in the Northeast with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: compilation | Duration: 2265s | Transcript: 51821 chars
+  Calling Gemini Flash (attempt 1)... done [53.0s]
+  ✅ 10 restaurants, 12 dishes
+
+[23/30] 9kAHcHiiKPU
+  Guy Fieri Returns for Seconds on #DDD | Diners, Drive-Ins and Dives | Food Network
+  Type: compilation | Duration: 2379s | Transcript: 50897 chars
+  Calling Gemini Flash (attempt 1)... done [63.8s]
+  ✅ 10 restaurants, 19 dishes
+
+[24/30] HWxB_EjGE_o
+  Top #DDD Caribbean-Inspired Food Videos with Guy Fieri | Diners, Drive-Ins, and Dives
+  Type: compilation | Duration: 2403s | Transcript: 52537 chars
+  Calling Gemini Flash (attempt 1)... done [46.8s]
+  ✅ 11 restaurants, 13 dishes
+
+[25/30] xKYk4O9B6-0
+  Top 20 Southern Dishes on #DDD with Guy Fieri | Diners, Drive-Ins and Dives | Food Network
+  Type: compilation | Duration: 2965s | Transcript: 69954 chars
+  Calling Gemini Flash (attempt 1)... done [56.4s]
+  ✅ 9 restaurants, 12 dishes
+
+[26/30] KNWxHQXWWbk
+  BINGE the Best of #DDD Season 7 with Guy Fieri 🔥 | Food Network
+  Type: clip | Duration: 649s | Transcript: 16636 chars
+  Calling Gemini Flash (attempt 1)... done [23.3s]
+  ✅ 2 restaurants, 4 dishes
+
+[27/30] 8NsZBJnGpE4
+  Top 20 #DDD Videos in New England with Guy Fieri | Diners, Drive-Ins, and Dives
+  Type: marathon | Duration: 4043s | Transcript: 92441 chars
+  Calling Gemini Flash (attempt 1)... done [85.2s]
+  ✅ 20 restaurants, 23 dishes
+
+[28/30] Cyy1T1cvkJM
+  Top #DDD Videos in Georgia with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network
+  Type: marathon | Duration: 4464s | Transcript: 96511 chars
+  Calling Gemini Flash (attempt 1)... done [83.2s]
+  ✅ 14 restaurants, 31 dishes
+
+[29/30] 8_hXn-uL-iY
+  Top 30 #DDD BBQ Videos with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network
+  Type: marathon | Duration: 5815s | Transcript: 133115 chars
+  Calling Gemini Flash (attempt 1)... done [116.3s]
+  ✅ 29 restaurants, 34 dishes
+
+[30/30] PUNTEPb4RVs
+  Top #DDD Videos in the Southeast with Guy Fieri | Diners, Drive-Ins, and Dives | Food Network
+  Type: marathon | Duration: 13690s | Transcript: 330018 chars
+  Calling Gemini Flash (attempt 1)... done [157.4s]
+  ✅ 22 restaurants, 30 dishes
+
+============================================================
+EXTRACTION SUMMARY
+============================================================
+  Total videos:      30
+  Successful:        27
+  Empty (no data):   3
+  Failed:            0
+  Parse errors:      0
+  Skipped (resume):  0
+  No transcript:     0
+  Total restaurants: 209
+  Total dishes:      295
+  Avg dishes/rest:   1.4
+============================================================
