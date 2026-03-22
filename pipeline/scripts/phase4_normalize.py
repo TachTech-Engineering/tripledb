@@ -174,8 +174,27 @@ def main():
     print(f"  Total raw restaurant appearances: {len(all_restaurants)}")
     print(f"  Total source videos: {len(all_videos)}")
     
+    valid_restaurants = []
+    null_records = []
+    for r in all_restaurants:
+        name = r.get("name") or ""
+        if not name.strip() or name.strip().lower() in ("none", "null", "unknown", "n/a"):
+            null_records.append(r)
+        else:
+            state = r.get("state") or ""
+            if not state.strip() or state.strip().lower() in ("none", "null", "unknown"):
+                state = "UNKNOWN"
+            r["state"] = state
+            valid_restaurants.append(r)
+
+    if null_records:
+        with open(LOG_DIR / "phase-4-null-records.jsonl", "w") as f:
+            for r in null_records:
+                f.write(json.dumps(r) + "\n")
+        print(f"  Filtered {len(null_records)} null-name restaurants (logged to phase-4-null-records.jsonl)")
+    
     print("\nGrouping potential duplicates...")
-    groups = group_potential_duplicates(all_restaurants)
+    groups = group_potential_duplicates(valid_restaurants)
     print(f"  Unique restaurant-city pairs: {len(groups)}")
     
     print("\nMerging and normalizing...")

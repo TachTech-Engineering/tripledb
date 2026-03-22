@@ -4,7 +4,7 @@
 
 TripleDB processes 805 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
 
-🌐 **tripleDB.com** · 📂 **Phase 1.10** · 🔧 **Status: Phase 1 Discovery (Completed)**
+🌐 **tripleDB.com** · 📂 **Phase 5.14** · 🔧 **Status: Phase 5 Production Setup (Current)**
 
 ---
 
@@ -16,6 +16,62 @@ A searchable database and Flutter Web app where you can:
 - **Search by anything** — dish name, cuisine type, city, chef, ingredients ("ground beef" → hamburgers, meatloaf, etc.)
 - **Watch the moment** — deep link to the exact YouTube timestamp where Guy walks into the restaurant
 - **Query Guy's greatest hits** — how many times has he said "That's out of bounds!"?
+
+---
+
+## Methodology: Iterative Agentic Orchestration (IAO)
+
+TripleDB is built using **Iterative Agentic Orchestration (IAO)** — a development
+methodology where LLM agents execute pipeline phases autonomously while humans
+review versioned artifacts between iterations. IAO emerged through 14 iterations
+of this project and is now a repeatable framework for building data pipelines
+with agentic assistance.
+
+### The Eight Pillars
+
+1. **Plan-Report Loop** — Every iteration starts with a design doc + plan doc
+   and produces a build log + report. The four artifacts are the complete record.
+   Any new agent or human can reconstruct the full project history from docs alone.
+
+2. **Zero-Intervention Target** — Every question the agent asks during execution
+   is a failure in the plan. Pre-answer every decision point. Measure plan quality
+   by counting interventions. v2.11 had 20+. v3.12 onward: zero.
+
+3. **Self-Healing Loops** — Errors are inevitable. Diagnose → fix → re-run (max
+   3 attempts). 3 consecutive identical errors = stop and fix root cause. Never
+   burn through hundreds of items with a known systemic failure.
+
+4. **Versioned Artifacts as Source of Truth** — GEMINI.md is the version lock.
+   Git commits mark iteration boundaries. The launch command never changes:
+   `cd pipeline && gemini` → "Read GEMINI.md and execute."
+
+5. **Artifacts Travel Forward** — Current docs in `docs/`, previous in
+   `docs/archive/`. The design doc accumulates (additive). The plan doc is
+   fresh each time (disposable). Agents never see outdated instructions.
+
+6. **Methodology Co-Evolution** — IAO itself evolves through the Plan-Report
+   loop. Error taxonomies, autonomy rules, pre-flight checks — all born from
+   specific failures and refined through subsequent iterations.
+
+7. **Separation of Interactive and Unattended** — Group A (iterative refinement)
+   uses an LLM orchestrator. Group B (production) uses hardened bash scripts.
+   The right tool for tuning is the wrong tool for a 70-hour unattended run.
+
+8. **Progressive Trust Through Graduated Batches** — 30 → 60 → 90 → 120 videos.
+   Each batch is bigger and harder. By Phase 4, the pipeline ran with zero
+   interventions on batches including 4-hour marathons. Confidence was earned.
+
+### Iteration History
+
+| Iteration | Phase | Result | Key Learning |
+|-----------|-------|--------|--------------|
+| v0.7 | Setup | ✅ | Monorepo scaffolded. fish shell has no heredocs. |
+| v1.8-v1.9 | Discovery | ❌ | 8GB VRAM can't run large models. Local extraction abandoned. |
+| v1.10 | Discovery | ✅ | Gemini Flash API solved extraction. 186 restaurants. |
+| v2.11 | Calibration | ✅ | 422 restaurants. 20+ interventions — each one analyzed. |
+| v3.12 | Stress Test | ✅ | Zero interventions. Autonomous batch healing. 98 dedup merges. |
+| v4.13 | Validation | ✅ | 608 restaurants. Group B green-lit. Prompts locked. |
+| v5.14 | Production Setup | 🔧 | Runner infrastructure. Data quality fixes. |
 
 ---
 
@@ -52,7 +108,9 @@ Most inference runs locally on an NVIDIA RTX 2080 SUPER. Extraction uses the Gem
 | 2 | Calibration (30 videos) | ✅ Complete | v2.11 |
 | 3 | Stress Test (30 videos) | ✅ Complete | v3.12 |
 | 4 | Validation (30 videos) | ✅ Complete | v4.13 |
-| 5-7 | Production Run (~684 videos) | ⏳ Pending | — |
+| 5.14 | Production Setup | 🔧 Current | v5.14 |
+| 5.15+ | Production Run (~685 videos) | ⏳ Pending | — |
+| 6-7 | Enrichment & DB Load | ⏳ Pending | — |
 
 ### Execution Model
 
@@ -104,11 +162,12 @@ Two Firestore collections:
 
 ```
 tripledb/
-├── docs/                          # Architecture docs + plan/report artifacts
-│   ├── ddd-project-setup-v6.md    # Machine setup guide
-│   ├── ddd-design-architecture-v6.md  # Data model, personas, prompts
-│   ├── ddd-phase-prompts-v6.md    # Execution strategy
-│   └── ddd-plan-v0.7.md           # Current phase plan
+├── docs/                          # Architecture docs + iteration artifacts
+│   ├── archive/                   # Archived docs from previous iterations
+│   ├── ddd-design-v5.14.md        # Current iteration design (Input)
+│   ├── ddd-plan-v5.14.md          # Current iteration plan (Input)
+│   ├── ddd-build-v5.14.md         # Current iteration build log (Output)
+│   └── ddd-report-v5.14.md        # Current iteration report (Output)
 │
 ├── pipeline/                      # Python data pipeline
 │   ├── scripts/                   # Phase scripts
@@ -130,20 +189,18 @@ tripledb/
 
 ## Artifact Versioning
 
-Plan and report documents follow `{phase}.{iteration}` versioning:
+Each iteration produces a four-artifact chain following `{phase}.{iteration}` versioning:
 
-```
-ddd-plan-v0.7.md     ← Phase 0, iteration 7
-ddd-report-v0.7.md   ← Phase 0 results
+1. **Design** (`ddd-design-v{P}.{I}.md`) — Living architecture, locked decisions (Input)
+2. **Plan** (`ddd-plan-v{P}.{I}.md`) — Pre-flight checklist, execution steps (Input)
+3. **Build** (`ddd-build-v{P}.{I}.md`) — Full session transcript, commands, outputs (Output)
+4. **Report** (`ddd-report-v{P}.{I}.md`) — Metrics, validation, recommendation (Output)
 
-ddd-plan-v1.8.md     ← Phase 1 Discovery
-ddd-report-v1.8.md
-
-ddd-plan-v2.9.md     ← Phase 2 Calibration, attempt 1
-ddd-report-v2.9.md
-ddd-plan-v2.10.md    ← Phase 2, attempt 2 (prompt revised)
-ddd-report-v2.10.md
-```
+**Example v5.14 Chain:**
+- `ddd-design-v5.14.md`
+- `ddd-plan-v5.14.md`
+- `ddd-build-v5.14.md`
+- `ddd-report-v5.14.md`
 
 The iteration counter is global — it never resets. The full project history is the artifact trail.
 
@@ -193,13 +250,23 @@ OS:  CachyOS (Arch-based) / KDE Plasma 6.6.2 / Wayland
 
 ## Current Metrics
 
-- Videos processed: ~120 of 805
-- Unique restaurants: 608
-- Unique dishes: 1015
-- States covered: 56
-- Extraction quality: 98% guy_intro, 98% guy_response
+- **Videos processed:** 120 of 805
+- **Unique restaurants:** 604
+- **Unique dishes:** 985
+- **Dedup merges:** 159
+- **States covered:** 56
+- **Extraction quality:** 98% guy_intro, 98% guy_response, 100% ingredients
+- **Human interventions (last 2 iterations):** 0
 
 ## Changelog
+
+**v4.13 → v5.14 (Phase 5 Production Setup)**
+- **Success:** Fixed null-name restaurant merging bug that was collapsing 14 distinct
+  extraction failures into a single record. Built Group B runner infrastructure with
+  checkpoint reporting and hang detection. Documented IAO methodology as Eight Pillars.
+- **Challenge:** 62 restaurants with null/unknown state data required inference logic
+  and a new "UNKNOWN" category.
+- **Outcome:** Group B production run ready for tmux launch.
 
 **v3.12 → v4.13 (Phase 4 Validation)**
 - **Success:** Successfully validated the end-to-end pipeline with locked prompts. Processed 30 validation videos without human intervention, achieving 162 dedup merges across ~120 total processed videos. Secret scan verified no keys in tracked files.
@@ -235,4 +302,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 4.13 — Validation*
+*Last updated: Phase 5.14 — Production Setup*

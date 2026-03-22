@@ -4,6 +4,13 @@ import json
 import os
 import re
 import time
+import signal
+
+class VideoTimeout(Exception):
+    pass
+
+def timeout_handler(signum, frame):
+    raise VideoTimeout("Video processing timed out")
 
 # NOTE: This script requires LD_LIBRARY_PATH to be set to include Ollama's CUDA libraries.
 # Launch with: LD_LIBRARY_PATH=/usr/local/lib/ollama/cuda_v12:$LD_LIBRARY_PATH python3 scripts/phase2_transcribe.py
@@ -104,6 +111,9 @@ def main():
         print(f"Transcribing {video_id} ({idx}/{total_videos})...", end=' ', flush=True)
         start_time = time.time()
 
+        signal.signal(signal.SIGALRM, timeout_handler)
+        signal.alarm(600)  # 600s maximum timeout
+
         try:
             segments_generator, info = model.transcribe(
                 mp3_path,
@@ -156,9 +166,26 @@ def main():
             total_segments_all += num_segments
             total_low_confidence_all += low_confidence_count
 
+            signal.alarm(0)  # Cancel alarm on success
             print(f"done ({num_segments} segments, {low_confidence_count} low-confidence) [{elapsed:.1f}s]")
 
+        except VideoTimeout:
+            signal.alarm(0)
+            elapsed = time.time() - start_time
+            error_count += 1
+            print(f"failed [{elapsed:.1f}s]")
+            print(f"  ⚠️ Timed out after 600s — skipping")
+            
+            error_record = {
+                "timestamp": time.time(),
+                "video_id": video_id,
+                "error": "timeout: Exceeded 600s"
+            }
+            with open(error_log_path, 'a', encoding='utf-8') as f:
+                f.write(json.dumps(error_record) + "\n")
+
         except Exception as e:
+            signal.alarm(0)
             elapsed = time.time() - start_time
             error_count += 1
             print(f"failed [{elapsed:.1f}s]")

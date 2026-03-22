@@ -1,5 +1,5 @@
 # Step 1: Secret Scan Deep Check
-Found secret in git history: REDACTED. Logged for Kyle to remediate post-session.
+Found secret in git history: [REDACTED_API_KEY]. Logged for Kyle to remediate post-session.
 # Step 3: Download Phase 4 Videos
 Downloading 1/30: l9nQ9pnwtvw  ... done [2.6s]
 Downloading 2/30: hIHaPsx0Jqg  ... done [2.7s]

@@ -1,0 +1,5 @@
+# TripleDB Phase 3 Batch — 30 videos (stress test: marathon-heavy)
+
+https://www.youtube.com/watch?v=eV80i7nGjwY  # Guy Fieri Eats a Fried Chicken SMASHED Potato | Diners, Drive-Ins and Dives | Food Network [2:20]
+https://www.youtube.com/watch?v=49fLO48Ipnc  # Biscuits and Gravy BURRITO | Diners, Drive-ins and Dives with Guy Fieri | Food Network [3:15]
+https://www.youtube.com/watch?v=KTH_2dj9GO0  # Guy Fieri Eats a Huge Seafood TOTEM POLE | Diners, Drive-ins and Dives with Guy Fieri | Food Network [3:32]
