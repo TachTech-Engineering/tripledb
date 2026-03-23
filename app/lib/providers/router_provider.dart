@@ -1,6 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../pages/home_page.dart';
+import '../pages/main_page.dart';
 import '../pages/search_results_page.dart';
 import '../pages/restaurant_detail_page.dart';
 import '../pages/map_page.dart';
@@ -12,7 +12,7 @@ GoRouter router(RouterRef ref) {
   return GoRouter(
     initialLocation: '/',
     routes: [
-      GoRoute(path: '/', builder: (context, state) => const HomePage()),
+      GoRoute(path: '/', builder: (context, state) => const MainPage()),
       GoRoute(
         path: '/search',
         builder: (context, state) {

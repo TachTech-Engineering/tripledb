@@ -1,3 +1,4 @@
+// ignore_for_file: avoid_print, unused_catch_stack
 import 'dart:convert';
 import 'dart:io';
 import 'lib/models/restaurant_models.dart';

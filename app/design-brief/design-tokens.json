@@ -51,6 +51,13 @@
     "xl": 16,
     "pill": 999
   },
+  "elevation": {
+    "none": 0,
+    "sm": 1,
+    "md": 2,
+    "lg": 4,
+    "xl": 8
+  },
   "breakpoints": {
     "mobile": 600,
     "tablet": 900,

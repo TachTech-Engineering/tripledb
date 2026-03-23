@@ -14,9 +14,9 @@ class MapPage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final restaurantsAsync = ref.watch(restaurantListProvider);
     final userLocationAsync = ref.watch(userLocationProvider);
+    final theme = Theme.of(context);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('TripleDB Map')),
       body: restaurantsAsync.when(
         data: (restaurants) {
           final markers = restaurants
@@ -28,9 +28,9 @@ class MapPage extends ConsumerWidget {
                   height: 40,
                   child: GestureDetector(
                     onTap: () => _showRestaurantPreview(context, r),
-                    child: const Icon(
+                    child: Icon(
                       Icons.location_on,
-                      color: Colors.red,
+                      color: theme.colorScheme.primary,
                       size: 40,
                     ),
                   ),
@@ -53,7 +53,7 @@ class MapPage extends ConsumerWidget {
             ),
             children: [
               TileLayer(
-                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                urlTemplate: 'https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
                 userAgentPackageName: 'com.tripledb.app',
               ),
               MarkerLayer(markers: markers),
@@ -67,8 +67,13 @@ class MapPage extends ConsumerWidget {
   }
 
   void _showRestaurantPreview(BuildContext context, Restaurant restaurant) {
+    final theme = Theme.of(context);
     showModalBottomSheet(
       context: context,
+      elevation: 4, // elevation.lg
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+      ),
       builder: (context) => Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -77,9 +82,9 @@ class MapPage extends ConsumerWidget {
           children: [
             Text(
               restaurant.name,
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+              style: theme.textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.bold,
-                color: Theme.of(context).colorScheme.primary,
+                color: theme.colorScheme.primary,
               ),
             ),
             const SizedBox(height: 4),

@@ -23,7 +23,7 @@ class DishCard extends StatelessWidget {
     return Card(
       margin: const EdgeInsets.only(bottom: 16),
       child: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16.0), // padding.md
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -40,9 +40,9 @@ class DishCard extends StatelessWidget {
                 ),
                 if (dish.videoId != null)
                   IconButton(
-                    icon: const Icon(
+                    icon: Icon(
                       Icons.play_circle_filled,
-                      color: Colors.red,
+                      color: theme.colorScheme.primary,
                     ),
                     onPressed: () =>
                         _launchYouTube(dish.videoId, dish.timestampStart),
@@ -50,9 +50,9 @@ class DishCard extends StatelessWidget {
                   ),
               ],
             ),
-            const SizedBox(height: 8),
+            const SizedBox(height: 8), // spacing.sm
             Text(dish.description),
-            const SizedBox(height: 12),
+            const SizedBox(height: 16), // spacing.md
             Wrap(
               spacing: 8,
               runSpacing: 4,
@@ -70,14 +70,14 @@ class DishCard extends StatelessWidget {
                   .toList(),
             ),
             if (dish.guyResponse != null) ...[
-              const SizedBox(height: 12),
+              const SizedBox(height: 16), // spacing.md
               Container(
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
-                  color: Colors.orange.withValues(alpha: 0.1),
+                  color: theme.colorScheme.secondary.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(8),
                   border: Border.all(
-                    color: Colors.orange.withValues(alpha: 0.3),
+                    color: theme.colorScheme.secondary.withValues(alpha: 0.3),
                   ),
                 ),
                 child: Text(
@@ -85,6 +85,7 @@ class DishCard extends StatelessWidget {
                   style: theme.textTheme.bodyMedium?.copyWith(
                     fontStyle: FontStyle.italic,
                     fontWeight: FontWeight.bold,
+                    color: theme.colorScheme.secondary,
                   ),
                 ),
               ),

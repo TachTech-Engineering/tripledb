@@ -21,19 +21,35 @@ class VisitCard extends StatelessWidget {
 
     return Card(
       margin: const EdgeInsets.only(bottom: 16),
+      elevation: 2, // elevation.md
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)), // borderRadius.lg
       child: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16.0), // padding.md
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
               children: [
-                const Icon(Icons.tv, color: Colors.blueGrey),
-                const SizedBox(width: 8),
                 Expanded(
                   child: Text(
                     visit.videoTitle,
                     style: theme.textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 8),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: theme.colorScheme.secondary.withValues(alpha: 0.1),
+                    borderRadius: BorderRadius.circular(999),
+                    border: Border.all(color: theme.colorScheme.secondary),
+                  ),
+                  child: Text(
+                    visit.videoType ?? 'Appearance',
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.secondary,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -45,7 +61,7 @@ class VisitCard extends StatelessWidget {
               Text(
                 visit.guyIntro!,
                 style: theme.textTheme.bodyMedium?.copyWith(
-                  color: Colors.grey[700],
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
                 ),
               ),
             const SizedBox(height: 16),
@@ -55,8 +71,8 @@ class VisitCard extends StatelessWidget {
                 icon: const Icon(Icons.play_arrow),
                 label: const Text('Watch Full Segment'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.red,
-                  foregroundColor: Colors.white,
+                  backgroundColor: theme.colorScheme.primary,
+                  foregroundColor: theme.colorScheme.onPrimary,
                 ),
               ),
             ),
