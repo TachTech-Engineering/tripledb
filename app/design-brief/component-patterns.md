@@ -1,68 +1,48 @@
-# TripleDB App: Component Patterns & Data Mapping
-**Phase:** 2 — Synthesis (v8.18)
+# Component Patterns
 
-This document blueprints the core UI components and their direct mapping to the normalized JSON data structure.
+## 1. SearchBar Widget
+- **Layout:** Google-style, prominently centered on the home page; persistent at the top on the search results page.
+- **Debounce:** 300ms delay to prevent excessive queries while typing.
+- **Placeholder Text:** "Search dishes, diners, cities..."
+- **Styling:** Border radius of `999px` (pill shape), with a subtle elevation shadow for depth against the background. Includes a leading search icon and trailing clear button.
 
-## 1. Restaurant Card (`RestaurantCard`)
-*Used in the search results list, nearby list, and map preview bottom sheet.*
+## 2. RestaurantCard Widget
+- **Compact List View:** Features a thumbnail image (left), restaurant name (Outfit, bold), city/state, cuisine type, top dish, rating, and total DDD appearance count.
+- **Episode Badge:** A clean pill-shaped tag displaying the Season and Episode (e.g., "S12 | E4") in the secondary color (`#DA7E12`). Inspired by the Food Network pattern.
+- **YouTube Button:** A clear CTA reading "▶ Watch Guy's Visit" that deep-links to the exact timestamp.
+- **Styling:** Uses the `lg` (12px) border radius, `md` (16px) padding, and distinct elevation from the design tokens.
 
-**Visual Hierarchy:**
-1. **Title:** `name` (e.g., "3's Bar & Grill")
-2. **Subtitle (Location & Cuisine):** `city`, `state` · `cuisine_type` (e.g., "Kihei, HI · Hawaiian, Southwestern")
-3. **Status/Meta:** `visits.length` (e.g., "1 appearance"), open/closed status (if available).
-4. **Action:** A prominent "View Details" or "Watch Guy's Visit" button.
+## 3. DishCard Widget
+- **Layout:** Contained within a clean card or list tile.
+- **Content:** Dish name (Outfit, bold), description (Inter, regular), and ingredients presented as small chips or a comma-separated list.
+- **Guy's Response:** Displayed in italics, wrapped in quotes, and styled in the secondary color for emphasis.
+- **Action:** Includes a YouTube timestamp link specifically for that dish's appearance.
+- **Styling:** Adheres to token spacing (`sm` and `md`).
 
-**Data Mapping:**
-```dart
-Text(restaurant.name)
-Text('${restaurant.city}, ${restaurant.state} · ${restaurant.cuisineType}')
-Text('${restaurant.visits.length} DDD Appearances')
-```
+## 4. TriviaCard Widget
+- **Behavior:** Auto-cycling (8s interval) using a fade or slide animation between facts.
+- **Styling:** Background uses a light tint of the primary color (`#DD3333` at 10% opacity) in light mode, or a dark surface with primary border in dark mode.
+- **Visuals:** Features a💡 emoji prefix for visual flavor. Border radius of `xl` (16px).
 
-## 2. Dish Card (`DishCard`)
-*Used within the Restaurant Detail page to showcase specific dishes Guy ate.*
+## 5. NearbySection Widget
+- **Header:** "📍 Top 3 Near You" (Outfit, bold).
+- **Behavior:** Displays a geolocation permission prompt style if location is unknown. Includes an "Enable location" button if permission is not granted.
+- **Content:** Displays a compact variant of the `RestaurantCard` that prominently features the calculated distance from the user.
 
-**Visual Hierarchy:**
-1. **Title:** `dish_name` (e.g., "Bison Bone Ramen")
-2. **Description:** `description` (The detailed prep process).
-3. **Ingredients List:** Wrap `ingredients` array in small UI chips or a comma-separated list.
-4. **The Guy Factor:** `guy_response` (e.g., "That is OUT OF BOUNDS!"). Styled distinctively (perhaps italicized or with quotation marks) to highlight the show's flavor.
-5. **Action:** A "Watch Moment" play button linked to `video_id` at `timestamp_start`.
+## 6. MapWidget
+- **Pins/Markers:** Custom icons (e.g., Guy Fieri silhouette or simple drop) using the primary color (`#DD3333`).
+- **Clusters:** Grouped markers using the secondary color (`#DA7E12`) with a bold count number in the center.
+- **Interactions:** Tapping a pin reveals a preview card (bottom sheet) with a restaurant summary.
+- **Integration:** The map reacts to the active search query, filtering visible pins instantly. Styled using the `dark` map style.
 
-**Data Mapping:**
-```dart
-Text(dish.dishName, style: textTheme.headlineSmall)
-Text(dish.description)
-Wrap(children: dish.ingredients.map((i) => Chip(label: Text(i))).toList())
-Text('"${dish.guyResponse}"', style: textTheme.bodyLarge.copyWith(fontStyle: FontStyle.italic))
-```
+## 7. RestaurantDetailPage Layout
+- **Header:** Full-width hero image, restaurant name, city/state, cuisine, rating, and open/closed status (using `statusColors` tokens).
+- **Dish Section:** A scrollable vertical list of `DishCard` widgets.
+- **Visit Section:** A list of visits/episodes with YouTube links.
+- **Action Bar:** Sticky or prominent buttons for "Directions" and "Website".
+- **Styling:** Generous `lg` (24px) spacing and section dividers based on the design tokens.
 
-## 3. Visit Card (`VisitCard`)
-*Used within the Restaurant Detail page to list the episodes the restaurant appeared in.*
-
-**Visual Hierarchy:**
-1. **Title:** `video_title` (e.g., "Top #DDD RAMEN Videos with Guy Fieri")
-2. **Intro:** `guy_intro` (Guy's introduction to the segment).
-3. **Action:** "Watch Full Segment" button linking to `youtube_url` at `timestamp_start`.
-
-## 4. The Search Bar (`SearchBar`)
-*The central hero element on the Home Page and persistent in the AppBar elsewhere.*
-
-**Interaction Blueprint:**
-- **Input:** Single text field.
-- **Placeholder:** "Search dishes, diners, cities..."
-- **Behavior:** Debounces input by 300ms, then triggers a multi-field filter against the `RestaurantProvider` data (checking name, city, state, cuisine, and dish names simultaneously).
-- **Results:** Renders as a list of `RestaurantCard` components below the input.
-
-## 5. Map Marker & Preview
-*Used on the Map Page to plot locations.*
-
-- **Marker:** Uses `latitude` and `longitude`. Needs fallback geocoding if null (for sample data, we may need to mock coordinates or rely on a geocoding service later).
-- **On Tap:** Triggers a bottom sheet containing the `RestaurantCard` for that specific location.
-
-## 6. Trivia Card (`TriviaCard`)
-*Used on the Home Page to provide dynamic, fun facts.*
-
-- **Content:** Cycles through strings generated by `TriviaProvider`.
-- **Data Source:** Computed from the full restaurant list (e.g., counting total states, most common cuisine, or finding the restaurant with the max `visits.length`).
-- **Animation:** Uses a simple cross-fade or slide transition every 8-10 seconds.
+## 8. AppBar / Navigation
+- **Mobile Layout:** Standard Material Bottom Navigation Bar with three tabs: "Map", "List", "Saved" (based on TV Food Maps' Road Trip pattern).
+- **Top Bar:** A clean top AppBar containing the TripleDB logo (centered or leading) and a Dark Mode toggle action.
+- **Logo Sizing:** Prominent but not overpowering, maintaining generous padding (`md` 16px).

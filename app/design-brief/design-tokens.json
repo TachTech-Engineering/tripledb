@@ -1,61 +1,70 @@
 {
   "colors": {
-    "primary": "#E12026",
-    "primaryContainer": "#FFCDD2",
-    "onPrimary": "#FFFFFF",
-    "secondary": "#1A2B4C",
-    "secondaryContainer": "#D0D8E8",
-    "onSecondary": "#FFFFFF",
-    "accent": "#FF8C00",
-    "accentContainer": "#FFE0B2",
-    "onAccent": "#000000",
-    "background": "#F8F9FA",
+    "primary": "#DD3333",
+    "primaryVariant": "#B22222",
+    "secondary": "#DA7E12",
+    "secondaryVariant": "#C06D0F",
+    "background": "#F9F9F9",
     "surface": "#FFFFFF",
-    "surfaceVariant": "#E9ECEF",
-    "onBackground": "#212529",
-    "onSurface": "#212529",
-    "onSurfaceVariant": "#495057",
-    "error": "#DC3545",
+    "error": "#B00020",
+    "onPrimary": "#FFFFFF",
+    "onSecondary": "#FFFFFF",
+    "onBackground": "#212121",
+    "onSurface": "#212121",
     "onError": "#FFFFFF",
-    "success": "#28A745",
-    "warning": "#FFC107",
-    "divider": "#DEE2E6"
+    "dark": {
+      "background": "#121212",
+      "surface": "#1E1E1E",
+      "onBackground": "#E0E0E0",
+      "onSurface": "#E0E0E0"
+    }
   },
   "typography": {
-    "displayFontFamily": "Montserrat",
-    "bodyFontFamily": "Open Sans",
+    "headingFont": "Outfit",
+    "bodyFont": "Inter",
+    "sizes": {
+      "h1": 28,
+      "h2": 22,
+      "h3": 18,
+      "body": 16,
+      "caption": 12,
+      "button": 14
+    },
     "weights": {
-      "light": 300,
-      "regular": 400,
-      "medium": 500,
-      "semiBold": 600,
-      "bold": 700,
-      "black": 900
+      "heading": 700,
+      "body": 400,
+      "caption": 300
     }
   },
   "spacing": {
-    "xxs": 4,
-    "xs": 8,
-    "sm": 12,
+    "xs": 4,
+    "sm": 8,
     "md": 16,
     "lg": 24,
     "xl": 32,
-    "xxl": 48,
-    "xxxl": 64
+    "xxl": 48
   },
-  "radii": {
-    "none": 0,
-    "small": 4,
-    "medium": 8,
-    "large": 16,
-    "pill": 9999,
-    "circular": "50%"
+  "borderRadius": {
+    "sm": 4,
+    "md": 8,
+    "lg": 12,
+    "xl": 16,
+    "pill": 999
   },
-  "elevation": {
-    "none": "0px 0px 0px rgba(0,0,0,0)",
-    "sm": "0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24)",
-    "md": "0px 3px 6px rgba(0,0,0,0.16), 0px 3px 6px rgba(0,0,0,0.23)",
-    "lg": "0px 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23)",
-    "xl": "0px 14px 28px rgba(0,0,0,0.25), 0px 10px 10px rgba(0,0,0,0.22)"
+  "breakpoints": {
+    "mobile": 600,
+    "tablet": 900,
+    "desktop": 1200
+  },
+  "statusColors": {
+    "open": "#4CAF50",
+    "closed": "#F44336",
+    "unknown": "#9E9E9E"
+  },
+  "map": {
+    "pinColor": "#DD3333",
+    "clusterColor": "#DA7E12",
+    "selectedPinColor": "#FF5722",
+    "mapStyle": "dark"
   }
 }

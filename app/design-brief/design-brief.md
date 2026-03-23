@@ -1,23 +1,32 @@
-# TripleDB App: Creative Direction Brief
-**Phase:** 2 — Synthesis (v8.18)
+# TripleDB App: Design Brief
 
-## 1. The Vision
-TripleDB is the definitive interactive guide to every restaurant featured on *Diners, Drive-Ins and Dives*. It bridges the gap between the TV show's high-energy entertainment and a highly functional, location-aware restaurant directory. The app must feel like a premium, modern web application—fast, responsive, and visually engaging.
+## 1. Project Summary
+TripleDB.net is a mobile-first Flutter Web application designed for food explorers, "Diners, Drive-Ins and Dives" (DDD) fans, and road trippers. It serves as an interactive map and directory of restaurants featured on the show. The app is built to be deployed initially as a PWA/Web App with a clear roadmap to native Google Play and App Store releases.
 
-## 2. Core Aesthetic: "Modern Flavortown"
-We are moving away from cluttered fan-site aesthetics toward a clean, app-like experience inspired by modern directory tools (like Google Maps or Yelp) but injected with DDD's signature energy.
-- **High Contrast:** Bright whites and light grays for backgrounds to make food imagery and map pins pop.
-- **Bold Branding:** The signature "Flavortown Red" (#E12026) serves as the primary action color, anchored by a deep "Chrome Blue" (#1A2B4C) for structural elements.
-- **Typography-Driven:** We use clean, highly legible sans-serif fonts for data (addresses, ingredients) and bold, character-rich sans-serifs for headings.
+## 2. Aesthetic Direction: "Modern Flavortown"
+- **Warm, not cool:** DDD red (`#DD3333`) and orange (`#DA7E12`) dominate the interface. Blue is strictly reserved for utilitarian accents (like system links or secondary actions) if needed at all.
+- **Playful, not corporate:** We use rounded corners (`12px` to `16px`), tasteful emoji where appropriate, and engaging trivia cards to keep the vibe fun and distinctly Guy Fieri.
+- **Bold, not subtle:** Guy Fieri energy is channeled into high-contrast color choices and vibrant accents, ensuring the app feels lively without relying on aggressive typography.
+- **Clean, not cluttered:** Taking cues from Google-style search simplicity, we use generous whitespace, centered search bars, and distinct card layouts.
+- **Mobile-first:** The UI is heavily optimized for one-hand thumb scrolling, featuring a bottom navigation bar, prominent floating action buttons (FABs), and chunky touch targets.
 
-## 3. Key UX Paradigms
-1. **The Almighty Search Bar:** A large, centered search bar that handles multi-dimensional queries (dishes, cities, states, cuisines). This is the primary interaction point.
-2. **Instant Gratification:** No full-page reloads. Search results, map updates, and filtering happen instantly using Flutter's reactive state management (Riverpod).
-3. **Map-List Duality:** Users can seamlessly toggle between a geographic view (Map) and a detailed list view, or see them side-by-side on desktop.
-4. **The "Guy Factor":** Every restaurant detail page elevates Guy Fieri's specific reaction to the food (the `guy_response` field) and provides a frictionless deep-link to the exact timestamp of that moment on YouTube.
+## 3. Color Application Rules
+- **Primary Red (`#DD3333`):** Used for the main AppBar, primary calls-to-action (CTAs), active navigation states, and individual map pins.
+- **Secondary Orange (`#DA7E12`):** Used for accents, episode/season badges, map clusters, and highlight elements within cards.
+- **Dark Surface (`#1E1E1E`):** Used for restaurant cards in dark mode, detail page headers, and bottom sheets to create a sleek, modern container.
+- **Light Theme (`#FFFFFF` surface, `#F9F9F9` background):** Provides a crisp, off-white background with subtle grey dividers for high legibility during daytime use.
 
-## 4. Interaction Guidelines
-- **Hover States:** Desktop users should experience subtle elevations and color shifts on cards and map pins.
-- **Touch Targets:** Mobile users require large, forgiving touch targets (minimum 48x48 logical pixels) for all interactive elements, especially video play buttons and map pins.
-- **Transitions:** Use Flutter's native Hero animations for transitioning between a Restaurant Card in the list and its full Detail Page.
-- **Empty States:** When a search yields no results, display a fun, themed empty state (e.g., "Guy hasn't rolled out here yet!").
+## 4. Typography Rules
+- **Heading Font (`Outfit`):** A bold, geometric, and energetic font used for page titles, restaurant names, section headers, and the prominent "Near Me" calls.
+- **Body Font (`Inter`):** A highly legible, modern sans-serif used for detailed descriptions, ingredient lists, and Guy's response quotes.
+- **Size Hierarchy:** Standardized sizes for headings (h1: 28px, h2: 22px, h3: 18px), body text (16px), and captions (12px), optimized for readability on mobile screens.
+
+## 5. Imagery Direction
+- **Guy Fieri Quotes:** Displayed prominently in the secondary body font (italicized), often with quote marks, and sometimes pulled out into a special tinted card for emphasis.
+- **Restaurant Images:** A clean, edge-to-edge full-width placeholder image strategy will be used until the data enrichment pipeline provides real photos.
+- **Emoji Usage:** Incorporated naturally to add visual flavor (e.g., 🍔 for branding/food items, 📍 for location features, 📺 for episode tags, and 💡 for trivia).
+
+## 6. Tone of Voice
+- **Casual, Fun, Enthusiastic:** The copywriting matches Guy Fieri's energetic persona. It feels like a buddy giving you a restaurant recommendation.
+- **Trivia Card Style:** Exclamation marks are welcome, and food puns are encouraged (e.g., "Righteous!", "Out of bounds!").
+- **Search Placeholder:** Conversational and inviting, e.g., "Search dishes, diners, cities..."
