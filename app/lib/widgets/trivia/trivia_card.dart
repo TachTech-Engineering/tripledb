@@ -15,20 +15,26 @@ class TriviaCard extends ConsumerWidget {
     return Container(
       width: double.infinity,
       constraints: const BoxConstraints(maxWidth: 600),
-      child: Card(
-        elevation: 1, // elevation.sm
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16), // borderRadius.xl
-          side: isDark
-              ? BorderSide(color: theme.colorScheme.primary)
-              : BorderSide.none,
-        ),
+      decoration: BoxDecoration(
         color: isDark
             ? theme.colorScheme.surface
             : theme.colorScheme.primary.withValues(alpha: 0.1),
-        child: Padding(
-          padding: const EdgeInsets.all(24.0),
-          child: Column(
+        borderRadius: BorderRadius.circular(16),
+        border: isDark
+            ? Border.all(color: theme.colorScheme.primary)
+            : null,
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.05),
+            blurRadius: 4,
+            offset: const Offset(0, 2),
+          ),
+        ],
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(24.0),
+        child: Column(
+            mainAxisSize: MainAxisSize.min,
             children: [
               Row(
                 mainAxisSize: MainAxisSize.min,
@@ -45,21 +51,16 @@ class TriviaCard extends ConsumerWidget {
                 ],
               ),
               const SizedBox(height: 16),
-              AnimatedSwitcher(
-                duration: const Duration(milliseconds: 500),
-                child: Text(
-                  facts[index % facts.length],
-                  key: ValueKey(index),
-                  textAlign: TextAlign.center,
-                  style: theme.textTheme.bodyLarge?.copyWith(
-                    fontWeight: FontWeight.w500,
-                  ),
+              Text(
+                facts[index % facts.length],
+                textAlign: TextAlign.center,
+                style: theme.textTheme.bodyLarge?.copyWith(
+                  fontWeight: FontWeight.w500,
                 ),
               ),
             ],
           ),
         ),
-      ),
     );
   }
 }

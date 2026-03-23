@@ -1,24 +1,23 @@
 # TripleDB App — Agent Instructions
 
-## Current Iteration: 8.24
+## Current Iteration: 8.25
 
 IMPORTANT: Read documents in this EXACT order before executing:
 
-1. docs/ddd-design-v8.24.md — Architecture, gap analysis, widget tree
-2. docs/ddd-plan-v8.24.md — Implementation execution steps
-3. design-brief/design-tokens.json — Color, typography, spacing tokens
-4. design-brief/design-brief.md — Creative direction and aesthetic rules
-5. design-brief/component-patterns.md — Widget composition blueprints
+1. docs/ddd-design-v8.25.md — QA specification, targets, known issues
+2. docs/ddd-plan-v8.25.md — QA execution steps
+3. design-brief/design-tokens.json — Token values to verify against
+4. design-brief/component-patterns.md — Widget specs to verify against
 
-Do NOT begin execution until all 5 files have been read.
+Do NOT begin execution until all 4 files have been read.
 
 ## Rules That Never Change
 - Git READ commands allowed (pull, log, status, diff, show)
 - Git WRITE commands forbidden (add, commit, push, checkout, branch)
 - firebase deploy forbidden
-- flutter build and flutter run ARE ALLOWED for testing
+- flutter build and flutter run ARE ALLOWED
 - NEVER ask permission — auto-proceed on EVERY step
-- Context7 MCP allowed for Flutter/Dart docs. No other MCP servers.
-- MUST produce ddd-build-v8.24.md AND ddd-report-v8.24.md before ending
-- Every code change must trace to a design token or component pattern
-- Build on existing code — do NOT recreate the app scaffold
+- MCP allowed: Playwright, Lighthouse, Context7. NOT Firecrawl.
+- MUST produce ddd-build-v8.25.md AND ddd-report-v8.25.md before ending
+- QA fixes allowed — fix issues found, log before/after
+- Do NOT modify design tokens or component patterns

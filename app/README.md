@@ -40,6 +40,36 @@ TripleDB is a high-performance Flutter Web application designed to visualize and
 
 ## 📝 Changelog
 
+### [v8.25] — 2026-03-23
+#### QA & Polish
+- Conducted full quality assurance via Playwright screenshots and Lighthouse audits.
+- Fixed missing `/explore` route in `GoRouter` resulting in 404s.
+- Fixed `TriviaCard` text overlap bug on mobile viewports by removing `AnimatedSwitcher`.
+- Enhanced SEO metadata in `web/index.html`.
+- Verified 100% design token compliance and all 8 component patterns across Desktop, Tablet, and Mobile.
+
+### [v8.24] — 2026-03-22
+#### Implementation & Design Overhaul
+- Applied complete design contract to the codebase (14 files modified).
+- Full theme rewrite using `design-tokens.json` (Outfit + Inter fonts, DDD red/orange palette).
+- Added cuisine emoji placeholders for restaurant thumbnail images.
+- Implemented episode/video type badges replacing raw season/episode strings.
+- Introduced 3-tab bottom navigation (`Map` / `List` / `Explore`).
+- Built new `ExplorePage` with trivia, top states, most visited restaurants, and cuisine breakdown.
+- Upgraded map to use CartoDB dark tiles with primary-colored pins.
+- Added a functional Dark Mode toggle via Riverpod.
+
+### [v8.23] — 2026-03-22
+#### Design Synthesis
+- Generated centralized `design-tokens.json`, `design-brief.md`, and `component-patterns.md`.
+- Established strict widget patterns (SearchBar, RestaurantCard, DishCard, TriviaCard, NearbySection, MapWidget, RestaurantDetailPage, AppBar).
+
+### [v8.22] — 2026-03-22
+#### Discovery & Data Integrity
+- Conducted full rescrape of DDD restaurant data using Playwright fallback for resilient extraction.
+- Validated 804 restaurants against YouTube metadata for accurate timestamping.
+- Established the base `sample_restaurants.jsonl` used for app development.
+
 ### [v8.21] — 2026-03-22
 #### Added
 - Initial Flutter Front End build completed.

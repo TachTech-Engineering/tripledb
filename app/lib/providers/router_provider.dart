@@ -4,6 +4,7 @@ import '../pages/main_page.dart';
 import '../pages/search_results_page.dart';
 import '../pages/restaurant_detail_page.dart';
 import '../pages/map_page.dart';
+import '../pages/explore_page.dart';
 
 part 'router_provider.g.dart';
 
@@ -28,6 +29,7 @@ GoRouter router(RouterRef ref) {
         },
       ),
       GoRoute(path: '/map', builder: (context, state) => const MapPage()),
+      GoRoute(path: '/explore', builder: (context, state) => const ExplorePage()),
     ],
   );
 }
