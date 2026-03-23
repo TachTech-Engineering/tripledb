@@ -1,0 +1,406 @@
+- generic [ref=e366]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "FlavortownUSA Logo" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img "FlavortownUSA Logo" [ref=e9]
+          - generic [ref=e367] [cursor=pointer]:
+            - button
+          - navigation:  
+        - generic [ref=e24]:
+          - link " Login" [ref=e25] [cursor=pointer]:
+            - /url: /identity/account/login
+            - generic [ref=e26]: 
+            - text: Login
+          - link " Tell Guy Fieri" [ref=e27] [cursor=pointer]:
+            - /url: /recommends/create
+            - generic [ref=e28]: 
+            - text: Tell Guy Fieri
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - heading "Find Nearby Diners, Drive-Ins and Dives" [level=1] [ref=e35]
+          - heading "Join Guy Fieri on a Mouth-Watering Journey Across America" [level=4] [ref=e36]
+        - generic [ref=e38]:
+          - textbox "Search by Restaurant, State or City" [ref=e40]
+          - generic [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]: By Restaurants
+            - generic [ref=e45]: 
+          - button "Search" [ref=e46] [cursor=pointer]
+      - generic [ref=e48]:
+        - heading "Or browse by category:" [level=5] [ref=e49]
+        - generic [ref=e50]:
+          - link " States" [ref=e51] [cursor=pointer]:
+            - /url: /states
+            - generic [ref=e52]: 
+            - heading "States" [level=4] [ref=e53]
+          - link " Cities" [ref=e54] [cursor=pointer]:
+            - /url: /cities
+            - generic [ref=e55]: 
+            - heading "Cities" [level=4] [ref=e56]
+          - link " Map" [ref=e57] [cursor=pointer]:
+            - /url: /map
+            - generic [ref=e58]: 
+            - heading "Map" [level=4] [ref=e59]
+          - link " Restaurants" [ref=e60] [cursor=pointer]:
+            - /url: /locations
+            - generic [ref=e61]: 
+            - heading "Restaurants" [level=4] [ref=e62]
+          - link " Blog" [ref=e63] [cursor=pointer]:
+            - /url: /posts
+            - generic [ref=e64]: 
+            - heading "Blog" [level=4] [ref=e65]
+          - link " News" [ref=e66] [cursor=pointer]:
+            - /url: /news
+            - generic [ref=e67]: 
+            - heading "News" [level=4] [ref=e68]
+          - link " Photos" [ref=e69] [cursor=pointer]:
+            - /url: /photos
+            - generic [ref=e70]: 
+            - heading "Photos" [level=4] [ref=e71]
+          - link " Questions" [ref=e72] [cursor=pointer]:
+            - /url: /questions
+            - generic [ref=e73]: 
+            - heading "Questions" [level=4] [ref=e74]
+          - link " Recommendations" [ref=e75] [cursor=pointer]:
+            - /url: /recommends
+            - generic [ref=e76]: 
+            - heading "Recommendations" [level=4] [ref=e77]
+          - link " Shop" [ref=e78] [cursor=pointer]:
+            - /url: /shop
+            - generic [ref=e79]: 
+            - heading "Shop" [level=4] [ref=e80]
+          - link " Videos" [ref=e81] [cursor=pointer]:
+            - /url: /videos
+            - generic [ref=e82]: 
+            - heading "Videos" [level=4] [ref=e83]
+    - generic [ref=e85]:
+      - heading "Recently Aired Restaurants" [level=3] [ref=e88]
+      - generic [ref=e89]:
+        - link " Little Chango Aired on March 2026 Located in Asheville, NC" [ref=e91] [cursor=pointer]:
+          - /url: /locations/2652/little-chango
+          - generic [ref=e92]:
+            - generic [ref=e93]: 
+            - heading "Little Chango" [level=3] [ref=e94]
+            - paragraph [ref=e95]:
+              - text: Aired on March 2026
+              - text: Located in Asheville, NC
+        - link " Moo Dang Aired on March 2026 Located in Reno, NV" [ref=e97] [cursor=pointer]:
+          - /url: /locations/2651/moo-dang
+          - generic [ref=e98]:
+            - generic [ref=e99]: 
+            - heading "Moo Dang" [level=3] [ref=e100]
+            - paragraph [ref=e101]:
+              - text: Aired on March 2026
+              - text: Located in Reno, NV
+        - link " Namo Cafe Bistro (Edmonton Trail) Aired on March 2026 Located in Calgary, AB" [ref=e103] [cursor=pointer]:
+          - /url: /locations/2653/namo-cafe-bistro-edmonton-trail
+          - generic [ref=e104]:
+            - generic [ref=e105]: 
+            - heading "Namo Cafe Bistro (Edmonton Trail)" [level=3] [ref=e106]
+            - paragraph [ref=e107]:
+              - text: Aired on March 2026
+              - text: Located in Calgary, AB
+        - link "View All Restaurants" [ref=e109] [cursor=pointer]:
+          - /url: /locations
+    - generic [ref=e112]:
+      - heading [level=2]
+      - heading "Sponsored Ad" [level=3] [ref=e113]
+      - insertion [ref=e114]:
+        - iframe [ref=e116]:
+          - generic [ref=f1065e3]:
+            - link "ad" [ref=f1065e4] [cursor=pointer]:
+              - /url: //www.admaster.cc/privacy
+              - img [ref=f1065e5]
+            - link "Sleep Apnea is Linked to This Household Item (Stop Using It)" [ref=f1065e7] [cursor=pointer]:
+              - /url: https://tracenep.admaster.cc/ju/ic?tn=2ce2e6e33746b4224011d22068a89c02&trackingid=4fc251caa927e02020911eb3b74bbf81&acid=33205&data=837mCG1-s4shSWiI52WHYewXIjc0Q-uJIShZ-hhMsK5QpgerX-54TIiH0eyzkPaaPL6vw-f2aIHOxda55xzoftj-kroFl_M3peHAEz7HoaKZU_AQF2uVGtlaKZF75RfmEEpFKc8MWsDDlXUQYZClzRccTwF_3q4JHLjXc57VZNNh9on-NKCSYroqg5iZXeEO8100qG_fBD3ludHBstZC_A2klfhWjXtcKZ5ViNyulNn-2VbE_n90qCwx_N_UUK0G4TQmWbDLaKIUFKFh4__rK8ibsazhKJAyaSfFU49c6tpa9XwJNGwXsrLSOcv51-BBqvM7nLqY9-plhW8GAYvlK6hpkWD_pa0Bclgy_ZuYy4IWfF_DQKyNgTGxob4nzPkxbw9bgrPegxMmP1LqqkmsP_oWVff-wEC3fS_OYQtE-_mYbSKNXKS8Mtj7-0b9KnRK92YZDMOhSpKg3wjpVGr82TJ0tpgnD48c9EmUp4oMpBJSPVFqXVXfihqn8tHmRjRi6-4exuefBatEb9qJjeqzq8eQYaPzoNkXuTRUtHLmrjzDBjzYZl4lP76zi62s2w7DP0TF18hKd3p8I88e2KrwU-C3iiHvX2PNgEXe3nSHW7pnoIg8QLBa1VXmm1_3Sp4ZmTQE-4AOho9p_XkZhuJsY_mz2UyIz_zfxFJMyDp_OohPB4vQPEHnF8ctZJCvXsDgrhfweNjlPZHsM_aBn_AVyDTyxg_Zb83rTX5Y_JcKNhn6QdaBtwjWoc0hjuhobMtclYTKvyIUsQlUsXTuXOOUdaQkoL5XeqJCAzIdzMqRhX8LScO2gjt_GmOqx8dUoH720rLYdN-yDFENj6nGfC-1fsBs3zoRDONxVeDOPk2fwPlEmri-5V5YHzplP1Mb4JyvaureWL145AUpIf5FLVYIW-vQAEaIYoZ7Cgp58JvLDMPph8uuglRGUw48u7alxqPvaXqdGUW4CUyaNNTq5_ESM4g0gfHwj_lcoCr6oDif5F_2loVlvI4K7AzCwuiI58vaqfBkIA05iBjlq58GUbrsJ2lFMvPcRMI0z6X0Ri9OwdxO8XNcPadZYeFfXHAIwNCP60koTGO5DyHQx_X2KmtdnLF1u9d5eD2flOdANKKF9-w1dJ__NoB4kAX657KEGRu2lXeT6FIp-rQ_9AhI3KKvx3JIwXfKlJYxgk2_vTrEp3F-7APVlpV1_-OtfuTS5ZGVa41LTyFEUcoMjLahH_mcDImA8olupOaDdVgYCw0t6wWYv455fDNynN5kWGWRpQ8ukcqAQmAhdib5laLTgJ-zMqE5Y4ZwN3hxybLmzjRQP0VWjueqAxWMIPRcbF8fTMEDDYrwnlqLqb333nhcEfBayrZq07muUP-HUe8aCckIWvivjdomm7ithRizWEfwv0lcuIdPLbfWAjum0PSG0ExasBsphf1R5iRFUpClDd61sJyJ7ZiwGSGrAI1avP3v4KELW5gZtWwf83-HbyTcujzDxbzx7ImQb1WqrWmLfVLCUh4g16Q-Z1EqrEWqsVUdZxn0ELNUDEP03SiHUMq6aG_r3n69GoE52NpKUG3kkTmwXHz6v9zdy7max-UjI3pTzI2-yifZmPsdgo8KmVipXGMCYYEiE1IWGN1Ydkrtr8RT70XDwqyLqw7X2n0gn74EOsrFt5IWVYDYA4u51-aXNN10ev06-EOTRf6qAebBrcG4VyBn-uqsOZHMt4e2ZhHEqfHMNktBcXYNYN6aWZkt7ojWLixZsjtvYWcvC2CVTaueRLGrXr9XuFQgjflCv7okxtcZRO_wBCZVw0KNQeQmv3P_CcnWY-ILfcNa5K4HOFBcyHqnjHvS-UJlQBzsC89C3wmDne0TeKf-OhvtbU9NbwiMlbiOj5M2nOm6ejgHFlK2PT5C0xBIqtKsKrIX4tHYG5Nc_W2wQMOcRxy5S9kA8Pg0RGfJb9LqaVFf8lxq1EcK98Y5S7MHN4h_GRRXdMUCERqlSK2dH_R7J22pwnNm6lh8U1fpZy3BZy8neeQls7Z_4iDNW_t8zrAOdsdlDAAsltfAuvx5n6PcylsZcIoO0GkhzjL20SbIzHWYgv8rdkBqYoZOJjZ-zNJi2d6b1wnYuDwV&uid=mid_e77cf8d62c66e39d1ec6cf20c6ecd30a&mguid=&ap=0.010001&tid=102&gprice=w5G3XvCp3ohbXU0xajCwTefAcmcJnCHPevCs5aDf8q0&campaignid=4628824&google_click_url=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCvMqmRGrBaczsL9CrodAP_sfd2A-ltoSEe8z8yrWgE8CNtwEQASCe964DYMn2-IaAgKAZyAEJqAMByAMCqgTvAU_Qln7JHP8ZiYmPhB78D99RcOZ6GmtV1BirCz0j5EoMrDadJRtk4D0Z2FMBuJ9Wy2UGG7_HIkbzgJjL_g8OZbDk4NChEOoh1qcY_wW_mA7G9vb4_8sE3ZTHbJOcQHUUz2BE9h6jQM6VvGMxrxbOgEWdOLwHA4vAsaeaV5nnKsa3WrohtdI3Q79BavCvs0W87-DDrhgtrPfCw-OkqtNwIn_eLgaY6CPNXvHJ2FmIqzXOxeISc3vQpSP9d59TuzAwqw7MI6QI7Ox1D_aq7W1jd3Z9nDy22j4zcnkEHfp9D1hECcEN2c5SbXSVRCyXYjkVgAb4p7T3sev5neQBoAYhqAeT2LECqAeU2LECqAeV2LECqAemvhuoB5bYG6gHqpuxAqgH_56xAqgH35-xAqgHrb6xAqgHv9OxAtgHANIILQiAYRABMgiKgoCAgICACDoOgECAwICAgICogAKogxBIvf3BOlio_p--uLaTA_oLAggBgAwBqg0CVVPqDRMI56Kgvri2kwMV0FUIBB3-Yxf7iA4J0BUBgBcBshcQGAwqCjUzNjI5MzEzMTVQAaoYFwnjehSuB0C_QBIKNTM2MjkzMTMxNRgB%26num%3D1%26sig%3DAOD64_1rCo7ZcRvj5YhWWrZ8DMzyi0xZQg%26client%3Dca-pub-8870267563177257%26adurl%3D
+              - generic [ref=f1065e10]: Sleep Apnea is Linked to This Household Item (Stop Using It)
+    - generic [ref=e118]:
+      - heading "Recent Photos" [level=3] [ref=e121]
+      - generic [ref=e122]:
+        - link "South Maui Fish Company February 2026 South Maui Fish Company Kihei, HI" [ref=e124] [cursor=pointer]:
+          - /url: /photos/15470/south-maui-fish-company
+          - generic [ref=e125]:
+            - img "South Maui Fish Company" [ref=e126]
+            - generic [ref=e127]:
+              - list [ref=e128]:
+                - listitem [ref=e129]: February 2026
+              - heading "South Maui Fish Company" [level=3] [ref=e130]
+              - generic [ref=e131]: Kihei, HI
+        - link "Tortello November 2025 Tortello Chicago, IL" [ref=e133] [cursor=pointer]:
+          - /url: /photos/15469/tortello
+          - generic [ref=e134]:
+            - img "Tortello" [ref=e135]
+            - generic [ref=e136]:
+              - list [ref=e137]:
+                - listitem [ref=e138]: November 2025
+              - heading "Tortello" [level=3] [ref=e139]
+              - generic [ref=e140]: Chicago, IL
+        - link "Tortello November 2025 Tortello Chicago, IL" [ref=e142] [cursor=pointer]:
+          - /url: /photos/15468/tortello
+          - generic [ref=e143]:
+            - img "Tortello" [ref=e144]
+            - generic [ref=e145]:
+              - list [ref=e146]:
+                - listitem [ref=e147]: November 2025
+              - heading "Tortello" [level=3] [ref=e148]
+              - generic [ref=e149]: Chicago, IL
+        - link "View All Photos" [ref=e151] [cursor=pointer]:
+          - /url: /photos
+    - generic [ref=e154]:
+      - heading [level=2]
+      - heading "Sponsored Ad" [level=3] [ref=e155]
+      - insertion [ref=e156]:
+        - iframe [ref=e158]:
+          - generic [ref=f1066e3]:
+            - link "ad" [ref=f1066e4] [cursor=pointer]:
+              - /url: //www.admaster.cc/privacy
+              - img [ref=f1066e5]
+            - link "Sleep Apnea is Linked to This Household Item (Stop Using It)" [ref=f1066e7] [cursor=pointer]:
+              - /url: https://tracenep.admaster.cc/ju/ic?tn=2ce2e6e33746b4224011d22068a89c02&trackingid=be4450f26c6c121ab46ae232388a2a91&acid=33205&data=VfJkhgRTKzmgHGCwumEIgqIhDvcrpEL7UcvR0llmIiv-F1Empb_FMIpwIRkzFJ57_t4S1ou1twJJMzdqlFtTdwKuydNVxQqkqKHmm3tgQx5HagSjvhBjY42dNZB_YEzFgxLg60ddqoq4ygPTLa1J-1aNOcZIzavumfbn5_38u0vligHsHGfF_zFnNBZrg4NcT6j6aeeYk0pWWOf4ggyx9S50e4TfIMk9N5XQv5kNTbv3C7DblWAm0GaQsjoTY5Hw_fqZeXHJT05fVip3KRV1Yd29fikZpCfRUNXFtDnUMefbOlz_VfO3bdcfUlP4BioD_a4G28KDnrwmZRdgVqcNOTxX-Ap1RWpjHTawpRMDuBCwhWVZSD0BKMZ6d-tUc4fkoj3-ri83C5UB4i7D1yfWsc9rNVl68w5tbbIdXZqoZbW6tEpZKe2k8yTNSfecGBlCCxD_0KOD0kjdSTL1emvIyZ3ok_uLrVZtYlX0x6UDMxwIcY1REkwoXOZ5oxw-f6siK3eO3JTds1KP3e_EU3aHfbk6HOT3SPvKnCBqMnUC-k1LdwZACAkqJWxOtjr8zyR7Xck_pekoNzA-NbDXkn-pJcufQKwDHrGo8KgCnFvIb1rDP95y9HCPGw_Dev6kq0t3z3VEca8Aiu_sa2ZVl4rWHxqCm8Du3cnkp3JUqAK-KxKODBREffdvUtI8XxOpsG9oX-vMsZn9nDPm8K5nKX1csqt3AoJrcreC9eNC3xT2YTJGqU1XKR7s8XT3dENvrdGsQYsJrcapItCGdfSeAmr-zyxu_y1u3ShA0NVeevjI7wjDnRuQGLZfEGSEIRRr8hDU7AcmDYIPWqPK74I9EhrNi7vP3iBe99j4JcUbE66iiyjnHu8ny91SDGfIjeIhp4pY6lckX_DTSwaqCMuyt4fbwgOZKDiTBeALJmW4UH5BhRux_N7FEdVsRFJvNYgL7CYdmwVT_wUhcG3zQejBDkvO_uPinBxrZstZfLTooPAzlBYh3ROGN9HJFRz5JEjl3mllKNn34Gd_0hRBEcVpycP8yJzZGv_AbZQXw7BxByWGz-BHG9m5UwUFm5ARykVA2XRgdvvOhqTMfhe2-7FJIioxFHhp5K2NvWfwkeTiAM_6Tt1SSBpMR9-EoXDQI-clhUGeZOFsVOI1Go4laL_q4kzH3LVJfPHnYVdqDJFphUORpWkqpznShfQuS7YEoMCctsPHoSVqLPiyS5NMmobfyuSbY7R8x_247Sx1r2ymVNRnAfxu4qXzgMnDNiqmnyO1DP4khtlQwNyl60SmkUucumIvmQpFvf6RjXo_3fq_nt0OeUb464ZvcaDlLV3Nc-u6guEWKDwi6N6bLG7shvxOOmoFCdXDHRbyOmpQFDClBXBdkQvTGVy_wkCg4AANwQTP5xN6xf_z-J0StDhKPb8ag8YXqhriaGAI9dj8LJiQLfqIs87SM5DXpPzXIAyYrE61l91Uoeh0-cpi_PMThyU57ZVh802mzD7ZjtNzc8RpDq-37OQToWpwP5ICrjGuuf81woMlbAIu9r3u_TbW1B8LiWrl3_DMqvL_RKsPxucQfES2wa8uZIv5-IWcUuoZI4j57tXDG058tLum3rXKfcHpmzbssTcCv0GMaeqsBIM7OPhtxNbSvMTObA4KGt_1eP-se0ZD4ZcPXASQmcP6LOWDID9XCr6S2xwzwq8Jr6T_XzG61_CzUoDQSiQEADrsmjlmtysQQOCAetiW95XNLT0f9esoQOPzHIU3s6pN9rPLE5_FR0EXS7tXRBZmtsCJj6hFLSbVEVPte4EGro7YOn-grX26-FzYzO_czegJGv7JFlq9-su7mqQRLsN4vemD3VQfN4mM1jg_UH1zFv_L8oWhj1ndevX8NRUbWOD471O-aAB91P-dzHVicEFreN1YKdcqz1Yao-uWPe9jJb9wPvWwb6Yrnov6EhuojQIPoPP6g2jytS-Kt_q6mGzFOuphswUElRPDr4OAKSL80nX8Hncbwi3BLeUL5H5xixz9wld-LC9noW0W856oDomvObUR7QAoqe2PJJsD0eYcK0H6YuZIs9-fLeozUxsmnTaD64OLWL-3Oe2Kdbnk_qInk48nWeZyw1Pr-xVzGO0e5Xs2EFYTGuqgGZUlOiaWmAWsaPgYj3rYlSVjgZwvvKvz64Gsv_tKLDnR2vDC9ptL8rUPixzmHHqSlA&uid=mid_e77cf8d62c66e39d1ec6cf20c6ecd30a&mguid=&ap=0.010001&tid=102&gprice=IX5iMyE045Nhe6ik44hcSL9DYjuraZbfXA5w6Msiu8c&campaignid=4628824&google_click_url=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCXdxVRGrBaZ6GMJqfodAP4fm--AqltoSEe8z8yrWgE8CNtwEQASCe964DYMn2-IaAgKAZyAEJqAMByAMCqgTvAU_QE4BRoUfqhEaopj5Fi9MtZ66YJn8b5284kLgVNJB62fbyUxvyA08KcFLUdW1lwIml8CdNv7i1sQW18RWeE2Wm07F351BCeXdKbSMrQ9Z4sVMSS0nxv7d0yj6ONXMQjr1OVISzR4HLka11qOTVqF1YQ5jVabtOAWLFiBCYzrNQ89OQjT7swzMOvRaca_n_pE5HxgsX-olS5Wvg0ZFs0lw8DDj3rZnjJVi-Tj-KjIyBjhcpsvNAmREXLtiEchwPfbPLGyFLwpQ-lRNZowGFhfbuRm6Dgcl4g_CDkgzkgSmdNFrKLbSsTRpV7bmHOlaMgAb4p7T3sev5neQBoAYhqAeT2LECqAeU2LECqAeV2LECqAemvhuoB5bYG6gHqpuxAqgH_56xAqgH35-xAqgHrb6xAqgHv9OxAtgHANIILQiAYRABMgiKgoCAgICACDoOgECAwICAgICogAKogxBIvf3BOljAoqC-uLaTA_oLAggBgAwBqg0CVVPqDRMIs7ugvri2kwMVmk8IBB3hvA-viA4J0BUBgBcBshcQGAwqCjI0MDk0NjQ5MTlQAaoYFwnjehSuB0C_QBIKMjQwOTQ2NDkxORgB%26num%3D1%26sig%3DAOD64_2Icn9DEPAREc3lbol2_rPezl5DUw%26client%3Dca-pub-8870267563177257%26adurl%3D
+              - generic [ref=f1066e10]: Sleep Apnea is Linked to This Household Item (Stop Using It)
+    - generic [ref=e160]:
+      - heading "Recent Questions" [level=3] [ref=e163]
+      - generic [ref=e164]:
+        - link "Where is Guy Fieri filming next? August 2025" [ref=e166] [cursor=pointer]:
+          - /url: /questions/1014/where-is-guy-fieri-filming-next
+          - generic [ref=e167]:
+            - heading "Where is Guy Fieri filming next?" [level=3] [ref=e168]
+            - paragraph [ref=e169]: August 2025
+        - link "kitchen roselli in east bend north carolina June 2025" [ref=e171] [cursor=pointer]:
+          - /url: /questions/1013/kitchen-roselli-in-east-bend-north-carolina
+          - generic [ref=e172]:
+            - heading "kitchen roselli in east bend north carolina" [level=3] [ref=e173]
+            - paragraph [ref=e174]: June 2025
+        - link "parpadelle and short ribs with truffle paste May 2025" [ref=e176] [cursor=pointer]:
+          - /url: /questions/1012/parpadelle-and-short-ribs-with-truffle-paste
+          - generic [ref=e177]:
+            - heading "parpadelle and short ribs with truffle paste" [level=3] [ref=e178]
+            - paragraph [ref=e179]: May 2025
+        - link "View All Questions" [ref=e181] [cursor=pointer]:
+          - /url: /questions
+    - generic [ref=e184]:
+      - heading [level=2]
+      - heading "Sponsored Ad" [level=3] [ref=e185]
+      - insertion [ref=e186]:
+        - generic [ref=e189]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e191]: Discover more
+          - link "TV & Video" [ref=e192] [cursor=pointer]:
+            - generic "TV & Video" [ref=e193]
+            - img [ref=e195]
+          - link "Cooking competition entries" [ref=e197] [cursor=pointer]:
+            - generic "Cooking competition entries" [ref=e198]
+            - img [ref=e200]
+          - link "Restaurant locator app premium" [ref=e202] [cursor=pointer]:
+            - generic "Restaurant locator app premium" [ref=e203]
+            - img [ref=e205]
+    - generic [ref=e208]:
+      - heading "Recent Recommendations" [level=3] [ref=e211]
+      - generic [ref=e212]:
+        - link "Kouzina in Greenville, SC March 2026" [ref=e214] [cursor=pointer]:
+          - /url: /recommends/16993/kouzina-in-greenville-sc
+          - generic [ref=e215]:
+            - heading "Kouzina in Greenville, SC" [level=3] [ref=e216]
+            - paragraph [ref=e217]: March 2026
+        - link "Gabagool in Columbus, GA March 2026" [ref=e219] [cursor=pointer]:
+          - /url: /recommends/16992/gabagool-in-columbus-ga
+          - generic [ref=e220]:
+            - heading "Gabagool in Columbus, GA" [level=3] [ref=e221]
+            - paragraph [ref=e222]: March 2026
+        - link "SuperCrisp in Detroit, MI March 2026" [ref=e224] [cursor=pointer]:
+          - /url: /recommends/16989/supercrisp-in-detroit-mi
+          - generic [ref=e225]:
+            - heading "SuperCrisp in Detroit, MI" [level=3] [ref=e226]
+            - paragraph [ref=e227]: March 2026
+        - link "View All Recommendations" [ref=e229] [cursor=pointer]:
+          - /url: /recommends
+    - generic [ref=e231]:
+      - heading "Guy Fieri's Most Visited States" [level=3] [ref=e233]:
+        - strong [ref=e234]: Guy Fieri's Most Visited States
+      - generic [ref=e236]:
+        - link " California 234" [ref=e237] [cursor=pointer]:
+          - /url: /states/california
+          - generic [ref=e238]: 
+          - heading "California" [level=4] [ref=e239]
+          - generic [ref=e240]: "234"
+        - link " Florida 106" [ref=e241] [cursor=pointer]:
+          - /url: /states/florida
+          - generic [ref=e242]: 
+          - heading "Florida" [level=4] [ref=e243]
+          - generic [ref=e244]: "106"
+        - link " Texas 99" [ref=e245] [cursor=pointer]:
+          - /url: /states/texas
+          - generic [ref=e246]: 
+          - heading "Texas" [level=4] [ref=e247]
+          - generic [ref=e248]: "99"
+        - link " Colorado 52" [ref=e249] [cursor=pointer]:
+          - /url: /states/colorado
+          - generic [ref=e250]: 
+          - heading "Colorado" [level=4] [ref=e251]
+          - generic [ref=e252]: "52"
+        - link " Hawaii 52" [ref=e253] [cursor=pointer]:
+          - /url: /states/hawaii
+          - generic [ref=e254]: 
+          - heading "Hawaii" [level=4] [ref=e255]
+          - generic [ref=e256]: "52"
+        - link " Minnesota 48" [ref=e257] [cursor=pointer]:
+          - /url: /states/minnesota
+          - generic [ref=e258]: 
+          - heading "Minnesota" [level=4] [ref=e259]
+          - generic [ref=e260]: "48"
+      - link "View All States" [ref=e262] [cursor=pointer]:
+        - /url: /states
+    - link "Shop for Diners, Drive-ins and Dives gear and apparel" [ref=e263] [cursor=pointer]:
+      - /url: /shop
+      - heading "Shop for Diners, Drive-ins and Dives gear and apparel" [level=2] [ref=e265]
+    - generic [ref=e267]:
+      - heading "Plan your next Diners, Drive-ins and Dives Road Trip! Jennifer & I love to travel so when this TV Show came out, we had a hard time finding all of the restaurants we saw on TV, that is why we built this fan site. Planning your Diners, Drive-ins and Dives Road Trip has never been easier." [level=3] [ref=e270]:
+        - strong [ref=e271]: Plan your next Diners, Drive-ins and Dives Road Trip!
+        - generic [ref=e272]: Jennifer & I love to travel so when this TV Show came out, we had a hard time finding all of the restaurants we saw on TV, that is why we built this fan site.
+        - strong [ref=e274]: Planning your Diners, Drive-ins and Dives Road Trip has never been easier.
+      - generic [ref=e275]:
+        - link " Diners, Drive-ins and Dives Interactive Map The best way to use the map is to search by city and it will show you the closest 30 restaurants based on your search." [ref=e277] [cursor=pointer]:
+          - /url: /map
+          - generic [ref=e278]:
+            - generic [ref=e279]: 
+            - heading "Diners, Drive-ins and Dives Interactive Map" [level=3] [ref=e280]
+            - paragraph [ref=e281]: The best way to use the map is to search by city and it will show you the closest 30 restaurants based on your search.
+        - link " Share Photos with other Fans Thousands of photos have been uploaded by fans such as yourself so feel free to upload your family photos of your road trip and the food you ate." [ref=e283] [cursor=pointer]:
+          - /url: /photos
+          - generic [ref=e284]:
+            - generic [ref=e285]: 
+            - heading "Share Photos with other Fans" [level=3] [ref=e286]
+            - paragraph [ref=e287]: Thousands of photos have been uploaded by fans such as yourself so feel free to upload your family photos of your road trip and the food you ate.
+        - link " Share your restaurant recommendation We have collected over 4,000+ fan recommendations for restaurants Guy Fieri should visit. Fan recommendations are best searched by city and state." [ref=e289] [cursor=pointer]:
+          - /url: /recommends
+          - generic [ref=e290]:
+            - generic [ref=e291]: 
+            - heading "Share your restaurant recommendation" [level=3] [ref=e292]
+            - paragraph [ref=e293]: We have collected over 4,000+ fan recommendations for restaurants Guy Fieri should visit. Fan recommendations are best searched by city and state.
+    - generic [ref=e295]:
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - link "FlavortownUSA Logo" [ref=e299] [cursor=pointer]:
+            - /url: /
+            - img "FlavortownUSA Logo" [ref=e300]
+          - paragraph [ref=e301]:
+            - text: Keep track of all Diners, Drive-ins and Dives you've been to and find them easily with our interactive map. Built by
+            - link "Grid Sixty Software, LLC" [ref=e302] [cursor=pointer]:
+              - /url: https://www.gridsixty.com
+            - text: aka Rick & Jennifer who are HUGE fans of Guy Fieri & his TV Show Diners, Drive-ins and Dives.
+          - paragraph [ref=e303]:
+            - text: Inspired by •
+            - link "Hypermedia" [ref=e304] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Hypermedia
+            - text: •
+            - link "HATEOAS" [ref=e305] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/HATEOAS
+            - text: Built with •
+            - link "Datastar" [ref=e306] [cursor=pointer]:
+              - /url: https://data-star.dev
+            - text: •
+            - link "ASP.NET Core" [ref=e307] [cursor=pointer]:
+              - /url: https://dotnet.microsoft.com/en-us/apps/aspnet
+        - generic [ref=e308]:
+          - heading "Helpful Links" [level=3] [ref=e309]
+          - list [ref=e310]:
+            - listitem [ref=e311]:
+              - text: 
+              - link "Donate!" [ref=e312] [cursor=pointer]:
+                - /url: https://www.paypal.com/donate/?hosted_button_id=RUGM69F5C4SFC
+            - listitem [ref=e313]:
+              - text: 
+              - link "About" [ref=e314] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e315]:
+              - text: 
+              - link "Affiliate Disclaimer" [ref=e316] [cursor=pointer]:
+                - /url: /affiliate
+            - listitem [ref=e317]:
+              - text: 
+              - link "Contact" [ref=e318] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e319]:
+              - text: 
+              - link "Privacy Policy" [ref=e320] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e321]:
+              - text: 
+              - link "Terms of Use" [ref=e322] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=e323]:
+              - text: 
+              - link "Guy Fieri Shop" [ref=e324] [cursor=pointer]:
+                - /url: /shop
+            - listitem [ref=e325]:
+              - text: 
+              - link "iPhone App" [ref=e326] [cursor=pointer]:
+                - /url: https://itunes.apple.com/us/app/flavortown/id314057291
+            - listitem [ref=e327]:
+              - text: 
+              - link "Android App" [ref=e328] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.flavortownusa.mobile
+          - list [ref=e329]:
+            - listitem [ref=e330]:
+              - text: 
+              - link "By States" [ref=e331] [cursor=pointer]:
+                - /url: /states
+            - listitem [ref=e332]:
+              - text: 
+              - link "By Cities" [ref=e333] [cursor=pointer]:
+                - /url: /cities
+            - listitem [ref=e334]:
+              - text: 
+              - link "By Map" [ref=e335] [cursor=pointer]:
+                - /url: /map
+            - listitem [ref=e336]:
+              - text: 
+              - link "Blog" [ref=e337] [cursor=pointer]:
+                - /url: /posts
+            - listitem [ref=e338]:
+              - text: 
+              - link "News" [ref=e339] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e340]:
+              - text: 
+              - link "Photos" [ref=e341] [cursor=pointer]:
+                - /url: /photos
+            - listitem [ref=e342]:
+              - text: 
+              - link "Questions" [ref=e343] [cursor=pointer]:
+                - /url: /questions
+            - listitem [ref=e344]:
+              - text: 
+              - link "Recommendations" [ref=e345] [cursor=pointer]:
+                - /url: /recommends
+        - generic [ref=e347]:
+          - heading "Contact Us" [level=4] [ref=e348]
+          - generic [ref=e349]:
+            - text: "E-Mail Address:"
+            - link "rick@flavortownusa.com" [ref=e351] [cursor=pointer]:
+              - /url: mailto:rick@flavortownusa.com
+          - list:
+            - listitem [ref=e352]:
+              - link "f f" [ref=e353] [cursor=pointer]:
+                - /url: https://www.facebook.com/flavortownusa
+                - text: f
+                - generic [ref=e354]: f
+            - listitem [ref=e355]:
+              - link "T T" [ref=e356] [cursor=pointer]:
+                - /url: https://twitter.com/flavortownusa
+                - text: T
+                - generic [ref=e357]: T
+            - listitem [ref=e358]:
+              - link " " [ref=e359] [cursor=pointer]:
+                - /url: https://www.instagram.com/ftownusa
+                - text: 
+                - generic [ref=e360]: 
+      - generic [ref=e363]:
+        - text: Copyright © 2026 A
+        - link "Richard (Rick) J Graner III" [ref=e364] [cursor=pointer]:
+          - /url: https://www.rickgraner.com
+        - text: Project via Grid Sixty Software, LLC. All rights reserved.
+    - text: 
+  - status [ref=e365]

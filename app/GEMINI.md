@@ -1,25 +1,20 @@
 # TripleDB App — Agent Instructions
 
-## Current Iteration: 8.17
+## Current Iteration: 8.22
 
 Read these two documents in order, then execute the plan:
 
-1. docs/ddd-design-v8.17.md — App architecture, IAO+MCP methodology
-2. docs/ddd-plan-v8.17.md — Discovery phase execution steps
+1. docs/ddd-design-v8.22.md — App architecture, methodology
+2. docs/ddd-plan-v8.22.md — Discovery redo execution steps
 
-Follow the autonomy rules defined in the plan. Begin with the Pre-Flight Checklist (Part 2).
+Follow the autonomy rules defined in the plan. Begin with Step 0.
 
 ## Rules That Never Change
-- NEVER run git add, git commit or git push, flutter build, flutter deploy, or firebase commands
-- NEVER ask permission between steps — auto-proceed on EVERY step
+- NEVER run git or firebase deploy commands
+- NEVER ask permission — auto-proceed on EVERY step
 - If you find yourself typing a question mark, STOP. Re-read the plan. Execute.
 - Self-heal errors: diagnose → fix → re-run (max 3 attempts, then skip)
-- MCP servers are phase-restricted — only use what the plan allows
-- Report artifacts are mandatory — do NOT end without them
-
-## MCP Rules for Phase 8.17 (Discovery)
-- ✅ Firecrawl — scrape reference sites
-- ✅ Playwright — screenshots of reference sites
-- ❌ Context7 — NOT allowed this phase
-- ❌ Lighthouse — NOT allowed this phase
-
+- MCP servers are phase-restricted — only Firecrawl + Playwright this phase
+- MUST produce ddd-build-v8.22.md AND ddd-report-v8.22.md before ending
+- Build on existing code — do NOT recreate the app scaffold
+- Do NOT modify any Flutter code this phase — Discovery only

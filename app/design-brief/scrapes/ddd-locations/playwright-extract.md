@@ -1,0 +1,826 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link " Diners, Drive-Ins & Dives " [ref=e6] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/
+          - generic [ref=e7]: 
+          - strong [ref=e8]: Diners, Drive-Ins & Dives
+          - generic [ref=e9]: 
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "by CITY" [ref=e13] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/city-search.html
+              - text: by
+              - strong [ref=e14]: CITY
+          - listitem [ref=e15]:
+            - link "by STATE" [ref=e16] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/state-search.html
+              - text: by
+              - strong [ref=e17]: STATE
+          - listitem [ref=e18]:
+            - link "by FOODS" [ref=e19] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/foods.html
+              - text: by
+              - strong [ref=e20]: FOODS
+          - listitem [ref=e21]:
+            - link "by CUISINE" [ref=e22] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/cuisines.html
+              - text: by
+              - strong [ref=e23]: CUISINE
+          - listitem [ref=e24]:
+            - link "ROAD TRIP" [ref=e25] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/road-trip.html
+              - strong [ref=e26]: ROAD TRIP
+          - listitem [ref=e27]:
+            - link "RECIPES" [ref=e28] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/recipes-diners-drive-ins-dives.html
+              - strong [ref=e29]: RECIPES
+          - listitem [ref=e30]:
+            - link "SHOP" [ref=e31] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/shop-diners-drive-ins-dives.html
+              - strong [ref=e32]: SHOP
+    - generic [ref=e33]:
+      - heading "Diners, Drive-Ins and Dives Locations" [level=1] [ref=e34]:
+        - strong [ref=e35]: Diners, Drive-Ins and Dives Locations
+      - heading "Browse by State, City, Episode, Food & Map to find every Guy Fieri DDD Diner Near Me" [level=2] [ref=e36]
+      - paragraph [ref=e37]: Authority Diners & Dives Locations Fan Guide for USA, Canada, Italy, UK, Mexico, Spain & Cuba
+    - generic [ref=e39]:
+      - button "SEARCH DINERS by STATES " [ref=e41] [cursor=pointer]:
+        - strong [ref=e42]:
+          - text: SEARCH DINERS by STATES
+          - generic [ref=e43]: 
+      - button "SEARCH DINERS by CITIES " [ref=e45] [cursor=pointer]:
+        - strong [ref=e46]:
+          - text: SEARCH DINERS by CITIES
+          - generic [ref=e47]: 
+    - generic [ref=e48]:
+      - heading "Complete Guide of over 1,600 Diners & Restaurants in over 490 Cities from 43 Triple D Seasons since 2007" [level=2] [ref=e49]:
+        - text: Complete Guide of over
+        - strong [ref=e50]: 1,600 Diners & Restaurants
+        - text: in over
+        - strong [ref=e51]: 490 Cities
+        - text: from
+        - strong [ref=e52]: 43 Triple D Seasons
+        - text: since 2007
+      - paragraph [ref=e53]:
+        - text: We're massive fans of the iconic Diners, Drive-Ins and Dives TV show with Guy Fieri. After visiting many of the featured restaurants ourselves, we realized one thing—there wasn't a truly reliable, user-friendly map or resource that organized every DDD location in one place. So we created this site to help fellow foodies and road trippers find all the best Triple D restaurants and avoid dumps. Whether you're planning a road trip or wondering “
+        - link "where are the best Diners, Drive-Ins and Dives near me?" [ref=e54] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/state-search.html
+        - text: ”, we’ve got you covered with the most complete and up-to-date list of locations. You can browse by state, by foods, by season, or search by city to discover every restaurant Guy has visited, complete with episode info, exact map locations, and what dishes he tried. If you're looking for the ultimate Diners, Drive-Ins and Dives map & travel guide, this is the only resource you’ll ever need.
+    - paragraph [ref=e55]: Check out the latest & upcoming episodes of diner locations added to our map & listings, visit now!
+    - paragraph [ref=e57]:
+      - strong [ref=e58]: "Season 43 - Episode: Funkalicious"
+      - text: "coming up: March 27, 2026"
+    - generic [ref=e60]:
+      - generic [ref=e62]:
+        - strong [ref=e63]:
+          - link "REGINA'S WESTSIDE" [ref=e64] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/reginas-westside-north-carolina.html
+        - link "REGINA'S WESTSIDE on Diners, Drive-Ins and Dives" [ref=e65] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/reginas-westside-north-carolina.html
+          - img "REGINA'S WESTSIDE on Diners, Drive-Ins and Dives" [ref=e66]
+        - link "Asheville, North Carolina" [ref=e68] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/asheville-north-carolina.html
+          - strong [ref=e69]: Asheville, North Carolina
+      - generic [ref=e71]:
+        - strong [ref=e72]:
+          - link "ISLAND TASTE CARIBBEAN GRILL" [ref=e73] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/island-taste-caribbean-grill-california.html
+        - link "ISLAND TASTE CARIBBEAN GRILL on Diners, Drive-Ins and Dives" [ref=e74] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/island-taste-caribbean-grill-california.html
+          - img "ISLAND TASTE CARIBBEAN GRILL on Diners, Drive-Ins and Dives" [ref=e75]
+        - link "San Jose, California" [ref=e77] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/san-jose-california.html
+          - strong [ref=e78]: San Jose, California
+      - generic [ref=e80]:
+        - strong [ref=e81]:
+          - link "MF INTERNATIONAL" [ref=e82] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/mf-international-nevada.html
+        - link "MF INTERNATIONAL on Diners, Drive-Ins and Dives" [ref=e83] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/mf-international-nevada.html
+          - img "MF INTERNATIONAL on Diners, Drive-Ins and Dives" [ref=e84]
+        - link "Sparks, Nevada" [ref=e86] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/sparks-nevada.html
+          - strong [ref=e87]: Sparks, Nevada
+    - paragraph [ref=e89]:
+      - strong [ref=e90]: Season 43 - Flavorworld
+      - text: "aired: March 13, 2026"
+    - generic [ref=e92]:
+      - generic [ref=e94]:
+        - strong [ref=e95]:
+          - link "LITTLE CHANGO" [ref=e96] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/little-chango-north-carolina.html
+        - link "LITTLE CHANGO on Diners, Drive-Ins and Dives" [ref=e97] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/little-chango-north-carolina.html
+          - img "LITTLE CHANGO on Diners, Drive-Ins and Dives" [ref=e98]
+        - link "Asheville, North Carolina" [ref=e100] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/asheville-north-carolina.html
+          - strong [ref=e101]: Asheville, North Carolina
+      - generic [ref=e103]:
+        - strong [ref=e104]:
+          - link "MOO DANG" [ref=e105] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/moo-dang-nevada.html
+        - link "MOO DANG on Diners, Drive-Ins and Dives" [ref=e106] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/moo-dang-nevada.html
+          - img "MOO DANG on Diners, Drive-Ins and Dives" [ref=e107]
+        - link "Reno, Nevada" [ref=e109] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/reno-nevada.html
+          - strong [ref=e110]: Reno, Nevada
+      - generic [ref=e112]:
+        - strong [ref=e113]:
+          - link "NAMO CAFE & BISTRO" [ref=e114] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/namo-cafe-bistro-alberta.html
+        - link "NAMO CAFE & BISTRO on Diners, Drive-Ins and Dives" [ref=e115] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/namo-cafe-bistro-alberta.html
+          - img "NAMO CAFE & BISTRO on Diners, Drive-Ins and Dives" [ref=e116]
+        - link "Calgary, Alberta" [ref=e118] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/calgary-alberta.html
+          - strong [ref=e119]: Calgary, Alberta
+    - button "NEW EPISODES / SEASON LIST " [ref=e121] [cursor=pointer]:
+      - strong [ref=e122]:
+        - text: NEW EPISODES / SEASON LIST
+        - generic [ref=e123]: 
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e127]:
+          - heading "10 Oldest Diners on Diners, Drive-Ins and Dives with Historic Charm" [level=2] [ref=e128]:
+            - link "10 Oldest Diners on Diners, Drive-Ins and Dives with Historic Charm" [ref=e129] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/10-oldest-ddd-diners-with-historic-charm.html
+              - strong [ref=e130]: 10 Oldest Diners on Diners, Drive-Ins and Dives with Historic Charm
+          - link "Oldest Vintage Diners in the USA" [ref=e131] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/10-oldest-ddd-diners-with-historic-charm.html
+            - img "Oldest Vintage Diners in the USA" [ref=e132]
+        - generic [ref=e134]:
+          - heading "Must-Visit Italian Festivals in the United States (2026 Food Guide)" [level=2] [ref=e135]:
+            - link "Must-Visit Italian Festivals in the United States (2026 Food Guide)" [ref=e136] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/italian-heritage-festivals-calendar.html
+              - strong [ref=e137]: Must-Visit Italian Festivals in the United States (2026 Food Guide)
+          - link "Top Italian Heritage and Food Fetivals" [ref=e138] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/italian-heritage-festivals-calendar.html
+            - img "Top Italian Heritage and Food Fetivals" [ref=e139]
+        - generic [ref=e141]:
+          - 'heading "Road Trip Food Ideas: Best Snacks, Meals & Tips for Long Drives" [level=2] [ref=e142]':
+            - 'link "Road Trip Food Ideas: Best Snacks, Meals & Tips for Long Drives" [ref=e143] [cursor=pointer]':
+              - /url: https://www.dinersdriveinsdiveslocations.com/road-trip-food-ideas.html
+              - strong [ref=e144]: "Road Trip Food Ideas: Best Snacks, Meals & Tips for Long Drives"
+          - link "Road Trip Food Ideas" [ref=e145] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/road-trip-food-ideas.html
+            - img "Road Trip Food Ideas" [ref=e146]
+      - generic [ref=e147]:
+        - generic [ref=e149]:
+          - heading "Annual Best 10 Oyster Festivals in the USA - Food & Event Guide" [level=2] [ref=e150]:
+            - link "Annual Best 10 Oyster Festivals in the USA - Food & Event Guide" [ref=e151] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/annual-oyster-festival-guide.html
+              - strong [ref=e152]: Annual Best 10 Oyster Festivals in the USA - Food & Event Guide
+          - link "Best Oyster Festivals US Calendar" [ref=e153] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/annual-oyster-festival-guide.html
+            - img "Best Oyster Festivals US Calendar" [ref=e154]
+        - generic [ref=e156]:
+          - 'heading "Where to Eat: Popular Restaurants Seen on TV Near Me - TV Show Food" [level=2] [ref=e157]':
+            - 'link "Where to Eat: Popular Restaurants Seen on TV Near Me - TV Show Food" [ref=e158] [cursor=pointer]':
+              - /url: https://www.dinersdriveinsdiveslocations.com/restaurants-seen-on-tv-near-me.html
+              - strong [ref=e159]: "Where to Eat: Popular Restaurants Seen on TV Near Me - TV Show Food"
+          - link "Restaurants Seen on TV Near Me" [ref=e160] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/restaurants-seen-on-tv-near-me.html
+            - img "Restaurants Seen on TV Near Me" [ref=e161]
+        - generic [ref=e163]:
+          - heading "The Best 10 Taco Festivals Across the USA – 2026 Food Guide" [level=2] [ref=e164]:
+            - link "The Best 10 Taco Festivals Across the USA – 2026 Food Guide" [ref=e165] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/best-annual-taco-festivals-us.html
+              - strong [ref=e166]: The Best 10 Taco Festivals Across the USA – 2026 Food Guide
+          - link "Best Annual Taco Festivals" [ref=e167] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/best-annual-taco-festivals-us.html
+            - img "Best Annual Taco Festivals" [ref=e168]
+      - generic [ref=e169]:
+        - generic [ref=e171]:
+          - 'heading "Diners, Drive-Ins and Dives International: Guy Fieri''s Travels" [level=2] [ref=e172]':
+            - 'link "Diners, Drive-Ins and Dives International: Guy Fieri''s Travels" [ref=e173] [cursor=pointer]':
+              - /url: https://www.dinersdriveinsdiveslocations.com/diners-drive-ins-dives-international.html
+              - strong [ref=e174]: "Diners, Drive-Ins and Dives International: Guy Fieri's Travels"
+          - link "Diners, Drive-Ins and Dives International" [ref=e175] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/diners-drive-ins-dives-international.html
+            - img "Diners, Drive-Ins and Dives International" [ref=e176]
+        - generic [ref=e178]:
+          - 'heading "The Ultimate Route 66 Foodie Road Trip: Diners, Drive-Ins and All-American Eats" [level=2] [ref=e179]':
+            - 'link "The Ultimate Route 66 Foodie Road Trip: Diners, Drive-Ins and All-American Eats" [ref=e180] [cursor=pointer]':
+              - /url: https://www.dinersdriveinsdiveslocations.com/route-66-diners-drive-ins-dives-road-trip.html
+              - strong [ref=e181]: "The Ultimate Route 66 Foodie Road Trip: Diners, Drive-Ins and All-American Eats"
+          - link "Diners, Drive-Ins and Dives on Route 66" [ref=e182] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/route-66-diners-drive-ins-dives-road-trip.html
+            - img "Diners, Drive-Ins and Dives on Route 66" [ref=e183]
+        - generic [ref=e185]:
+          - heading "25 Surprising Fun Facts About Guy Fieri & Diners, Drive-Ins and Dives" [level=2] [ref=e186]:
+            - link "25 Surprising Fun Facts About Guy Fieri & Diners, Drive-Ins and Dives" [ref=e187] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/guy-fieri-25-fun-facts.html
+              - strong [ref=e188]: 25 Surprising Fun Facts About Guy Fieri & Diners, Drive-Ins and Dives
+          - link "25 Surprising Fun Facts About Guy Fieri" [ref=e189] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/guy-fieri-25-fun-facts.html
+            - img "25 Surprising Fun Facts About Guy Fieri" [ref=e190]
+      - generic [ref=e191]:
+        - generic [ref=e193]:
+          - 'heading "Chili Cook-Offs Across the USA: Top Festivals & Event Dates" [level=2] [ref=e194]':
+            - 'link "Chili Cook-Offs Across the USA: Top Festivals & Event Dates" [ref=e195] [cursor=pointer]':
+              - /url: https://www.dinersdriveinsdiveslocations.com/chili-cook-offs-festivals.html
+              - strong [ref=e196]: "Chili Cook-Offs Across the USA: Top Festivals & Event Dates"
+          - link "Top USA Chili Cook-Offs and Festivals" [ref=e197] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/chili-cook-offs-festivals.html
+            - img "Top USA Chili Cook-Offs and Festivals" [ref=e198]
+        - generic [ref=e200]:
+          - heading "History of American Diners" [level=2] [ref=e201]:
+            - link "History of American Diners" [ref=e202] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/history-of-american-diners.html
+              - strong [ref=e203]: History of American Diners
+          - link "History of American Diners" [ref=e204] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/history-of-american-diners.html
+            - img "History of American Diners" [ref=e205]
+        - generic [ref=e207]:
+          - 'heading "Top 10 BBQ Festivals: Best Annual Barbecue Events" [level=2] [ref=e208]':
+            - 'link "Top 10 BBQ Festivals: Best Annual Barbecue Events" [ref=e209] [cursor=pointer]':
+              - /url: https://www.dinersdriveinsdiveslocations.com/annual-usa-bbq-festivals.html
+              - strong [ref=e210]: "Top 10 BBQ Festivals: Best Annual Barbecue Events"
+          - link "Top Annual USA BBQ Festivals" [ref=e211] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/annual-usa-bbq-festivals.html
+            - img "Top Annual USA BBQ Festivals" [ref=e212]
+      - generic [ref=e213]:
+        - generic [ref=e215]:
+          - 'heading "Guy Fieri Burger Recipes: 6 Diners, Drive-Ins and Dives Hits" [level=2] [ref=e216]':
+            - 'link "Guy Fieri Burger Recipes: 6 Diners, Drive-Ins and Dives Hits" [ref=e217] [cursor=pointer]':
+              - /url: https://www.dinersdriveinsdiveslocations.com/burger-recipes-diners-drive-ins-dives-guy-fieri.html
+              - strong [ref=e218]: "Guy Fieri Burger Recipes: 6 Diners, Drive-Ins and Dives Hits"
+          - link "Diners, Drive-Ins and Dives Burger Recipes with Guy Fieri" [ref=e219] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/burger-recipes-diners-drive-ins-dives-guy-fieri.html
+            - img "Diners, Drive-Ins and Dives Burger Recipes with Guy Fieri" [ref=e220]
+        - generic [ref=e222]:
+          - heading "6 Bold Food Network Guy Fieri Chicken Recipes from Triple-D" [level=2] [ref=e223]:
+            - link "6 Bold Food Network Guy Fieri Chicken Recipes from Triple-D" [ref=e224] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/chicken-recipes-diners-drive-ins-dives-guy-fieri.html
+              - strong [ref=e225]: 6 Bold Food Network Guy Fieri Chicken Recipes from Triple-D
+          - link "Diners, Drive-Ins and Dives Chicken Recipes with Guy Fieri" [ref=e226] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/chicken-recipes-diners-drive-ins-dives-guy-fieri.html
+            - img "Diners, Drive-Ins and Dives Chicken Recipes with Guy Fieri" [ref=e227]
+        - generic [ref=e229]:
+          - heading "Guy Fieri’s Top Chili Recipes from Diners, Drive-Ins & Dives" [level=2] [ref=e230]:
+            - link "Guy Fieri’s Top Chili Recipes from Diners, Drive-Ins & Dives" [ref=e231] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/chili-recipes-diners-drive-ins-dives-guy-fieri.html
+              - strong [ref=e232]: Guy Fieri’s Top Chili Recipes from Diners, Drive-Ins & Dives
+          - link "Diners, Drive-Ins and Dives Chili Recipes with Guy Fieri" [ref=e233] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/chili-recipes-diners-drive-ins-dives-guy-fieri.html
+            - img "Diners, Drive-Ins and Dives Chili Recipes with Guy Fieri" [ref=e234]
+      - generic [ref=e235]:
+        - generic [ref=e237]:
+          - heading "Guy Fieri’s Top Mac and Cheese Recipes from Diners, Drive-Ins and Dives" [level=2] [ref=e238]:
+            - link "Guy Fieri’s Top Mac and Cheese Recipes from Diners, Drive-Ins and Dives" [ref=e239] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/mac-and-cheese-recipes-diners-drive-ins-dives-guy-fieri.html
+              - strong [ref=e240]: Guy Fieri’s Top Mac and Cheese Recipes from Diners, Drive-Ins and Dives
+          - link "Diners, Drive-Ins and Dives Mac and Cheese Recipes with Guy Fieri" [ref=e241] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/mac-and-cheese-recipes-diners-drive-ins-dives-guy-fieri.html
+            - img "Diners, Drive-Ins and Dives Mac and Cheese Recipes with Guy Fieri" [ref=e242]
+        - generic [ref=e244]:
+          - heading "10 Best Crawfish Festivals Events Near Me & Calendar" [level=2] [ref=e245]:
+            - link "10 Best Crawfish Festivals Events Near Me & Calendar" [ref=e246] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/top-10-crawfish-festivals.html
+              - strong [ref=e247]: 10 Best Crawfish Festivals Events Near Me & Calendar
+          - link "Best Crawfish Festivals Events Near Me" [ref=e248] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/top-10-crawfish-festivals.html
+            - img "Best Crawfish Festivals Events Near Me" [ref=e249]
+        - generic [ref=e251]:
+          - heading "Guy Fieri’s Best Meatloaf Recipes from Diners, Drive-Ins and Dives" [level=2] [ref=e252]:
+            - link "Guy Fieri’s Best Meatloaf Recipes from Diners, Drive-Ins and Dives" [ref=e253] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/meatloaf-recipes-diners-drive-ins-dives-guy-fieri.html
+              - strong [ref=e254]: Guy Fieri’s Best Meatloaf Recipes from Diners, Drive-Ins and Dives
+          - link "Diners, Drive-Ins and Dives Meatloaf Recipes with Guy Fieri" [ref=e255] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/meatloaf-recipes-diners-drive-ins-dives-guy-fieri.html
+            - img "Diners, Drive-Ins and Dives Meatloaf Recipes with Guy Fieri" [ref=e256]
+      - generic [ref=e257]:
+        - generic [ref=e259]:
+          - heading "Nutella Cookies & Knots Recipes Inspired by Food Network" [level=2] [ref=e260]:
+            - link "Nutella Cookies & Knots Recipes Inspired by Food Network" [ref=e261] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/nutella-dessert-recipe-ideas.html
+              - strong [ref=e262]: Nutella Cookies & Knots Recipes Inspired by Food Network
+          - link "Nutella Desserts Recipes" [ref=e263] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/nutella-dessert-recipe-ideas.html
+            - img "Nutella Desserts Recipes" [ref=e264]
+        - generic [ref=e266]:
+          - heading "Top 7 Diner-Style Breakfast Recipes Inspired by Guy Fieri" [level=2] [ref=e267]:
+            - link "Top 7 Diner-Style Breakfast Recipes Inspired by Guy Fieri" [ref=e268] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/breakfast-recipes-diners-drive-ins-dives-guy-fieri.html
+              - strong [ref=e269]: Top 7 Diner-Style Breakfast Recipes Inspired by Guy Fieri
+          - link "Diners, Drive-Ins and Dives Breakfast Recipes with Guy Fieri" [ref=e270] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/breakfast-recipes-diners-drive-ins-dives-guy-fieri.html
+            - img "Diners, Drive-Ins and Dives Breakfast Recipes with Guy Fieri" [ref=e271]
+        - generic [ref=e273]:
+          - heading "6 Finger-Lickin’ Rib Recipes Inspired by Guy Fieri & DDD" [level=2] [ref=e274]:
+            - link "6 Finger-Lickin’ Rib Recipes Inspired by Guy Fieri & DDD" [ref=e275] [cursor=pointer]:
+              - /url: https://www.dinersdriveinsdiveslocations.com/ribs-recipes-diners-drive-ins-dives-guy-fieri.html
+              - strong [ref=e276]: 6 Finger-Lickin’ Rib Recipes Inspired by Guy Fieri & DDD
+          - link "Diners, Drive-Ins and Dives Ribs Recipes with Guy Fieri" [ref=e277] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/ribs-recipes-diners-drive-ins-dives-guy-fieri.html
+            - img "Diners, Drive-Ins and Dives Ribs Recipes with Guy Fieri" [ref=e278]
+    - paragraph [ref=e280]:
+      - strong [ref=e281]: Top 40 Most Popular 2026 Foodie Cities
+      - text: on Diners, Drive-Ins & Dives
+    - generic [ref=e283]:
+      - generic [ref=e284]:
+        - link "Asheville, NC" [ref=e285] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/asheville-north-carolina.html
+          - strong [ref=e286]: Asheville, NC
+        - link "Atlanta, GA" [ref=e287] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/atlanta-georgia.html
+          - strong [ref=e288]: Atlanta, GA
+        - link "Austin, TX" [ref=e289] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/austin-texas.html
+          - strong [ref=e290]: Austin, TX
+        - link "Boston, MA" [ref=e291] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/boston-massachusetts.html
+          - strong [ref=e292]: Boston, MA
+        - link "Charleston, SC" [ref=e293] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/charleston-south-carolina.html
+          - strong [ref=e294]: Charleston, SC
+        - link "Charlotte, NC" [ref=e295] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/charlotte-north-carolina.html
+          - strong [ref=e296]: Charlotte, NC
+        - link "Chicago, IL" [ref=e297] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/chicago-illinois.html
+          - strong [ref=e298]: Chicago, IL
+        - link "Columbus, OH" [ref=e299] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/columbus-ohio.html
+          - strong [ref=e300]: Columbus, OH
+        - link "Dallas, TX" [ref=e301] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/dallas-texas.html
+          - strong [ref=e302]: Dallas, TX
+        - link "Denver, CO" [ref=e303] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/denver-colorado.html
+          - strong [ref=e304]: Denver, CO
+        - link "Detroit, MI" [ref=e305] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/detroit-michigan.html
+          - strong [ref=e306]: Detroit, MI
+        - link "Honolulu, HI" [ref=e307] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/honolulu-hawaii.html
+          - strong [ref=e308]: Honolulu, HI
+        - link "Houston, TX" [ref=e309] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/houston-texas.html
+          - strong [ref=e310]: Houston, TX
+        - link "Kansas City, MO" [ref=e311] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/kansas-city-missouri.html
+          - strong [ref=e312]: Kansas City, MO
+        - link "Las Vegas, NV" [ref=e313] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/las-vegas-nevada.html
+          - strong [ref=e314]: Las Vegas, NV
+        - link "Los Angeles, CA" [ref=e315] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/los-angeles-california.html
+          - strong [ref=e316]: Los Angeles, CA
+        - link "Memphis, TN" [ref=e317] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/memphis-tennessee.html
+          - strong [ref=e318]: Memphis, TN
+        - link "Miami, FL" [ref=e319] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/miami-florida.html
+          - strong [ref=e320]: Miami, FL
+        - link "Milwaukee, WI" [ref=e321] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/milwaukee-wisconsin.html
+          - strong [ref=e322]: Milwaukee, WI
+        - link "Minneapolis, MN" [ref=e323] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/minneapolis-minnesota.html
+          - strong [ref=e324]: Minneapolis, MN
+      - generic [ref=e325]:
+        - link "Nashville, TN" [ref=e326] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/nashville-tennessee.html
+          - strong [ref=e327]: Nashville, TN
+        - link "New Orleans, LA" [ref=e328] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/new-orleans-louisiana.html
+          - strong [ref=e329]: New Orleans, LA
+        - link "New York City, NY" [ref=e330] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/nyc-new-york.html
+          - strong [ref=e331]: New York City, NY
+        - link "Oakland, CA" [ref=e332] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/oakland-california.html
+          - strong [ref=e333]: Oakland, CA
+        - link "Orlando, FL" [ref=e334] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/orlando-florida.html
+          - strong [ref=e335]: Orlando, FL
+        - link "Philadelphia, PA" [ref=e336] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/philadelphia-pennsylvania.html
+          - strong [ref=e337]: Philadelphia, PA
+        - link "Phoenix, AZ" [ref=e338] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/phoenix-arizona.html
+          - strong [ref=e339]: Phoenix, AZ
+        - link "Pittsburgh, PA" [ref=e340] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/pittsburgh-pennsylvania.html
+          - strong [ref=e341]: Pittsburgh, PA
+        - link "Portland, OR" [ref=e342] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/portland-oregon.html
+          - strong [ref=e343]: Portland, OR
+        - link "Providence, RI" [ref=e344] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/providence-rhode-island.html
+          - strong [ref=e345]: Providence, RI
+        - link "Sacramento, CA" [ref=e346] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/sacramento-california.html
+          - strong [ref=e347]: Sacramento, CA
+        - link "San Antonio, TX" [ref=e348] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/san-antonio-texas.html
+          - strong [ref=e349]: San Antonio, TX
+        - link "San Diego, CA" [ref=e350] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/san-diego-california.html
+          - strong [ref=e351]: San Diego, CA
+        - link "San Francisco, CA" [ref=e352] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/san-francisco-california.html
+          - strong [ref=e353]: San Francisco, CA
+        - link "Savannah, GA" [ref=e354] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/savannah-georgia.html
+          - strong [ref=e355]: Savannah, GA
+        - link "Seattle, WA" [ref=e356] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/seattle-washington.html
+          - strong [ref=e357]: Seattle, WA
+        - link "St Louis, MO" [ref=e358] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/st-louis-missouri.html
+          - strong [ref=e359]: St Louis, MO
+        - link "St Petersburg, FL" [ref=e360] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/st-petersburg-florida.html
+          - strong [ref=e361]: St Petersburg, FL
+        - link "Tampa, FL" [ref=e362] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/tampa-florida.html
+          - strong [ref=e363]: Tampa, FL
+        - link "Washington, DC" [ref=e364] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/washington-dc.html
+          - strong [ref=e365]: Washington, DC
+    - link "Diners, Drive-Ins & Dives Restaurants in CANADA" [ref=e369] [cursor=pointer]:
+      - /url: https://www.dinersdriveinsdiveslocations.com/canada-locations.html
+      - text: Diners, Drive-Ins & Dives Restaurants in
+      - strong [ref=e370]: CANADA
+    - paragraph [ref=e372]:
+      - strong [ref=e373]: Browse the Best Assortment of Foods & Cuisines Styles featured on DDD
+    - generic [ref=e375]:
+      - generic [ref=e376]:
+        - heading "PIZZA EPISODES" [level=3] [ref=e377]:
+          - link "PIZZA EPISODES" [ref=e378] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/pizza-places-near-me.html
+            - strong [ref=e379]: PIZZA EPISODES
+        - link "Pizza episodes on Diners Drive-Ins and Dives" [ref=e380] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/pizza-places-near-me.html
+          - img "Pizza episodes on Diners Drive-Ins and Dives" [ref=e381]
+      - generic [ref=e382]:
+        - heading "BURGERS & SLIDERS" [level=3] [ref=e383]:
+          - link "BURGERS & SLIDERS" [ref=e384] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/burger-places-near-me.html
+            - strong [ref=e385]: BURGERS & SLIDERS
+        - link "Burgers episodes on Diners Drive-Ins and Dives" [ref=e386] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/burger-places-near-me.html
+          - img "Burgers episodes on Diners Drive-Ins and Dives" [ref=e387]
+      - generic [ref=e388]:
+        - heading "BBQ / BARBECUE" [level=3] [ref=e389]:
+          - link "BBQ / BARBECUE" [ref=e390] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/bbq-places-near-me.html
+            - strong [ref=e391]: BBQ / BARBECUE
+        - link "BBQ episodes on Diners Drive-Ins and Dives" [ref=e392] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/bbq-places-near-me.html
+          - img "BBQ episodes on Diners Drive-Ins and Dives" [ref=e393]
+    - generic [ref=e395]:
+      - generic [ref=e396]:
+        - heading "TACOS & BURRITOS" [level=3] [ref=e397]:
+          - link "TACOS & BURRITOS" [ref=e398] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/taco-burrito-places-near-me.html
+            - strong [ref=e399]: TACOS & BURRITOS
+        - link "Tacos and Burritos episodes on Diners Drive-Ins and Dives" [ref=e400] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/taco-burrito-places-near-me.html
+          - img "Tacos and Burritos episodes on Diners Drive-Ins and Dives" [ref=e401]
+      - generic [ref=e402]:
+        - heading "DESSERT & ICE CREAM" [level=3] [ref=e403]:
+          - link "DESSERT & ICE CREAM" [ref=e404] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/dessert-places-near-me.html
+            - strong [ref=e405]: DESSERT & ICE CREAM
+        - link "Desserts episodes on Diners Drive-Ins and Dives" [ref=e406] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/dessert-places-near-me.html
+          - img "Desserts episodes on Diners Drive-Ins and Dives" [ref=e407]
+      - generic [ref=e408]:
+        - heading "SANDWICHES & SUBS" [level=3] [ref=e409]:
+          - link "SANDWICHES & SUBS" [ref=e410] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/sandwich-places-near-me.html
+            - strong [ref=e411]: SANDWICHES & SUBS
+        - link "Sandwiches and Subs episodes on Diners Drive-Ins and Dives" [ref=e412] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/sandwich-places-near-me.html
+          - img "Sandwiches and Subs episodes on Diners Drive-Ins and Dives" [ref=e413]
+    - generic [ref=e415]:
+      - generic [ref=e416]:
+        - heading "FOOD TRUCKS" [level=3] [ref=e417]:
+          - link "FOOD TRUCKS" [ref=e418] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/food-truck.html
+            - strong [ref=e419]: FOOD TRUCKS
+        - link "Food Trucks episodes on Diners Drive-Ins and Dives" [ref=e420] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/food-truck.html
+          - img "Food Trucks episodes on Diners Drive-Ins and Dives" [ref=e421]
+      - generic [ref=e422]:
+        - heading "BREAKFAST DINERS" [level=3] [ref=e423]:
+          - link "BREAKFAST DINERS" [ref=e424] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/breakfast-places-near-me.html
+            - strong [ref=e425]: BREAKFAST DINERS
+        - link "Breakfast episodes on Diners Drive-Ins and Dives" [ref=e426] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/breakfast-places-near-me.html
+          - img "Breakfast episodes on Diners Drive-Ins and Dives" [ref=e427]
+      - generic [ref=e428]:
+        - heading "MEXICAN FOOD" [level=3] [ref=e429]:
+          - link "MEXICAN FOOD" [ref=e430] [cursor=pointer]:
+            - /url: https://www.dinersdriveinsdiveslocations.com/mexican-food-near-me.html
+            - strong [ref=e431]: MEXICAN FOOD
+        - link "Mexican Food episodes on Diners Drive-Ins and Dives" [ref=e432] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/mexican-food-near-me.html
+          - img "Mexican Food episodes on Diners Drive-Ins and Dives" [ref=e433]
+    - link "The Best Food Network Recipes of All Time" [ref=e437] [cursor=pointer]:
+      - /url: https://www.dinersdriveinsdiveslocations.com/recipes-diners-drive-ins-dives.html
+      - text: The Best
+      - strong [ref=e438]: Food Network Recipes
+      - text: of All Time
+    - generic [ref=e439]:
+      - text: Flavortown
+      - strong [ref=e440]: USA
+      - generic [ref=e441]: 
+    - generic [ref=e443]:
+      - generic [ref=e444]:
+        - link "Alabama" [ref=e446] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/alabama-locations.html
+          - strong [ref=e447]: Alabama
+        - link "Alaska" [ref=e449] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/alaska-locations.html
+          - strong [ref=e450]: Alaska
+        - link "Arizona" [ref=e452] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/arizona-locations.html
+          - strong [ref=e453]: Arizona
+        - link "Arkansas" [ref=e455] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/arkansas-locations.html
+          - strong [ref=e456]: Arkansas
+        - link "California" [ref=e458] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/california-locations.html
+          - strong [ref=e459]: California
+        - link "Colorado" [ref=e461] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/colorado-locations.html
+          - strong [ref=e462]: Colorado
+        - link "Connecticut" [ref=e464] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/connecticut-locations.html
+          - strong [ref=e465]: Connecticut
+        - link "DC" [ref=e467] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/dc-locations.html
+          - strong [ref=e468]: DC
+        - link "Delaware" [ref=e470] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/delaware-locations.html
+          - strong [ref=e471]: Delaware
+      - generic [ref=e472]:
+        - link "Florida" [ref=e474] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/florida-locations.html
+          - strong [ref=e475]: Florida
+        - link "Georgia" [ref=e477] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/georgia-locations.html
+          - strong [ref=e478]: Georgia
+        - link "Hawaii" [ref=e480] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/hawaii-locations.html
+          - strong [ref=e481]: Hawaii
+        - link "Idaho" [ref=e483] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/idaho-locations.html
+          - strong [ref=e484]: Idaho
+        - link "Illinois" [ref=e486] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/illinois-locations.html
+          - strong [ref=e487]: Illinois
+        - link "Indiana" [ref=e489] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/indiana-locations.html
+          - strong [ref=e490]: Indiana
+        - link "Iowa" [ref=e492] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/iowa-locations.html
+          - strong [ref=e493]: Iowa
+        - link "Kansas" [ref=e495] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/kansas-locations.html
+          - strong [ref=e496]: Kansas
+        - link "Kentucky" [ref=e498] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/kentucky-locations.html
+          - strong [ref=e499]: Kentucky
+      - generic [ref=e500]:
+        - link "Louisiana" [ref=e502] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/louisiana-locations.html
+          - strong [ref=e503]: Louisiana
+        - link "Maine" [ref=e505] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/maine-locations.html
+          - strong [ref=e506]: Maine
+        - link "Maryland" [ref=e508] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/maryland-locations.html
+          - strong [ref=e509]: Maryland
+        - link "Massachusetts" [ref=e511] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/massachusetts-locations.html
+          - strong [ref=e512]: Massachusetts
+        - link "Michigan" [ref=e514] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/michigan-locations.html
+          - strong [ref=e515]: Michigan
+        - link "Minnesota" [ref=e517] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/minnesota-locations.html
+          - strong [ref=e518]: Minnesota
+        - link "Mississippi" [ref=e520] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/mississippi-locations.html
+          - strong [ref=e521]: Mississippi
+        - link "Missouri" [ref=e523] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/missouri-locations.html
+          - strong [ref=e524]: Missouri
+        - link "Montana" [ref=e526] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/montana-locations.html
+          - strong [ref=e527]: Montana
+      - generic [ref=e528]:
+        - link "Nebraska" [ref=e530] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/nebraska-locations.html
+          - strong [ref=e531]: Nebraska
+        - link "Nevada" [ref=e533] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/nevada-locations.html
+          - strong [ref=e534]: Nevada
+        - link "New Hampshire" [ref=e536] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/new-hampshire-locations.html
+          - strong [ref=e537]: New Hampshire
+        - link "New Jersey" [ref=e539] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/new-jersey-locations.html
+          - strong [ref=e540]: New Jersey
+        - link "New Mexico" [ref=e542] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/new-mexico-locations.html
+          - strong [ref=e543]: New Mexico
+        - link "New York" [ref=e545] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/new-york-locations.html
+          - strong [ref=e546]: New York
+        - link "North Carolina" [ref=e548] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/north-carolina-locations.html
+          - strong [ref=e549]: North Carolina
+        - link "North Dakota" [ref=e551] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/north-dakota-locations.html
+          - strong [ref=e552]: North Dakota
+      - generic [ref=e553]:
+        - link "Ohio" [ref=e555] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/ohio-locations.html
+          - strong [ref=e556]: Ohio
+        - link "Oklahoma" [ref=e558] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/oklahoma-locations.html
+          - strong [ref=e559]: Oklahoma
+        - link "Oregon" [ref=e561] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/oregon-locations.html
+          - strong [ref=e562]: Oregon
+        - link "Pennsylvania" [ref=e564] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/pennsylvania-locations.html
+          - strong [ref=e565]: Pennsylvania
+        - link "Rhode Island" [ref=e567] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/rhode-island-locations.html
+          - strong [ref=e568]: Rhode Island
+        - link "South Carolina" [ref=e570] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/south-carolina-locations.html
+          - strong [ref=e571]: South Carolina
+        - link "South Dakota" [ref=e573] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/south-dakota-locations.html
+          - strong [ref=e574]: South Dakota
+        - link "Tennessee" [ref=e576] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/tennessee-locations.html
+          - strong [ref=e577]: Tennessee
+      - generic [ref=e578]:
+        - link "Texas" [ref=e580] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/texas-locations.html
+          - strong [ref=e581]: Texas
+        - link "Utah" [ref=e583] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/utah-locations.html
+          - strong [ref=e584]: Utah
+        - link "Vermont" [ref=e586] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/vermont-locations.html
+          - strong [ref=e587]: Vermont
+        - link "Virginia" [ref=e589] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/virginia-locations.html
+          - strong [ref=e590]: Virginia
+        - link "Washington" [ref=e592] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/washington-locations.html
+          - strong [ref=e593]: Washington
+        - link "West Virginia" [ref=e595] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/west-virginia-locations.html
+          - strong [ref=e596]: West Virginia
+        - link "Wisconsin" [ref=e598] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/wisconsin-locations.html
+          - strong [ref=e599]: Wisconsin
+        - link "Wyoming" [ref=e601] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/wyoming-locations.html
+          - strong [ref=e602]: Wyoming
+    - generic [ref=e603]:
+      - text: Flavortown
+      - strong [ref=e604]: CANADA
+      - generic [ref=e605]: 
+    - generic [ref=e607]:
+      - link "Alberta" [ref=e610] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/alberta-locations.html
+        - strong [ref=e611]: Alberta
+      - link "British Columbia" [ref=e614] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/british-columbia-locations.html
+        - strong [ref=e615]: British Columbia
+      - link "Ontario" [ref=e618] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/ontario-locations.html
+        - strong [ref=e619]: Ontario
+    - generic [ref=e620]:
+      - text: Flavortown
+      - strong [ref=e621]: INTERNATIONAL
+      - generic [ref=e622]: 
+    - generic [ref=e624]:
+      - generic [ref=e625]:
+        - link "Canada" [ref=e627] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/canada-locations.html
+          - strong [ref=e628]: Canada
+        - link "UK" [ref=e630] [cursor=pointer]:
+          - /url: https://www.dinersdriveinsdiveslocations.com/uk-locations.html
+          - strong [ref=e631]: UK
+      - link "Cuba" [ref=e634] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/cuba-locations.html
+        - strong [ref=e635]: Cuba
+      - link "Italy" [ref=e638] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/italy-locations.html
+        - strong [ref=e639]: Italy
+      - link "Mexico" [ref=e642] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/mexico-locations.html
+        - strong [ref=e643]: Mexico
+      - link "Puerto Rico" [ref=e646] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/puerto-rico-locations.html
+        - strong [ref=e647]: Puerto Rico
+      - link "Spain" [ref=e650] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/spain-locations.html
+        - strong [ref=e651]: Spain
+  - generic [ref=e653]:
+    - generic [ref=e654]:
+      - strong [ref=e655]: OUR MISSION
+      - text: Find all Diners, Drive-Ins and Dives locations by state, city, episode or food seen on TV. Up-to-date road trip planner & map for Diners, Drive-Ins and Dives near you.
+    - generic [ref=e656]:
+      - strong [ref=e657]: "EXPLORE #DDD"
+      - link "By Cities" [ref=e658] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/city-search.html
+      - text: •
+      - link "By States" [ref=e659] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/state-search.html
+      - text: •
+      - link "By Foods" [ref=e660] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/foods.html
+      - text: •
+      - link "By Cuisines" [ref=e661] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/cuisines.html
+      - link "Road Trip" [ref=e662] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/road-trip.html
+      - text: •
+      - link "New Episodes" [ref=e663] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/episodes-season-guide.html
+      - text: •
+      - link "Articles" [ref=e664] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/articles.html
+      - text: •
+      - link "Gift Ideas" [ref=e665] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/shop-diners-drive-ins-dives.html
+      - link "Suggest a Diner" [ref=e666] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/suggest.html
+      - text: •
+      - link "USA Food Festivals & Events" [ref=e667] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/top-food-festivals-usa.html
+    - paragraph [ref=e669]:
+      - link "About" [ref=e670] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/aboutus.html
+      - text: •
+      - link "Privacy Policy" [ref=e671] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/privacy.html
+      - text: •
+      - link "Terms" [ref=e672] [cursor=pointer]:
+        - /url: https://www.dinersdriveinsdiveslocations.com/termsofservice.html
+      - text: •
+      - link "Contact Us" [ref=e673] [cursor=pointer]:
+        - /url: mailto:contact@dinersdriveinsdiveslocations.com
+      - text: Copyright © 2026 DinersDriveInsDivesLocations.com
+      - text: This website is NOT AFFILIATED with the Food Network
+  - generic [ref=e679]:
+    - generic [ref=e680]:
+      - text: Information from your device can be used to personalize your ad experience.
+      - link "Do not sell or share my personal information." [ref=e681] [cursor=pointer]:
+        - /url: /
+    - link "Terms of Content Use" [ref=e683] [cursor=pointer]:
+      - /url: /
+    - text: A Raptive Partner Site
+  - iframe
+  - iframe
+  - iframe
+  - iframe
+  - iframe
+  - iframe [ref=e694]:
+    - generic [ref=f231e2]:
+      - iframe [ref=f231e3] [cursor=pointer]:
+        - img [ref=f245e2]
+      - insertion [ref=f231e4]:
+        - link "Advertisement" [ref=f231e7] [cursor=pointer]:
+          - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssx0r5D0yr0Ga5HkgiAlIRjaua7ytilplq-CTHT1UxrpBCOKz3kDfMq6IOzu3MGhjLO8mUkpsI85ty9xfjb_EGA0kBHbEtP3D5bkRFFNKQoa0WcEKJhVFdws4Gbo82l9vU7bENeqY4ue05LvVwd-PkyFxM_X63k8EPilSqW-T0ezIG5uW1PUi6bBcGDJjhLfSFHnojvxunJGdkG7WUn0gjWqRFNPTuCIMYkkpRz4Zp-XnInpEFdzCeeKlhlEUcZk2IT5iywPrz7Fn48KFYGwQvKp2Qb0u1fwTVPsAT5LIUPaboc4xukO-EosPIfJ7XVVI0LK2Yx6WFhUiWMRKcDLQse9iFRMOEuh4RsjsO97gXm_8rw0RpaS0bUujp606VNRl1JPbFUFyDa6c-b9EszTvWTozSHB7Wj9oaXPnbNI5wxIomUKQOX722bvuyf&sai=AMfl-YT_BUd8csTCR2M68bgoVhIzt3aDdUgj5lJ2sTQc2lCNvVUvjjtDtxVV-O4U8FeYhIh-_BU8ZSSQ1tzcOvQCE69qx_eXQ7coQF_-RMrK2gg8v3ERFgyPb0_eQ_pO4Szzur56GFoRzMT0b1JS0fstaSNRFxIkkJjovW_e2xjfeZAIDVnUJJI6mRKdI2n1MYODUr3IElVC__ogTAswKZnz0rQa4aYiH4CYx4OF2-bW6CUdthUf_TfAjNaGJlAI8Oj98n4Z7pEnEWStRnREvJzKbPIuJg1c14I00w4_6jpoFiVeelk&sig=Cg0ArKJSzHj3odo19f77&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://insight.adsrvr.org/track/clk%3Fimp%3Dbaf40eb9-7265-4c97-8bf3-638ddfe53057%26ag%3Dx8fydgs%26sfe%3D1bf8e8f5%26sig%3DgPjuZL_9JYe1qRDSSa9f4pCrTOuGZuMlltOjrfLCOE0.%26crid%3Dze46gh34%26cf%3D10372219%26fq%3D0%26t%3D1%26td_s%3Dwww.dinersdriveinsdiveslocations.com%26rcats%3D7gr%26mste%3Ddinersdriveinsdiveslocations.com%26mfld%3D2%26mssi%3D%26mfsi%3D%26sv%3Dcafemedia%26uhow%3D33%26agsa%3D%26wp%3D2.3148782%26rgz%3D94142%26dt%3DPC%26osf%3DLinux%26os%3DOther%26br%3DChrome%26svpid%3D67d48982175fb85007258478%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D11.78000000000003%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26crrelr%3D%26npt%3D%26cc%3D2~KLUv_WMdqREMZwKtDQCkDhE1NTFjYTRkMhIJuQ70umVyl0wRi_Njjd_lMFdCB3g4ZnlkZ3NIgbyZDVD7iPk0NmdoMzRg18Akc2lucyAhNDIYNjdkNDg5ZmI4NTgzc2FyZGh20ALp7IAD40JAmZpewNSIjeTQwIQ_DAjA29u8vry0tjQ2Y2M2YTEzMTNjOGItgCmxMqrfPyShfnEOBQjqPjgGNjcqk-c5-EcRniFbIDqL-9Dvyrju_ecdGC6tLK0sCqIVuBEL4hEFCId7GArqEQYI-oUNGAoDAbgSAMASAMgSANASAuASAOgSAegSAogTApATAZgTAKgTPD38wAXjW4BhhOQztoN_NF1c8LYqpoclFNaSj2fK6hwAg4yEnL0CQf4ahTuZE6LmORboVE7Wvmx_pf1yB672Y3raOPbVkPT_HqwwuRcXjZa1QolKz3zSs2fwV3csTUvZJl-tJ_YkEOvArH2eI0W5u3QB_PHsBClw_947UWmwjeZibm6-5MPSMeFUP8DpCCCXpnKfs4QsofiH28eRfF8PzR418ILnyo_2ILFz-afHpnh2SRVl1qY64x0DMhH3KO0ObY2NJuPGPqrmAg..%26dur%3D1~KLUv_WMFoCgkyQBVBAADxxc2jJCBiE8EF1DhjXM3c8ejvhHOODHM01J48-Qwyllz1ZYlJXDACgFIOgbzT0ZKThn0piYBTHLGWwBHu3kfGePGTpMMgOjwZrhZZLXTpZk2gDE6vABwN0Hdx3QLyfeXTw38Ayw-AL4zdfS8Zb-TBS1V4CGsCsxUKCLKoEZBOqW_D3CLR32LMgI.%26durs%3DfaYoCO%26bdc%3D10%26fpa%3D463%26pcm%3D3%26ict%3DCellularNetwork4G%26said%3D1368846c805026cc%26auct%3D1%26us_privacy%3D1YNY%26tail%3D1%26r%3Dhttps://www.ticketmaster.com/marchmadness%253Futm_source%253Dprogrammatic%2526utm_medium%253Dcpm%2526utm_content%253DN232002.284566THETRADEDESK%2526utm_term%253D329978550%2526c%253DDSP_TMM%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D16441135830
+          - img "Advertisement" [ref=f231e8]
+  - generic [ref=e695]:
+    - img [ref=e697] [cursor=pointer]
+    - generic [ref=e699]:
+      - iframe [ref=e701]:
+        
+      - generic [ref=e704]:
+        - generic [ref=e705]:
+          - generic "Advertisement" [ref=e706] [cursor=pointer]
+          - iframe [ref=e708]:
+            - button [ref=f219e3]:
+              - img [ref=f219e4] [cursor=pointer]
+        - generic [ref=e709]:
+          - generic [ref=e711] [cursor=pointer]:
+            - img
+          - generic [ref=e713]:
+            - generic [ref=e714] [cursor=pointer]:
+              - img
+            - slider [ref=e716] [cursor=pointer]: "0"
+        - iframe [ref=e720] [cursor=pointer]:
+          
+  - iframe
+  - iframe

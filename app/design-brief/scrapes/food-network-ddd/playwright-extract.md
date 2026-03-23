@@ -1,0 +1,716 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - iframe [ref=e8]:
+        - generic [active] [ref=f1085e1]:
+          - link "Advertisement" [ref=f1085e4] [cursor=pointer]:
+            - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjst2X9BaOZ_0OOd0Guxd3rdjDLLilhAz5WQaT_obNUflUInuua8ytjXpR9DXt1z2KZICF3mlIIQ3WrqSjEsJCwRtjUnEYCWGt8ua7mMMTJmmbmXRAvgl_vlAxP9yHX-2yq6u5uDQ-BfdMkvFfDLuTStKL5nA3mkMx_wmJr4GxzsxXO0tM1PuqUnDu9SY44MJYPiOSyxPNNWdZ-2AN1dw8U4qdTgb3gwXgCC_EeNcxFZGYYq3l5QdNp9yVaUoSBGoBTAUob48jFUsp_I-JhcriQ_UqvIQtcu5t1AIrskPBZISscMqvScfDMZCGWGocPwWyDu0HqZpsbRGyrIzEjww77uoOZygq5Qe_yclhJIIyRu9MT9sEkOHtz5Y1UDSrQrQock0anlY5WwzeYdJ5mSdTk8tks05cLHuixFODy-k3pvkYPy2-G6xHciD6XR0CnBrE_aretwVWLk3OA41ZH_JxJ4NfhZpFcPVRUVbke55hli9t70oEbSqFFo-MIJ8-Q4QN6efl7Tu0n5xnDrEzEGejcSEI7yt0jjADIN2EhsxIBKxL_uc2yBo7kA4rSGv1zwdZ3lHct3hz5St36GmK-RJgu2UojbW-0mDxzQgJ8t0eBguo5N50WmV60nUsiaw_z0NZlp2BDeVUCAZfgHhC0iKnrQOdPUBymfCHPgvHj-E9kd60ehoMzIl-27KjCJynohCXVDE_ZyHXKV1mtAGg9RyGvQFv-Am2Yczmejf-w&sai=AMfl-YTX91rMwskjMu3Z0H3Y_2lPYE1WJ4Ajfj5WV-loshkuDY89HCM1piTT4kqMVYdZriCEYYqIN-1w-7mVniFQTJh2YENSAUELXFJJaJ-vkphlF4j-w7MYIlRCr3fIyUbSJvlArENCRRt5JV7-zm2agGmNu-5c7k_IwtHe3xlodrYGVSEEhNt12j1ChQWvc_9ySvKr8DqSnfrLDNSmoha73XSk675dRvkhPGazO2aatrz0e7ei-GYcjMZ-Fs9k2UpAwVlcNCxH55naZW7HYSJ10M5e3QgRqbthVVbuR-jfdSwKdDdVgMfpZtXRK-4LyVUSOK-6R5K1FrQsOHhQQYIkTM1aIQzISk8XQqgXQg-nWQyBRyAvgZXOAaKC4St_kwKC&sig=Cg0ArKJSzF5zmw4X2a4d&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9oYm9tYXguY29t&urlfix=1&adurl=https://d.agkn.com/pixel/10691/%3Fche%3D2609700021%26cmid%3D30632187%26sid%3D9020348%26pid%3D424773290%26cgid%3D617682718%26cid%3D251514722%26aid%3D13623228%26gdpr%3D%24%7BGDPR%7D%26gdpr_consent%3D%24%7BGDPR_CONSENT_468%7D%26l1%3Dhttps://www.hbomax.com/shows/born-to-bowl/c5e82e5a-90d5-426f-bc78-0cca5940da26%3Futm_source%3DN1957659.4680197LDCI%26utm_medium%3Doo%26utm_id%3Dcm%7C30632187%7C9020348%7C424773290%7C251514722%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D22766583094
+            - img "Advertisement" [ref=f1085e5]
+          - iframe
+      - generic [ref=e11]:
+        - generic [ref=e13]:
+          - button "Main Menu" [ref=e14]:
+            - img [ref=e15]
+          - generic [ref=e17]:
+            - list [ref=e18]:
+              - listitem [ref=e19]:
+                - link "Watch Full Seasons" [ref=e20] [cursor=pointer]:
+                  - /url: https://watch.foodnetwork.com/?utm_source=marketingsite&utm_medium=trendingline_watchfullseasons_text
+              - listitem [ref=e21]:
+                - link "TV Schedule" [ref=e22] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/shows/tv-schedule
+              - listitem [ref=e23]:
+                - link "Newsletters" [ref=e24] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/site/newsletter-sign-up
+              - listitem [ref=e25]:
+                - link "Videos" [ref=e26] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/videos
+              - listitem [ref=e27]:
+                - link "Cooking Classes" [ref=e28] [cursor=pointer]:
+                  - /url: https://www.foodnetwork.com/kitchen/classes
+              - listitem [ref=e29]:
+                - link "Subscribe to Food Network Magazine" [ref=e30] [cursor=pointer]:
+                  - /url: https://shop.thefoodnetworkmag.com/fnm.html?source=fnm_nav
+              - listitem [ref=e31]:
+                - link "See Recipes From the Magazine" [ref=e32] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/magazine
+              - listitem [ref=e33]:
+                - link "Shows A-Z" [ref=e34] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/shows/a-z
+              - listitem [ref=e35]:
+                - link "Chefs A-Z" [ref=e36] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/profiles/talent
+              - listitem [ref=e37]:
+                - link "Food Network on HBO Max" [ref=e38] [cursor=pointer]:
+                  - /url: https://www.max.com/channel/food-network
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - link "follow us on facebook" [ref=e41] [cursor=pointer]:
+                  - /url: https://www.facebook.com/FoodNetwork
+                  - img [ref=e42]
+              - listitem [ref=e44]:
+                - link "follow us on twitter" [ref=e45] [cursor=pointer]:
+                  - /url: https://twitter.com/FoodNetwork
+                  - img [ref=e46]
+              - listitem [ref=e48]:
+                - link "follow us on instagram" [ref=e49] [cursor=pointer]:
+                  - /url: https://instagram.com/FoodNetwork
+                  - img [ref=e50]
+              - listitem [ref=e52]:
+                - link "follow us on youtube" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.youtube.com/FoodNetwork
+                  - img [ref=e54]
+              - listitem [ref=e56]:
+                - link "follow us on pinterest" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/FoodNetwork
+                  - img [ref=e58]
+              - listitem [ref=e60]:
+                - link "follow us on snapchat" [ref=e61] [cursor=pointer]:
+                  - /url: https://www.snapchat.com/p/f3de2811-81bd-4170-9bc2-0a892b05e284/1092088635293696
+                  - img [ref=e62]
+        - link "go to home page" [ref=e66] [cursor=pointer]:
+          - /url: //www.foodnetwork.com
+          - img [ref=e67]
+        - generic [ref=e70]:
+          - button "Recipes" [ref=e71]
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - heading "Meals" [level=6] [ref=e76]
+                - list [ref=e77]:
+                  - listitem [ref=e78]:
+                    - link "Breakfast" [ref=e79] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/breakfast
+                  - listitem [ref=e80]:
+                    - link "Lunch" [ref=e81] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/lunch
+                  - listitem [ref=e82]:
+                    - link "Dinner" [ref=e83] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/dinner
+                  - listitem [ref=e84]:
+                    - link "Healthy" [ref=e85] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/main-dish/healthy-main-dishes
+                  - listitem [ref=e86]:
+                    - link "Appetizers" [ref=e87] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/appetizers
+                  - listitem [ref=e88]:
+                    - link "Side Dishes" [ref=e89] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/side-dishes
+                  - listitem [ref=e90]:
+                    - link "Main Dishes" [ref=e91] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/main-dish
+                  - listitem [ref=e92]:
+                    - link "See All →" [ref=e93] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/meals
+              - generic [ref=e94]:
+                - heading "Ingredients" [level=6] [ref=e95]
+                - list [ref=e96]:
+                  - listitem [ref=e97]:
+                    - link "Chicken" [ref=e98] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients/poultry/chicken
+                  - listitem [ref=e99]:
+                    - link "Turkey" [ref=e100] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients/poultry/turkey
+                  - listitem [ref=e101]:
+                    - link "Beef" [ref=e102] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients/meat/beef
+                  - listitem [ref=e103]:
+                    - link "Pork" [ref=e104] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients/meat/pork
+                  - listitem [ref=e105]:
+                    - link "Fish" [ref=e106] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients/fish
+                  - listitem [ref=e107]:
+                    - link "Shellfish" [ref=e108] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients/shellfish
+                  - listitem [ref=e109]:
+                    - link "Rice" [ref=e110] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients/rice
+                  - listitem [ref=e111]:
+                    - link "Pasta" [ref=e112] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients/pasta
+                  - listitem [ref=e113]:
+                    - link "Vegetables" [ref=e114] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients/vegetables
+                  - listitem [ref=e115]:
+                    - link "See All →" [ref=e116] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/ingredients
+              - generic [ref=e117]:
+                - heading "Dinners" [level=6] [ref=e118]
+                - list [ref=e119]:
+                  - listitem [ref=e120]:
+                    - link "Quick & Easy" [ref=e121] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/main-dish/quick-and-easy-dinners
+                  - listitem [ref=e122]:
+                    - link "Slow Cooker" [ref=e123] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/main-dish/slow-cooker-main-dishes
+                  - listitem [ref=e124]:
+                    - link "Sheet Pan" [ref=e125] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/photos/sheet-pan-recipes
+                  - listitem [ref=e126]:
+                    - link "Casseroles" [ref=e127] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/main-dish/casseroles
+                  - listitem [ref=e128]:
+                    - link "One-Pot" [ref=e129] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/dinner/one-pot
+                  - listitem [ref=e130]:
+                    - link "30-Minute Dinners" [ref=e131] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/photos/30-minute-dinner-recipes
+                  - listitem [ref=e132]:
+                    - link "7 Ingredients or Less" [ref=e133] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/photos/5-ingredient-recipes
+                  - listitem [ref=e134]:
+                    - link "See All →" [ref=e135] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/dinner
+              - generic [ref=e136]:
+                - heading "Tips & Techniques" [level=6] [ref=e137]
+                - list [ref=e138]:
+                  - listitem [ref=e139]:
+                    - link "Instant Pot" [ref=e140] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/packages/comfort-foods/easy-comfort-food-recipes/must-try-instant-pot-recipes
+                  - listitem [ref=e141]:
+                    - link "Air Fryer" [ref=e142] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/photos/air-fryer-recipes
+                  - listitem [ref=e143]:
+                    - link "Grilling" [ref=e144] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/grilling
+                  - listitem [ref=e145]:
+                    - link "Product Reviews" [ref=e146] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/how-to/packages/shopping/product-reviews
+                  - listitem [ref=e147]:
+                    - link "How-Tos" [ref=e148] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/how-to
+                  - listitem [ref=e149]:
+                    - link "From Our Test Kitchen" [ref=e150] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/recipes/photos/food-network-kitchen-s-best-recipes
+            - link "See All Recipes" [ref=e152] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/recipes
+        - generic [ref=e154]:
+          - button "Shows" [ref=e155]
+          - generic [ref=e157]:
+            - link "Shows" [ref=e158] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/shows
+            - generic [ref=e159]:
+              - text: TV Schedule
+              - link "See TV Schedule" [ref=e160] [cursor=pointer]:
+                - /url: //www.foodnetwork.com/shows/tv-schedule
+              - generic [ref=e161]:
+                - list [ref=e162]:
+                  - listitem [ref=e163]:
+                    - generic [ref=e164]: On Now
+                    - link "Guy's Ranch Kitchen" [ref=e166] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/shows/guys-ranch-kitchen
+                    - generic [ref=e167]: 9:30am | 8:30c
+                  - listitem [ref=e168]:
+                    - generic [ref=e169]: On Tonight
+                    - link "The Ultimate Baking Championship" [ref=e171] [cursor=pointer]:
+                      - /url: //www.foodnetwork.com/shows/the-ultimate-baking-championship
+                    - generic [ref=e172]: 9pm | 8c
+                - link "See All Shows" [ref=e174] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/shows
+            - generic [ref=e177]:
+              - text: Shows
+              - generic [ref=e178]:
+                - link "Tournament of Champions" [ref=e180] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/shows/tournament-of-champions
+                  - generic [ref=e182]: Tournament of Champions
+                - link "Flavortown Food Fight" [ref=e184] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/shows/flavortown-food-fight
+                  - generic [ref=e186]: Flavortown Food Fight
+                - link "The Ultimate Baking Championship" [ref=e188] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/shows/the-ultimate-baking-championship
+                  - generic [ref=e190]: The Ultimate Baking Championship
+                - link "This image has been distributed to our partners. Chopped" [ref=e192] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/shows/chopped
+                  - img "This image has been distributed to our partners." [ref=e194]
+                  - generic [ref=e195]: Chopped
+                - link "Diners, Drive-Ins and Dives" [ref=e197] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives
+                  - generic [ref=e199]: Diners, Drive-Ins and Dives
+        - generic [ref=e201]:
+          - button "Chefs" [ref=e202]
+          - generic [ref=e204]:
+            - link "Chefs" [ref=e205] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/profiles
+            - generic [ref=e206]:
+              - generic [ref=e208]:
+                - text: Chefs & Hosts
+                - generic [ref=e209]:
+                  - link "Kardea Brown" [ref=e211] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/profiles/talent/kardea-brown
+                    - generic [ref=e213]: Kardea Brown
+                  - link "Ree Drummond" [ref=e215] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/profiles/talent/ree-drummond
+                    - generic [ref=e217]: Ree Drummond
+                  - link "Ina Garten" [ref=e219] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/profiles/talent/ina-garten
+                    - generic [ref=e221]: Ina Garten
+                  - link "Sunny Anderson" [ref=e223] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/profiles/talent/sunny-anderson
+                    - generic [ref=e225]: Sunny Anderson
+                  - link "Bobby Flay" [ref=e227] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/profiles/talent/bobby-flay
+                    - generic [ref=e229]: Bobby Flay
+                  - link "Jet Tila" [ref=e231] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/profiles/talent/jet-tila
+                    - generic [ref=e233]: Jet Tila
+                  - link "Guy Fieri" [ref=e235] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/profiles/talent/guy-fieri
+                    - generic [ref=e237]: Guy Fieri
+                  - link "Molly Yeh Molly Yeh" [ref=e239] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/profiles/talent/molly-yeh
+                    - img "Molly Yeh" [ref=e241]
+                    - generic [ref=e242]: Molly Yeh
+              - link "See All Chefs" [ref=e244] [cursor=pointer]:
+                - /url: //www.foodnetwork.com/profiles
+        - generic [ref=e246]:
+          - button "Food News" [ref=e247]
+          - generic [ref=e249]:
+            - link "Food News" [ref=e250] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/fn-dish
+            - list [ref=e252]:
+              - listitem [ref=e253]:
+                - link "FN Dish" [ref=e254] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/fn-dish
+              - listitem [ref=e255]:
+                - link "Newsletters" [ref=e256] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/site/newsletter-sign-up
+            - generic [ref=e259]:
+              - text: The Latest
+              - generic [ref=e260]:
+                - link "Dunkin’ Is Teaming Up With an Iconic Designer on a One-of-a-Kind Wedding Dress" [ref=e262] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/fn-dish/news/dunkin-vera-wang-national-proposal-day-collab
+                  - generic [ref=e264]: Dunkin’ Is Teaming Up With an Iconic Designer on a One-of-a-Kind Wedding Dress
+                - link "2151328820 Costco Recalled a Ready-to-Eat Meal Sold in 26 States" [ref=e266] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/fn-dish/news/costco-ready-to-eat-meatloaf-recall
+                  - img "2151328820" [ref=e268]
+                  - generic [ref=e269]: Costco Recalled a Ready-to-Eat Meal Sold in 26 States
+                - link "2262144688 A Dietitian Breaks Down the David Protein Bar Lawsuit" [ref=e271] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/healthyeats/news/david-protein-bars-lawsuit
+                  - img "2262144688" [ref=e273]
+                  - generic [ref=e274]: A Dietitian Breaks Down the David Protein Bar Lawsuit
+                - link "I Tried Kraft’s New Protein Mac & Cheese, and It Was Love at First Bite" [ref=e276] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/fn-dish/news/i-tried-kraft-powermac
+                  - generic [ref=e278]: I Tried Kraft’s New Protein Mac & Cheese, and It Was Love at First Bite
+                - link "I Tried Dunkin’s New Banana Lattes, and Here’s My Honest Review" [ref=e280] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/fn-dish/news/i-tried-dunkins-new-banana-lattes
+                  - generic [ref=e282]: I Tried Dunkin’s New Banana Lattes, and Here’s My Honest Review
+        - generic [ref=e284]:
+          - button "Shop" [ref=e285]
+          - generic [ref=e287]:
+            - link "Shop" [ref=e288] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/how-to/packages/shopping
+            - generic [ref=e289]:
+              - list [ref=e290]:
+                - listitem [ref=e291]:
+                  - link "Product Reviews" [ref=e292] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/how-to/packages/shopping/product-reviews
+                - listitem [ref=e293]:
+                  - link "Gift Ideas" [ref=e294] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shopping/gift-ideas
+                - listitem [ref=e295]:
+                  - link "Shop Everything" [ref=e296] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/how-to/packages/shopping/articles
+                - listitem [ref=e297]:
+                  - link "Newsletter" [ref=e298] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/site/newsletter-sign-up
+                - listitem [ref=e299]:
+                  - link "Shopping Experts" [ref=e300] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/profiles/editorial/food-network-shopping-experts
+              - link "Shop Now" [ref=e302] [cursor=pointer]:
+                - /url: https://www.foodnetwork.com/how-to/packages/shopping
+            - generic [ref=e305]:
+              - text: What's New
+              - generic [ref=e306]:
+                - link "The Best Easter Candy of 2026, Ranked by Our Staff" [ref=e308] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-easter-candy
+                  - generic [ref=e310]: The Best Easter Candy of 2026, Ranked by Our Staff
+                - link "Why the Yonanas Soft Serve Maker Might Just Be Your New Favorite Healthy Treat Tool" [ref=e312] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/how-to/packages/shopping/product-reviews/yonanas-classic-frozen-fruit-soft-serve-maker-review
+                  - generic [ref=e314]: Why the Yonanas Soft Serve Maker Might Just Be Your New Favorite Healthy Treat Tool
+                - link "I Taste-Tested Three Mail-Order Hams, and This Is the Best One" [ref=e316] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/how-to/packages/shopping/product-reviews/kansas-city-steak-bone-in-ham-review
+                  - generic [ref=e318]: I Taste-Tested Three Mail-Order Hams, and This Is the Best One
+                - link "You Can Only Get This New EVOO at Costco" [ref=e320] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/how-to/packages/shopping/sales-and-deals/pompeian-early-harvest-extra-virgin-olive-oil-costco-exclusive
+                  - generic [ref=e322]: You Can Only Get This New EVOO at Costco
+                - link "9 Kitchen Must-Haves Spotted at The Inspired Home Show 2026" [ref=e324] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/how-to/packages/shopping/best-kitchen-products-the-inspired-home-show-2026
+                  - generic [ref=e326]: 9 Kitchen Must-Haves Spotted at The Inspired Home Show 2026
+        - generic [ref=e328]:
+          - button "Sweepstakes" [ref=e329]
+          - generic [ref=e331]:
+            - link "Sweepstakes" [ref=e332] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/features/articles/sweepstakes-and-contests
+            - list [ref=e334]:
+              - listitem [ref=e335]:
+                - link "All Sweepstakes + Contests" [ref=e336] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/features/articles/sweepstakes-and-contests
+            - link "Enter for Your Chance to Win $5,000!" [ref=e342] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/sponsored/sweepstakes/cartload-of-cash
+              - generic [ref=e344]: Enter for Your Chance to Win $5,000!
+        - button "What's on TV" [ref=e347]
+        - generic [ref=e349]:
+          - button "About" [ref=e350]
+          - generic [ref=e352]:
+            - link "About" [ref=e353] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/site/about-foodnetwork-com
+            - generic [ref=e354]:
+              - list [ref=e355]:
+                - listitem [ref=e356]:
+                  - link "Editorial Standards" [ref=e357] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/site/about-foodnetwork-com/editorial-standards
+                - listitem [ref=e358]:
+                  - link "Newsletters" [ref=e359] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/site/newsletter-sign-up-confirmation
+              - link "More About Us" [ref=e361] [cursor=pointer]:
+                - /url: //www.foodnetwork.com/site/about-foodnetwork-com
+            - generic [ref=e365]:
+              - link "The new Food Network Test Kitchen in NYC, May 8, 2024. About the Food Network Kitchen" [ref=e367] [cursor=pointer]:
+                - /url: //www.foodnetwork.com/profiles/talent/food-network-kitchen
+                - img "The new Food Network Test Kitchen in NYC, May 8, 2024." [ref=e369]
+                - generic [ref=e370]: About the Food Network Kitchen
+              - link "Healthy Air Fryer Parmesan Chicken with Broccoli Our Healthy Eating Standards" [ref=e372] [cursor=pointer]:
+                - /url: //www.foodnetwork.com/profiles/editorial/about-healthy-eating-food-network-kitchen-recipes
+                - img "Healthy Air Fryer Parmesan Chicken with Broccoli" [ref=e374]
+                - generic [ref=e375]: Our Healthy Eating Standards
+              - link "Meet Our Product Testing Experts" [ref=e377] [cursor=pointer]:
+                - /url: //www.foodnetwork.com/profiles/editorial/food-network-shopping-experts
+                - generic [ref=e379]: Meet Our Product Testing Experts
+        - generic [ref=e384]:
+          - textbox "site search input" [ref=e385]:
+            - /placeholder: What are you looking for?
+          - button "clear search input" [ref=e386]:
+            - img [ref=e387]
+          - button "submit site search" [ref=e389]:
+            - img [ref=e390]
+        - link "Saves" [ref=e394] [cursor=pointer]:
+          - /url: //www.foodnetwork.com/saves
+          - img [ref=e395]
+        - link "Shopping List" [ref=e399] [cursor=pointer]:
+          - /url: https://www.foodnetwork.com/kitchen/shopping-list
+          - img [ref=e400]
+        - generic [ref=e403]:
+          - button "User Profile Menu" [ref=e405] [cursor=pointer]:
+            - img [ref=e407]
+          - list [ref=e410]:
+            - listitem [ref=e411]:
+              - link "Log In" [ref=e412] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e413]:
+              - link "Sign Up" [ref=e414] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e415]:
+              - link "Contact Us" [ref=e416] [cursor=pointer]:
+                - /url: https://help.foodnetwork.com/hc/en-us/requests/new
+    - generic [ref=e417]:
+      - list [ref=e420]:
+        - listitem [ref=e421]:
+          - link "Home |" [ref=e422] [cursor=pointer]:
+            - /url: //www.foodnetwork.com
+        - listitem [ref=e423]:
+          - link "Shows" [ref=e424] [cursor=pointer]:
+            - /url: //www.foodnetwork.com/shows
+      - generic [ref=e432]:
+        - heading "Diners, Drive-Ins and Dives" [level=1] [ref=e434]:
+          - img "Diners, Drive-Ins and Dives" [ref=e435]
+        - generic [ref=e436]: Fridays 9|8c
+        - generic [ref=e437]:
+          - paragraph [ref=e439]: Guy Fieri road trips across the country to check out classic greasy spoons. With a new generation of owners and delicious homemade food, these are the kind of places that make America great.
+          - text: ...
+        - link "Read More" [ref=e440] [cursor=pointer]:
+          - /url: "#"
+        - link "Watch Now" [ref=e443] [cursor=pointer]:
+          - /url: https://watch.foodnetwork.com/show/diners-drive-ins-and-dives-food-network?xp=dds-atve__show_watchon_diners-drive-ins-and-dives
+      - generic [ref=e445]:
+        - generic [ref=e447]:
+          - heading "The Latest" [level=3] [ref=e450]
+          - generic [ref=e451]:
+            - generic [ref=e452]:
+              - generic [ref=e453]:
+                - generic [ref=e454]:
+                  - generic: Gallery
+                  - link [ref=e455] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/pastabilities
+                    - img [ref=e456]
+                - heading "Step Inside Pastabilities, Syracuse's Beloved Italian-American Restaurant" [level=4] [ref=e458]:
+                  - link "Step Inside Pastabilities, Syracuse's Beloved Italian-American Restaurant" [ref=e459] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/pastabilities
+                    - generic [ref=e460]: Step Inside Pastabilities, Syracuse's Beloved Italian-American Restaurant
+              - generic [ref=e461]:
+                - generic [ref=e462]:
+                  - generic: Gallery
+                  - link [ref=e463] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/the-drive-ins
+                    - img [ref=e464]
+                - heading "10 Can't-Miss Drive-Ins From 'Diners, Drive-Ins and Dives'" [level=4] [ref=e466]:
+                  - link "10 Can't-Miss Drive-Ins From 'Diners, Drive-Ins and Dives'" [ref=e467] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/the-drive-ins
+                    - generic [ref=e468]: 10 Can't-Miss Drive-Ins From 'Diners, Drive-Ins and Dives'
+              - generic [ref=e469]:
+                - generic [ref=e470]:
+                  - generic: Gallery
+                  - link [ref=e471] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/best-restaurants-in-charlotte
+                    - img [ref=e472]
+                - heading "Our Favorite 'Diners, Drive-Ins and Dives' in Charlotte, North Carolina" [level=4] [ref=e474]:
+                  - link "Our Favorite 'Diners, Drive-Ins and Dives' in Charlotte, North Carolina" [ref=e475] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/best-restaurants-in-charlotte
+                    - generic [ref=e476]: Our Favorite 'Diners, Drive-Ins and Dives' in Charlotte, North Carolina
+              - generic [ref=e477]:
+                - generic [ref=e478]:
+                  - generic: Gallery
+                  - link [ref=e479] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/indigenous-american-indian-restaurants
+                    - img [ref=e480]
+                - heading "Get to Know the Indigenous Restaurants Featured on 'Diners, Drive-Ins and Dives'" [level=4] [ref=e482]:
+                  - link "Get to Know the Indigenous Restaurants Featured on 'Diners, Drive-Ins and Dives'" [ref=e483] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/indigenous-american-indian-restaurants
+                    - generic [ref=e484]: Get to Know the Indigenous Restaurants Featured on 'Diners, Drive-Ins and Dives'
+              - generic [ref=e485]:
+                - generic [ref=e486]:
+                  - generic: Article
+                  - link [ref=e487] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/articles/metro-diner
+                    - img [ref=e488]
+                - heading "15 Years After ‘Diners, Drive-Ins and Dives,’ Metro Diner Is Cooking Up Something Nationwide" [level=4] [ref=e490]:
+                  - link "15 Years After ‘Diners, Drive-Ins and Dives,’ Metro Diner Is Cooking Up Something Nationwide" [ref=e491] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/articles/metro-diner
+                    - generic [ref=e492]: 15 Years After ‘Diners, Drive-Ins and Dives,’ Metro Diner Is Cooking Up Something Nationwide
+              - generic [ref=e493]:
+                - generic [ref=e494]:
+                  - generic: Gallery
+                  - link [ref=e495] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/best-diners-drive-ins-dives-nashville
+                - heading "The Best 'Diners, Drive-Ins and Dives' in Nashville, Tennessee" [level=4] [ref=e497]:
+                  - link "The Best 'Diners, Drive-Ins and Dives' in Nashville, Tennessee" [ref=e498] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/best-diners-drive-ins-dives-nashville
+                    - generic [ref=e499]: The Best 'Diners, Drive-Ins and Dives' in Nashville, Tennessee
+              - generic [ref=e500]:
+                - generic [ref=e501]:
+                  - generic: Gallery
+                  - link [ref=e502] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/best-diners-drive-ins-and-dives-in-las-vegas
+                    - img [ref=e503]
+                - heading "All the Best 'Diners, Drive-Ins and Dives' in Las Vegas" [level=4] [ref=e505]:
+                  - link "All the Best 'Diners, Drive-Ins and Dives' in Las Vegas" [ref=e506] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/best-diners-drive-ins-and-dives-in-las-vegas
+                    - generic [ref=e507]: All the Best 'Diners, Drive-Ins and Dives' in Las Vegas
+              - generic [ref=e508]:
+                - generic [ref=e509]:
+                  - generic: Gallery
+                  - link [ref=e510] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/50-states-of-diners-drive-ins-and-dives
+                    - img [ref=e511]
+                - heading "50 States of ‘Diners, Drive-Ins and Dives’" [level=4] [ref=e513]:
+                  - link "50 States of ‘Diners, Drive-Ins and Dives’" [ref=e514] [cursor=pointer]:
+                    - /url: //www.foodnetwork.com/shows/diners-drive-ins-and-dives/photos/50-states-of-diners-drive-ins-and-dives
+                    - generic [ref=e515]: 50 States of ‘Diners, Drive-Ins and Dives’
+            - button "Load More" [ref=e518] [cursor=pointer]
+        - generic [ref=e520]:
+          - heading "About The Show" [level=3] [ref=e523]
+          - generic [ref=e525]: Guy Fieri road trips across the country to check out classic greasy spoons. With a new generation of owners and delicious homemade food, these are the kind of places that make America great.
+        - generic [ref=e527]:
+          - heading "About the Host" [level=3] [ref=e530]
+          - generic [ref=e533]:
+            - link [ref=e535] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/profiles/talent/guy-fieri
+            - generic [ref=e536]:
+              - heading "Guy Fieri" [level=3] [ref=e538]:
+                - link "Guy Fieri" [ref=e539] [cursor=pointer]:
+                  - /url: //www.foodnetwork.com/profiles/talent/guy-fieri
+              - generic [ref=e540]:
+                - paragraph [ref=e541]: "Guy's always on the move with his hit shows: Guy's Big Bite, Guy's Grocery Games and Diners, Drive-Ins and Dives."
+                - list [ref=e542]:
+                  - listitem [ref=e543]:
+                    - link "Guy's Website" [ref=e544] [cursor=pointer]:
+                      - /url: http://www.guyfieri.com/
+                    - text: "|"
+                  - listitem [ref=e545]:
+                    - link "Like Guy on Facebook" [ref=e546] [cursor=pointer]:
+                      - /url: https://www.facebook.com/GuyFieri/
+                    - text: "|"
+                  - listitem [ref=e547]:
+                    - link "Follow @GuyFieri on Instagram" [ref=e548] [cursor=pointer]:
+                      - /url: https://www.instagram.com/guyfieri/
+                    - text: "|"
+                  - listitem [ref=e549]:
+                    - link "Follow @GuyFieri on Twitter" [ref=e550] [cursor=pointer]:
+                      - /url: https://twitter.com/GuyFieri
+        - generic [ref=e552]:
+          - heading "Schedule See Full Schedule →" [level=3] [ref=e555]:
+            - text: Schedule
+            - link "See Full Schedule →" [ref=e556] [cursor=pointer]:
+              - /url: //www.foodnetwork.com/shows/tv-schedule
+          - generic [ref=e557]:
+            - generic [ref=e558]:
+              - generic [ref=e559]:
+                - generic [ref=e560]: Recently on TV
+                - generic [ref=e562]:
+                  - generic [ref=e563]: S38 | E7 · 3/22/26
+                  - heading "Meaty to Meatless" [level=4] [ref=e564]
+              - generic [ref=e565]:
+                - generic [ref=e566]: Fri 3/27 @ 1:30PM | 12:30C
+                - generic [ref=e568]:
+                  - generic [ref=e569]: S18 | E2 · 3/27/26
+                  - heading "Meat Lover's Paradise" [level=4] [ref=e570]
+              - generic [ref=e571]:
+                - generic [ref=e572]: Fri 3/27 @ 2PM | 1C
+                - generic [ref=e574]:
+                  - generic [ref=e575]: S23 | E11 · 3/27/26
+                  - heading "Piggin' Out" [level=4] [ref=e576]
+            - generic [ref=e577] [cursor=pointer]: 
+        - generic [ref=e579]:
+          - heading "Episodes Season 54 " [level=3] [ref=e582]:
+            - generic [ref=e583]: Episodes
+            - generic [ref=e584] [cursor=pointer]:
+              - combobox "Select a season" [ref=e585]:
+                - option "Season 54" [selected]
+                - option "Season 53"
+              - text: 
+          - generic [ref=e587]:
+            - generic [ref=e588]:
+              - 'link "S54 | E1 Triple D Nation: Fried, Baked Guy is checking in on real-deal relleno, jackfruit Cubanos and more." [ref=e590] [cursor=pointer]':
+                - /url: https://watch.foodnetwork.com/video/diners-drive-ins-and-dives-food-network/triple-d-nation-fried-baked?xp=dds-atve__episode_watchon_diners-drive-ins-and-dives-triple-d-nation
+                - img [ref=e592]
+                - generic [ref=e593]:
+                  - generic [ref=e594]: S54 | E1
+                  - 'heading "Triple D Nation: Fried, Baked" [level=3] [ref=e595]'
+                  - generic [ref=e596]: Guy is checking in on real-deal relleno, jackfruit Cubanos and more.
+              - generic [ref=e597]:
+                - generic [ref=e598]: View Recipes
+                - img [ref=e599]
+            - text:     
+            - generic [ref=e601]:
+              - 'link "S54 | E2 Triple D Nation: All Day Long Guy returns for big-deal bagels, scratch-made meatloaf and a lamb sammie." [ref=e603] [cursor=pointer]':
+                - /url: https://watch.foodnetwork.com/video/diners-drive-ins-and-dives-food-network/triple-d-nation-all-day-long?xp=dds-atve__episode_watchon_diners-drive-ins-and-dives-triple-d-nation
+                - img [ref=e605]
+                - generic [ref=e606]:
+                  - generic [ref=e607]: S54 | E2
+                  - 'heading "Triple D Nation: All Day Long" [level=3] [ref=e608]'
+                  - generic [ref=e609]: Guy returns for big-deal bagels, scratch-made meatloaf and a lamb sammie.
+              - generic [ref=e610]:
+                - generic [ref=e611]: View Recipes
+                - img [ref=e612]
+            - generic [ref=e614]:
+              - link "S54 | E3 Pizza, Pastrami, and Potatoes Guy's digging into pastrami, A-list brisket, and lights-out lamb pizza." [ref=e616] [cursor=pointer]:
+                - /url: https://watch.foodnetwork.com/video/diners-drive-ins-and-dives-food-network/pizza-pastrami-and-potatoes?xp=dds-atve__episode_watchon_diners-drive-ins-and-dives
+                - img [ref=e618]
+                - generic [ref=e619]:
+                  - generic [ref=e620]: S54 | E3
+                  - heading "Pizza, Pastrami, and Potatoes" [level=3] [ref=e621]
+                  - generic [ref=e622]: Guy's digging into pastrami, A-list brisket, and lights-out lamb pizza.
+              - generic [ref=e623]:
+                - generic [ref=e624]: View Recipes
+                - img [ref=e625]
+            - generic [ref=e627]:
+              - link "S54 | E4 Southern, Sweets, and Spam Guy's sampling craveable cake, killer collards, and a sweet soy Spam bowl." [ref=e629] [cursor=pointer]:
+                - /url: https://watch.foodnetwork.com/video/diners-drive-ins-and-dives-food-network/southern-sweets-and-spam?xp=dds-atve__episode_watchon_diners-drive-ins-and-dives
+                - img [ref=e631]
+                - generic [ref=e632]:
+                  - generic [ref=e633]: S54 | E4
+                  - heading "Southern, Sweets, and Spam" [level=3] [ref=e634]
+                  - generic [ref=e635]: Guy's sampling craveable cake, killer collards, and a sweet soy Spam bowl.
+              - generic [ref=e636]:
+                - generic [ref=e637]: View Recipes
+                - img [ref=e638]
+            - generic [ref=e640]:
+              - 'link "S54 | E5 Triple D Nation: Flavortown Guy''s filling up on beef ribs, fully loaded jambalaya and jerk duck confit." [ref=e642] [cursor=pointer]':
+                - /url: https://watch.foodnetwork.com/video/diners-drive-ins-and-dives-food-network/triple-d-nation-flavortown?xp=dds-atve__episode_watchon_diners-drive-ins-and-dives-triple-d-nation
+                - img [ref=e644]
+                - generic [ref=e645]:
+                  - generic [ref=e646]: S54 | E5
+                  - 'heading "Triple D Nation: Flavortown" [level=3] [ref=e647]'
+                  - generic [ref=e648]: Guy's filling up on beef ribs, fully loaded jambalaya and jerk duck confit.
+              - generic [ref=e649]:
+                - generic [ref=e650]: View Recipes
+                - img [ref=e651]
+            - generic [ref=e653]:
+              - link "S54 | E6 Hot Dogs, Hot Knots, and Ramen Guy's tasting high-octane hot dogs, Buffalo knots, and noodle bowls." [ref=e655] [cursor=pointer]:
+                - /url: https://watch.foodnetwork.com/video/diners-drive-ins-and-dives-food-network/hot-dogs-hot-knots-and-ramen?xp=dds-atve__episode_watchon_diners-drive-ins-and-dives
+                - img [ref=e657]
+                - generic [ref=e658]:
+                  - generic [ref=e659]: S54 | E6
+                  - heading "Hot Dogs, Hot Knots, and Ramen" [level=3] [ref=e660]
+                  - generic [ref=e661]: Guy's tasting high-octane hot dogs, Buffalo knots, and noodle bowls.
+              - generic [ref=e662]:
+                - generic [ref=e663]: View Recipes
+                - img [ref=e664]
+            - generic [ref=e666]:
+              - link "S54 | E7 Smoked, Fried, and Aged Guy's savoring smoked, fried, and dry-aged delights!" [ref=e668] [cursor=pointer]:
+                - /url: https://watch.foodnetwork.com/video/diners-drive-ins-and-dives-food-network/smoked-fried-and-aged?xp=dds-atve__episode_watchon_diners-drive-ins-and-dives
+                - img [ref=e670]
+                - generic [ref=e671]:
+                  - generic [ref=e672]: S54 | E7
+                  - heading "Smoked, Fried, and Aged" [level=3] [ref=e673]
+                  - generic [ref=e674]: Guy's savoring smoked, fried, and dry-aged delights!
+              - generic [ref=e675]:
+                - generic [ref=e676]: View Recipes
+                - img [ref=e677]
+            - generic [ref=e679]:
+              - link "S54 | E8 Flavorworld Guy’s diving into duck confit Monte Cristo, serious stir-fry, and arepas." [ref=e681] [cursor=pointer]:
+                - /url: https://watch.foodnetwork.com/video/diners-drive-ins-and-dives-food-network/flavorworld?xp=dds-atve__episode_watchon_diners-drive-ins-and-dives
+                - img [ref=e683]
+                - generic [ref=e684]:
+                  - generic [ref=e685]: S54 | E8
+                  - heading "Flavorworld" [level=3] [ref=e686]
+                  - generic [ref=e687]: Guy’s diving into duck confit Monte Cristo, serious stir-fry, and arepas.
+              - generic [ref=e688]:
+                - generic [ref=e689]: View Recipes
+                - img [ref=e690]
+    - generic [ref=e695]:
+      - list [ref=e697]:
+        - listitem [ref=e698]:
+          - link "Site Map" [ref=e699] [cursor=pointer]:
+            - /url: //www.foodnetwork.com/site/site-map
+        - listitem [ref=e700]:
+          - link "Visitor Agreement" [ref=e701] [cursor=pointer]:
+            - /url: https://corporate.discovery.com/visitor-agreement/
+        - listitem [ref=e702]:
+          - link "AdChoices" [ref=e703] [cursor=pointer]:
+            - /url: https://www.wbdprivacy.com/policycenter/b2c/
+        - listitem [ref=e704]:
+          - link "Privacy Policy" [ref=e705] [cursor=pointer]:
+            - /url: https://www.wbdprivacy.com/policycenter/b2c/
+        - listitem [ref=e706]:
+          - link "About" [ref=e707] [cursor=pointer]:
+            - /url: //www.foodnetwork.com/site/about-foodnetwork-com
+        - listitem [ref=e708]:
+          - link "Newsroom" [ref=e709] [cursor=pointer]:
+            - /url: https://corporate.discovery.com/discovery-newsroom/
+        - listitem [ref=e710]:
+          - link "Advertise" [ref=e711] [cursor=pointer]:
+            - /url: https://corporate.discovery.com/contact/advertising/
+        - listitem [ref=e712]:
+          - link "Help" [ref=e713] [cursor=pointer]:
+            - /url: https://help.foodnetwork.com/
+        - listitem [ref=e714]:
+          - link "TV Ratings" [ref=e715] [cursor=pointer]:
+            - /url: http://www.tvguidelines.org/ratings.html
+        - listitem [ref=e716]:
+          - link "Online Closed Captioning" [ref=e717] [cursor=pointer]:
+            - /url: https://corporate.discovery.com/online-closed-captioning/
+        - listitem [ref=e718]:
+          - link "Accessibility" [ref=e719] [cursor=pointer]:
+            - /url: https://corporate.discovery.com/website-accessibility-statement/
+        - listitem [ref=e720]:
+          - link "Newsletters" [ref=e721] [cursor=pointer]:
+            - /url: //www.foodnetwork.com/site/newsletter-sign-up
+        - listitem [ref=e722]:
+          - link "Discovery, Inc." [ref=e723] [cursor=pointer]:
+            - /url: https://corporate.discovery.com/
+        - listitem [ref=e724]:
+          - button "Do Not Sell or Share My Personal Information" [ref=e725]
+      - list [ref=e726]:
+        - listitem [ref=e727]:
+          - link "International Editions" [ref=e728] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - text: 
+        - listitem [ref=e729]:
+          - link "The Discovery Family of Networks" [ref=e730]:
+            - /url: javascript:void(0);
+          - text: 
+        - listitem [ref=e731]: © 2026 Warner Bros. Discovery, Inc. or its subsidiaries and affiliates. All rights reserved.
+  - img [ref=e732]
+  - generic: "Yes"
+  - iframe

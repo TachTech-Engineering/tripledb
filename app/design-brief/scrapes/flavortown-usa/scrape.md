@@ -1,37 +1,9 @@
-# Scrape Results: Flavortown USA
-URL: https://flavortownusa.com
+# UX Analysis: Flavortown USA
+URL: https://flavortownusa.com/
 
-## Site Focus
-Directory layout, "most visited" patterns, Guy Fieri branding energy.
-
-## UX Patterns
-
-### 1. Navigation & Search
-- Hero section with "Find Nearby Diners, Drive-Ins and Dives".
-- Central search bar with dropdown to select "By Restaurants", "By City", etc.
-- Quick browse categories: States, Cities, Map, Restaurants, Blog, News, Photos, Questions, Recommendations, Shop, Videos.
-
-### 2. Branding & Visuals
-- Color Palette: Orange, Yellow, Blue (Official Guy Fieri vibe).
-- Large hero image with Guy Fieri's stencil logo.
-- Interactive and fun elements (e.g., "Tell Guy Fieri" button).
-
-### 3. Key Features
-- "Recently Aired Restaurants" section with restaurant name, air date, and location.
-- "Recent Photos", "Recent Questions", "Recent Recommendations" (community-driven).
-- "Guy Fieri's Most Visited States" list with counts (e.g., California 234, Florida 106).
-- "Interactive Map" link with specific instructions ("closest 30 restaurants").
-
-### 4. Layout & Information Architecture
-- Cards for recently aired restaurants and photos.
-- Clean typography and spacing.
-- Footer with extensive links and "Contact Us".
-
-### 5. Mobile Responsiveness
-- Category links turn into a grid of buttons.
-- Search bar is prominent and easy to use on mobile.
-- Hamburger menu for additional links.
-
-## Screenshots
-- Desktop: `design-brief/scrapes/flavortown-usa/desktop.png`
-- Mobile: `design-brief/scrapes/flavortown-usa/mobile.png`
+## UX Patterns Extracted
+- **"Most visited states" visualization:** Displayed as a ranked list showing the state name alongside the exact count of restaurants (e.g., "California 234", "Florida 106"). It features a clean grid layout.
+- **Restaurant listing format:** Displayed as list items (cards) containing the restaurant name, "Aired on [Date]", and "Located in [City, State]". Simple and information-dense.
+- **Fun/trivia elements:** Dedicated sections for "Recent Questions" (e.g., "Where is Guy Fieri filming next?"), "Recent Recommendations" from fans, and a "Recent Photos" gallery uploaded by users. It has a strong community-driven focus.
+- **Dataset navigation:** A centralized text input search field with a placeholder "Search by Restaurant, State or City", adjoined by a dropdown filter (default "By Restaurants") and a "Search" button. Additionally, categorical browsing is heavily emphasized via a grid of links with icons (States, Cities, Map, Restaurants, Blog, News, Photos, Questions, Recommendations, Shop, Videos).
+- **Brand energy:** Community-focused and utilitarian ("Join Guy Fieri on a Mouth-Watering Journey Across America"). The aesthetic seems to rely on generic icons and standard web fonts rather than aggressive DDD branding. The tone is fan-oriented ("Tell Guy Fieri", "Share Photos").

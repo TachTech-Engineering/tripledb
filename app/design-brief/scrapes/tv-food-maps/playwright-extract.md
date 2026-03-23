@@ -1,0 +1,429 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - navigation "Global" [ref=e4]:
+        - link "TVFoodMaps" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "TVFoodMaps" [ref=e8]
+        - generic [ref=e9]:
+          - link "Nearby restaurants" [ref=e10] [cursor=pointer]:
+            - /url: /restaurants_nearme
+            - img [ref=e11]
+          - button "Toggle menu" [ref=e13] [cursor=pointer]:
+            - generic [ref=e14]: Toggle menu
+            - img [ref=e15]
+    - main [ref=e16]:
+      - generic [ref=e20]:
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: Instant Food TV Discovery
+            - heading "Find restaurants from your favorite TV shows in under 10 seconds." [level=1] [ref=e27]
+            - paragraph [ref=e28]: Search by city, browse by show, or use your current location. TVFoodMaps helps you move from scrolling to "where should we eat tonight?" fast.
+            - generic [ref=e29]:
+              - generic [ref=e30]: 6,731+ Restaurants
+              - generic [ref=e31]: 54+ TV Shows
+              - generic [ref=e32]: Live Map + Trip Planning
+          - generic [ref=e33]:
+            - paragraph [ref=e34]: Start In Seconds
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - img [ref=e37]
+                - textbox [ref=e40]:
+                  - /placeholder: City, State
+              - button "Find Restaurants" [ref=e41] [cursor=pointer]
+              - link "Near Me" [ref=e42] [cursor=pointer]:
+                - /url: /restaurants_nearme
+                - img [ref=e43]
+                - text: Near Me
+            - generic [ref=e45]:
+              - link "Austin, TX" [ref=e46] [cursor=pointer]:
+                - /url: /restaurants_on_tv/TX/Austin
+              - link "Las Vegas, NV" [ref=e47] [cursor=pointer]:
+                - /url: /restaurants_on_tv/NV/Las%20Vegas
+              - link "Chicago, IL" [ref=e48] [cursor=pointer]:
+                - /url: /restaurants_on_tv/IL/Chicago
+              - link "Miami, FL" [ref=e49] [cursor=pointer]:
+                - /url: /restaurants_on_tv/FL/Miami
+            - paragraph [ref=e50]:
+              - img [ref=e51]
+              - text: "Tip: Start with a city, then refine by show, route, or cuisine."
+        - generic [ref=e53]:
+          - link "Find By Show Jump straight into a show and see every featured restaurant. Explore" [ref=e54] [cursor=pointer]:
+            - /url: /explore/shows
+            - img [ref=e56]
+            - heading "Find By Show" [level=2] [ref=e58]
+            - paragraph [ref=e59]: Jump straight into a show and see every featured restaurant.
+            - generic [ref=e60]:
+              - text: Explore
+              - img [ref=e61]
+          - link "Restaurants Near Me Use your location and get instant TV-featured options nearby. Explore" [ref=e63] [cursor=pointer]:
+            - /url: /restaurants_nearme
+            - img [ref=e65]
+            - heading "Restaurants Near Me" [level=2] [ref=e68]
+            - paragraph [ref=e69]: Use your location and get instant TV-featured options nearby.
+            - generic [ref=e70]:
+              - text: Explore
+              - img [ref=e71]
+          - link "Road Trip Builder Build a route with stops from your favorite food shows. Explore" [ref=e73] [cursor=pointer]:
+            - /url: /restaurants-on-tv-road-trip
+            - img [ref=e75]
+            - heading "Road Trip Builder" [level=2] [ref=e79]
+            - paragraph [ref=e80]: Build a route with stops from your favorite food shows.
+            - generic [ref=e81]:
+              - text: Explore
+              - img [ref=e82]
+          - link "AI Concierge Tell us your vibe and get personalized suggestions fast. Explore" [ref=e84] [cursor=pointer]:
+            - /url: /foodtv-ai-chat
+            - img [ref=e86]
+            - heading "AI Concierge" [level=2] [ref=e96]
+            - paragraph [ref=e97]: Tell us your vibe and get personalized suggestions fast.
+            - generic [ref=e98]:
+              - text: Explore
+              - img [ref=e99]
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - paragraph [ref=e104]: Trending Shows
+              - heading "Start with a show you already love" [level=2] [ref=e105]
+            - link "View all shows" [ref=e106] [cursor=pointer]:
+              - /url: /explore/shows
+          - generic [ref=e107]:
+            - link "Everything on the Menu Everything on the Menu USA" [ref=e108] [cursor=pointer]:
+              - /url: /restaurants_on/everything-on-the-menu
+              - img "Everything on the Menu" [ref=e110]
+              - generic [ref=e111]:
+                - paragraph [ref=e112]: Everything on the Menu
+                - paragraph [ref=e113]: USA
+            - link "Best Bite In Town Best Bite In Town Food Network" [ref=e114] [cursor=pointer]:
+              - /url: /restaurants_on/best-bite-in-town
+              - img "Best Bite In Town" [ref=e116]
+              - generic [ref=e117]:
+                - paragraph [ref=e118]: Best Bite In Town
+                - paragraph [ref=e119]: Food Network
+            - link "Diners, Drive-ins and Dives Diners, Drive-ins and Dives Food Network" [ref=e120] [cursor=pointer]:
+              - /url: /restaurants_on/Diners-Drive-Ins-Dives
+              - img "Diners, Drive-ins and Dives" [ref=e122]
+              - generic [ref=e123]:
+                - paragraph [ref=e124]: Diners, Drive-ins and Dives
+                - paragraph [ref=e125]: Food Network
+            - 'link "The Bear: Featured Restaurants The Bear: Featured Restaurants FX" [ref=e126] [cursor=pointer]':
+              - /url: /restaurants_on/the-bear-restaurants
+              - 'img "The Bear: Featured Restaurants" [ref=e128]'
+              - generic [ref=e129]:
+                - paragraph [ref=e130]: "The Bear: Featured Restaurants"
+                - paragraph [ref=e131]: FX
+            - link "Best Thing I Ever Ate Best Thing I Ever Ate Food Network" [ref=e132] [cursor=pointer]:
+              - /url: /restaurants_on/Best-Thing-I-Ever-Ate
+              - img "Best Thing I Ever Ate" [ref=e134]
+              - generic [ref=e135]:
+                - paragraph [ref=e136]: Best Thing I Ever Ate
+                - paragraph [ref=e137]: Food Network
+            - link "Food Paradise Food Paradise Travel Channel" [ref=e138] [cursor=pointer]:
+              - /url: /restaurants_on/Food-Paradise
+              - img "Food Paradise" [ref=e140]
+              - generic [ref=e141]:
+                - paragraph [ref=e142]: Food Paradise
+                - paragraph [ref=e143]: Travel Channel
+            - link "50 Best Bars in North America 50 Best Bars in North America Food TV" [ref=e144] [cursor=pointer]:
+              - /url: /restaurants_on/best-bars-50
+              - img "50 Best Bars in North America" [ref=e146]
+              - generic [ref=e147]:
+                - paragraph [ref=e148]: 50 Best Bars in North America
+                - paragraph [ref=e149]: Food TV
+            - link "Man vs Food Nation Man vs Food Nation Travel Channel" [ref=e150] [cursor=pointer]:
+              - /url: /restaurants_on/Man-v-Food-Nation
+              - img "Man vs Food Nation" [ref=e152]
+              - generic [ref=e153]:
+                - paragraph [ref=e154]: Man vs Food Nation
+                - paragraph [ref=e155]: Travel Channel
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - heading "Popular Right Now" [level=3] [ref=e159]
+              - link "See all" [ref=e160] [cursor=pointer]:
+                - /url: /explore/popular-restaurants
+            - generic [ref=e161]:
+              - article [ref=e162]:
+                - link "Katz's Delicatessen" [ref=e163] [cursor=pointer]:
+                  - /url: /restaurant/NY/New-York/Katzs-Delicatessen
+                  - img "Katz's Delicatessen" [ref=e165]
+                - generic [ref=e166]:
+                  - heading "Katz's Delicatessen" [level=4] [ref=e167]:
+                    - link "Katz's Delicatessen" [ref=e168] [cursor=pointer]:
+                      - /url: /restaurant/NY/New-York/Katzs-Delicatessen
+                  - paragraph [ref=e169]:
+                    - link "New York, NY" [ref=e170] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/NY/New%20York
+                  - paragraph [ref=e171]: Katz's Delicatessen in New York, NY has been featured on numerous Food Network tel...
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: TVF 100.0
+                    - link "Best Thing I Ever Ate" [ref=e174] [cursor=pointer]:
+                      - /url: /restaurants_on/Best-Thing-I-Ever-Ate
+              - article [ref=e175]:
+                - link "Cafe Du Monde French Market" [ref=e176] [cursor=pointer]:
+                  - /url: /restaurant/LA/New-Orleans/Cafe-Du-Monde-French-Market
+                  - img "Cafe Du Monde French Market" [ref=e178]
+                - generic [ref=e179]:
+                  - heading "Cafe Du Monde French Market" [level=4] [ref=e180]:
+                    - link "Cafe Du Monde French Market" [ref=e181] [cursor=pointer]:
+                      - /url: /restaurant/LA/New-Orleans/Cafe-Du-Monde-French-Market
+                  - paragraph [ref=e182]:
+                    - link "New Orleans, LA" [ref=e183] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/LA/New%20Orleans
+                  - paragraph [ref=e184]: Cafe Du Monde French Market in New Orleans, LA is a popular spot for traditional b...
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: TVF 100.0
+                    - link "Delicious Destinations" [ref=e187] [cursor=pointer]:
+                      - /url: /restaurants_on/Delicious-Destinations
+              - article [ref=e188]:
+                - link "Lou Malnati's Pizzeria" [ref=e189] [cursor=pointer]:
+                  - /url: /restaurant/IL/Chicago/Lou-Malnatis-Pizzeria
+                  - img "Lou Malnati's Pizzeria" [ref=e191]
+                - generic [ref=e192]:
+                  - heading "Lou Malnati's Pizzeria" [level=4] [ref=e193]:
+                    - link "Lou Malnati's Pizzeria" [ref=e194] [cursor=pointer]:
+                      - /url: /restaurant/IL/Chicago/Lou-Malnatis-Pizzeria
+                  - paragraph [ref=e195]:
+                    - link "Chicago, IL" [ref=e196] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/IL/Chicago
+                  - paragraph [ref=e197]: Lou Malnati's Pizzeria is a Chicago-based pizzeria that has been featured on sever...
+                  - generic [ref=e198]:
+                    - generic [ref=e199]: TVF 100.0
+                    - link "You Gotta Eat Here" [ref=e200] [cursor=pointer]:
+                      - /url: /restaurants_on/You-Gotta-Eat-Here
+              - article [ref=e201]:
+                - link "Chaps Pit Beef" [ref=e202] [cursor=pointer]:
+                  - /url: /restaurant/MD/Baltimore/Chaps-Pit-Beef
+                  - img "Chaps Pit Beef" [ref=e204]
+                - generic [ref=e205]:
+                  - heading "Chaps Pit Beef" [level=4] [ref=e206]:
+                    - link "Chaps Pit Beef" [ref=e207] [cursor=pointer]:
+                      - /url: /restaurant/MD/Baltimore/Chaps-Pit-Beef
+                  - paragraph [ref=e208]:
+                    - link "Baltimore, MD" [ref=e209] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/MD/Baltimore
+                  - paragraph [ref=e210]: Chaps Pit Beef in Baltimore, MD is a nationally renowned pit beef sandwich spot th...
+                  - generic [ref=e211]:
+                    - generic [ref=e212]: TVF 100.0
+                    - link "Best Thing I Ever Ate" [ref=e213] [cursor=pointer]:
+                      - /url: /restaurants_on/Best-Thing-I-Ever-Ate
+              - article [ref=e214]:
+                - link "Gino's East" [ref=e215] [cursor=pointer]:
+                  - /url: /restaurant/IL/Chicago/Ginos-East
+                  - img "Gino's East" [ref=e217]
+                - generic [ref=e218]:
+                  - heading "Gino's East" [level=4] [ref=e219]:
+                    - link "Gino's East" [ref=e220] [cursor=pointer]:
+                      - /url: /restaurant/IL/Chicago/Ginos-East
+                  - paragraph [ref=e221]:
+                    - link "Chicago, IL" [ref=e222] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/IL/Chicago
+                  - paragraph [ref=e223]: Gino's East, a famous deep-dish pizza restaurant located in Chicago, IL, has been ...
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: TVF 99.9
+                    - link "United States of Bacon" [ref=e226] [cursor=pointer]:
+                      - /url: /restaurants_on/US-Bacon
+              - article [ref=e227]:
+                - link "Tony Luke's" [ref=e228] [cursor=pointer]:
+                  - /url: /restaurant/PA/Philadelphia/Tony-Lukes
+                  - img "Tony Luke's" [ref=e230]
+                - generic [ref=e231]:
+                  - heading "Tony Luke's" [level=4] [ref=e232]:
+                    - link "Tony Luke's" [ref=e233] [cursor=pointer]:
+                      - /url: /restaurant/PA/Philadelphia/Tony-Lukes
+                  - paragraph [ref=e234]:
+                    - link "Philadelphia, PA" [ref=e235] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/PA/Philadelphia
+                  - paragraph [ref=e236]: Tony Luke's in Philadelphia, PA is a local favorite, known for its delicious chees...
+                  - generic [ref=e237]:
+                    - generic [ref=e238]: TVF 99.9
+                    - link "Best Thing I Ever Ate" [ref=e239] [cursor=pointer]:
+                      - /url: /restaurants_on/Best-Thing-I-Ever-Ate
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - heading "Recently Added" [level=3] [ref=e242]
+              - link "See all" [ref=e243] [cursor=pointer]:
+                - /url: /explore/recent-restaurants
+            - generic [ref=e244]:
+              - article [ref=e245]:
+                - link "TORI TORI" [ref=e246] [cursor=pointer]:
+                  - /url: /restaurant/FL/Orlando/Tori-Tori
+                  - img "TORI TORI" [ref=e248]
+                - generic [ref=e249]:
+                  - heading "TORI TORI" [level=4] [ref=e250]:
+                    - link "TORI TORI" [ref=e251] [cursor=pointer]:
+                      - /url: /restaurant/FL/Orlando/Tori-Tori
+                  - paragraph [ref=e252]:
+                    - link "Orlando, FL" [ref=e253] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/FL/Orlando
+                  - paragraph [ref=e254]: Tori Tori in Orlando, FL, is a trendy and lively izakaya-style restaurant known fo...
+                  - generic [ref=e255]:
+                    - generic [ref=e256]: New
+                    - link "Everything on the Menu" [ref=e257] [cursor=pointer]:
+                      - /url: /restaurants_on/everything-on-the-menu
+              - article [ref=e258]:
+                - link "Beefy King" [ref=e259] [cursor=pointer]:
+                  - /url: /restaurant/FL/Orlando/Beefy-King
+                  - img "Beefy King" [ref=e261]
+                - generic [ref=e262]:
+                  - heading "Beefy King" [level=4] [ref=e263]:
+                    - link "Beefy King" [ref=e264] [cursor=pointer]:
+                      - /url: /restaurant/FL/Orlando/Beefy-King
+                  - paragraph [ref=e265]:
+                    - link "Orlando, FL" [ref=e266] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/FL/Orlando
+                  - paragraph [ref=e267]: Beefy King is a classic sandwich spot in Orlando, FL, known for its delicious and ...
+                  - generic [ref=e268]:
+                    - generic [ref=e269]: New
+                    - link "Everything on the Menu" [ref=e270] [cursor=pointer]:
+                      - /url: /restaurants_on/everything-on-the-menu
+              - article [ref=e271]:
+                - link "Oohh's & Aahh's" [ref=e272] [cursor=pointer]:
+                  - /url: /restaurant/DC/Washington/OohhS-AahhS
+                  - img "Oohh's & Aahh's" [ref=e274]
+                - generic [ref=e275]:
+                  - heading "Oohh's & Aahh's" [level=4] [ref=e276]:
+                    - link "Oohh's & Aahh's" [ref=e277] [cursor=pointer]:
+                      - /url: /restaurant/DC/Washington/OohhS-AahhS
+                  - paragraph [ref=e278]:
+                    - link "Washington, DC" [ref=e279] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/DC/Washington
+                  - paragraph [ref=e280]: Oohh's & Aahh's is a beloved soul food restaurant in Washington, DC, known for its...
+                  - generic [ref=e281]:
+                    - generic [ref=e282]: New
+                    - link "Everything on the Menu" [ref=e283] [cursor=pointer]:
+                      - /url: /restaurants_on/everything-on-the-menu
+              - article [ref=e284]:
+                - link "Wishbone & Flynt" [ref=e285] [cursor=pointer]:
+                  - /url: /restaurant/TX/Fort-Worth/Wishbone-Flynt
+                  - img "Wishbone & Flynt" [ref=e287]
+                - generic [ref=e288]:
+                  - heading "Wishbone & Flynt" [level=4] [ref=e289]:
+                    - link "Wishbone & Flynt" [ref=e290] [cursor=pointer]:
+                      - /url: /restaurant/TX/Fort-Worth/Wishbone-Flynt
+                  - paragraph [ref=e291]:
+                    - link "Fort Worth, TX" [ref=e292] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/TX/Fort%20Worth
+                  - paragraph [ref=e293]: Wishbone & Flynt in Fort Worth, TX, offers a unique dining experience with its cre...
+                  - generic [ref=e294]:
+                    - generic [ref=e295]: New
+                    - link "Everything on the Menu" [ref=e296] [cursor=pointer]:
+                      - /url: /restaurants_on/everything-on-the-menu
+              - article [ref=e297]:
+                - link "Angelo's Bar-B-Que" [ref=e298] [cursor=pointer]:
+                  - /url: /restaurant/TX/Fort-Worth/AngeloS-Bar-B-Que
+                  - img "Angelo's Bar-B-Que" [ref=e300]
+                - generic [ref=e301]:
+                  - heading "Angelo's Bar-B-Que" [level=4] [ref=e302]:
+                    - link "Angelo's Bar-B-Que" [ref=e303] [cursor=pointer]:
+                      - /url: /restaurant/TX/Fort-Worth/AngeloS-Bar-B-Que
+                  - paragraph [ref=e304]:
+                    - link "Fort Worth, TX" [ref=e305] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/TX/Fort%20Worth
+                  - paragraph [ref=e306]: Angelo's Bar-B-Que in Fort Worth, TX, is a historic and iconic spot known for its ...
+                  - generic [ref=e307]:
+                    - generic [ref=e308]: New
+                    - link "Everything on the Menu" [ref=e309] [cursor=pointer]:
+                      - /url: /restaurants_on/everything-on-the-menu
+              - article [ref=e310]:
+                - link "Think Greek" [ref=e311] [cursor=pointer]:
+                  - /url: /restaurant/FL/Port-St-Lucie/Think-Greek-As-Seen-On-Food-Network-644-Sw-Port-St-Lucie-Blvd
+                  - img "Think Greek" [ref=e313]
+                - generic [ref=e314]:
+                  - heading "Think Greek" [level=4] [ref=e315]:
+                    - link "Think Greek" [ref=e316] [cursor=pointer]:
+                      - /url: /restaurant/FL/Port-St-Lucie/Think-Greek-As-Seen-On-Food-Network-644-Sw-Port-St-Lucie-Blvd
+                  - paragraph [ref=e317]:
+                    - link "Port St. Lucie, FL" [ref=e318] [cursor=pointer]:
+                      - /url: /restaurants_on_tv/FL/Port%20St.%20Lucie
+                  - paragraph [ref=e319]: Think Greek is a delightful Greek restaurant located in Port St. Lucie, FL, known ...
+                  - generic [ref=e320]:
+                    - generic [ref=e321]: New
+                    - link "Best Bite In Town" [ref=e322] [cursor=pointer]:
+                      - /url: /restaurants_on/best-bite-in-town
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - img [ref=e326]
+            - heading "1. Pick a Location" [level=3] [ref=e329]
+            - paragraph [ref=e330]: Search by city/state or use near-me for instant local options.
+          - generic [ref=e331]:
+            - img [ref=e332]
+            - heading "2. Filter by Show" [level=3] [ref=e334]
+            - paragraph [ref=e335]: Switch between all-shows view and show-specific lists in one tap.
+          - generic [ref=e336]:
+            - img [ref=e337]
+            - heading "3. Plan the Stop" [level=3] [ref=e339]
+            - paragraph [ref=e340]: Save spots, open maps, and build a road-trip itinerary quickly.
+    - contentinfo [ref=e341]:
+      - generic [ref=e342]:
+        - generic [ref=e343]:
+          - paragraph [ref=e344]: TVFoodMaps
+          - paragraph [ref=e345]: Restaurants on TV, reimagined.
+          - paragraph [ref=e346]: Find the best restaurants as seen on TV.
+          - generic [ref=e347]:
+            - link "X" [ref=e348] [cursor=pointer]:
+              - /url: https://twitter.com/TVFoodMaps
+            - link "Facebook" [ref=e349] [cursor=pointer]:
+              - /url: https://www.facebook.com/tvfoodmaps/
+            - link "Instagram" [ref=e350] [cursor=pointer]:
+              - /url: https://www.instagram.com/TVFoodMaps/
+            - link "TikTok" [ref=e351] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@TVFoodMaps
+        - generic [ref=e352]:
+          - paragraph [ref=e353]: Explore
+          - generic [ref=e354]:
+            - link "Recent Restaurants" [ref=e355] [cursor=pointer]:
+              - /url: /explore/recent-restaurants
+            - link "Popular Restaurants" [ref=e356] [cursor=pointer]:
+              - /url: /explore/popular-restaurants
+            - link "Shows" [ref=e357] [cursor=pointer]:
+              - /url: /explore/shows
+            - link "AI Concierge" [ref=e358] [cursor=pointer]:
+              - /url: /foodtv-ai-chat
+            - link "Guides" [ref=e359] [cursor=pointer]:
+              - /url: /explore/guides
+            - link "Articles" [ref=e360] [cursor=pointer]:
+              - /url: /restaurants-on-tv-articles
+        - generic [ref=e361]:
+          - paragraph [ref=e362]: Points of Interest
+          - generic [ref=e363]:
+            - link "Near Colleges" [ref=e364] [cursor=pointer]:
+              - /url: /explore/pois/college
+            - link "Near Airports" [ref=e365] [cursor=pointer]:
+              - /url: /explore/pois/airport
+            - link "Near Stadiums" [ref=e366] [cursor=pointer]:
+              - /url: /explore/pois/stadium
+            - link "Near Sports Complexes" [ref=e367] [cursor=pointer]:
+              - /url: /explore/pois/youthsport
+            - link "Near Conference Centers" [ref=e368] [cursor=pointer]:
+              - /url: /explore/pois/conference
+            - link "Near Landmarks" [ref=e369] [cursor=pointer]:
+              - /url: /explore/pois/landmark
+        - generic [ref=e370]:
+          - paragraph [ref=e371]: Company
+          - generic [ref=e372]:
+            - link "Promote Your Restaurant" [ref=e373] [cursor=pointer]:
+              - /url: /advertise
+            - link "Earn Money" [ref=e374] [cursor=pointer]:
+              - /url: /affiliate
+            - link "Products" [ref=e375] [cursor=pointer]:
+              - /url: /foodtv-products
+            - link "Contact" [ref=e376] [cursor=pointer]:
+              - /url: /contact-us
+            - link "Terms" [ref=e377] [cursor=pointer]:
+              - /url: /tos
+            - link "Privacy" [ref=e378] [cursor=pointer]:
+              - /url: /privacy-policy
+          - paragraph [ref=e379]: Copyright (c) 2026 TVFoodMaps
+  - alert [ref=e380]
+  - generic [ref=e386]:
+    - generic [ref=e387]:
+      - text: Information from your device can be used to personalize your ad experience.
+      - link "Do not sell or share my personal information." [ref=e388] [cursor=pointer]:
+        - /url: /
+    - link "Terms of Content Use" [ref=e390] [cursor=pointer]:
+      - /url: /
+    - text: A Raptive Partner Site
+  - iframe [ref=e400]:
+    - link [ref=f1175e2] [cursor=pointer]:
+      - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstO-c6vSMlPYD7JyUt8PAqikuN58sqTMzVGb1yHEM_Ufiwga6wj8dRSc7McROCLcieD4yNV0fontH3fYZ1osE6fqqXl2Jiy4u3DzVEDDI1nm3LLMkyaQihFeFejRohmbnBlhiwxOvwA0boBBE75J3Xja9-t9ze_omEk8Ax9Fh1R5DETO4R6Jh0jzP-xZFQ6oBpFsudEeHvsiy2A1bC91lWQV8_fW663yoqZC812mvwbzMRbMPqhF5jlNd_NykeFe85VsUrC-T_-n-LrPfy9KGBhVRTq0KwutIX7RgfOP8PglVidRpA3b5uN_7ueZWiGzl9kkR70KIpwDDObjDWMyKM6sSQv5mf8OmYlWCKk7qqLD0jhekD-pOL2ILOBOsMG7eAd4Fg1tj6bSRibtrt_l0AAFpqgEjlU3DwN9KlEVRDTtVzD3YVKYWh4Z_0cz2whg3tnr1IozJeL&sai=AMfl-YTPLUptzmgYN7VIDcxVGJO0wXVNlU1LzHsShswGiYdzEOWdYNvcOYT0zx58QCqrHWtYR7bqArnICiQxjsoDeSxHgPhnLb92BZGS0ulMMcL-0lGJXq77LLWm6lp2o-2hD-YEWbz59K918cUjVlqlvKno6n05aRqP20PfbWLc8eiB7QaF2cwG-ciiJ7SY8kIq9Mz6x-wk_IskepFXFQaTqiAcfCc3Kkc8RjC2m2_fzwUee5WGzrUCcMUM5DZiKWw9eJTeOjHVHq4F-D43z-3u8Z2yBNDmx_XoM9G9U1Uebkiw7FCEdY9tAHw21tuzeNoUbUTaasGsrigSIczmYquBZY1TRBX6KcFiHgxmY7jdOrCwo89o8KXPdzIxMHMOfC49&sig=Cg0ArKJSzHp963hp6zKj&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://www.adthrive.com/
