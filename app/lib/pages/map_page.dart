@@ -15,26 +15,41 @@ class MapPage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final restaurantsAsync = ref.watch(restaurantListProvider);
     final userLocationAsync = ref.watch(userLocationProvider);
+    final showClosed = ref.watch(showClosedProvider);
     final theme = Theme.of(context);
 
     final mapController = MapController();
 
     return Scaffold(
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: () {
-          ref.read(userLocationProvider.notifier).refresh();
-          final pos = ref.read(userLocationProvider).value;
-          if (pos != null) {
-            mapController.move(LatLng(pos.latitude, pos.longitude), 12.0);
-          }
-        },
-        label: const Text('Near Me'),
-        icon: const Icon(Icons.my_location),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          FloatingActionButton(
+            heroTag: 'toggle_closed',
+            onPressed: () => ref.read(showClosedProvider.notifier).toggle(),
+            tooltip: showClosed ? 'Hide closed' : 'Show closed',
+            child: Icon(showClosed ? Icons.visibility : Icons.visibility_off),
+          ),
+          const SizedBox(height: 16),
+          FloatingActionButton.extended(
+            heroTag: 'near_me',
+            onPressed: () {
+              ref.read(userLocationProvider.notifier).refresh();
+              final pos = ref.read(userLocationProvider).value;
+              if (pos != null) {
+                mapController.move(LatLng(pos.latitude, pos.longitude), 12.0);
+              }
+            },
+            label: const Text('Near Me'),
+            icon: const Icon(Icons.my_location),
+          ),
+        ],
       ),
       body: restaurantsAsync.when(
         data: (restaurants) {
           final markers = restaurants
               .where((r) => r.latitude != null && r.longitude != null)
+              .where((r) => showClosed || (r.stillOpen != false))
               .map(
                 (r) => Marker(
                   point: LatLng(r.latitude!, r.longitude!),
@@ -45,7 +60,9 @@ class MapPage extends ConsumerWidget {
                     onTap: () => _showRestaurantPreview(context, r),
                     child: Icon(
                       Icons.location_on,
-                      color: theme.colorScheme.primary,
+                      color: r.stillOpen == false
+                          ? Colors.grey // Grey for closed
+                          : theme.colorScheme.primary, // Red/Primary for open
                       size: 40,
                     ),
                   ),

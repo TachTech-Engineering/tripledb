@@ -43,6 +43,7 @@ class TriviaFacts extends _$TriviaFacts {
         // Enrichment facts
         final openCount = restaurants.where((r) => r.stillOpen == true).length;
         final closedCount = restaurants.where((r) => r.stillOpen == false).length;
+        final renamedCount = restaurants.where((r) => r.nameChanged).length;
         final ratedRest = restaurants.where((r) => r.googleRating != null).toList();
         final avgRating = ratedRest.isEmpty
             ? 0.0
@@ -57,6 +58,7 @@ class TriviaFacts extends _$TriviaFacts {
           '$openCount DDD restaurants are confirmed still open today!',
           'The average Google rating of a DDD restaurant is ${avgRating.toStringAsFixed(1)} ⭐',
           'Guy has visited $closedCount restaurants that are now permanently closed.',
+          '$renamedCount DDD restaurants have been renamed since filming!',
         ];
       },
       orElse: () => ['Loading Flavortown facts...'],

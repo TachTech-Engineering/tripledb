@@ -42,6 +42,48 @@ class RestaurantDetailPage extends ConsumerWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                // Permanently closed banner
+                if (restaurant.stillOpen == false)
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(12),
+                    color: const Color(0xFFDD3333).withValues(alpha: 0.1),
+                    child: Row(
+                      children: [
+                        const Icon(Icons.info_outline, color: Color(0xFFDD3333), size: 18),
+                        const SizedBox(width: 8),
+                        Text(
+                          'This restaurant has permanently closed',
+                          style: theme.textTheme.bodyMedium?.copyWith(
+                            color: const Color(0xFFDD3333),
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+
+                // Temporarily closed banner
+                if (restaurant.stillOpen == true && restaurant.businessStatus == 'CLOSED_TEMPORARILY')
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(12),
+                    color: const Color(0xFFDA7E12).withValues(alpha: 0.1),
+                    child: Row(
+                      children: [
+                        const Icon(Icons.schedule, color: Color(0xFFDA7E12), size: 18),
+                        const SizedBox(width: 8),
+                        Text(
+                          'Temporarily closed',
+                          style: theme.textTheme.bodyMedium?.copyWith(
+                            color: const Color(0xFFDA7E12),
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+
                 // Hero Placeholder
                 Container(
                   width: double.infinity,
@@ -62,6 +104,17 @@ class RestaurantDetailPage extends ConsumerWidget {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
+                      if (restaurant.nameChanged && restaurant.googleCurrentName != null) ...[
+                        const SizedBox(height: 4),
+                        Text(
+                          'Now known as: ${restaurant.googleCurrentName}',
+                          textAlign: TextAlign.center,
+                          style: theme.textTheme.titleMedium?.copyWith(
+                            color: Colors.white70,
+                            fontStyle: FontStyle.italic,
+                          ),
+                        ),
+                      ],
                       const SizedBox(height: 8),
                       Text(
                         '${restaurant.formattedAddress ?? "${restaurant.city}, ${restaurant.state}"} · ${restaurant.cuisineType}',

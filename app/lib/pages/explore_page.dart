@@ -54,6 +54,7 @@ class ExplorePage extends ConsumerWidget {
                 // Enrichment Stats
                 final ratedRestaurants = restaurants.where((r) => r.googleRating != null).toList();
                 final closedRestaurants = restaurants.where((r) => r.stillOpen == false).toList();
+                final renamedRestaurants = restaurants.where((r) => r.nameChanged).toList();
                 final avgRating = ratedRestaurants.isEmpty
                     ? 0.0
                     : ratedRestaurants.map((r) => r.googleRating!).reduce((a, b) => a + b) / ratedRestaurants.length;
@@ -89,6 +90,7 @@ class ExplorePage extends ConsumerWidget {
                             children: [
                               _buildStatItem(theme, ratedRestaurants.length.toString(), 'Rated on Google'),
                               _buildStatItem(theme, closedRestaurants.length.toString(), 'Permanently Closed'),
+                              _buildStatItem(theme, renamedRestaurants.length.toString(), 'Renamed Since Filming'),
                               _buildStatItem(theme, avgRating.toStringAsFixed(1), 'Avg Rating'),
                             ],
                           ),

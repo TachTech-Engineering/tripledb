@@ -70,6 +70,14 @@ class RestaurantCard extends StatelessWidget {
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
+                    if (restaurant.nameChanged && restaurant.googleCurrentName != null)
+                      Text(
+                        'Now: ${restaurant.googleCurrentName}',
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: Colors.grey,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
                     const SizedBox(height: 4),
                     Text(
                       '${restaurant.city}, ${restaurant.state} • ${restaurant.cuisineType}',
@@ -78,21 +86,45 @@ class RestaurantCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 8),
-                    // Episode Badge
-                    Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                      decoration: BoxDecoration(
-                        color: theme.colorScheme.secondary.withValues(alpha: 0.1),
-                        borderRadius: BorderRadius.circular(999),
-                        border: Border.all(color: theme.colorScheme.secondary),
-                      ),
-                      child: Text(
-                        badgeText,
-                        style: theme.textTheme.bodySmall?.copyWith(
-                          color: theme.colorScheme.secondary,
-                          fontWeight: FontWeight.bold,
+                    // Badges
+                    Wrap(
+                      spacing: 8,
+                      runSpacing: 8,
+                      children: [
+                        // Episode Badge
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: theme.colorScheme.secondary.withValues(alpha: 0.1),
+                            borderRadius: BorderRadius.circular(999),
+                            border: Border.all(color: theme.colorScheme.secondary),
+                          ),
+                          child: Text(
+                            badgeText,
+                            style: theme.textTheme.bodySmall?.copyWith(
+                              color: theme.colorScheme.secondary,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                         ),
-                      ),
+                        // Closed Badge
+                        if (restaurant.stillOpen == false)
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                            decoration: BoxDecoration(
+                              color: Colors.grey.withValues(alpha: 0.1),
+                              borderRadius: BorderRadius.circular(999),
+                              border: Border.all(color: Colors.grey),
+                            ),
+                            child: Text(
+                              'Permanently Closed',
+                              style: theme.textTheme.bodySmall?.copyWith(
+                                color: Colors.grey[700],
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                      ],
                     ),
                   ],
                 ),

@@ -34,9 +34,9 @@ Future<List<Restaurant>> nearbyRestaurants(NearbyRestaurantsRef ref) async {
     return [];
   }
 
-  // Filter restaurants that have lat/lng
+  // Filter restaurants that have lat/lng AND are still open (don't recommend closed ones)
   final validRestaurants = restaurants
-      .where((r) => r.latitude != null && r.longitude != null)
+      .where((r) => r.latitude != null && r.longitude != null && r.stillOpen != false)
       .toList();
 
   // Sort by distance

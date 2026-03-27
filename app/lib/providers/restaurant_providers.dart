@@ -23,6 +23,16 @@ class SearchQuery extends _$SearchQuery {
 }
 
 @riverpod
+class ShowClosed extends _$ShowClosed {
+  @override
+  bool build() => true;
+
+  void toggle() {
+    state = !state;
+  }
+}
+
+@riverpod
 Future<List<Restaurant>> filteredRestaurants(FilteredRestaurantsRef ref) async {
   final restaurants = await ref.watch(restaurantListProvider.future);
   final query = ref.watch(searchQueryProvider).toLowerCase();
@@ -33,6 +43,7 @@ Future<List<Restaurant>> filteredRestaurants(FilteredRestaurantsRef ref) async {
 
   return restaurants.where((r) {
     final nameMatch = r.name.toLowerCase().contains(query);
+    final currentNameMatch = r.googleCurrentName?.toLowerCase().contains(query) ?? false;
     final cityMatch = r.city.toLowerCase().contains(query);
     final stateMatch = r.state.toLowerCase().contains(query);
     final cuisineMatch = r.cuisineType.toLowerCase().contains(query);
@@ -40,6 +51,6 @@ Future<List<Restaurant>> filteredRestaurants(FilteredRestaurantsRef ref) async {
       (d) => d.dishName.toLowerCase().contains(query),
     );
 
-    return nameMatch || cityMatch || stateMatch || cuisineMatch || dishMatch;
+    return nameMatch || currentNameMatch || cityMatch || stateMatch || cuisineMatch || dishMatch;
   }).toList();
 }

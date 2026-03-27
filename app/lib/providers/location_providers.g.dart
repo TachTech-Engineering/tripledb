@@ -6,7 +6,7 @@ part of 'location_providers.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$nearbyRestaurantsHash() => r'7b1d9faa3e37c61a2195238e412bfff386655979';
+String _$nearbyRestaurantsHash() => r'83895f78d7b1a0db351add31246cff30304d9c92';
 
 /// See also [nearbyRestaurants].
 @ProviderFor(nearbyRestaurants)
@@ -24,7 +24,7 @@ final nearbyRestaurantsProvider =
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef NearbyRestaurantsRef = AutoDisposeFutureProviderRef<List<Restaurant>>;
-String _$userLocationHash() => r'fcb2f9e1b1a45d8705f384c9d15f300eb0dbdca1';
+String _$userLocationHash() => r'88190ea2c54c6d7e146ec54aa4ab433fca44d726';
 
 /// See also [UserLocation].
 @ProviderFor(UserLocation)

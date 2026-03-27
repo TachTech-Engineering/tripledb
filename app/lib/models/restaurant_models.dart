@@ -18,6 +18,8 @@ class Restaurant {
   final String? websiteUrl;
   final String? formattedAddress;
   final String? businessStatus;
+  final String? googleCurrentName;
+  final bool nameChanged;
   final double? yelpRating;
   final List<Visit> visits;
   final List<Dish> dishes;
@@ -39,6 +41,8 @@ class Restaurant {
     this.websiteUrl,
     this.formattedAddress,
     this.businessStatus,
+    this.googleCurrentName,
+    this.nameChanged = false,
     this.yelpRating,
     required this.visits,
     required this.dishes,
@@ -62,6 +66,8 @@ class Restaurant {
       websiteUrl: json['website_url'] as String?,
       formattedAddress: json['formatted_address'] as String?,
       businessStatus: json['business_status'] as String?,
+      googleCurrentName: json['google_current_name'] as String?,
+      nameChanged: json['name_changed'] as bool? ?? false,
       yelpRating: (json['yelp_rating'] as num?)?.toDouble(),
       visits:
           (json['visits'] as List<dynamic>?)
@@ -93,6 +99,8 @@ class Restaurant {
     String? websiteUrl,
     String? formattedAddress,
     String? businessStatus,
+    String? googleCurrentName,
+    bool? nameChanged,
     double? yelpRating,
     List<Visit>? visits,
     List<Dish>? dishes,
@@ -114,6 +122,8 @@ class Restaurant {
       websiteUrl: websiteUrl ?? this.websiteUrl,
       formattedAddress: formattedAddress ?? this.formattedAddress,
       businessStatus: businessStatus ?? this.businessStatus,
+      googleCurrentName: googleCurrentName ?? this.googleCurrentName,
+      nameChanged: nameChanged ?? this.nameChanged,
       yelpRating: yelpRating ?? this.yelpRating,
       visits: visits ?? this.visits,
       dishes: dishes ?? this.dishes,

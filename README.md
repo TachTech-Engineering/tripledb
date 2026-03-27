@@ -238,4 +238,22 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
+*Last updated: Phase 7.33 — AKA Names + Closed Restaurant UX*
+tfit + Inter). Optimized for Desktop and Mobile. Resolved critical null-safety issues in model parsing.
+- **Outcome:** Production-ready UI with 92 Accessibility and 100 SEO scores.
+
+**v5.14 → v5.15 (Production Run)**
+- **Success:** Completed the full 805-video production run using Group B infrastructure.
+- **Outcome:** 1,102 unique restaurants extracted and normalized.
+
+---
+
+## Author
+
+**Kyle Thompson** — Solutions Architect @ TachTech Engineering
+
+Built as a passion project for finding the best diners after long motorcycle rides.
+
+---
+
 *Last updated: Phase 7.32 — Enrichment Refinement*
