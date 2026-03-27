@@ -29,6 +29,7 @@ class ExplorePage extends ConsumerWidget {
                 // Top States
                 final stateCounts = <String, int>{};
                 for (final r in restaurants) {
+                  if (r.state == 'UNKNOWN' || r.state.isEmpty) continue;
                   stateCounts[r.state] = (stateCounts[r.state] ?? 0) + 1;
                 }
                 final sortedStates = stateCounts.entries.toList()
@@ -37,7 +38,11 @@ class ExplorePage extends ConsumerWidget {
                 // Cuisine Breakdown
                 final cuisineCounts = <String, int>{};
                 for (final r in restaurants) {
-                  cuisineCounts[r.cuisineType] = (cuisineCounts[r.cuisineType] ?? 0) + 1;
+                  final types = r.cuisineType.split(', ');
+                  for (final type in types) {
+                    if (type.isEmpty || type == 'Unknown') continue;
+                    cuisineCounts[type] = (cuisineCounts[type] ?? 0) + 1;
+                  }
                 }
                 final sortedCuisines = cuisineCounts.entries.toList()
                   ..sort((a, b) => b.value.compareTo(a.value));

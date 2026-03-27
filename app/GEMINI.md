@@ -1,15 +1,21 @@
-# TripleDB — Agent Instructions
+# TripleDB App — Agent Instructions
 
-## Current Iteration: 6.28
+## Current Iteration: 6.29
 
-Read docs/ddd-plan-v6.28.md then execute.
+IMPORTANT: Read documents in this EXACT order before executing:
 
-This iteration spans pipeline/ (geocoding + Firestore reload) and app/ (restore Firestore connection).
+1. docs/ddd-design-v6.29.md — Current state, known issues, tech stack
+2. docs/ddd-plan-v6.29.md — Polish execution steps
 
-## Rules
-- Git READ allowed. Git WRITE and firebase deploy forbidden.
-- flutter build web IS ALLOWED for testing.
-- Context7 MCP allowed for Flutter/Firebase docs.
-- NEVER ask permission — diagnose, fix, test, report.
-- MUST produce ddd-build-v6.28.md AND ddd-report-v6.28.md before ending.
-- Start in pipeline/ for Steps 0-3, switch to app/ for Steps 4-6.
+Do NOT begin execution until both files have been read.
+
+## Rules That Never Change
+- Git READ commands allowed (pull, log, status, diff, show)
+- Git WRITE commands forbidden (add, commit, push, checkout, branch)
+- firebase deploy forbidden — Kyle deploys manually
+- flutter build web and flutter run ARE ALLOWED for testing
+- NEVER ask permission — auto-proceed on EVERY step
+- Context7 MCP allowed. No other MCP servers.
+- MUST produce ddd-build-v6.29.md AND ddd-report-v6.29.md before ending
+- Build on existing code — do NOT recreate the app scaffold
+```

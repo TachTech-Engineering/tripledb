@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
+import 'package:flutter_map_marker_cluster/flutter_map_marker_cluster.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:go_router/go_router.dart';
@@ -39,6 +40,7 @@ class MapPage extends ConsumerWidget {
                   point: LatLng(r.latitude!, r.longitude!),
                   width: 40,
                   height: 40,
+                  alignment: Alignment.topCenter,
                   child: GestureDetector(
                     onTap: () => _showRestaurantPreview(context, r),
                     child: Icon(
@@ -70,7 +72,39 @@ class MapPage extends ConsumerWidget {
                 urlTemplate: 'https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
                 userAgentPackageName: 'com.tripledb.app',
               ),
-              MarkerLayer(markers: markers),
+              MarkerClusterLayerWidget(
+                options: MarkerClusterLayerOptions(
+                  maxClusterRadius: 80,
+                  size: const Size(40, 40),
+                  alignment: Alignment.center,
+                  padding: const EdgeInsets.all(50),
+                  markers: markers,
+                  builder: (context, clusterMarkers) {
+                    return Container(
+                      decoration: BoxDecoration(
+                        color: theme.colorScheme.secondary, // Orange #DA7E12
+                        shape: BoxShape.circle,
+                        boxShadow: const [
+                          BoxShadow(
+                            color: Colors.black26,
+                            blurRadius: 4,
+                            offset: Offset(0, 2),
+                          ),
+                        ],
+                      ),
+                      child: Center(
+                        child: Text(
+                          '${clusterMarkers.length}',
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              ),
             ],
           );
         },

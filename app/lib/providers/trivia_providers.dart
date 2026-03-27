@@ -15,7 +15,12 @@ class TriviaFacts extends _$TriviaFacts {
         if (restaurants.isEmpty) return ['Guy is coming!'];
 
         // Compute facts
-        final totalStates = restaurants.map((r) => r.state).toSet().length;
+        final validStates = restaurants
+            .map((r) => r.state)
+            .where((s) => s.isNotEmpty && s != 'UNKNOWN')
+            .toSet();
+        final stateCount = validStates.length;
+        
         final totalDishes = restaurants.expand((r) => r.dishes).length;
 
         // Most common cuisine
@@ -23,18 +28,24 @@ class TriviaFacts extends _$TriviaFacts {
         for (final r in restaurants) {
           final types = r.cuisineType.split(', ');
           for (final type in types) {
+            if (type.isEmpty) continue;
             cuisineCounts[type] = (cuisineCounts[type] ?? 0) + 1;
           }
         }
         final topCuisine = cuisineCounts.entries.toList()
           ..sort((a, b) => b.value.compareTo(a.value));
 
+        // Most visited restaurant
+        final sortedByVisits = List.from(restaurants)
+          ..sort((a, b) => b.visits.length.compareTo(a.visits.length));
+        final topRest = sortedByVisits.first;
+
         return [
           'Guy has visited ${restaurants.length} restaurants in our database!',
           'There are over $totalDishes unique dishes to explore.',
-          'Triple D has covered $totalStates different states.',
+          'Triple D has covered $stateCount different states and territories.',
           '${topCuisine.first.key} is the most common cuisine type.',
-          'The most-featured restaurant has ${restaurants.map((r) => r.visits.length).reduce((a, b) => a > b ? a : b)} appearances.',
+          '${topRest.name} is the most-featured with ${topRest.visits.length} visits!',
         ];
       },
       orElse: () => ['Loading Flavortown facts...'],
