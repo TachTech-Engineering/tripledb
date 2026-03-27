@@ -125,7 +125,7 @@ def main():
             ]
             
             try:
-                result = subprocess.run(cmd, capture_output=True, text=True, check=False)
+                result = subprocess.run(cmd, capture_output=True, text=True, check=False, timeout=600)
                 elapsed = time.time() - start_time
                 
                 status = "failed"
