@@ -1,25 +1,23 @@
 # TripleDB Pipeline — Agent Instructions
 
-## Current Iteration: 7.31
+## Current Iteration: 7.32
 
-Read these two documents in order, then execute the plan:
+IMPORTANT: Read documents in this EXACT order before executing:
 
-1. ../docs/ddd-design-v7.31.md — Architecture, methodology, locked decisions
-2. ../docs/ddd-plan-v7.31.md — Pre-flight checklist and execution steps
+1. ../docs/ddd-design-v7.32.md — Architecture, v7.31 results, refinement strategy
+2. ../docs/ddd-plan-v7.32.md — Refined search + LLM verification steps
 
-Follow the autonomy rules defined in the plan. Begin with Step 0.
+Do NOT begin execution until both files have been read.
 
 ## Rules That Never Change
-- Git READ commands allowed (pull, log, status, diff, show)
-- Git WRITE commands forbidden (add, commit, push, checkout, branch)
-- firebase deploy forbidden — Kyle deploys manually
-- NEVER ask permission between steps — auto-proceed on EVERY step
-- NEVER ask "should I continue?" or "would you like me to proceed?" — YES, ALWAYS
-- If you find yourself typing a question mark, STOP. Re-read the plan. Execute.
-- Self-heal errors: diagnose → fix → re-run (max 3 attempts, then skip)
-- 3 consecutive identical errors = STOP, fix root cause, restart
-- README.md is at PROJECT ROOT (~/dev/projects/tripledb/README.md), NOT pipeline/
-- README update is the FINAL step — comprehensive, including IAO methodology
-- Pipeline scripts run from pipeline/ directory
-- Google Places API key: $GOOGLE_PLACES_API_KEY (never hardcode)
-- ddd-build artifact is MANDATORY — full session transcript
+- Git READ commands allowed. Git WRITE commands and firebase deploy FORBIDDEN.
+- flutter build web and flutter run ARE ALLOWED.
+- NEVER ask permission — auto-proceed on EVERY step.
+- Context7 MCP allowed. No other MCP servers.
+- MUST produce ddd-build-v7.32.md AND ddd-report-v7.32.md before ending.
+- ddd-build must be a FULL session transcript — not a summary.
+- README.md is at PROJECT ROOT (~/dev/projects/tripledb/README.md).
+- Pipeline scripts run from ~/dev/projects/tripledb/pipeline/.
+- Flutter app runs from ~/dev/projects/tripledb/app/.
+- $GOOGLE_PLACES_API_KEY and $GEMINI_API_KEY must be set.
+  If not set, print the missing variable name and HALT. Do NOT ask interactively.

@@ -4,7 +4,7 @@
 
 TripleDB processes 805 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
 
-🌐 **[tripledb.net](https://tripledb.net)** · 📂 **31 iterations** · 🔧 **Status: Live + Enriched**
+🌐 **[tripledb.net](https://tripledb.net)** · 📂 **32 iterations** · 🔧 **Status: Live + Enriched**
 
 ---
 
@@ -23,7 +23,7 @@ A searchable database and Flutter Web app where you can:
 
 TripleDB is built using **Iterative Agentic Orchestration (IAO)** — a development
 methodology where LLM agents execute pipeline phases autonomously while humans
-review versioned artifacts between iterations. IAO emerged through 31 iterations
+review versioned artifacts between iterations. IAO emerged through 32 iterations
 of this project and is now a repeatable framework for building data pipelines
 with agentic assistance.
 
@@ -73,6 +73,7 @@ with agentic assistance.
 | v6.29 | Polish | ✅ | Trivia fix, map clustering, README refresh. |
 | v7.30 | Enrichment Disc. | ✅ | Google Places API pipeline. 50-restaurant batch. |
 | v7.31 | Enrichment Prod. | ✅ | Full run on 1,102 restaurants. 625 enriched. |
+| v7.32 | Enrichment Ref. | ✅ | Refined search recovered 83 more. 126 false pos removed. |
 
 ---
 
@@ -114,7 +115,7 @@ Most inference runs locally on an NVIDIA RTX 2080 SUPER. Extraction uses the Gem
 | 5 | Production Run (805 videos) | ✅ Complete | v5.14–v5.15 |
 | 6 | Firestore + Geocoding + Polish | ✅ Complete | v6.26–v6.29 |
 | 8 | Flutter App | ✅ Complete | v8.17–v8.25 |
-| 7 | Enrichment | ✅ Complete | v7.30–v7.31 |
+| 7 | Enrichment | ✅ Complete | v7.30–v7.32 |
 
 ### Execution Model
 
@@ -153,10 +154,10 @@ Two Firestore collections:
 ```
 tripledb/
 ├── docs/                          # Architecture docs + iteration artifacts
-│   ├── ddd-design-v6.26.md        # Current iteration design (Input)
-│   ├── ddd-plan-v6.26.md          # Current iteration plan (Input)
-│   ├── ddd-build-v6.26.md         # Current iteration build log (Output)
-│   └── ddd-report-v6.26.md        # Current iteration report (Output)
+│   ├── ddd-design-v7.32.md        # Current iteration design (Input)
+│   ├── ddd-plan-v7.32.md          # Current iteration plan (Input)
+│   ├── ddd-build-v7.32.md         # Current iteration build log (Output)
+│   └── ddd-report-v7.32.md        # Current iteration report (Output)
 │
 ├── pipeline/                      # Python data pipeline
 │   ├── scripts/                   # Phase scripts (Firestore loader, State fixer)
@@ -193,12 +194,17 @@ tripledb/
 - **1,102** unique restaurants across **62** states and territories
 - **2,286** dishes with ingredients and Guy's reactions
 - **2,336** video appearances from **773** processed YouTube videos
-- **625** restaurants enriched with Google ratings, open/closed status, and websites
-- **924** restaurants with map coordinates (Nominatim + Google backfill)
-- **32** permanently closed restaurants identified
+- **582** restaurants enriched with Google ratings, open/closed status, and websites
+- **1,006** restaurants with map coordinates (Nominatim + Google backfill)
+- **30** permanently closed restaurants identified
 - **432** cross-video dedup merges
 
 ## Changelog
+
+**v7.31 → v7.32 (Phase 7 Enrichment Refinement)**
+- **Part A:** Refined search on 462 no-match restaurants using owner/chef names, cuisine types, and DDD-aware queries. Recovered 83 additional matches.
+- **Part B:** Gemini Flash LLM verification of review-bucket matches. 112 confirmed correct, 126 false positives removed from Firestore.
+- **Outcome:** Final enrichment coverage: 582/1,102 (52.8%). Geocoding coverage: 91.3%.
 
 **v7.30 → v7.31 (Phase 7 Enrichment Production)**
 - **Success:** Ran full enrichment pipeline on 1,102 restaurants. 625 records enriched with Google ratings, open/closed status, and website URLs. Merged results into Firestore.
@@ -232,4 +238,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 7.31 — Enrichment Production*
+*Last updated: Phase 7.32 — Enrichment Refinement*
