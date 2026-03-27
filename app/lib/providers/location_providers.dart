@@ -10,11 +10,14 @@ part 'location_providers.g.dart';
 class UserLocation extends _$UserLocation {
   @override
   Future<Position?> build() async {
-    return LocationService().getCurrentPosition();
+    // Do not auto-request on build to avoid Safari silent denial.
+    // User must tap "Enable Location" button which calls refresh().
+    return null;
   }
 
-  void refresh() {
-    ref.invalidateSelf();
+  Future<void> refresh() async {
+    state = const AsyncValue.loading();
+    state = await AsyncValue.guard(() => LocationService().getCurrentPosition());
   }
 }
 

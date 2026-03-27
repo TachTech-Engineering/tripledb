@@ -16,7 +16,20 @@ class MapPage extends ConsumerWidget {
     final userLocationAsync = ref.watch(userLocationProvider);
     final theme = Theme.of(context);
 
+    final mapController = MapController();
+
     return Scaffold(
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () async {
+          await ref.read(userLocationProvider.notifier).refresh();
+          final pos = ref.read(userLocationProvider).value;
+          if (pos != null) {
+            mapController.move(LatLng(pos.latitude, pos.longitude), 12.0);
+          }
+        },
+        label: const Text('Near Me'),
+        icon: const Icon(Icons.my_location),
+      ),
       body: restaurantsAsync.when(
         data: (restaurants) {
           final markers = restaurants
@@ -39,6 +52,7 @@ class MapPage extends ConsumerWidget {
               .toList();
 
           return FlutterMap(
+            mapController: mapController,
             options: MapOptions(
               initialCenter: userLocationAsync.maybeWhen(
                 data: (pos) => pos != null

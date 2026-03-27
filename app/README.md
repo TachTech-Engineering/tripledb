@@ -40,6 +40,14 @@ TripleDB is a high-performance Flutter Web application designed to visualize and
 
 ## 📝 Changelog
 
+### [v6.27] — 2026-03-27
+#### Bug Fixes & Mobile Geolocation
+- Fixed geolocation failure on mobile browsers (iOS Safari / Android Chrome) caused by missing `Permissions-Policy` and improper permission request timing.
+- Added `geolocator_web` dependency to `pubspec.yaml` to ensure web geolocation support.
+- Updated `web/index.html` with `<meta http-equiv="Permissions-Policy" content="geolocation=(self)">`.
+- Refactored `UserLocation` provider to request location only on explicit user gesture instead of auto-requesting on page load.
+- Added a "Near Me" `FloatingActionButton` to the Map Page to trigger the location permission flow correctly.
+
 ### [v8.25] — 2026-03-23
 #### QA & Polish
 - Conducted full quality assurance via Playwright screenshots and Lighthouse audits.
