@@ -51,6 +51,13 @@ class ExplorePage extends ConsumerWidget {
                 final mostVisited = restaurants.where((r) => r.visits.length >= 3).toList()
                   ..sort((a, b) => b.visits.length.compareTo(a.visits.length));
 
+                // Enrichment Stats
+                final ratedRestaurants = restaurants.where((r) => r.googleRating != null).toList();
+                final closedRestaurants = restaurants.where((r) => r.stillOpen == false).toList();
+                final avgRating = ratedRestaurants.isEmpty
+                    ? 0.0
+                    : ratedRestaurants.map((r) => r.googleRating!).reduce((a, b) => a + b) / ratedRestaurants.length;
+
                 return Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -65,6 +72,28 @@ class ExplorePage extends ConsumerWidget {
                           backgroundColor: theme.colorScheme.secondary.withValues(alpha: 0.1),
                         );
                       }).toList(),
+                    ),
+                    const SizedBox(height: 40),
+                    Text('Enrichment Stats', style: theme.textTheme.titleLarge),
+                    const SizedBox(height: 16),
+                    Container(
+                      padding: const EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: theme.colorScheme.surfaceContainerHighest.withValues(alpha: 0.3),
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Column(
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            children: [
+                              _buildStatItem(theme, ratedRestaurants.length.toString(), 'Rated on Google'),
+                              _buildStatItem(theme, closedRestaurants.length.toString(), 'Permanently Closed'),
+                              _buildStatItem(theme, avgRating.toStringAsFixed(1), 'Avg Rating'),
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                     const SizedBox(height: 40),
                     Text('Most Visited Diners', style: theme.textTheme.titleLarge),
@@ -95,6 +124,26 @@ class ExplorePage extends ConsumerWidget {
           ],
         ),
       ),
+    );
+  }
+
+  Widget _buildStatItem(ThemeData theme, String value, String label) {
+    return Column(
+      children: [
+        Text(
+          value,
+          style: theme.textTheme.headlineMedium?.copyWith(
+            color: theme.colorScheme.primary,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        const SizedBox(height: 4),
+        Text(
+          label,
+          style: theme.textTheme.bodySmall,
+          textAlign: TextAlign.center,
+        ),
+      ],
     );
   }
 }

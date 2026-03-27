@@ -4,7 +4,7 @@
 
 TripleDB processes 805 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
 
-🌐 **tripledb.net** · 📂 **Phase 6.26** · 🔧 **Status: Firestore Load + App Wiring (Current)**
+🌐 **[tripledb.net](https://tripledb.net)** · 📂 **31 iterations** · 🔧 **Status: Live + Enriched**
 
 ---
 
@@ -23,7 +23,7 @@ A searchable database and Flutter Web app where you can:
 
 TripleDB is built using **Iterative Agentic Orchestration (IAO)** — a development
 methodology where LLM agents execute pipeline phases autonomously while humans
-review versioned artifacts between iterations. IAO emerged through 26 iterations
+review versioned artifacts between iterations. IAO emerged through 31 iterations
 of this project and is now a repeatable framework for building data pipelines
 with agentic assistance.
 
@@ -61,25 +61,40 @@ with agentic assistance.
    Each batch is bigger and harder. By Phase 4, the pipeline ran with zero
    interventions on batches including 4-hour marathons. Confidence was earned.
 
+### Iteration History
+
+| Iteration | Phase | Status | Key Learning |
+|-----------|-------|--------|--------------|
+| v0.7 | Setup | ✅ | Monorepo scaffolded. fish shell has no heredocs. |
+| v1.10 | Discovery | ✅ | Gemini 2.5 Flash API solved extraction. |
+| v4.13 | Validation | ✅ | 608 restaurants, 162 merges. Group B green-lit. |
+| v5.15 | Production | ✅ | 773 videos extracted. 14-hour unattended run. |
+| v6.26 | Firestore | ✅ | 1,102 restaurants loaded. App wired to Firestore. |
+| v6.29 | Polish | ✅ | Trivia fix, map clustering, README refresh. |
+| v7.30 | Enrichment Disc. | ✅ | Google Places API pipeline. 50-restaurant batch. |
+| v7.31 | Enrichment Prod. | ✅ | Full run on 1,102 restaurants. 625 enriched. |
+
 ---
 
 ## Architecture
 
 ```
 YouTube Playlist (805 videos)
-    ↓ yt-dlp
+    ↓ yt-dlp (local)
 MP3 Audio
-    ↓ faster-whisper (CUDA)
+    ↓ faster-whisper large-v3 (local CUDA)
 Timestamped Transcripts
-    ↓ Gemini 2.5 Flash API
-Structured Restaurant JSON
-    ↓ Gemini 2.5 Flash API
+    ↓ Gemini 2.5 Flash API (cloud)
+Extracted Restaurant JSON
+    ↓ Gemini 2.5 Flash API (cloud)
 Normalized + Deduplicated JSONL
-    ↓ fix_unknown_states.py
-State Inference & Quality Fixes
+    ↓ Nominatim (OpenStreetMap)
+Geocoded Data
+    ↓ Google Places API (New)
+Enriched Data (ratings, open/closed, websites, addresses)
     ↓ Firebase Admin SDK
-Cloud Firestore (restaurants, videos)
-    ↓ Flutter Web (Riverpod)
+Cloud Firestore
+    ↓ Flutter Web
 tripledb.net
 ```
 
@@ -90,13 +105,16 @@ Most inference runs locally on an NVIDIA RTX 2080 SUPER. Extraction uses the Gem
 ## Project Status
 
 | Phase | Name | Status | Iteration |
-|------:|------|--------|-----------|
+|-------|------|--------|-----------|
 | 0 | Setup & Scaffolding | ✅ Complete | v0.7 |
-| 1-4 | Pipeline Calibration | ✅ Complete | v4.13 |
-| 5 | Production Run (805 videos) | ✅ Complete | v5.15 |
-| 8 | Flutter App Build (QA) | ✅ Complete | v8.25 |
-| 6 | Firestore Load + Wiring | 🔧 Current | v6.26 |
-| 7 | Enrichment (Geocode, Ratings) | ⏳ Deferred | v7.27+ |
+| 1 | Discovery (30 videos) | ✅ Complete | v1.10 |
+| 2 | Calibration (30 videos) | ✅ Complete | v2.11 |
+| 3 | Stress Test (30 videos) | ✅ Complete | v3.12 |
+| 4 | Validation (30 videos) | ✅ Complete | v4.13 |
+| 5 | Production Run (805 videos) | ✅ Complete | v5.14–v5.15 |
+| 6 | Firestore + Geocoding + Polish | ✅ Complete | v6.26–v6.29 |
+| 8 | Flutter App | ✅ Complete | v8.17–v8.25 |
+| 7 | Enrichment | ✅ Complete | v7.30–v7.31 |
 
 ### Execution Model
 
@@ -163,6 +181,7 @@ tripledb/
 | Extraction | Gemini 2.5 Flash API | Transcript → restaurant JSON |
 | Normalization | Gemini 2.5 Flash API | Dedupe, validate, schema-conform |
 | Database | Cloud Firestore | Live data serving |
+| Enrichment | Google Places API (New) | Ratings, status, websites, addresses |
 | Frontend | Flutter Web + Riverpod | tripledb.net |
 | Orchestration | Gemini CLI | Agentic execution |
 
@@ -170,14 +189,26 @@ tripledb/
 
 ## Current Metrics
 
-- **Videos processed:** 773 of 805
-- **Unique restaurants:** 1,102
-- **Unique dishes:** ~2,286
-- **States covered:** 63
-- **Dedup merges:** 432
-- **App Build:** Stable (v8.25 QA passed)
+### Live Dataset (tripledb.net)
+- **1,102** unique restaurants across **62** states and territories
+- **2,286** dishes with ingredients and Guy's reactions
+- **2,336** video appearances from **773** processed YouTube videos
+- **625** restaurants enriched with Google ratings, open/closed status, and websites
+- **924** restaurants with map coordinates (Nominatim + Google backfill)
+- **32** permanently closed restaurants identified
+- **432** cross-video dedup merges
 
 ## Changelog
+
+**v7.30 → v7.31 (Phase 7 Enrichment Production)**
+- **Success:** Ran full enrichment pipeline on 1,102 restaurants. 625 records enriched with Google ratings, open/closed status, and website URLs. Merged results into Firestore.
+- **Key finding:** 5.1% of featured restaurants (32) are now permanently closed. Average Google rating for DDD spots is 4.4 stars.
+- **Outcome:** Enrichment complete. tripledb.net shows ratings, open/closed, and links.
+
+**v6.29 → v7.30 (Phase 7 Enrichment Discovery)**
+- **Success:** Built Google Places API (New) enrichment pipeline with Text Search → Place Details flow, fuzzy match validation (SequenceMatcher ≥0.70), caching, and resume support. Discovery batch of 50 restaurants enriched.
+- **Key finding:** 66.7% match rate in discovery. 4 coordinate backfills from Google where Nominatim failed.
+- **Outcome:** Pipeline validated for v7.31 full production run.
 
 **v6.26 (Firestore Load + App Wiring)**
 - **Success:** Resolved 126 UNKNOWN states via city-name inference. Loaded 1,102 restaurants into Cloud Firestore. Wired Flutter app to live Firestore data via `DataService` and `FirebaseFirestore`.
@@ -201,4 +232,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 6.26 — Firestore Load + App Wiring*
+*Last updated: Phase 7.31 — Enrichment Production*

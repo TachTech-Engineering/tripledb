@@ -1,11 +1,11 @@
 # TripleDB Pipeline — Agent Instructions
 
-## Current Iteration: 7.30
+## Current Iteration: 7.31
 
 Read these two documents in order, then execute the plan:
 
-1. ../docs/ddd-design-v7.30.md — Architecture, methodology, locked decisions
-2. ../docs/ddd-plan-v7.30.md — Pre-flight checklist and execution steps
+1. ../docs/ddd-design-v7.31.md — Architecture, methodology, locked decisions
+2. ../docs/ddd-plan-v7.31.md — Pre-flight checklist and execution steps
 
 Follow the autonomy rules defined in the plan. Begin with Step 0.
 
@@ -18,6 +18,8 @@ Follow the autonomy rules defined in the plan. Begin with Step 0.
 - If you find yourself typing a question mark, STOP. Re-read the plan. Execute.
 - Self-heal errors: diagnose → fix → re-run (max 3 attempts, then skip)
 - 3 consecutive identical errors = STOP, fix root cause, restart
-- README.md update is the FINAL step — comprehensive, including IAO methodology
-- All scripts run from this directory (pipeline/) as working directory
-- Google Places API key: $GOOGLE_PLACES_API_KEY (never hardcode, never commit)
+- README.md is at PROJECT ROOT (~/dev/projects/tripledb/README.md), NOT pipeline/
+- README update is the FINAL step — comprehensive, including IAO methodology
+- Pipeline scripts run from pipeline/ directory
+- Google Places API key: $GOOGLE_PLACES_API_KEY (never hardcode)
+- ddd-build artifact is MANDATORY — full session transcript

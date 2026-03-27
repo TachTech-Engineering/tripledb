@@ -40,12 +40,23 @@ class TriviaFacts extends _$TriviaFacts {
           ..sort((a, b) => b.visits.length.compareTo(a.visits.length));
         final topRest = sortedByVisits.first;
 
+        // Enrichment facts
+        final openCount = restaurants.where((r) => r.stillOpen == true).length;
+        final closedCount = restaurants.where((r) => r.stillOpen == false).length;
+        final ratedRest = restaurants.where((r) => r.googleRating != null).toList();
+        final avgRating = ratedRest.isEmpty
+            ? 0.0
+            : ratedRest.map((r) => r.googleRating!).reduce((a, b) => a + b) / ratedRest.length;
+
         return [
           'Guy has visited ${restaurants.length} restaurants in our database!',
           'There are over $totalDishes unique dishes to explore.',
           'Triple D has covered $stateCount different states and territories.',
           '${topCuisine.first.key} is the most common cuisine type.',
           '${topRest.name} is the most-featured with ${topRest.visits.length} visits!',
+          '$openCount DDD restaurants are confirmed still open today!',
+          'The average Google rating of a DDD restaurant is ${avgRating.toStringAsFixed(1)} ⭐',
+          'Guy has visited $closedCount restaurants that are now permanently closed.',
         ];
       },
       orElse: () => ['Loading Flavortown facts...'],

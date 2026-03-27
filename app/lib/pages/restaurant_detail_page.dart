@@ -1,3 +1,4 @@
+import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/restaurant_providers.dart';
@@ -63,10 +64,57 @@ class RestaurantDetailPage extends ConsumerWidget {
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        '${restaurant.city}, ${restaurant.state} · ${restaurant.cuisineType}',
+                        '${restaurant.formattedAddress ?? "${restaurant.city}, ${restaurant.state}"} · ${restaurant.cuisineType}',
                         style: theme.textTheme.titleMedium?.copyWith(
                           color: Colors.white70,
                         ),
+                      ),
+                      const SizedBox(height: 12),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          if (restaurant.googleRating != null) ...[
+                            Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                              decoration: BoxDecoration(
+                                color: const Color(0xFFDA7E12), // DDD Orange
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              child: Row(
+                                children: [
+                                  const Icon(Icons.star, size: 16, color: Colors.white),
+                                  const SizedBox(width: 4),
+                                  Text(
+                                    '${restaurant.googleRating} (${restaurant.googleRatingCount ?? 0} reviews)',
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(width: 8),
+                          ],
+                          if (restaurant.stillOpen != null) ...[
+                            Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                              decoration: BoxDecoration(
+                                color: restaurant.stillOpen! ? Colors.green : const Color(0xFFDD3333), // DDD Red
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              child: Text(
+                                restaurant.stillOpen! ? 'Open' : 'Permanently Closed',
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 12,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ],
                       ),
                       if (restaurant.ownerChef != null) ...[
                         const SizedBox(height: 8),
@@ -89,30 +137,38 @@ class RestaurantDetailPage extends ConsumerWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      ElevatedButton.icon(
-                        onPressed: () {
-                          // TODO: implement directions using url_launcher
-                        },
-                        icon: const Icon(Icons.directions),
-                        label: const Text('Directions'),
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: theme.colorScheme.secondary,
-                          foregroundColor: theme.colorScheme.onSecondary,
-                          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                      if (restaurant.googleMapsUrl != null)
+                        ElevatedButton.icon(
+                          onPressed: () async {
+                            final url = Uri.parse(restaurant.googleMapsUrl!);
+                            if (await canLaunchUrl(url)) {
+                              await launchUrl(url);
+                            }
+                          },
+                          icon: const Icon(Icons.map),
+                          label: const Text('View on Maps'),
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: theme.colorScheme.secondary,
+                            foregroundColor: theme.colorScheme.onSecondary,
+                            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                          ),
                         ),
-                      ),
-                      OutlinedButton.icon(
-                        onPressed: () {
-                          // TODO: implement website using url_launcher
-                        },
-                        icon: const Icon(Icons.public),
-                        label: const Text('Website'),
-                        style: OutlinedButton.styleFrom(
-                          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                          side: BorderSide(color: theme.colorScheme.secondary),
-                          foregroundColor: theme.colorScheme.secondary,
+                      if (restaurant.websiteUrl != null)
+                        OutlinedButton.icon(
+                          onPressed: () async {
+                            final url = Uri.parse(restaurant.websiteUrl!);
+                            if (await canLaunchUrl(url)) {
+                              await launchUrl(url);
+                            }
+                          },
+                          icon: const Icon(Icons.public),
+                          label: const Text('Website'),
+                          style: OutlinedButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                            side: BorderSide(color: theme.colorScheme.secondary),
+                            foregroundColor: theme.colorScheme.secondary,
+                          ),
                         ),
-                      ),
                     ],
                   ),
                 ),

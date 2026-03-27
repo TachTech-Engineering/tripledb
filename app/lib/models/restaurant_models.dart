@@ -13,8 +13,12 @@ class Restaurant {
   final String? ownerChef;
   final bool? stillOpen;
   final double? googleRating;
-  final double? yelpRating;
+  final int? googleRatingCount;
+  final String? googleMapsUrl;
   final String? websiteUrl;
+  final String? formattedAddress;
+  final String? businessStatus;
+  final double? yelpRating;
   final List<Visit> visits;
   final List<Dish> dishes;
 
@@ -30,8 +34,12 @@ class Restaurant {
     this.ownerChef,
     this.stillOpen,
     this.googleRating,
-    this.yelpRating,
+    this.googleRatingCount,
+    this.googleMapsUrl,
     this.websiteUrl,
+    this.formattedAddress,
+    this.businessStatus,
+    this.yelpRating,
     required this.visits,
     required this.dishes,
   });
@@ -49,8 +57,12 @@ class Restaurant {
       ownerChef: json['owner_chef'] as String?,
       stillOpen: json['still_open'] as bool?,
       googleRating: (json['google_rating'] as num?)?.toDouble(),
-      yelpRating: (json['yelp_rating'] as num?)?.toDouble(),
+      googleRatingCount: json['google_rating_count'] as int?,
+      googleMapsUrl: json['google_maps_url'] as String?,
       websiteUrl: json['website_url'] as String?,
+      formattedAddress: json['formatted_address'] as String?,
+      businessStatus: json['business_status'] as String?,
+      yelpRating: (json['yelp_rating'] as num?)?.toDouble(),
       visits:
           (json['visits'] as List<dynamic>?)
               ?.map((v) => Visit.fromJson(v as Map<String, dynamic>))
@@ -76,8 +88,12 @@ class Restaurant {
     String? ownerChef,
     bool? stillOpen,
     double? googleRating,
-    double? yelpRating,
+    int? googleRatingCount,
+    String? googleMapsUrl,
     String? websiteUrl,
+    String? formattedAddress,
+    String? businessStatus,
+    double? yelpRating,
     List<Visit>? visits,
     List<Dish>? dishes,
   }) {
@@ -93,8 +109,12 @@ class Restaurant {
       ownerChef: ownerChef ?? this.ownerChef,
       stillOpen: stillOpen ?? this.stillOpen,
       googleRating: googleRating ?? this.googleRating,
-      yelpRating: yelpRating ?? this.yelpRating,
+      googleRatingCount: googleRatingCount ?? this.googleRatingCount,
+      googleMapsUrl: googleMapsUrl ?? this.googleMapsUrl,
       websiteUrl: websiteUrl ?? this.websiteUrl,
+      formattedAddress: formattedAddress ?? this.formattedAddress,
+      businessStatus: businessStatus ?? this.businessStatus,
+      yelpRating: yelpRating ?? this.yelpRating,
       visits: visits ?? this.visits,
       dishes: dishes ?? this.dishes,
     );
