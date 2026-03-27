@@ -1,28 +1,20 @@
-# TripleDB — Root Agent Instructions
+# TripleDB — Agent Instructions
 
-## Project Overview
+## Current Iteration: 6.26
 
-TripleDB is a monorepo containing two subsystems:
+IMPORTANT: Read documents in this EXACT order before executing:
 
-1. **pipeline/** — Python data extraction pipeline that processes 804 DDD
-   YouTube videos into structured restaurant data
-2. **app/** — Flutter Web visualization deployed to tripleDB.com via Firebase
+1. docs/ddd-design-v6.26.md — Architecture, Firestore schema, state inference
+2. docs/ddd-plan-v6.26.md — Execution steps
 
-## Architecture Documents
+Do NOT begin execution until both files have been read.
 
-Read ALL before any work:
-- docs/ddd-design-architecture-v6.md — Technical architecture and data model
-- docs/ddd-project-setup-v6.md — Environment setup and tool configuration
-- docs/ddd-phase-prompts-v6.md — Execution strategy and Phase 0 prompt
-
-## Working Directory Rules
-
-- For pipeline work (Phases 1-6): `cd pipeline/` and work from there
-- For app work (Phase 7): `cd app/` and read app/GEMINI.md
-- For cross-cutting work: stay at root
-
-## Git Rules
-
-- NEVER run `git push`, `git commit`, or `firebase deploy`
-- Present all changes for Kyle's review
-- Kyle commits and pushes manually
+## Rules That Never Change
+- Git READ commands allowed (pull, log, status, diff, show)
+- Git WRITE commands forbidden (add, commit, push, checkout, branch)
+- firebase deploy forbidden — Kyle deploys manually
+- flutter build web IS ALLOWED for testing
+- NEVER ask permission — auto-proceed on EVERY step
+- Context7 MCP allowed. No other MCP servers.
+- MUST produce ddd-build-v6.26.md AND ddd-report-v6.26.md before ending
+- This iteration spans pipeline/ AND app/ directories

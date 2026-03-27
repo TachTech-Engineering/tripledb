@@ -8,7 +8,7 @@ part 'restaurant_providers.g.dart';
 class RestaurantList extends _$RestaurantList {
   @override
   Future<List<Restaurant>> build() async {
-    return DataService().loadSampleRestaurants();
+    return DataService().loadRestaurants();
   }
 }
 
