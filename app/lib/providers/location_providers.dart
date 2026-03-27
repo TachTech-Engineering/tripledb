@@ -15,9 +15,13 @@ class UserLocation extends _$UserLocation {
     return null;
   }
 
-  Future<void> refresh() async {
+  void refresh() {
     state = const AsyncValue.loading();
-    state = await AsyncValue.guard(() => LocationService().getCurrentPosition());
+    LocationService().getCurrentPosition().then((pos) {
+      state = AsyncValue.data(pos);
+    }).catchError((err, stackTrace) {
+      state = AsyncValue.error(err, stackTrace);
+    });
   }
 }
 

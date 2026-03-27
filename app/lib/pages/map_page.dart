@@ -20,8 +20,8 @@ class MapPage extends ConsumerWidget {
 
     return Scaffold(
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: () async {
-          await ref.read(userLocationProvider.notifier).refresh();
+        onPressed: () {
+          ref.read(userLocationProvider.notifier).refresh();
           final pos = ref.read(userLocationProvider).value;
           if (pos != null) {
             mapController.move(LatLng(pos.latitude, pos.longitude), 12.0);

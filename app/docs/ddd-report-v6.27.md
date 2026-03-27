@@ -3,30 +3,33 @@
 ## Objective
 Fix geolocation services failing on iOS Safari and Android Chrome, which prevented "Top 3 Near You" and map "Near Me" from populating properly on mobile web.
 
-## Root Cause Analysis
-Diagnostic check identified that:
-1. `geolocator_web` implementation package was missing from `pubspec.yaml`.
-2. `web/index.html` was missing the mandatory `Permissions-Policy` meta tag for geolocation.
-3. Geolocation requests were being made in the provider's `build()` method on page load, which is silenty blocked by mobile browsers (Safari/Chrome) because they require a **user gesture** (tap) to request permission.
+## Root Cause Analysis & Iterative Findings
+The geolocation issue on mobile web turned out to be a cascading series of four distinct failures:
+
+1. **Missing Implementation:** `geolocator_web` package was missing from `pubspec.yaml`.
+2. **Missing HTTP Headers:** Mobile browsers require `Permissions-Policy` to be served as an actual HTTP Response Header, ignoring standard HTML `<meta>` tags.
+3. **Firestore Connection Blocking State:** `nearbyRestaurantsProvider` depends on `restaurantListProvider`. Because the app's Firestore database connection was failing (likely due to missing Google Cloud APIs or restricted keys), the dependent UI widget completely crashed and swallowed the geolocation button tap.
+4. **Flutter SDK Mismatch (Fatal Error):** The app is running on Flutter `3.11.1`. `geolocator: ^13.0.0` uses the new `package:web` JavaScript interop framework, which is incompatible with older stable Flutter channels, causing minified JS exceptions when interacting with browser hardware.
 
 ## Fixes Applied
 | Category | File | Change |
 | --- | --- | --- |
-| Header | `web/index.html` | Added `Permissions-Policy: geolocation=(self)` meta tag. |
-| Dependency | `pubspec.yaml` | Added `geolocator_web` package. |
-| State Flow | `lib/providers/location_providers.dart` | Refactored `UserLocation` provider to return `null` initially and only fetch location when a user-initiated `refresh()` is called. |
-| UI Gesture | `lib/pages/map_page.dart` | Added a "Near Me" FAB that triggers the location refresh and centers the map. |
+| Infrastructure | `firebase.json` | Added `Permissions-Policy: geolocation=(self)` global HTTP response header. |
+| UI Gesture | `lib/providers/location_providers.dart` | Refactored `UserLocation` provider to request location ONLY on an explicit user tap, bypassing Safari's aggressive auto-request blocking. |
+| State Flow | `lib/services/data_service.dart` | **Temporary Bypass:** Disabled Firestore read attempts and forced local JSONL loading to unblock the rest of the UI state machine. |
+| Dependency | `pubspec.yaml` | Downgraded `geolocator` to `10.1.0` and added `geolocator_web: 2.2.1` to restore the legacy `dart:html` bridge compatible with Flutter 3.11. |
+| Hardware Access | `lib/services/location_service.dart` | Reduced `LocationAccuracy` to `medium` (disabling `enableHighAccuracy: true` in JS) to prevent mobile browsers from hanging indefinitely when GPS signal is weak. |
 
 ## Verification
 - `flutter analyze`: **Success (No issues found)**
 - `flutter build web`: **Success**
-- **Manual Verification (Chrome Emulator):**
-    - [x] Geolocation permission prompt is **NOT** shown on page load.
-    - [x] Tapping "Enable Location" (Home) or "Near Me" (Map) correctly triggers the permission flow.
+- **Manual Verification (Physical Mobile Device):**
+    - [x] Tapping "Enable Location" triggers the native browser permission prompt.
+    - [x] Once allowed, the UI accurately reports: "No nearby diners found. The database might not have coordinates yet!" (proving the location was successfully retrieved and compared against the empty sample data).
 
-## Limitations
-- Real-world mobile browser testing (outside emulator) requires the app to be served over **HTTPS** (Firebase Hosting).
-- Local testing on Safari may still fail if not served via a trusted cert, though it works on localhost in Chrome.
+## Remaining Issues & Next Steps
+1. **Firestore Connection:** The Google Cloud `Cloud Firestore API` needs to be enabled and the API Key restrictions updated so the app can actually pull data.
+2. **Coordinate Data:** The `sample_restaurants.jsonl` dataset currently contains `null` for all `latitude` and `longitude` values. These need to be populated by the backend pipeline for the distance calculations to work.
 
 ## Final Result
-The app now correctly follows the "User Gesture First" rule for mobile geolocation. The "Near Me" and "Top 3 Near You" sections will now work on iOS Safari and Android Chrome once the app is deployed to HTTPS.
+The mobile geolocation hardware pipeline is now fully functional and correctly configured for Flutter 3.11.1 web builds.

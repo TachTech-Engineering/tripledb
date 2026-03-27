@@ -1,15 +1,15 @@
-# TripleDB App — Agent Instructions
+# TripleDB — Agent Instructions
 
-## Current Iteration: 6.27
+## Current Iteration: 6.28
 
-Read docs/ddd-plan-v6.27.md then execute. This is a bug fix iteration.
+Read docs/ddd-plan-v6.28.md then execute.
 
-Start by reading the location-related source files listed in the plan,
-then run the diagnostic commands in Step 0.
+This iteration spans pipeline/ (geocoding + Firestore reload) and app/ (restore Firestore connection).
 
 ## Rules
 - Git READ allowed. Git WRITE and firebase deploy forbidden.
-- flutter build web and flutter run ARE ALLOWED for testing.
-- Context7 MCP allowed for Flutter/geolocator docs.
+- flutter build web IS ALLOWED for testing.
+- Context7 MCP allowed for Flutter/Firebase docs.
 - NEVER ask permission — diagnose, fix, test, report.
-- MUST produce ddd-build-v6.27.md AND ddd-report-v6.27.md before ending.
+- MUST produce ddd-build-v6.28.md AND ddd-report-v6.28.md before ending.
+- Start in pipeline/ for Steps 0-3, switch to app/ for Steps 4-6.

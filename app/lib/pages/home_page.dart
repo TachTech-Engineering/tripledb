@@ -12,6 +12,7 @@ class HomePage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final nearbyAsync = ref.watch(nearbyRestaurantsProvider);
+    final userLocationAsync = ref.watch(userLocationProvider);
 
     return SingleChildScrollView(
       child: Padding(
@@ -47,9 +48,9 @@ class HomePage extends ConsumerWidget {
                       ),
                     ),
                   ),
-                  nearbyAsync.when(
-                    data: (restaurants) {
-                      if (restaurants.isEmpty) {
+                  userLocationAsync.when(
+                    data: (pos) {
+                      if (pos == null) {
                         return Card(
                           elevation: 1,
                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -74,16 +75,57 @@ class HomePage extends ConsumerWidget {
                           ),
                         );
                       }
-                      return Column(
-                        children: restaurants
-                            .map((r) => RestaurantCard(restaurant: r))
-                            .toList(),
+
+                      // Location is enabled, show nearby restaurants
+                      return nearbyAsync.when(
+                        data: (restaurants) {
+                          if (restaurants.isEmpty) {
+                            return Card(
+                              elevation: 1,
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                              child: Padding(
+                                padding: const EdgeInsets.all(16.0),
+                                child: Text(
+                                  'No nearby diners found. The database might not have coordinates yet!',
+                                  style: theme.textTheme.bodyMedium,
+                                ),
+                              ),
+                            );
+                          }
+                          return Column(
+                            children: restaurants
+                                .map((r) => RestaurantCard(restaurant: r))
+                                .toList(),
+                          );
+                        },
+                        loading: () => const Center(child: CircularProgressIndicator()),
+                        error: (err, stack) => Text('Error: $err'),
                       );
                     },
-                    loading: () =>
-                        const Center(child: CircularProgressIndicator()),
-                    error: (err, stack) =>
-                        const Text('Unable to load nearby diners.'),
+                    loading: () => const Center(child: CircularProgressIndicator()),
+                    error: (err, stack) => Card(
+                      elevation: 1,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Could not get location. Ensure your browser allows it.\nError: $err',
+                              style: theme.textTheme.bodyMedium?.copyWith(color: theme.colorScheme.error),
+                            ),
+                            const SizedBox(height: 12),
+                            ElevatedButton(
+                              onPressed: () {
+                                ref.read(userLocationProvider.notifier).refresh();
+                              },
+                              child: const Text('Try Again'),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
                   ),
                 ],
               ),

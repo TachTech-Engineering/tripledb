@@ -9,19 +9,13 @@ class DataService {
 
   Future<List<Restaurant>> loadRestaurants() async {
     try {
-      // Try Firestore first
       final snapshot = await _db.collection('restaurants').get();
-      if (snapshot.docs.isNotEmpty) {
-        return snapshot.docs
-            .map((doc) => Restaurant.fromJson(doc.data()))
-            .toList();
-      }
-      
-      // Fallback if collection is empty
-      debugPrint('Firestore restaurants collection is empty, falling back to sample data');
-      return await loadSampleRestaurants();
+      return snapshot.docs.map((doc) {
+        final data = doc.data();
+        return Restaurant.fromJson(data);
+      }).toList();
     } catch (e) {
-      debugPrint('Error loading from Firestore: $e, falling back to sample data');
+      debugPrint('Firestore error, falling back to sample data: $e');
       return await loadSampleRestaurants();
     }
   }
@@ -31,13 +25,11 @@ class DataService {
       final jsonString = await rootBundle.loadString('assets/data/sample_restaurants.jsonl');
       final lines = jsonString.split('\n');
       final restaurants = <Restaurant>[];
-      
       for (final line in lines) {
         if (line.trim().isEmpty) continue;
         final json = jsonDecode(line) as Map<String, dynamic>;
         restaurants.add(Restaurant.fromJson(json));
       }
-      
       return restaurants;
     } catch (e) {
       debugPrint('Error loading sample restaurants: $e');
@@ -46,11 +38,12 @@ class DataService {
   }
 
   Future<List<Map<String, dynamic>>> loadVideos() async {
+    // Basic placeholder for now, similar to loadRestaurants but for videos
     try {
       final snapshot = await _db.collection('videos').get();
       return snapshot.docs.map((doc) => doc.data()).toList();
     } catch (e) {
-      debugPrint('Error loading videos from Firestore: $e');
+      debugPrint('Firestore video error: $e');
       return [];
     }
   }
