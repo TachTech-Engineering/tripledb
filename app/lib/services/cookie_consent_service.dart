@@ -9,6 +9,14 @@ class CookieConsentService {
   static const String _cookieName = 'tripledb_consent';
   static const int _expiryDays = 365;
 
+  static const List<String> _weekdays = [
+    'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'
+  ];
+  static const List<String> _months = [
+    'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+  ];
+
   // Default: all optional categories OFF (GDPR-compliant)
   static const Map<String, bool> _defaults = {
     'essential': true, // Always on, not toggleable
@@ -71,20 +79,38 @@ class CookieConsentService {
 
   Map<String, bool>? _readCookie() {
     if (!kIsWeb) return null;
-    
+
     final cookies = html.document.cookie ?? '';
     for (final cookie in cookies.split(';')) {
-      final parts = cookie.trim().split('=');
-      if (parts.length == 2 && parts[0].trim() == _cookieName) {
-        try {
-          final decoded = Uri.decodeComponent(parts[1]);
-          return Map<String, bool>.from(jsonDecode(decoded));
-        } catch (_) {
-          return null;
-        }
+      final trimmed = cookie.trim();
+      final idx = trimmed.indexOf('=');
+      if (idx < 0) continue;
+      final name = trimmed.substring(0, idx).trim();
+      if (name != _cookieName) continue;
+      try {
+        final value = trimmed.substring(idx + 1).trim();
+        final decoded = Uri.decodeComponent(value);
+        final parsed = Map<String, dynamic>.from(jsonDecode(decoded));
+        // Validate structure: must have 'essential' key
+        if (!parsed.containsKey('essential')) return null;
+        return parsed.map((k, v) => MapEntry(k, v == true));
+      } catch (_) {
+        return null; // Malformed cookie — treat as no consent
       }
     }
     return null;
+  }
+
+  /// Format a DateTime as RFC 1123 (required for cookie expires attribute)
+  static String _toRfc1123(DateTime dt) {
+    final utc = dt.toUtc();
+    final weekday = _weekdays[utc.weekday - 1];
+    final month = _months[utc.month - 1];
+    final day = utc.day.toString().padLeft(2, '0');
+    final hour = utc.hour.toString().padLeft(2, '0');
+    final min = utc.minute.toString().padLeft(2, '0');
+    final sec = utc.second.toString().padLeft(2, '0');
+    return '$weekday, $day $month ${utc.year} $hour:$min:$sec GMT';
   }
 
   void _writeCookie() {
@@ -92,10 +118,13 @@ class CookieConsentService {
 
     final value = Uri.encodeComponent(jsonEncode(_current));
     final expiry = DateTime.now().add(const Duration(days: _expiryDays));
-    final expires = expiry.toUtc().toIso8601String();
-    
-    // Set cookie with security flags
+    final expires = _toRfc1123(expiry);
+
+    // Only set Secure flag on HTTPS (Secure cookies are silently rejected on HTTP)
+    final isSecure = html.window.location.protocol == 'https:';
+    final secureFlag = isSecure ? '; Secure' : '';
+
     html.document.cookie =
-        '$_cookieName=$value; expires=$expires; path=/; SameSite=Lax; Secure';
+        '$_cookieName=$value; expires=$expires; path=/; SameSite=Lax$secureFlag';
   }
 }

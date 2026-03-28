@@ -4,7 +4,7 @@
 
 TripleDB processes 805 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
 
-🌐 **[tripledb.net](https://tripledb.net)** · 📂 **37 iterations** · 🔧 **Status: Live + Optimized**
+🌐 **[tripledb.net](https://tripledb.net)** · 📂 **38 iterations** · 🔧 **Status: Live + Optimized**
 
 ---
 
@@ -61,11 +61,11 @@ with agentic assistance.
    Each batch is bigger and harder. By Phase 4, the pipeline ran with zero
    interventions on batches including 4-hour marathons. Confidence was earned.
 
-9. **Post-Flight Verification** — Static analysis and compilation are necessary
-   but not sufficient. Every iteration that modifies Flutter code must run an
-   automated post-flight checklist: serve the release build locally, navigate
-   the app via headless browser, verify rendering, and check the console for
-   errors. Born from v9.35's white-screen-in-production failure.
+9. **Post-Flight Verification** — Two-tier system. Tier 1: health gates (app
+   bootstraps, console clean, changelog integrity). Tier 2: iteration-specific
+   functional playbook — Puppeteer clicks buttons, verifies state changes,
+   confirms persistence. Canvas screenshots replaced with accessibility tree
+   verification. Born from v9.35's white-screen and v9.37's screenshot-only gap.
 
 ### Iteration History
 
@@ -85,6 +85,7 @@ with agentic assistance.
 | v9.35 | App Optimization | ✅ | Riverpod 2→3, 75+ trivia facts, proximity refactor. First Claude Code iteration. |
 | v9.36 | Production Fix | ✅ | Fixed white screen crash (eager provider init before runApp). Changelog restored. |
 | v9.37 | Post-Flight + Location | ✅ | Post-flight protocol (Pillar 9), location-on-consent, changelog gate. |
+| v9.38 | Cookie Banner Fix | ✅ | Cookie Secure flag + RFC 1123 expires + robust parsing. Functional playbook. |
 
 ---
 
@@ -272,6 +273,20 @@ tripledb.net
 - **Changelog gate:** Post-flight verifies README changelog entry count ≥ 22. Agent
   cannot declare iteration complete if changelog has been truncated.
 
+**v9.38 (Phase 9 — Cookie Banner Fix + Functional Post-Flight)**
+- **Root cause:** Cookie `Secure` flag silently prevented `document.cookie` writes on HTTP,
+  and `_writeCookie()` used ISO 8601 for `expires` instead of RFC 1123. Additionally,
+  `_readCookie()` used fragile `split('=')` with `parts.length == 2` check that could fail
+  if cookie values contained `=` characters.
+- **Fix:** Conditional `Secure` flag (only on HTTPS), RFC 1123 date format for `expires`,
+  `indexOf`-based cookie parsing instead of `split`, and `essential` key validation to reject
+  malformed/stale cookies.
+- **Post-Flight v2:** Two-tier system. Tier 1: health gates. Tier 2: iteration-specific
+  Playwright/Puppeteer functional playbook with click-verify-confirm actions. Canvas screenshots
+  replaced with accessibility tree verification and interactive button clicking.
+- Cookie banner verified via 6-test playbook: renders, dismisses, persists, validates cookie
+  structure, fresh context, decline path. All 6 tests PASS.
+
 ---
 
 ## Author
@@ -282,4 +297,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 9.37 — Post-Flight Protocol + Location Consent*
+*Last updated: Phase 9.38 — Cookie Banner Fix + Functional Post-Flight*

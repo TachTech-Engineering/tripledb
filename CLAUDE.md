@@ -1,21 +1,19 @@
 # TripleDB — Agent Instructions
 
-## Current Iteration: 9.37
+## Current Iteration: 9.38
 
-Read these two documents in order, then execute the plan:
+BUG FIX: Cookie banner does not render. Debug, fix, and FUNCTIONALLY verify.
 
-1. docs/ddd-design-v9.37.md — Post-flight protocol, location-on-consent, changelog protection
-2. docs/ddd-plan-v9.37.md — Execution steps
+1. docs/ddd-design-v9.38.md — Debug strategy, functional post-flight spec
+2. docs/ddd-plan-v9.38.md — Steps with Playwright playbook
 
-## MCP Servers Available
-- Playwright MCP: Browser automation for post-flight verification
-- Context7: Flutter/Dart docs for self-healing
+## MCP Servers
+- Playwright MCP: REQUIRED for functional testing
+- Context7: Flutter docs
 
-## Rules That Never Change
-- NEVER run git add, git commit, git push, or firebase deploy
-- NEVER ask permission — auto-proceed on EVERY step
-- Self-heal: diagnose → fix → re-run (max 3, then skip)
-- MUST produce ddd-build-v9.37.md AND ddd-report-v9.37.md before ending
-- CHECKPOINT after every numbered step
-- README changelog: NEVER truncate — count must be ≥ 22
-- POST-FLIGHT: MANDATORY for this iteration — must pass all gates
+## Rules
+- NEVER git add/commit/push or firebase deploy
+- POST-FLIGHT Tier 1 + Tier 2 must BOTH pass
+- Tier 2 = actually click buttons, verify state changes, confirm cookie persistence
+- If Playwright MCP unavailable, npm install puppeteer and use that
+- CHANGELOG ≥ 23 entries
