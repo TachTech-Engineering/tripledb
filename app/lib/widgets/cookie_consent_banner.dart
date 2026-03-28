@@ -2,9 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../services/cookie_consent_service.dart';
 import '../providers/cookie_provider.dart';
+import '../providers/location_providers.dart';
 import '../theme/app_theme.dart';
 
 // We'll define providers later in Step 2, but let's assume they exist or use local state for now.
@@ -38,7 +40,36 @@ class _CookieConsentBannerState extends ConsumerState<CookieConsentBanner> {
     final analytics = ref.read(analyticsServiceProvider);
     analytics.updateConsent(prefs['analytics'] ?? false);
     analytics.logConsentGiven(prefs);
+
+    // Request location if Preferences enabled
+    if (prefs['preferences'] == true) {
+      _requestLocationAfterConsent();
+    }
+
     _hide();
+  }
+
+  void _requestLocationAfterConsent() {
+    // Use post-frame callback to ensure widget tree is stable after banner dismissal
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      try {
+        final serviceEnabled = await Geolocator.isLocationServiceEnabled();
+        if (!serviceEnabled) return;
+
+        var permission = await Geolocator.checkPermission();
+        if (permission == LocationPermission.denied) {
+          permission = await Geolocator.requestPermission();
+        }
+
+        if (permission == LocationPermission.always ||
+            permission == LocationPermission.whileInUse) {
+          ref.read(userLocationProvider.notifier).refresh();
+        }
+      } catch (e) {
+        // Location is optional — fail silently
+        debugPrint('Location permission after consent failed: $e');
+      }
+    });
   }
 
   @override
@@ -220,7 +251,7 @@ class _CookieSettingsModalState extends ConsumerState<CookieSettingsModal> {
           ),
           _buildToggle(
             'Preferences',
-            'Remembers your theme and search preferences.',
+            'Remembers your settings, location for nearby restaurants, and recent searches.',
             _prefs['preferences'] ?? false,
             (val) => setState(() => _prefs['preferences'] = val),
           ),

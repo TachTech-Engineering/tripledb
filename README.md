@@ -4,7 +4,7 @@
 
 TripleDB processes 805 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
 
-🌐 **[tripledb.net](https://tripledb.net)** · 📂 **36 iterations** · 🔧 **Status: Live + Optimized**
+🌐 **[tripledb.net](https://tripledb.net)** · 📂 **37 iterations** · 🔧 **Status: Live + Optimized**
 
 ---
 
@@ -27,7 +27,7 @@ review versioned artifacts between iterations. IAO emerged through 35 iterations
 of this project and is now a repeatable framework for building data pipelines
 with agentic assistance.
 
-### The Eight Pillars
+### The Nine Pillars
 
 1. **Plan-Report Loop** — Every iteration starts with a design doc + plan doc
    and produces a build log + report. The four artifacts are the complete record.
@@ -61,6 +61,12 @@ with agentic assistance.
    Each batch is bigger and harder. By Phase 4, the pipeline ran with zero
    interventions on batches including 4-hour marathons. Confidence was earned.
 
+9. **Post-Flight Verification** — Static analysis and compilation are necessary
+   but not sufficient. Every iteration that modifies Flutter code must run an
+   automated post-flight checklist: serve the release build locally, navigate
+   the app via headless browser, verify rendering, and check the console for
+   errors. Born from v9.35's white-screen-in-production failure.
+
 ### Iteration History
 
 | Iteration | Phase | Status | Key Learning |
@@ -78,6 +84,7 @@ with agentic assistance.
 | v7.34 | Cookies + Analytics | ✅ | Cookie consent, Firebase Analytics, enrichment polish. |
 | v9.35 | App Optimization | ✅ | Riverpod 2→3, 75+ trivia facts, proximity refactor. First Claude Code iteration. |
 | v9.36 | Production Fix | ✅ | Fixed white screen crash (eager provider init before runApp). Changelog restored. |
+| v9.37 | Post-Flight + Location | ✅ | Post-flight protocol (Pillar 9), location-on-consent, changelog gate. |
 
 ---
 
@@ -118,7 +125,7 @@ tripledb.net
 | 6 | Firestore + Geocoding + Polish | ✅ Complete | v6.26–v6.29 |
 | 8 | Flutter App | ✅ Complete | v8.17–v8.25 |
 | 7 | Enrichment + Analytics | ✅ Complete | v7.30–v7.34 |
-| 9 | App Optimization | ✅ Complete | v9.35–v9.36 |
+| 9 | App Optimization | ✅ Complete | v9.35–v9.37 |
 
 ---
 
@@ -254,6 +261,17 @@ tripledb.net
 - Fix: Removed ProviderContainer from main(), switched to standard ProviderScope with lazy providers. Made CookieConsentService lazy-initialized with try-catch fallback. Moved analytics initialization to widget tree post-frame callback.
 - Restored complete README changelog (v0.7–v9.36) — all 21 entries preserved.
 
+**v9.37 (Phase 9 — Post-Flight Protocol + Location Consent)**
+- **Post-Flight Protocol (Pillar 9):** Automated runtime verification using Puppeteer headless browser.
+  Serves release build locally, navigates app, checks rendering, reads console for errors.
+  6 gates: bootstrap, navigation, features, cookies, console, changelog integrity.
+  Prevents white-screen deploys like v9.35. Permanent part of IAO methodology.
+- **Location on consent:** Accepting cookie preferences now triggers browser geolocation
+  permission request. Grants location → populates "Nearby Restaurants" immediately.
+  Decline → no location prompt. Reduces permission fatigue from 2 prompts to 1 flow.
+- **Changelog gate:** Post-flight verifies README changelog entry count ≥ 22. Agent
+  cannot declare iteration complete if changelog has been truncated.
+
 ---
 
 ## Author
@@ -264,4 +282,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 9.36 — Production Fix + Changelog Restoration*
+*Last updated: Phase 9.37 — Post-Flight Protocol + Location Consent*
