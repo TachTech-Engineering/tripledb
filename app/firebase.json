@@ -1,1 +1,52 @@
-{"firestore":{"rules":"firestore.rules"},"hosting":{"public":"build/web","ignore":["firebase.json","**/.*","**/node_modules/**"],"headers":[{"source":"**","headers":[{"key":"Permissions-Policy","value":"geolocation=(self)"}]}]},"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"tripledb-e0f77","configurations":{"web":"1:288006285184:web:4d2f728279bfa3c9bd0365"}}}}}}
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          { "key": "X-Frame-Options", "value": "DENY" },
+          { "key": "X-Content-Type-Options", "value": "nosniff" },
+          { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+          { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(self)" },
+          { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains" },
+          { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.gstatic.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://firestore.googleapis.com https://*.firebaseio.com https://*.googleapis.com https://*.google-analytics.com https://*.analytics.google.com https://*.gstatic.com https://*.basemaps.cartocdn.com https://tile.openstreetmap.org; img-src 'self' https://*.basemaps.cartocdn.com https://tile.openstreetmap.org data:; font-src 'self' https://fonts.gstatic.com https://*.gstatic.com; frame-ancestors 'none'; worker-src 'self' blob:" }
+        ]
+      },
+      {
+        "source": "**/*.js",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        ]
+      },
+      {
+        "source": "**/*.css",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        ]
+      },
+      {
+        "source": "index.html",
+        "headers": [
+          { "key": "Cache-Control", "value": "no-cache" }
+        ]
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tripledb-e0f77",
+          "configurations": {
+            "web": "1:288006285184:web:4d2f728279bfa3c9bd0365"
+          }
+        }
+      }
+    }
+  }
+}
