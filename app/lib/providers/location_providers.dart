@@ -20,6 +20,15 @@ double haversineDistanceMiles(double lat1, double lon1, double lat2, double lon2
 
 double _toRadians(double degrees) => degrees * pi / 180;
 
+bool _hasValidLocation(Restaurant r) {
+  if (r.latitude == null || r.longitude == null) return false;
+  if (r.city.isEmpty || r.state.isEmpty) return false;
+  const invalidValues = ['unknown', 'none', 'n/a', 'null'];
+  if (invalidValues.contains(r.city.toLowerCase())) return false;
+  if (invalidValues.contains(r.state.toLowerCase())) return false;
+  return true;
+}
+
 class NearbyRestaurant {
   final Restaurant restaurant;
   final double distanceMiles;
@@ -70,7 +79,7 @@ Future<List<NearbyRestaurant>> nearbyRestaurants(Ref ref) async {
   }
 
   final validRestaurants = restaurants
-      .where((r) => r.latitude != null && r.longitude != null && r.stillOpen != false)
+      .where((r) => r.stillOpen != false && _hasValidLocation(r))
       .toList();
 
   final nearby = validRestaurants.map((r) {
@@ -84,5 +93,17 @@ Future<List<NearbyRestaurant>> nearbyRestaurants(Ref ref) async {
   }).toList()
     ..sort((a, b) => a.distanceMiles.compareTo(b.distanceMiles));
 
-  return nearby.take(count).toList();
+  // Deduplicate by restaurant_id and normalized name (keeps closest)
+  final seenIds = <String>{};
+  final seenNames = <String>{};
+  final deduped = <NearbyRestaurant>[];
+  for (final nr in nearby) {
+    final id = nr.restaurant.id;
+    final normalizedName = nr.restaurant.name.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]'), '');
+    if (seenIds.add(id) && seenNames.add(normalizedName)) {
+      deduped.add(nr);
+    }
+  }
+
+  return deduped.take(count).toList();
 }

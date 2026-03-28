@@ -36,40 +36,37 @@ class _CookieConsentBannerState extends ConsumerState<CookieConsentBanner> {
     widget.onAction();
   }
 
-  void _applyConsent(Map<String, bool> prefs) {
+  Future<void> _applyConsent(Map<String, bool> prefs) async {
     final analytics = ref.read(analyticsServiceProvider);
     analytics.updateConsent(prefs['analytics'] ?? false);
     analytics.logConsentGiven(prefs);
 
-    // Request location if Preferences enabled
+    // Request location BEFORE dismissing banner (widget must still be mounted)
     if (prefs['preferences'] == true) {
-      _requestLocationAfterConsent();
+      await _requestLocation();
     }
 
+    // NOW dismiss banner
     _hide();
   }
 
-  void _requestLocationAfterConsent() {
-    // Use post-frame callback to ensure widget tree is stable after banner dismissal
-    WidgetsBinding.instance.addPostFrameCallback((_) async {
-      try {
-        final serviceEnabled = await Geolocator.isLocationServiceEnabled();
-        if (!serviceEnabled) return;
+  Future<void> _requestLocation() async {
+    try {
+      final serviceEnabled = await Geolocator.isLocationServiceEnabled();
+      if (!serviceEnabled) return;
 
-        var permission = await Geolocator.checkPermission();
-        if (permission == LocationPermission.denied) {
-          permission = await Geolocator.requestPermission();
-        }
-
-        if (permission == LocationPermission.always ||
-            permission == LocationPermission.whileInUse) {
-          ref.read(userLocationProvider.notifier).refresh();
-        }
-      } catch (e) {
-        // Location is optional — fail silently
-        debugPrint('Location permission after consent failed: $e');
+      var permission = await Geolocator.checkPermission();
+      if (permission == LocationPermission.denied) {
+        permission = await Geolocator.requestPermission();
       }
-    });
+
+      if (permission == LocationPermission.always ||
+          permission == LocationPermission.whileInUse) {
+        ref.read(userLocationProvider.notifier).refresh();
+      }
+    } catch (e) {
+      debugPrint('Location request failed: $e');
+    }
   }
 
   @override

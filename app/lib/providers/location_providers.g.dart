@@ -143,4 +143,4 @@ final class NearbyRestaurantsProvider
   }
 }
 
-String _$nearbyRestaurantsHash() => r'3d3434979e2fe489110d6eb7deff6d1fe76d3b27';
+String _$nearbyRestaurantsHash() => r'28e99458b82cfe5035586f02d33dd9950d4489e9';

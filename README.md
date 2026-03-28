@@ -4,7 +4,7 @@
 
 TripleDB processes 805 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
 
-🌐 **[tripledb.net](https://tripledb.net)** · 📂 **38 iterations** · 🔧 **Status: Live + Optimized**
+🌐 **[tripledb.net](https://tripledb.net)** · 📂 **39 iterations** · 🔧 **Status: Live + Optimized**
 
 ---
 
@@ -287,6 +287,18 @@ tripledb.net
 - Cookie banner verified via 6-test playbook: renders, dismisses, persists, validates cookie
   structure, fresh context, decline path. All 6 tests PASS.
 
+**v9.39 (Phase 9 — Nearby Filtering + Location Consent Fix)**
+- **Bug 1 fix:** Filtered "Unknown" city/state restaurants from nearby results. Only restaurants
+  with valid, real city and state values appear in "Nearby Restaurants" and proximity-sorted search.
+- **Bug 2 fix:** Deduplicated nearby results by restaurant_id and normalized name. No restaurant
+  appears twice. Belly and Snout (3 entries in JSONL with different IDs) now shows once.
+- **Bug 3 fix:** Accept All cookie consent now correctly triggers browser location permission
+  request before dismissing the banner. Location grant populates "Nearby Restaurants" immediately.
+- **Design doc:** Comprehensive living ADR with Eight Pillars, full environment setup guide,
+  complete project state, and work remaining to MVP.
+- Post-flight: 7/7 tests PASS — no Unknown in nearby, no duplicates, Accept All → location,
+  cookie persistence, decline path correct.
+
 ---
 
 ## Author
@@ -297,4 +309,4 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 9.38 — Cookie Banner Fix + Functional Post-Flight*
+*Last updated: Phase 9.39 — Nearby Filtering + Location Consent Fix*
