@@ -181,7 +181,7 @@ class _CookieConsentBannerState extends ConsumerState<CookieConsentBanner> {
 
 class CookieSettingsModal extends ConsumerStatefulWidget {
   final CookieConsentService cookieService;
-  final Function(Map<String, bool>) onSaved;
+  final Future<void> Function(Map<String, bool>) onSaved;
 
   const CookieSettingsModal({
     super.key,
@@ -256,10 +256,12 @@ class _CookieSettingsModalState extends ConsumerState<CookieSettingsModal> {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {
+              onPressed: () async {
                 widget.cookieService.setPreferences(_prefs);
-                Navigator.pop(context);
-                widget.onSaved(_prefs);
+                // Request location BEFORE dismissing (v9.43 fix)
+                // onSaved triggers _applyConsent which needs mounted widget
+                await widget.onSaved(_prefs);
+                if (context.mounted) Navigator.pop(context);
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: AppTheme.secondary,

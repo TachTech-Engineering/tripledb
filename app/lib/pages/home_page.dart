@@ -155,7 +155,7 @@ class HomePage extends ConsumerWidget {
                   backgroundColor: Colors.transparent,
                   builder: (context) => CookieSettingsModal(
                     cookieService: ref.read(cookieServiceProvider),
-                    onSaved: (prefs) {
+                    onSaved: (prefs) async {
                       ref.read(hasConsentedProvider.notifier).set(true);
                     },
                   ),
