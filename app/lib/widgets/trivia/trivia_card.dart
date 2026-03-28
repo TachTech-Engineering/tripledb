@@ -7,8 +7,7 @@ class TriviaCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final facts = ref.watch(triviaFactsProvider);
-    final index = ref.watch(currentTriviaIndexProvider);
+    final triviaState = ref.watch(triviaFactsProvider);
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
 
@@ -52,10 +51,17 @@ class TriviaCard extends ConsumerWidget {
               ),
               const SizedBox(height: 16),
               Text(
-                facts[index % facts.length],
+                triviaState.currentFact,
                 textAlign: TextAlign.center,
                 style: theme.textTheme.bodyLarge?.copyWith(
                   fontWeight: FontWeight.w500,
+                ),
+              ),
+              const SizedBox(height: 12),
+              Text(
+                'Fact ${triviaState.factNumber} of ${triviaState.totalFacts}',
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.4),
                 ),
               ),
             ],

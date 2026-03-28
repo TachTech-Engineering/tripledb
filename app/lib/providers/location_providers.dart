@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'package:geolocator/geolocator.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import '../models/restaurant_models.dart';
@@ -6,12 +7,37 @@ import 'restaurant_providers.dart';
 
 part 'location_providers.g.dart';
 
+double haversineDistanceMiles(double lat1, double lon1, double lat2, double lon2) {
+  const earthRadiusMiles = 3958.8;
+  final dLat = _toRadians(lat2 - lat1);
+  final dLon = _toRadians(lon2 - lon1);
+  final a = sin(dLat / 2) * sin(dLat / 2) +
+      cos(_toRadians(lat1)) * cos(_toRadians(lat2)) *
+      sin(dLon / 2) * sin(dLon / 2);
+  final c = 2 * atan2(sqrt(a), sqrt(1 - a));
+  return earthRadiusMiles * c;
+}
+
+double _toRadians(double degrees) => degrees * pi / 180;
+
+class NearbyRestaurant {
+  final Restaurant restaurant;
+  final double distanceMiles;
+
+  NearbyRestaurant({required this.restaurant, required this.distanceMiles});
+
+  String get formattedDistance {
+    if (distanceMiles < 1) return '${(distanceMiles * 5280).round()} ft';
+    if (distanceMiles < 10) return '${distanceMiles.toStringAsFixed(1)} mi';
+    if (distanceMiles < 100) return '${distanceMiles.round()} mi';
+    return '${distanceMiles.round()}+ mi';
+  }
+}
+
 @riverpod
 class UserLocation extends _$UserLocation {
   @override
   Future<Position?> build() async {
-    // Do not auto-request on build to avoid Safari silent denial.
-    // User must tap "Enable Location" button which calls refresh().
     return null;
   }
 
@@ -26,36 +52,37 @@ class UserLocation extends _$UserLocation {
 }
 
 @riverpod
-Future<List<Restaurant>> nearbyRestaurants(NearbyRestaurantsRef ref) async {
+class NearbyCount extends _$NearbyCount {
+  @override
+  int build() => 15;
+
+  void showMore() => state = 50;
+}
+
+@riverpod
+Future<List<NearbyRestaurant>> nearbyRestaurants(Ref ref) async {
   final restaurants = await ref.watch(restaurantListProvider.future);
   final userPos = await ref.watch(userLocationProvider.future);
+  final count = ref.watch(nearbyCountProvider);
 
   if (userPos == null) {
     return [];
   }
 
-  // Filter restaurants that have lat/lng AND are still open (don't recommend closed ones)
   final validRestaurants = restaurants
       .where((r) => r.latitude != null && r.longitude != null && r.stillOpen != false)
       .toList();
 
-  // Sort by distance
-  validRestaurants.sort((a, b) {
-    final distA = LocationService().distanceBetween(
+  final nearby = validRestaurants.map((r) {
+    final distance = haversineDistanceMiles(
       userPos.latitude,
       userPos.longitude,
-      a.latitude!,
-      a.longitude!,
+      r.latitude!,
+      r.longitude!,
     );
-    final distB = LocationService().distanceBetween(
-      userPos.latitude,
-      userPos.longitude,
-      b.latitude!,
-      b.longitude!,
-    );
-    return distA.compareTo(distB);
-  });
+    return NearbyRestaurant(restaurant: r, distanceMiles: distance);
+  }).toList()
+    ..sort((a, b) => a.distanceMiles.compareTo(b.distanceMiles));
 
-  // Return top 3
-  return validRestaurants.take(3).toList();
+  return nearby.take(count).toList();
 }

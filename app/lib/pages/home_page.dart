@@ -3,7 +3,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../widgets/search/search_bar_widget.dart';
 import '../widgets/trivia/trivia_card.dart';
 import '../widgets/restaurant/restaurant_card.dart';
+import '../widgets/cookie_consent_banner.dart';
 import '../providers/location_providers.dart';
+import '../providers/cookie_provider.dart';
 
 class HomePage extends ConsumerWidget {
   const HomePage({super.key});
@@ -13,6 +15,7 @@ class HomePage extends ConsumerWidget {
     final theme = Theme.of(context);
     final nearbyAsync = ref.watch(nearbyRestaurantsProvider);
     final userLocationAsync = ref.watch(userLocationProvider);
+    final nearbyCount = ref.watch(nearbyCountProvider);
 
     return SingleChildScrollView(
       child: Padding(
@@ -42,7 +45,7 @@ class HomePage extends ConsumerWidget {
                   Padding(
                     padding: const EdgeInsets.only(left: 8.0, bottom: 16.0),
                     child: Text(
-                      '📍 Top 3 Near You',
+                      '📍 Nearby Restaurants',
                       style: theme.textTheme.titleLarge?.copyWith(
                         fontWeight: FontWeight.bold,
                       ),
@@ -78,8 +81,8 @@ class HomePage extends ConsumerWidget {
 
                       // Location is enabled, show nearby restaurants
                       return nearbyAsync.when(
-                        data: (restaurants) {
-                          if (restaurants.isEmpty) {
+                        data: (nearbyList) {
+                          if (nearbyList.isEmpty) {
                             return Card(
                               elevation: 1,
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -93,9 +96,22 @@ class HomePage extends ConsumerWidget {
                             );
                           }
                           return Column(
-                            children: restaurants
-                                .map((r) => RestaurantCard(restaurant: r))
-                                .toList(),
+                            children: [
+                              ...nearbyList.map((nr) => RestaurantCard(
+                                restaurant: nr.restaurant,
+                                distanceLabel: nr.formattedDistance,
+                              )),
+                              if (nearbyCount <= 15)
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 8.0),
+                                  child: TextButton(
+                                    onPressed: () {
+                                      ref.read(nearbyCountProvider.notifier).showMore();
+                                    },
+                                    child: const Text('Show all nearby'),
+                                  ),
+                                ),
+                            ],
                           );
                         },
                         loading: () => const Center(child: CircularProgressIndicator()),
@@ -130,6 +146,24 @@ class HomePage extends ConsumerWidget {
                 ],
               ),
             ),
+            const SizedBox(height: 80),
+            TextButton(
+              onPressed: () {
+                showModalBottomSheet(
+                  context: context,
+                  isScrollControlled: true,
+                  backgroundColor: Colors.transparent,
+                  builder: (context) => CookieSettingsModal(
+                    cookieService: ref.read(cookieServiceProvider),
+                    onSaved: (prefs) {
+                      ref.read(hasConsentedProvider.notifier).set(true);
+                    },
+                  ),
+                );
+              },
+              child: const Text('Manage Cookies'),
+            ),
+            const SizedBox(height: 24),
           ],
         ),
       ),

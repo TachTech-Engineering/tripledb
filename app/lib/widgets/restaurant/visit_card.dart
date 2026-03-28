@@ -1,22 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../models/restaurant_models.dart';
+import '../../providers/cookie_provider.dart';
 
-class VisitCard extends StatelessWidget {
+class VisitCard extends ConsumerWidget {
   final Visit visit;
 
   const VisitCard({super.key, required this.visit});
 
-  Future<void> _launchYouTube() async {
+  Future<void> _launchYouTube(WidgetRef ref) async {
     final t = visit.timestampStart.floor();
     final url = Uri.parse('https://youtube.com/watch?v=${visit.videoId}&t=$t');
+    ref.read(analyticsServiceProvider).logExternalLink('youtube');
     if (!await launchUrl(url)) {
       throw Exception('Could not launch $url');
     }
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
 
     return Card(
@@ -67,7 +70,7 @@ class VisitCard extends StatelessWidget {
             const SizedBox(height: 16),
             Center(
               child: ElevatedButton.icon(
-                onPressed: _launchYouTube,
+                onPressed: () => _launchYouTube(ref),
                 icon: const Icon(Icons.play_arrow),
                 label: const Text('Watch Full Segment'),
                 style: ElevatedButton.styleFrom(

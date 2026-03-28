@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'trivia_providers.dart';
+part of 'main.dart';
 
 // **************************************************************************
 // RiverpodGenerator
@@ -9,51 +9,51 @@ part of 'trivia_providers.dart';
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint, type=warning
 
-@ProviderFor(TriviaFacts)
-final triviaFactsProvider = TriviaFactsProvider._();
+@ProviderFor(ThemeModeSetting)
+final themeModeSettingProvider = ThemeModeSettingProvider._();
 
-final class TriviaFactsProvider
-    extends $NotifierProvider<TriviaFacts, TriviaState> {
-  TriviaFactsProvider._()
+final class ThemeModeSettingProvider
+    extends $NotifierProvider<ThemeModeSetting, ThemeMode> {
+  ThemeModeSettingProvider._()
     : super(
         from: null,
         argument: null,
         retry: null,
-        name: r'triviaFactsProvider',
+        name: r'themeModeSettingProvider',
         isAutoDispose: true,
         dependencies: null,
         $allTransitiveDependencies: null,
       );
 
   @override
-  String debugGetCreateSourceHash() => _$triviaFactsHash();
+  String debugGetCreateSourceHash() => _$themeModeSettingHash();
 
   @$internal
   @override
-  TriviaFacts create() => TriviaFacts();
+  ThemeModeSetting create() => ThemeModeSetting();
 
   /// {@macro riverpod.override_with_value}
-  Override overrideWithValue(TriviaState value) {
+  Override overrideWithValue(ThemeMode value) {
     return $ProviderOverride(
       origin: this,
-      providerOverride: $SyncValueProvider<TriviaState>(value),
+      providerOverride: $SyncValueProvider<ThemeMode>(value),
     );
   }
 }
 
-String _$triviaFactsHash() => r'3de851fff08d47be9d3d85609d075eaad31b58a6';
+String _$themeModeSettingHash() => r'fe43410d0039e793d7f5fc17024d7057d9bd9c97';
 
-abstract class _$TriviaFacts extends $Notifier<TriviaState> {
-  TriviaState build();
+abstract class _$ThemeModeSetting extends $Notifier<ThemeMode> {
+  ThemeMode build();
   @$mustCallSuper
   @override
   void runBuild() {
-    final ref = this.ref as $Ref<TriviaState, TriviaState>;
+    final ref = this.ref as $Ref<ThemeMode, ThemeMode>;
     final element =
         ref.element
             as $ClassProviderElement<
-              AnyNotifier<TriviaState, TriviaState>,
-              TriviaState,
+              AnyNotifier<ThemeMode, ThemeMode>,
+              ThemeMode,
               Object?,
               Object?
             >;

@@ -1,7 +1,9 @@
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/restaurant_providers.dart';
+import '../providers/cookie_provider.dart';
 import '../widgets/restaurant/dish_card.dart';
 import '../widgets/restaurant/visit_card.dart';
 
@@ -26,6 +28,14 @@ class RestaurantDetailPage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final restaurantsAsync = ref.watch(restaurantListProvider);
     final theme = Theme.of(context);
+
+    // Log view once per visit to this page
+    SchedulerBinding.instance.addPostFrameCallback((_) {
+      restaurantsAsync.whenData((restaurants) {
+        final restaurant = restaurants.firstWhere((r) => r.id == id);
+        ref.read(analyticsServiceProvider).logViewRestaurant(restaurant.id, restaurant.name);
+      });
+    });
 
     return Scaffold(
       appBar: AppBar(title: const Text('Restaurant Detail')),
@@ -194,6 +204,7 @@ class RestaurantDetailPage extends ConsumerWidget {
                         ElevatedButton.icon(
                           onPressed: () async {
                             final url = Uri.parse(restaurant.googleMapsUrl!);
+                            ref.read(analyticsServiceProvider).logExternalLink('google_maps');
                             if (await canLaunchUrl(url)) {
                               await launchUrl(url);
                             }
@@ -210,6 +221,7 @@ class RestaurantDetailPage extends ConsumerWidget {
                         OutlinedButton.icon(
                           onPressed: () async {
                             final url = Uri.parse(restaurant.websiteUrl!);
+                            ref.read(analyticsServiceProvider).logExternalLink('website');
                             if (await canLaunchUrl(url)) {
                               await launchUrl(url);
                             }

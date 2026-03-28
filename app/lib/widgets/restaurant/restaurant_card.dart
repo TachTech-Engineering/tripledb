@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../models/restaurant_models.dart';
+import '../../providers/cookie_provider.dart';
 
-class RestaurantCard extends StatelessWidget {
+class RestaurantCard extends ConsumerWidget {
   final Restaurant restaurant;
+  final String? distanceLabel;
 
-  const RestaurantCard({super.key, required this.restaurant});
+  const RestaurantCard({super.key, required this.restaurant, this.distanceLabel});
 
   String _getEmojiForCuisine(String cuisine) {
     final c = cuisine.toLowerCase();
@@ -20,7 +23,7 @@ class RestaurantCard extends StatelessWidget {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final emoji = _getEmojiForCuisine(restaurant.cuisineType);
     final firstVisit = restaurant.visits.isNotEmpty ? restaurant.visits.first : null;
@@ -33,7 +36,10 @@ class RestaurantCard extends StatelessWidget {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)), // borderRadius.lg
       margin: const EdgeInsets.only(bottom: 16),
       child: InkWell(
-        onTap: () => context.push('/restaurant/${restaurant.id}'),
+        onTap: () {
+          ref.read(analyticsServiceProvider).logViewRestaurant(restaurant.id, restaurant.name);
+          context.push('/restaurant/${restaurant.id}');
+        },
         borderRadius: BorderRadius.circular(12),
         child: Padding(
           padding: const EdgeInsets.all(16.0), // padding.md
@@ -80,7 +86,7 @@ class RestaurantCard extends StatelessWidget {
                       ),
                     const SizedBox(height: 4),
                     Text(
-                      '${restaurant.city}, ${restaurant.state} • ${restaurant.cuisineType}',
+                      '${restaurant.city}, ${restaurant.state} • ${restaurant.cuisineType}${distanceLabel != null ? ' • $distanceLabel' : ''}',
                       style: theme.textTheme.bodyMedium?.copyWith(
                         color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
                       ),

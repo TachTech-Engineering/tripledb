@@ -6,6 +6,7 @@ import 'package:latlong2/latlong.dart';
 import 'package:go_router/go_router.dart';
 import '../providers/restaurant_providers.dart';
 import '../providers/location_providers.dart';
+import '../providers/cookie_provider.dart';
 import '../models/restaurant_models.dart';
 
 class MapPage extends ConsumerWidget {
@@ -26,7 +27,11 @@ class MapPage extends ConsumerWidget {
         children: [
           FloatingActionButton(
             heroTag: 'toggle_closed',
-            onPressed: () => ref.read(showClosedProvider.notifier).toggle(),
+            onPressed: () {
+              final newValue = !ref.read(showClosedProvider);
+              ref.read(showClosedProvider.notifier).toggle();
+              ref.read(analyticsServiceProvider).logFilterToggle('show_closed', newValue);
+            },
             tooltip: showClosed ? 'Hide closed' : 'Show closed',
             child: Icon(showClosed ? Icons.visibility : Icons.visibility_off),
           ),

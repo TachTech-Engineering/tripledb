@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../providers/restaurant_providers.dart';
+import '../../providers/cookie_provider.dart';
 
 class SearchBarWidget extends ConsumerStatefulWidget {
   const SearchBarWidget({super.key});
@@ -39,6 +40,7 @@ class _SearchBarWidgetState extends ConsumerState<SearchBarWidget> {
   void _onSearchSubmitted(String value) {
     if (value.trim().isEmpty) return;
     ref.read(searchQueryProvider.notifier).update(value);
+    ref.read(analyticsServiceProvider).logSearch(value, 0);
     context.push('/search?q=$value');
   }
 

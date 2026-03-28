@@ -1,6 +1,7 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import '../models/restaurant_models.dart';
 import '../services/data_service.dart';
+import 'location_providers.dart';
 
 part 'restaurant_providers.g.dart';
 
@@ -33,7 +34,7 @@ class ShowClosed extends _$ShowClosed {
 }
 
 @riverpod
-Future<List<Restaurant>> filteredRestaurants(FilteredRestaurantsRef ref) async {
+Future<List<Restaurant>> filteredRestaurants(Ref ref) async {
   final restaurants = await ref.watch(restaurantListProvider.future);
   final query = ref.watch(searchQueryProvider).toLowerCase();
 
@@ -41,7 +42,7 @@ Future<List<Restaurant>> filteredRestaurants(FilteredRestaurantsRef ref) async {
     return restaurants;
   }
 
-  return restaurants.where((r) {
+  var results = restaurants.where((r) {
     final nameMatch = r.name.toLowerCase().contains(query);
     final currentNameMatch = r.googleCurrentName?.toLowerCase().contains(query) ?? false;
     final cityMatch = r.city.toLowerCase().contains(query);
@@ -53,4 +54,22 @@ Future<List<Restaurant>> filteredRestaurants(FilteredRestaurantsRef ref) async {
 
     return nameMatch || currentNameMatch || cityMatch || stateMatch || cuisineMatch || dishMatch;
   }).toList();
+
+  // Proximity tiebreaker: sort results by distance if user location is available
+  final userPos = ref.watch(userLocationProvider).value;
+  if (userPos != null) {
+    results.sort((a, b) {
+      if (a.latitude == null || a.longitude == null) return 1;
+      if (b.latitude == null || b.longitude == null) return -1;
+      final distA = haversineDistanceMiles(
+        userPos.latitude, userPos.longitude, a.latitude!, a.longitude!,
+      );
+      final distB = haversineDistanceMiles(
+        userPos.latitude, userPos.longitude, b.latitude!, b.longitude!,
+      );
+      return distA.compareTo(distB);
+    });
+  }
+
+  return results;
 }

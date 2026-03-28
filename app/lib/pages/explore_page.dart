@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/restaurant_providers.dart';
+import '../providers/cookie_provider.dart';
 import '../widgets/trivia/trivia_card.dart';
 import '../widgets/restaurant/restaurant_card.dart';
+import '../widgets/cookie_consent_banner.dart';
 
 class ExplorePage extends ConsumerWidget {
   const ExplorePage({super.key});
@@ -117,6 +119,37 @@ class ExplorePage extends ConsumerWidget {
                         );
                       }).toList(),
                     ),
+                    const SizedBox(height: 60),
+                    Center(
+                      child: Column(
+                        children: [
+                          TextButton(
+                            onPressed: () {
+                              showModalBottomSheet(
+                                context: context,
+                                isScrollControlled: true,
+                                backgroundColor: Colors.transparent,
+                                builder: (context) => CookieSettingsModal(
+                                  cookieService: ref.read(cookieServiceProvider),
+                                  onSaved: (prefs) {
+                                    ref.read(hasConsentedProvider.notifier).set(true);
+                                  },
+                                ),
+                              );
+                            },
+                            child: const Text('Manage Cookies'),
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            '© 2026 TripleDB',
+                            style: theme.textTheme.bodySmall?.copyWith(
+                              color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 24),
                   ],
                 );
               },

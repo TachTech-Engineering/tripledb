@@ -9,7 +9,7 @@ import '../pages/explore_page.dart';
 part 'router_provider.g.dart';
 
 @riverpod
-GoRouter router(RouterRef ref) {
+GoRouter router(Ref ref) {
   return GoRouter(
     initialLocation: '/',
     routes: [

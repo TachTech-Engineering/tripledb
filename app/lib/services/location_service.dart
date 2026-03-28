@@ -5,12 +5,11 @@ class LocationService {
   Future<Position?> getCurrentPosition() async {
     try {
       if (kIsWeb) {
-        // On web, with geolocator 10.x/geolocator_web 2.2.x,
-        // this call is the most direct way to trigger the browser prompt.
-        // We use LocationAccuracy.medium to ensure a fast response on mobile.
         return await Geolocator.getCurrentPosition(
-          desiredAccuracy: LocationAccuracy.medium,
-          timeLimit: const Duration(seconds: 10),
+          locationSettings: const LocationSettings(
+            accuracy: LocationAccuracy.medium,
+            timeLimit: Duration(seconds: 10),
+          ),
         );
       }
 
@@ -32,11 +31,12 @@ class LocationService {
       }
 
       return await Geolocator.getCurrentPosition(
-        desiredAccuracy: LocationAccuracy.high,
-        timeLimit: const Duration(seconds: 15),
+        locationSettings: const LocationSettings(
+          accuracy: LocationAccuracy.high,
+          timeLimit: Duration(seconds: 15),
+        ),
       );
     } catch (e) {
-      // Convert error to a very explicit string to avoid minified object issues
       final errorStr = e.toString();
       debugPrint('Location Service Error: $errorStr');
       throw errorStr;
