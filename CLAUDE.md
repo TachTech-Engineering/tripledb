@@ -1,24 +1,24 @@
 # TripleDB — Agent Instructions
 
-## Current Iteration: {P}.{I}
+## Current Iteration: 9.41
 
-Read these two documents in order, then execute the plan:
+Methodology update. Nine Pillars. No Flutter code changes.
 
-1. docs/ddd-design-v{P}.{I}.md
-2. docs/ddd-plan-v{P}.{I}.md
+Read in order, then execute:
+1. docs/ddd-design-v9.41.md
+2. docs/ddd-plan-v9.41.md
 
 ## MCP Servers
 - Playwright MCP: Post-flight functional testing
 - Context7: Flutter/Dart API docs
 
-## Rules That Never Change
-- NEVER run git add, git commit, git push, or firebase deploy
-- NEVER ask permission — YOLO mode, code dangerously
-- Self-heal: diagnose → fix → re-run (max 3, then skip)
-- 3 consecutive identical errors = STOP
-- MUST produce ddd-build and ddd-report before ending
-- ddd-build must be FULL transcript
-- CHECKPOINT after every numbered step
-- README changelog: NEVER truncate — ALWAYS append
-- POST-FLIGHT: Tier 1 + Tier 2 playbook must pass (if Flutter iteration)
-- Include Orchestration Report in ddd-report
+## Rules
+- YOLO — code dangerously, never ask permission
+- Self-heal: max 3 attempts, checkpoint for crash recovery
+- MUST produce ddd-build + ddd-report (with orchestration report)
+- POST-FLIGHT: Tier 1 only (no Flutter code changes this iteration)
+- README changelog: NEVER truncate, ALWAYS append, ≥ 26 after update
+
+## Agent Permissions
+- ✅ CAN: flutter build web, firebase deploy --only hosting, firebase deploy --only firestore:rules
+- ❌ CANNOT: git add, git commit, git push (Kyle commits at phase boundaries)

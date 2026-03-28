@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Restaurants collection — public read, no client write
+    match /restaurants/{restaurantId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Videos collection — public read, no client write
+    match /videos/{videoId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Default deny for any other collection
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

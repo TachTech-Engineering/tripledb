@@ -1,115 +1,66 @@
-# TripleDB
+# 🍔 TripleDB
 
 **Every restaurant from Diners, Drive-Ins and Dives — structured, searchable, and mapped.**
 
-TripleDB processes 805 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database).
-
-🌐 **[tripledb.net](https://tripledb.net)** · 📂 **39 iterations** · 🔧 **Status: Live + Optimized**
+🌐 [tripledb.net](https://tripledb.net) · 📺 805 Episodes · 🍔 1,102 Restaurants · 🍽️ 2,286 Dishes · 📍 1,006 Mapped · 💰 $0 Cost
 
 ---
 
-## What This Builds
+## What TripleDB Is
 
-A searchable database and Flutter Web app where you can:
-
-- **Find a diner near you** — share your location or enter a zip code
-- **Search by anything** — dish name, cuisine type, city, chef, ingredients ("ground beef" → hamburgers, meatloaf, etc.)
-- **Watch the moment** — deep link to the exact YouTube timestamp where Guy walks into the restaurant
-- **Query Guy's greatest hits** — how many times has he said "That's out of bounds!"?
+TripleDB processes 805 YouTube videos from Guy Fieri's "Diners, Drive-Ins and Dives" (DDD) into a structured Firestore database of restaurants, dishes, ingredients, and iconic Guy Fieri moments. The name is a triple play: **Triple D** (the show's nickname) + **DB** (database). It's live at [tripledb.net](https://tripledb.net) — a Flutter Web app where you can search by anything, find a diner near you, and watch the exact moment Guy walks in.
 
 ---
 
-## Methodology: Iterative Agentic Orchestration (IAO)
+## Pipeline Architecture
 
-TripleDB is built using **Iterative Agentic Orchestration (IAO)** — a development
-methodology where LLM agents execute pipeline phases autonomously while humans
-review versioned artifacts between iterations. IAO emerged through 35 iterations
-of this project and is now a repeatable framework for building data pipelines
-with agentic assistance.
-
-### The Nine Pillars
-
-1. **Plan-Report Loop** — Every iteration starts with a design doc + plan doc
-   and produces a build log + report. The four artifacts are the complete record.
-   Any new agent or human can reconstruct the full project history from docs alone.
-
-2. **Zero-Intervention Target** — Every question the agent asks during execution
-   is a failure in the plan. Pre-answer every decision point. Measure plan quality
-   by counting interventions.
-
-3. **Self-Healing Loops** — Errors are inevitable. Diagnose → fix → re-run (max
-   3 attempts). 3 consecutive identical errors = stop and fix root cause. Never
-   burn through hundreds of items with a known systemic failure.
-
-4. **Versioned Artifacts as Source of Truth** — CLAUDE.md is the version lock.
-   Git commits mark iteration boundaries. The launch command never changes:
-   `claude` → "Read CLAUDE.md and execute."
-
-5. **Artifacts Travel Forward** — Current docs in `docs/`, previous in
-   `docs/archive/`. The design doc accumulates (additive). The plan doc is
-   fresh each time (disposable). Agents never see outdated instructions.
-
-6. **Methodology Co-Evolution** — IAO itself evolves through the Plan-Report
-   loop. Error taxonomies, autonomy rules, pre-flight checks — all born from
-   specific failures and refined through subsequent iterations.
-
-7. **Separation of Interactive and Unattended** — Group A (iterative refinement)
-   uses an LLM orchestrator. Group B (production) uses hardened bash scripts.
-   The right tool for tuning is the wrong tool for a 70-hour unattended run.
-
-8. **Progressive Trust Through Graduated Batches** — 30 → 60 → 90 → 120 videos.
-   Each batch is bigger and harder. By Phase 4, the pipeline ran with zero
-   interventions on batches including 4-hour marathons. Confidence was earned.
-
-9. **Post-Flight Verification** — Two-tier system. Tier 1: health gates (app
-   bootstraps, console clean, changelog integrity). Tier 2: iteration-specific
-   functional playbook — Puppeteer clicks buttons, verifies state changes,
-   confirms persistence. Canvas screenshots replaced with accessibility tree
-   verification. Born from v9.35's white-screen and v9.37's screenshot-only gap.
-
-### Iteration History
-
-| Iteration | Phase | Status | Key Learning |
-|-----------|-------|--------|--------------|
-| v0.7 | Setup | ✅ | Monorepo scaffolded. fish shell has no heredocs. |
-| v1.10 | Discovery | ✅ | Gemini 2.5 Flash API solved extraction. |
-| v4.13 | Validation | ✅ | 608 restaurants, 162 merges. Group B green-lit. |
-| v5.15 | Production | ✅ | 773 videos extracted. 14-hour unattended run. |
-| v6.26 | Firestore | ✅ | 1,102 restaurants loaded. App wired to Firestore. |
-| v6.29 | Polish | ✅ | Trivia fix, map clustering, README refresh. |
-| v7.30 | Enrichment Disc. | ✅ | Google Places API pipeline. 50-restaurant batch. |
-| v7.31 | Enrichment Prod. | ✅ | Full run on 1,102 restaurants. 625 enriched. |
-| v7.32 | Enrichment Ref. | ✅ | Refined search recovered 83 more. 126 false pos removed. |
-| v7.33 | AKA + Closed UX | ✅ | "Now known as" labels, grey map pins, closed filter. |
-| v7.34 | Cookies + Analytics | ✅ | Cookie consent, Firebase Analytics, enrichment polish. |
-| v9.35 | App Optimization | ✅ | Riverpod 2→3, 75+ trivia facts, proximity refactor. First Claude Code iteration. |
-| v9.36 | Production Fix | ✅ | Fixed white screen crash (eager provider init before runApp). Changelog restored. |
-| v9.37 | Post-Flight + Location | ✅ | Post-flight protocol (Pillar 9), location-on-consent, changelog gate. |
-| v9.38 | Cookie Banner Fix | ✅ | Cookie Secure flag + RFC 1123 expires + robust parsing. Functional playbook. |
+```
+YouTube Playlist (805 videos)
+    ↓ yt-dlp (local)               --remote-components ejs:github
+MP3 Audio                           --cookies-from-browser chrome
+    ↓ faster-whisper large-v3       LD_LIBRARY_PATH=/usr/local/lib/
+      (local CUDA)                  ollama/cuda_v12:$LD_LIBRARY_PATH
+Timestamped Transcripts
+    ↓ Gemini 2.5 Flash API          Free tier. 1M context. No chunking.
+Extracted Restaurant JSON
+    ↓ Gemini 2.5 Flash API          Dedup by name+city. Merge dishes.
+Normalized JSONL (1,102 restaurants)
+    ↓ Nominatim (OpenStreetMap)      1 req/sec. geocode_cache.json.
+Geocoded Data (1,006 with coords)
+    ↓ Google Places API (New)        Text Search → Place Details. ≥0.70 match.
+Enriched Data (582 verified)
+    ↓ Firebase Admin SDK             Merge updates. Never overwrite originals.
+Cloud Firestore
+    ↓ Flutter Web
+tripledb.net
+```
 
 ---
 
 ## Architecture
 
-```
-YouTube Playlist (805 videos)
-    ↓ yt-dlp (local)
-MP3 Audio
-    ↓ faster-whisper large-v3 (local CUDA)
-Timestamped Transcripts
-    ↓ Gemini 2.5 Flash API (cloud)
-Extracted Restaurant JSON
-    ↓ Gemini 2.5 Flash API (cloud)
-Normalized + Deduplicated JSONL
-    ↓ Nominatim (OpenStreetMap)
-Geocoded Data
-    ↓ Google Places API (New)
-Enriched Data (ratings, open/closed, websites, addresses)
-    ↓ Firebase Admin SDK
-Cloud Firestore
-    ↓ Flutter Web
-tripledb.net
-```
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| 🎙️ Acquisition | yt-dlp + faster-whisper (CUDA) | YouTube → timestamped transcripts |
+| 🧠 Extraction | Gemini 2.5 Flash API (free tier) | Transcripts → structured restaurant JSON |
+| 📍 Enrichment | Google Places API + Nominatim | Ratings, coords, open/closed status |
+| 🗄️ Storage | Cloud Firestore (Spark) | Denormalized restaurant documents |
+| 📱 Frontend | Flutter Web + Firebase Hosting | Mobile-first responsive app |
+| 🔒 Security | Firestore rules + cookie consent | Read-only public, GDPR/CCPA compliant |
+| 🤖 Orchestration | Claude Code / Gemini CLI | IAO methodology (Nine Pillars) |
+
+---
+
+## Features
+
+What you can do on [tripledb.net](https://tripledb.net):
+
+- **Search by anything** — dish name, cuisine type, city, chef, ingredients ("ground beef" → hamburgers, meatloaf, etc.)
+- **Find a diner nearby** — location-aware, consent-gated, proximity-sorted
+- **Watch the exact moment** — deep link to the YouTube timestamp where Guy walks in
+- **See Google-verified ratings** — star ratings and open/closed status from Google Places
+- **Discover 70+ trivia facts** — rotating facts about the show with no-repeat system
+- **Browse name changes** — restaurants that changed names get "Now known as" badges
 
 ---
 
@@ -119,14 +70,33 @@ tripledb.net
 |-------|------|--------|-----------|
 | 0 | Setup & Scaffolding | ✅ Complete | v0.7 |
 | 1 | Discovery (30 videos) | ✅ Complete | v1.10 |
-| 2 | Calibration (30 videos) | ✅ Complete | v2.11 |
-| 3 | Stress Test (30 videos) | ✅ Complete | v3.12 |
-| 4 | Validation (30 videos) | ✅ Complete | v4.13 |
+| 2 | Calibration (60 videos) | ✅ Complete | v2.11 |
+| 3 | Stress Test (90 videos) | ✅ Complete | v3.12 |
+| 4 | Validation (120 videos) | ✅ Complete | v4.13 |
 | 5 | Production Run (805 videos) | ✅ Complete | v5.14–v5.15 |
 | 6 | Firestore + Geocoding + Polish | ✅ Complete | v6.26–v6.29 |
 | 8 | Flutter App | ✅ Complete | v8.17–v8.25 |
 | 7 | Enrichment + Analytics | ✅ Complete | v7.30–v7.34 |
-| 9 | App Optimization | ✅ Complete | v9.35–v9.37 |
+| 9 | App Optimization | ✅ Complete | v9.35–v9.41 |
+| 10 | UAT Handoff | 🔜 Next | Gemini CLI executes all phases autonomously |
+
+---
+
+## Data at a Glance
+
+| Metric | Value |
+|--------|-------|
+| Videos processed | 773 / 805 |
+| Unique restaurants | 1,102 |
+| Unique dishes | 2,286 |
+| Total visits | 2,336 |
+| Geocoded | 1,006 (91.3%) |
+| Enriched (verified) | 582 (52.8%) |
+| Permanently closed | 34 |
+| Genuine name changes | 279 |
+| States & territories | 62 |
+| Avg Google rating | 4.4 ⭐ |
+| Total API cost | **$0** |
 
 ---
 
@@ -137,29 +107,79 @@ tripledb.net
 | Transcription | faster-whisper (CUDA) | mp3 → timestamped JSON |
 | Extraction | Gemini 2.5 Flash API | Transcript → restaurant JSON |
 | Normalization | Gemini 2.5 Flash API | Dedupe, validate, schema-conform |
-| Database | Cloud Firestore | Live data serving |
+| Geocoding | Nominatim (OpenStreetMap) | City → lat/lng |
 | Enrichment | Google Places API (New) | Ratings, status, websites, addresses |
-| State Management | flutter_riverpod 3.x | Migrated from 2.x in v9.35 |
-| Geolocation | geolocator 14.x | Upgraded from 10.x in v9.35 |
-| Frontend | Flutter Web + Riverpod | tripledb.net |
-| Analytics | Firebase Analytics | Page views, search, restaurant views (consent-gated) |
-| Privacy | Custom cookie consent | GDPR/CCPA-compliant, 3 categories, 365-day cookie |
-| Orchestration | Claude Code (v9.35+), Gemini CLI (v0.7–v7.34) | Agentic execution |
+| Database | Cloud Firestore | Live data serving |
+| State Management | Riverpod 3.x with codegen | Reactive state |
+| Frontend | Flutter Web + Firebase Hosting | tripledb.net |
+| Analytics | Firebase Analytics + consent mode v2 | Consent-gated events |
+| Privacy | Custom cookie consent | GDPR/CCPA compliant, 3 categories |
+| Security | Firestore rules | Read-only public, write denied |
+| Dev Orchestration | Claude Code (Opus) | Interactive YOLO execution |
+| UAT Orchestration | Gemini CLI | Batch autonomous execution |
 
 ---
 
-## Current Metrics
+## IAO Methodology
 
-### Live Dataset (tripledb.net)
-- **1,102** unique restaurants across **62** states and territories
-- **697** restaurants enriched with Google ratings and open/closed status
-- **279** genuine name changes displayed (tightened 0.90 threshold)
-- **34** permanently closed restaurants identified
-- **1,006** restaurants with map coordinates (91.3%)
-- **Cookie consent** with accept/deny/customize
-- **Firebase Analytics** with consent mode v2
-- **75+** rotating trivia facts with no-repeat system
-- **15** nearby restaurants shown (proximity-sorted, expandable)
+TripleDB is built using **Iterative Agentic Orchestration (IAO)** — a development methodology where LLM agents execute project phases autonomously while humans review versioned artifacts between iterations. Every iteration produces four artifacts: design, plan, build, and report. The report informs the next plan. The methodology itself evolves alongside the project.
+
+IAO crystallized through 41 iterations into the **Nine Pillars**: Artifact Loop, Agentic Orchestration, Zero-Intervention Target, Pre-Flight Verification, Self-Healing Execution, Progressive Batching, Post-Flight Functional Testing, Mobile-First Flutter + Firebase (Zero-Cost by Design), and Continuous Improvement.
+
+See `docs/ddd-design-v9.41.md` for the full Nine Pillars framework.
+
+---
+
+## Hardware
+
+| Machine | Role | Specs |
+|---------|------|-------|
+| NZXT (Primary) | Dev + pipeline + deployment | AMD Ryzen, RTX 2080 SUPER 8GB, 32GB RAM, CachyOS |
+| ThinkStation (Secondary) | Backup + parallel runs | Xeon, Quadro, 32GB RAM, CachyOS |
+
+---
+
+## Cost
+
+| Component | Cost |
+|-----------|------|
+| Local inference (faster-whisper, Ollama) | Free |
+| Gemini 2.5 Flash API (extraction) | Free tier |
+| Google Places API (enrichment) | Free tier |
+| Nominatim geocoding | Free |
+| Cloud Firestore (Spark plan) | Free tier |
+| Firebase Hosting + Analytics | Free tier |
+| **Total infrastructure** | **$0** |
+
+---
+
+## Repo Structure
+
+```
+~/dev/projects/tripledb/
+├── CLAUDE.md                    ← Version lock (Dev)
+├── README.md                    ← Public, changelog (NEVER truncate)
+├── .gitignore
+├── docs/                        ← Current iteration only
+│   ├── ddd-design-v{P}.{I}.md
+│   ├── ddd-plan-v{P}.{I}.md
+│   ├── ddd-build-v{P}.{I}.md
+│   ├── ddd-report-v{P}.{I}.md
+│   ├── screenshots/
+│   └── archive/                 ← ALL previous iterations
+├── pipeline/
+│   ├── GEMINI.md                ← Version lock (UAT/legacy)
+│   ├── scripts/
+│   ├── config/
+│   └── data/                    ← gitignored
+├── app/
+│   ├── pubspec.yaml
+│   ├── firestore.rules
+│   ├── firebase.json
+│   ├── lib/
+│   ├── web/
+│   └── build/web/               ← gitignored
+```
 
 ---
 
@@ -299,6 +319,28 @@ tripledb.net
 - Post-flight: 7/7 tests PASS — no Unknown in nearby, no duplicates, Accept All → location,
   cookie persistence, decline path correct.
 
+**v9.40 (Phase 9 — dart:html Migration + Firestore Security Rules — FINAL DEV ITERATION)**
+- **dart:html → package:web:** Migrated `cookie_consent_service.dart` from deprecated `dart:html`
+  to `package:web` + `dart:js_interop`. Eliminates the persistent analyzer deprecation warning
+  (`info • 'dart:html' is deprecated`) and enables future WASM compilation. All cookie
+  read/write/HTTPS-detection functions verified via 7/7 post-flight playbook.
+- **Firestore security rules:** Created `firestore.rules` with read-only public access.
+  `restaurants` and `videos` collections allow public reads, deny all client writes.
+  Admin SDK writes (pipeline scripts) bypass rules. Default deny on all other collections.
+  `firebase.json` updated to reference rules file.
+- **Final dev iteration:** Phase 9 complete. All P0/P1 items resolved. `flutter analyze` shows
+  0 errors, 0 warnings, 0 infos. App is production-ready for Phase 10 UAT handoff to Gemini CLI.
+
+**v9.41 (Phase 9 — Nine Pillars + README Overhaul)**
+- **Nine Pillars of IAO:** Methodology evolved from Eight to Nine Pillars. New Pillar 8
+  (Mobile-First Flutter + Firebase, Zero-Cost by Design) elevated from tech stack choice
+  to architectural principle. Continuous Improvement renumbered to Pillar 9.
+- **Agent permissions updated:** Agents CAN now run flutter build web and firebase deploy.
+  Agents CANNOT git add/commit/push. Kyle commits at phase boundaries.
+- **README overhaul:** Full rewrite with feature badges, ASCII pipeline diagram, layered
+  architecture table, and updated project stats reflecting 41 iterations of development.
+- **CLAUDE.md template v2:** Updated with CAN/CANNOT permissions table.
+
 ---
 
 ## Author
@@ -309,4 +351,5 @@ Built as a passion project for finding the best diners after long motorcycle rid
 
 ---
 
-*Last updated: Phase 9.39 — Nearby Filtering + Location Consent Fix*
+*Built with [IAO](docs/ddd-design-v9.41.md) — Iterative Agentic Orchestration*
+*Phase 9.41 — Methodology Update*

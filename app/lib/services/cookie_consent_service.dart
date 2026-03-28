@@ -2,8 +2,7 @@
 
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
-// ignore: avoid_web_libraries_in_flutter
-import 'dart:html' as html; // Web-only
+import 'package:web/web.dart' as web;
 
 class CookieConsentService {
   static const String _cookieName = 'tripledb_consent';
@@ -80,7 +79,7 @@ class CookieConsentService {
   Map<String, bool>? _readCookie() {
     if (!kIsWeb) return null;
 
-    final cookies = html.document.cookie ?? '';
+    final cookies = web.document.cookie;
     for (final cookie in cookies.split(';')) {
       final trimmed = cookie.trim();
       final idx = trimmed.indexOf('=');
@@ -121,10 +120,10 @@ class CookieConsentService {
     final expires = _toRfc1123(expiry);
 
     // Only set Secure flag on HTTPS (Secure cookies are silently rejected on HTTP)
-    final isSecure = html.window.location.protocol == 'https:';
+    final isSecure = web.window.location.protocol == 'https:';
     final secureFlag = isSecure ? '; Secure' : '';
 
-    html.document.cookie =
+    web.document.cookie =
         '$_cookieName=$value; expires=$expires; path=/; SameSite=Lax$secureFlag';
   }
 }
